@@ -1,0 +1,24 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         rouge
+
+# Permalinks
+permalink:           pretty
+relative_permalinks: false
+
+# Setup
+title:               Raviolist
+tagline:             "end the struggle"
+description:         "Where all the move lists are."
+url:                 http://lukafaxx.github.io/raviolist/
+baseurl:             /raviolist
+paginate:            5
+include:             [_game]
+exclude:             ["LICENSE.md", "README.md"]
+
+# About/contact
+author:
+  name:              lukafaxx
+  url:               https://twitter.com/lukafaxx
+
+# Custom vars

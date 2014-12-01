@@ -1,0 +1,19 @@
+---
+layout: page
+---
+
+{% assign game = page.permalink | remove: '/' %}
+
+<div class="roster">
+
+{% for gamechar in site.data[game] %}
+
+  <div class="roster-item">
+  {% for name in gamechar[1] %}
+    <a href="{{ site.baseurl }}/{{ game }}/{{ gamechar[0] }}/">{{ name.character }}</a>&nbsp;&nbsp;<span class="roster-item-aka">{{ name.aka }}</span>
+  {% endfor %}
+  </div>
+
+{% endfor %}
+
+</div>

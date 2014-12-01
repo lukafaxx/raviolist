@@ -1,0 +1,72 @@
+- character: Vega
+  aka: Claw, Balrog
+
+  special_move:
+    - name: Rolling Crystal Flash
+      input: Charge back, then forward + punch
+      note: ["EX"]
+
+    - name: Scarlet Terror
+      input: Charge down-back, then forward + kick
+      note: ["EX", "Armor Break"]
+
+    - name: Sky High Claw
+      input: Charge down, then up + punch
+      note: ["EX", "Armor Break during EX Sky High Claw"]
+
+    - name: Flying Barcelona Attack
+      input: Charge down, then up + kick
+      note: ["EX", "Press punch after wall jump for followup"]
+
+    - name: Flying Barcelona Attack > Izuna Drop
+      input: During Flying Barcelona Attack, (near opponent) forward or back + punch
+      note: ["Command grab"]
+
+    - name: Remove Claw
+      input: Forward, down, down-forward + punch
+      note: ["EX version removes mask"]
+
+  super_combo:
+    - name: Flying Barcelona Special
+      input: Charge down-back, then down-forward, down-back, up-forward + kick
+      note: ["Press any punch after wall jump for followup"]
+
+    - name: Flying Barcelona Special > Rolling Izuna Drop
+      input: During Flying Barcelona Special, (near opponent) forward or back + punch
+      note: ["Command grab"]
+
+  ultra_combo:
+    - name: I. Bloody High Claw
+      input: Charge down-back, then down-forward, down-back, up-forward + all three kicks
+      note: ["Armor Break"]
+
+    - name: II. Splendid Claw
+      input: Charge down-back, then forward, back, forward + all three kicks
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Rainbow Suplex
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Crescent Line
+      input: Back + LP + LK
+
+    - name: Stardust Drop
+      input: (in air) LP + LK
+
+  unique_attack:
+    - name: Piece of Mercury
+      input: Down-forward + MK
+      note: ["Overhead"]
+
+    - name: Cosmic Heel
+      input: Down-forward + HK
+
+    - name: Back Slash
+      input: All three kicks
+
+    - name: Wall Jump
+      input: (during angled jump, near wall) Up-forward
+
+    - name: Pick Up Mask
+      input: Down + any two punches

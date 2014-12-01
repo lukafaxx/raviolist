@@ -1,0 +1,52 @@
+- character: Balrog
+  aka: Boxer, M. Bison
+
+  special_move:
+    - name: Dash Straight
+      input: Charge back, then forward + punch
+      note: ["EX"]
+
+    - name: Dash Upper
+      input: Charge back, then forward + kick
+      note: ["EX"]
+
+    - name: Dash Low Straight
+      input: Charge back, then down-forward + punch
+      note: ["EX"]
+
+    - name: Dash Low Smash
+      input: Charge back, then down-forward + kick
+      note: ["EX", "Armor Break"]
+
+    - name: Dash Swing Blow
+      input: Charge back, then down-forward + hold punch
+      note: ["EX", "Armor Break", "Overhead"]
+
+    - name: Buffalo Head
+      input: Charge down, then up + punch
+      note: ["EX"]
+
+    - name: Turn Punch
+      input: Charge and release all three punches or all three kicks
+      note: ["Armor Break"]
+
+  super_combo:
+    - name: Crazy Buffalo
+      input: Charge back, then forward, back, forward + punch or kick
+      note: ["Armor Break", "Hold kick for uppercuts"]
+
+  ultra_combo:
+    - name: I. Violent Buffalo
+      input: Charge back, then forward, back, forward + all three punches or all three kicks
+      note: ["Armor Break", "Hold kick for uppercuts"]
+
+    - name: II. Dirty Bull
+      input: 360° x 2, all three punches
+      note: ["Command grab"]
+
+  normal_throw:
+    - name: Head Bomber
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Lever Break
+      input: Back + LP + LK

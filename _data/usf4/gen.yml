@@ -1,0 +1,91 @@
+- character: Gen
+
+  special_move:
+    - name: Hyakurenko
+      input: (Mantis) Press punch repeatedly
+      note: ["EX", "Armor Break"]
+
+    - name: Gekiro
+      input: (Mantis) Forward, down, down-forward, kick
+      note: ["EX", "Press kick after hit for followup"]
+
+    - name: Jyasen
+      input: (Crane) Charge back, then forward + punch
+      note: ["EX"]
+
+    - name: Oga
+      input: (Crane) Charge down, then up + kick
+      note: ["EX"]
+
+    - name: Oga > Sudden Stop
+      input: During Oga, back
+
+    - name: Oga > Close Kick
+      input: During Oga, down or neutral position
+      note: ["Armor Break"]
+
+    - name: Oga > Far Kick
+      input: During Oga, down-forward or forward
+      note: ["Armor Break"]
+
+    - name: Oga > Ceiling Jump
+      input: During Oga, up-back or up or up-forward
+
+    - name: Oga > Falling Kick
+      input: During Oga, up-back or up or up-forward and down
+      note: ["Armor Break"]
+
+    - name: Oga > Close Range Kick Right
+      input: During Oga, up-back or up or up-forward and down-forward or forward
+      note: ["Armor Break"]
+
+    - name: Oga > Close Range Kick Left
+      input: During Oga, up-back or up or up-forward and down-back or back
+      note: ["Armor Break"]
+
+  super_combo:
+    - name: Zan'ei
+      input: (Mantis) Quarter-circle forward x 2, punch
+      note: ["Armor Break"]
+
+    - name: Jyakoha
+      input: (Crane) Quarter-circle forward x 2, kick
+
+  ultra_combo:
+    - name: I. Zetsuei
+      input: (Mantis) Quarter-circle forward x 2, all three punches
+      note: ["Armor Break"]
+
+    - name: I. Ryukoha
+      input: (Crane) Quarter-circle forward x 2, all three kicks
+
+    - name: II. Shitenketsu
+      input: (Mantis) Quarter-circle back x 2, all three punches
+      note: ["Armor Break"]
+
+    - name: II. Teiga
+      input: (Crane, in air) Quarter-circle forward x 2, all three kicks
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Shuraku
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Hozen
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: "Change Style: Crane"
+      input: (Mantis) All three kicks
+
+    - name: Target Combo 1
+      input: (Mantis) Crouching LK, crouching MK
+
+    - name: Target Combo 2
+      input: (Mantis) Close HP, MK
+
+    - name: "Change Style: Mantis"
+      input: (Crane) All three punches
+
+    - name: Shakudan
+      input: (Crane) Jumping HK, HK

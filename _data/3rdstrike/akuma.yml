@@ -1,0 +1,64 @@
+- character: Akuma
+  aka: Gouki
+
+  special_move:
+    - name: Gou Hadouken
+      input: Quarter-circle forward, punch
+
+    - name: Zankuu Hadouken
+      input: (in air) Quarter-circle forward, punch
+
+    - name: Shakunetsu-Hadouken
+      input: Half-circle back, punch
+
+    - name: Gou Shoryuken
+      input: Forward, down, down-forward, punch
+
+    - name: Tatsumaki Zankuukyaku
+      input: Quarter-circle back, kick
+
+    - name: Tatsumaki Zankuukyaku (air)
+      input: (in air) Quarter-circle back, kick
+
+    - name: Ashura Senku
+      input: Forward, down, down-forward or back, down, down-back and any two punches or any two kicks
+
+    - name: Hyakkishu
+      input: Forward, down, down-forward, kick
+
+    - name: Hyakki Gouzan
+      input: During Hyakkishu, neutral position
+
+    - name: Hyakki Gousho
+      input: During Hyakkishu, punch
+
+    - name: Hyakki Goujin
+      input: During Hyakkishu, kick
+
+    - name: Hyakki Gousai
+      input: During Hyakkishu, (near opponent) LP + LK
+      note: ["Command grab"]
+
+  super_art:
+    - name: I. Messatsu Gou Hadou
+      input: Quarter-circle forward x 2, punch
+
+    - name: I. Tenma Gou Zankuu
+      input: (in air) Quarter-circle forward x 2, punch
+
+    - name: II. Messatsu Gou Shoryu
+      input: Quarter-circle forward x 2, punch
+
+    - name: III. Messatsu-Gourasen
+      input: Quarter-circle forward x 2, kick
+
+    - name: III. Messatsu-GouSenpuu
+      input: (in air) Quarter-circle forward x 2, kick
+
+  max_super_art:
+    - name: Shungokusatsu
+      input: LP, LP, forward, LK, HP
+      note: ["Command grab"]
+
+    - name: Kongou Kokuretsuzan
+      input: Down, down, down, any two punches

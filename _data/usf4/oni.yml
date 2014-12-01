@@ -1,0 +1,71 @@
+- character: Oni
+
+  special_move:
+    - name: Gohadoken
+      input: Quarter-circle forward, punch
+      note: ["EX", "Hold punch to change properties"]
+
+    - name: Gorai Hadoken
+      input: Half-circle back, punch
+      note: ["EX"]
+
+    - name: Zanku Hadosho
+      input: (in air) Quarter-circle back, punch
+      note: ["EX"]
+
+    - name: Goshoryuken
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+    - name: Tatsumaki Zankukyaku
+      input: Quarter-circle back, kick
+      note: ["EX", "Armor Break"]
+
+    - name: Airborne Tatsumaki Zankukyaku
+      input: (in air) Quarter-circle back, kick
+      note: ["EX"]
+
+    - name: Sekisei Jiraiken
+      input: Forward, down, down-forward, kick
+      note: ["EX"]
+
+    - name: Rakan Dantojin
+      input: Half-circle forward, kick
+      note: ["EX", "Armor Break"]
+
+  super_combo:
+    - name: Raging Demon
+      input: LP, LP, forward, LK, HP
+      note: ["Command grab", "Can be performed in air"]
+
+  ultra_combo:
+    - name: I. Meido Gohado
+      input: Quarter-circle forward x 2, all three punches
+      note: ["Armor Break"]
+
+    - name: I. Messatsu-Gozanku
+      input: (in air) Quarter-circle forward x 2, all three punches
+
+    - name: I. Messatsu-Gotenha
+      input: Quarter-circle forward x 2, all three kicks
+
+    - name: II. Tenchi Sokaigen
+      input: Half-circle back x 2, all three punches
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Ragou Souha
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Shuretto
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Gankauchi
+      input: Back + MP
+
+    - name: Target Combo 1
+      input: Forward + LP, MP
+
+    - name: Target Combo 2
+      input: Back + MP, HP

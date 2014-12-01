@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+<div class="page">
+
+{% assign mainchicken = page.permalink | remove: '/mk9/' | remove: '/' %}
+{% for chara in site.data.mk9[mainchicken] %}
+
+  <h1 class="page-title">{{ chara.character }}</h1>
+
+  <h2 class="move_cat"><span>Special Attacks</span></h2>
+  {% for special in chara.special_attacks %}
+  <p class="move">
+    <span class="move_name">{{ special.name }}</span><br />
+    <span class="move_input">{{ special.input }}</span><br />
+    <span class="move_note">{{ special.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Enhanced Attacks</span></h2>
+  {% for enhanced in chara.enhanced_attacks %}
+  <p class="move">
+    <span class="move_name">{{ enhanced.name }}</span><br />
+    <span class="move_input">{{ enhanced.input }}</span><br />
+    <span class="move_note">{{ enhanced.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Tag Specials</span></h2>
+  {% for tagspecial in chara.tag_specials %}
+  <p class="move">
+    <span class="move_name">{{ tagspecial.name }}</span><br />
+    <span class="move_input">{{ tagspecial.input }}</span><br />
+    <span class="move_note">{{ tagspecial.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>X-Ray Attacks</span></h2>
+  {% for xray in chara.xray_attacks %}
+  <p class="move">
+    <span class="move_name">{{ xray.name }}</span><br />
+    <span class="move_input">{{ xray.input }}</span><br />
+    <span class="move_note">{{ xray.note | join: ' &middot; '}}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Finishing Moves</span></h2>
+  {% for finish in chara.finishing_moves %}
+  <p class="move">
+    <span class="move_name">{{ finish.name }}</span><br />
+    <span class="move_input">{{ finish.input }}</span><br />
+    <span class="move_note">{{ finish.note | join: ' &middot; '}}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Basic Attacks</span></h2>
+  {% for basic in chara.basic_attacks %}
+  <p class="move">
+    <span class="move_name">{{ basic.name }}</span><br />
+    <span class="move_input">{{ basic.input }}</span><br />
+    <span class="move_note">{{ basic.note | join: ' &middot; '}}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Kombo Attacks</span></h2>
+  {% for kombo in chara.kombo_attacks %}
+  <p class="move">
+    <span class="move_name">{{ kombo.name }}</span><br />
+    <span class="move_input">{{ kombo.input }}</span><br />
+    <span class="move_note">{{ kombo.note | join: ' &middot; '}}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Fast Tags</span></h2>
+  {% for fast in chara.fast_tags %}
+  <p class="move">
+    <span class="move_name">{{ fast.name }}</span><br />
+    <span class="move_input">{{ fast.input }}</span><br />
+    <span class="move_note">{{ fast.note | join: ' &middot; '}}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Tag Kombos</span></h2>
+  {% for tagkombo in chara.tag_kombos %}
+  <p class="move">
+    <span class="move_name">{{ tagkombo.name }}</span><br />
+    <span class="move_input">{{ tagkombo.input }}</span><br />
+    <span class="move_note">{{ tagkombo.note | join: ' &middot; '}}</span>
+  </p>
+  {% endfor %}
+
+{% endfor %}
+
+</div>

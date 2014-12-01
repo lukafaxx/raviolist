@@ -1,0 +1,45 @@
+- character: Ryu
+
+  special_move:
+    - name: Hadoken
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku
+      input: Quarter-circle back, kick
+      note: ["EX", "Armor Break"]
+
+    - name: Airborne Tatsumaki Senpukyaku
+      input: (in air) Quarter-circle back, kick
+      note: ["EX", "Armor Break"]
+
+  super_combo:
+    - name: Shinku Hadoken
+      input: Quarter-circle forward x 2, punch
+
+  ultra_combo:
+    - name: I. Metsu Hadoken
+      input: Quarter-circle forward x 2, all three punches
+
+    - name: II. Metsu Shoryuken
+      input: Quarter-circle forward x 2, all three kicks
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Shoulder Throw
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Somersault Throw
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Collarbone Breaker
+      input: Forward + MP
+      note: ["Overhead"]
+
+    - name: Solar Plexus Strike
+      input: Forward + HP
