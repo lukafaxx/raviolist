@@ -1,0 +1,63 @@
+- character: Abel
+
+  special_move:
+    - name: Change of Direction
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
+    - name: Second Mid
+      input: Forward, punch
+      note: ["Perform after Change of Direction", "Overhead"]
+
+    - name: Second Low
+      input: Forward, kick
+      note: ["Perform after Change of Direction", "Low"]
+
+    - name: Finish Mid
+      input: Forward, punch
+      note: ["Perform after Second Mid or Second Low", "Overhead"]
+
+    - name: Finish Low
+      input: Forward, kick
+      note: ["Perform after Second Mid or Second Low", "Low"]
+
+    - name: Wheel Kick
+      input: Quarter-circle back, kick
+      note: ["EX", "Armor Break"]
+
+    - name: Marseilles Roll
+      input: Quarter-circle forward, kick
+      note: ["EX"]
+
+    - name: Falling Sky
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+    - name: Tornado Throw
+      input: Half-circle back, punch
+      note: ["Command grab"]
+
+  super_combo:
+    - name: Heartless
+      input: Quarter-circle forward x 2, punch
+      note: ["Armor Break"]
+
+  ultra_combo:
+    - name: I. Soulless
+      input: Quarter-circle forward x 2, all three punches
+      note: ["Armor Break"]
+
+    - name: II. Breathless
+      input: Quarter-circle forward x 2, all three kicks
+      note: ["Command Grab", "Hold all three kicks to delay", "Cancel with any punch during delay"]
+
+  normal_throw:
+    - name: Drop Throw
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Pincer Throw
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Forward Kick
+      input: Forward + MK
