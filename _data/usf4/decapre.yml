@@ -1,0 +1,66 @@
+- character: Decapre
+
+  special_move:
+    - name: Psycho Sting
+      input: Charge down, then up + punch
+      note: ["EX", "Armor Break"]
+
+    - name: Spiral Arrow
+      input: (in air) Charge back, then forward + kick
+      note: ["EX"]
+
+    - name: Rapid Dagger
+      input: Press punch repeatedly
+      note: ["EX"]
+
+    - name: Scramble
+      input: Charge back, then forward + kick
+      note: ["EX"]
+
+    - name: Scramble > Break
+      input: Charge back, then forward + kick, punch
+      note: ["Armor Break during HP Break from EX Scramble"]
+
+    - name: Scramble > Razor Edge Slicer
+      input: Charge back, then forward + LK, kick
+      note: ["Armor Break during razor Edge Slicer from EX Scramble"]
+
+    - name: Scramble > Cannon Strike
+      input: Charge back, then forward + MK or HK, kick
+
+  super_combo:
+    - name: Strafe Dagger
+      input: Charge back, then forward, back, forward + punch
+
+  ultra_combo:
+    - name: I. Psycho Stream
+      input: Charge back, then forward, back, forward + all three punches
+
+    - name: II. DCM (anti-ground)
+      input: Charge back, then forward, back, forward + all three kicks
+      note: ["Armor Break"]
+
+    - name: II. DCM (anti-air)
+      input: Charge down-back, then down-forward, down-back, up-forward + all three kicks
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Shadow Suplex
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Frankensteiner
+      input: Back + LP + LK
+
+    - name: Flying Neck Hunt
+      input: (in air) LP + LK
+
+  unique_attack:
+    - name: Target Combo 1
+      input: Close MP, HK
+
+    - name: Target Combo 2
+      input: Close MP, HP
+
+    - name: Fox Tail
+      input: Down-forward + MK
+      note: ["Overhead"]
