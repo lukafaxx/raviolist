@@ -5,21 +5,20 @@
       input: Quarter-circle forward, punch
       note: ["EX"]
 
-    - name: Second Mid
-      input: Forward, punch
-      note: ["Perform after Change of Direction", "Overhead"]
+    - name: Change of Direction > Second Mid
+      input: During Change of Direction, forward + punch
+      note: ["Overhead"]
 
-    - name: Second Low
-      input: Forward, kick
-      note: ["Perform after Change of Direction", "Low"]
+    - name: Change of Direction > Second Low
+      input: During Change of Direction, forward + kick
 
-    - name: Finish Mid
-      input: Forward, punch
-      note: ["Perform after Second Mid or Second Low", "Overhead"]
+    - name: Change of Direction > Second Mid OR Second Low > Finish Mid
+      input: During Change of Direction > Second Mid OR Second Low, forward + punch
+      note: ["Armor Break", "Overhead"]
 
-    - name: Finish Low
-      input: Forward, kick
-      note: ["Perform after Second Mid or Second Low", "Low"]
+    - name: Change of Direction > Second Mid OR Second Low > Finish Low
+      input: During Change of Direction > Second Mid OR Second Low, forward + kick
+      note: ["Armor Break"]
 
     - name: Wheel Kick
       input: Quarter-circle back, kick
@@ -35,7 +34,7 @@
 
     - name: Tornado Throw
       input: Half-circle back, punch
-      note: ["Command grab"]
+      note: ["EX", "Command grab"]
 
   super_combo:
     - name: Heartless
@@ -49,7 +48,7 @@
 
     - name: II. Breathless
       input: Quarter-circle forward x 2, all three kicks
-      note: ["Command Grab", "Hold all three kicks to delay", "Cancel with any punch during delay"]
+      note: ["Command Grab", "Hold kicks to change timing of dash, cancel with punch"]
 
   normal_throw:
     - name: Drop Throw
