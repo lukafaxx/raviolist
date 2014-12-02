@@ -6,8 +6,7 @@ layout: page
 
 <div class="roster">
 
-{% assign sorted_chars = (site.data[game] | sort:0) %}
-{% for gamechar in sorted_chars %}
+{% for gamechar in site.data[game] %}
 
   <div class="roster-item">
   {% for name in gamechar[1] %}
