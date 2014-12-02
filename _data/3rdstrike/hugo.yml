@@ -12,7 +12,7 @@
     - name: Ultra Throw
       input: Half-circle back, kick
       note: ["Command grab"]
-      
+
     - name: Shootdown Backbreaker
       input: Forward, down, down-forward, kick
 
@@ -26,7 +26,7 @@
 
   super_art:
     - name: I. Gigas Breaker
-      input: 720°, punch
+      input: 360° x 2, punch
 
     - name: II. Megaton Press
       input: Quarter-circle forward x 2, kick

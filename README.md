@@ -64,7 +64,6 @@ note: ["Can be performed in air"]
 * dash forward
 * back dash
 * double jump
-* super jump
 * run
 * 360° counter-clockwise
 
@@ -145,6 +144,7 @@ We generally write 'close', 'crouching' or 'jumping' for target combos. Otherwis
 * press {button} repeatedly
 * during {name}
 * close {button}
+* far {button}
 * crouching {button}
 * jumping {button}
 

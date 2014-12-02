@@ -1,25 +1,24 @@
 - character: Alex
 
   special_move:
-    - name: Flash Chop
-      input: Quarter-circle forward, punch
-      note: ["EX"]
-
-    - name: Slash Elbow
-      input: Charge back, forward + kick
-      note: ["EX"]
-
-    - name: Spiral DDT
-      input: Half-circle back, kick
-      note: ["Command grab"]
-
     - name: Power Bomb
       input: Half-circle back, punch
       note: ["Command grab"]
 
     - name: Power Backdrop
-      input: (behind opponent) 360°, punch
+      input: (behind opponent) Half-circle back, punch
       note: ["Command grab"]
+
+    - name: Spiral DDT
+      input: Half-circle back, kick
+      note: ["Command grab"]
+
+    - name: Backdrop Bomb
+      input: (behind opponent) 360°, punch
+
+    - name: Flash Chop
+      input: Quarter-circle forward, punch
+      note: ["EX"]
 
     - name: Air Knee Smash
       input: Forward, down, down-forward, kick
@@ -29,13 +28,13 @@
       input: Charge down, then up + kick
       note: ["EX"]
 
+    - name: Slash Elbow
+      input: Charge back, forward + kick
+      note: ["EX"]
+
   super_art:
     - name: I. Hyper Bomb
       input: 360°, punch
-
-    - name: I. Backdrop Bomb
-      input: (behind opponent) Half-circle back, punch
-      note: ["Command grab"]
 
     - name: II. Boomerang Raid
       input: Quarter-circle forward x 2, punch

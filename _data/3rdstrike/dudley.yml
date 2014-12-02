@@ -19,7 +19,7 @@
       note: ["EX", "Counter attack"]
 
     - name: Punch and Counter
-      input: Half-circle back, forward, punch
+      input: Half-circle back, forward + punch
       note: ["EX", "Counter attack"]
 
     - name: Short Swing Blow
