@@ -355,6 +355,14 @@ a.sidebar-nav-item:focus {
  color: #0a0e10;
 }
 
+.from_game {
+ display: block;
+ margin-top: -3rem;
+ padding-bottom: 2rem;
+ color: #56717f;
+ text-align: center;
+}
+
 .move_cat {
  font-family: Courgette, Georgia, 'Times New Roman', serif;
  font-size: 1rem;
