@@ -1,0 +1,28 @@
+- character: Necro
+
+  special_move:
+    - name: Tornado Hook
+      input: Half-circle forward, punch
+      note: ["EX"]
+
+    - name: Flying Viper
+      input: Quarter-circle back, punch
+      note: ["Overhead", "EX"]
+
+    - name: Rising Cobra
+      input: Quarter-circle back, kick
+      note: ["Overhead", "EX"]
+
+    - name: Electricity
+      input: Forward, down, down-forward, punch
+      note: ["Press punch repeatedly for more hits"]
+
+  super_art:
+    - name: I. Magnetic Storm
+      input: Quarter-circle forward x 2, punch
+
+    - name: II. Slam Dance
+      input: Quarter-circle forward x 2, punch
+
+    - name: III. Electric Snake
+      input: Quarter-circle forward x 2, punch

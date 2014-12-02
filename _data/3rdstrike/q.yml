@@ -17,7 +17,7 @@
       input: Charge back, then forward + kick
       note: ["EX"]
 
-    - name: High Speed Barage
+    - name: High Speed Barrage
       input: Quarter-circle back, punch
       note: ["EX"]
 
@@ -33,8 +33,7 @@
 
     - name: "III. Total Destruction: Activate"
       input: During Total Destruction, quarter-circle forward, punch
-      note: ["Command grab"]
 
-    - name: "III. Total destruction: Danger"
+    - name: "III. Total Destruction: Danger"
       input: During Total Destruction, quarter-circle forward, kick
       note: ["Command grab"]

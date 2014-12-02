@@ -1,0 +1,32 @@
+- character: Makoto
+
+  special_move:
+    - name: Hayate
+      input: Quarter-circle forward, punch
+      note: ["EX", "Hold punch to charge"]
+
+    - name: Oroshi
+      input: Quarter-circle back, punch
+      note: ["EX", "Overhead"]
+
+    - name: Karakusa
+      input: Half-circle back, kick
+      note: ["Command grab"]
+
+    - name: Tsurugi
+      input: (in air) Quarter-circle back, kick
+      note: ["EX", "Overhead"]
+
+    - name: Fukiage
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+  super_art:
+    - name: I. Seichusen Godanzuki
+      input: Quarter-circle forward x 2, punch
+
+    - name: II. Abare Tosanami
+      input: Quarter-circle forward x 2, kick
+
+    - name: III. Tanden Renki
+      input: Quarter-circle forward x 2, punch

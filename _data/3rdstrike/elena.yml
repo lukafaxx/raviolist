@@ -1,0 +1,33 @@
+- character: Elena
+
+  special_move:
+    - name: Rhino Horn
+      input: Half-circle forward, kick
+      note: ["EX"]
+
+    - name: Mallet Smash
+      input: Half-circle back, punch
+      note: ["EX"]
+
+    - name: Spin Scythe
+      input: Quarter-circle back, kick
+      note: ["EX"]
+
+    - name: Scratch Wheel
+      input: Forward, down, down-forward, kick
+      note: ["EX", "Can be performed again on hit for followup"]
+
+    - name: Lynx Tail
+      input: Back, down, down-back, kick
+      note: ["EX"]
+
+  super_art:
+    - name: I. Spinning Beat
+      input: Quarter-circle forward x 2, kick
+
+    - name: II. Brave Dance
+      input: Quarter-circle forward x 2, kick
+
+    - name: III. Healing
+      input: Quarter-circle forward x 2, punch
+      note: ["Press any two punches to cancel"]

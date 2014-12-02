@@ -1,0 +1,33 @@
+- character: Ryu
+
+  special_move:
+    - name: Hadouken
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku
+      input: Quarter-circle back, kick
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku (air)
+      input: (in air) Quarter-circle back, kick
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+      
+    - name: Joudan Sokutou Geri
+      input: Half-circle forward, kick
+      note: ["EX"]
+
+  super_art:
+    - name: I. Shinkuu-Hadouken
+      input: Quarter-circle forward x 2, punch
+
+    - name: II. Shin Shoryuken
+      input: Quarter-circle forward x 2, punch
+
+    - name: III. Denjin Hadouken
+      input: Quarter-circle forward x 2, punch
+      note: ["Hold punch and press any button to charge"]

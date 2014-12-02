@@ -1,0 +1,32 @@
+- character: Sean
+
+  special_move:
+    - name: Sean Tackle
+      input: Half-circle forward, punch
+      note: ["EX", "Hold punch to grab"]
+
+    - name: Ryuubi Kyaku
+      input: Quarter-circle forward, kick
+      note: ["EX", "Overhead"]
+
+    - name: Zenten
+      input: Quarter-circle back, punch
+
+    - name: Tornado
+      input: Quarter-circle back, kick
+      note: ["EX"]
+
+    - name: Dragon Smash
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+  super_art:
+    - name: I. Hadou Burst
+      input: Quarter-circle forward x 2, punch
+
+    - name: II. Shoryuu Cannon
+      input: Quarter-circle forward x 2, punch
+      note: ["Press punch repeatedly for more hits"]
+
+    - name: III. Hyper Tornado
+      input: Quarter-circle forward x 2, punch

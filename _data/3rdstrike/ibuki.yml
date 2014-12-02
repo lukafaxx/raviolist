@@ -1,0 +1,41 @@
+- character: Ibuki
+
+  special_move:
+    - name: Kubi Dri
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
+    - name: Kunai
+      input: (in air) Quarter-circle forward, punch
+      note: ["EX"]
+
+    - name: Kasumi Gake
+      input: Quarter-circle forward, kick
+
+    - name: Raida
+      input: Half-circle back, punch
+
+    - name: Tsumuji
+      input: Half-circle back, kick
+      note: ["EX"]
+
+    - name: Tsuiji Goe
+      input: Forward, down, down-forward, punch
+
+    - name: Kazekiri
+      input: Forward, down, down-forward, kick
+      note: ["EX"]
+
+    - name: Hien
+      input: Back, down, down-back, kick
+      note: ["Overhead"]
+
+  super_art:
+    - name: I. Kasumi Suzaku
+      input: (in air) Quarter-circle forward x 2, punch
+
+    - name: II. Yoroi Dooshi
+      input: Quarter-circle forward x 2, punch
+
+    - name: III. Yami Shigure
+      input: Quarter-circle forward x 2, punch
