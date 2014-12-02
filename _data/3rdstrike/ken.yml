@@ -5,6 +5,10 @@
       input: Quarter-circle forward, punch
       note: ["EX"]
 
+    - name: Shoryuken
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
     - name: Tatsumaki Senpukyaku
       input: Quarter-circle back, kick
       note: ["EX"]
@@ -13,10 +17,6 @@
       input: (in air) Quarter-circle back, kick
       note: ["EX"]
 
-    - name: Shoryuken
-      input: Forward, down, down-forward, punch
-      note: ["EX"]
-      
   super_art:
     - name: I. Shoryureppa
       input: Quarter-circle forward x 2, punch

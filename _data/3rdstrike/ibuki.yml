@@ -1,26 +1,22 @@
 - character: Ibuki
 
   special_move:
-    - name: Kubi Dri
-      input: Quarter-circle forward, punch
-      note: ["EX"]
+    - name: Raida
+      input: Half-circle back, punch
+
+    - name: Kasumi Gake
+      input: Quarter-circle forward, kick
+
+    - name: Tsuiji Goe
+      input: Forward, down, down-forward, punch
 
     - name: Kunai
       input: (in air) Quarter-circle forward, punch
       note: ["EX"]
 
-    - name: Kasumi Gake
-      input: Quarter-circle forward, kick
-
-    - name: Raida
-      input: Half-circle back, punch
-
-    - name: Tsumuji
-      input: Half-circle back, kick
+    - name: Kubi Ori
+      input: Quarter-circle forward, punch
       note: ["EX"]
-
-    - name: Tsuiji Goe
-      input: Forward, down, down-forward, punch
 
     - name: Kazekiri
       input: Forward, down, down-forward, kick
@@ -30,9 +26,14 @@
       input: Back, down, down-back, kick
       note: ["Overhead"]
 
+    - name: Tsumuji
+      input: Quarter-circle back, kick
+      note: ["EX"]
+
   super_art:
     - name: I. Kasumi Suzaku
       input: (in air) Quarter-circle forward x 2, punch
+      note: ["Press punch repeatedly for more hits"]
 
     - name: II. Yoroi Dooshi
       input: Quarter-circle forward x 2, punch

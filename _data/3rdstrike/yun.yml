@@ -1,18 +1,20 @@
 - character: Yun
 
   special_move:
+    - name: Zenpou Tenshin
+      input: Half-circle back, kick
+      note: ["Command grab"]
+
+    - name: Kobokushi
+      input: Quarter-circle back, punch
+
+    - name: Fake Kobokushi
+      input: Quarter-circle back, any two punches
+
     - name: Zesshou Hohou
       input: Quarter-circle forward, punch
       note: ["EX"]
 
-    - name: Kobokushi
-      input: Quarter-circle back, punch
-      note: ["Press any two punches for feint"]
-
-    - name: Zenpou Tenshin
-      input: Half-circle back, kick
-      note: ["Command grab"]
-    
     - name: Tetsuzanko
       input: Forward, down, down-forward, punch
       note: ["EX"]

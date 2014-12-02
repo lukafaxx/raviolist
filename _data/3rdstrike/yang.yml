@@ -1,6 +1,19 @@
 - character: Yang
 
   special_move:
+    - name: Byakko Soushouda
+      input: Quarter-circle back, punch
+
+    - name: Fake Byakko Soushouda
+      input: Quarter-circle back, any two punches
+
+    - name: Zenpou Tenshin
+      input: Half-circle back, kick
+      note: ["Command grab"]
+
+    - name: Kaihou
+      input: Forward, down, down-forward, kick
+
     - name: Tourou Zan
       input: Quarter-circle forward, punch
       note: ["EX", "Can be performed three times in sequence"]
@@ -8,17 +21,6 @@
     - name: Senkyuutai
       input: Quarter-circle forward, kick
       note: ["EX"]
-
-    - name: Byakko Soushouda
-      input: Quarter-circle back, punch
-      note: ["Press any two punches for feint"]
-
-    - name: Zenpou Tenshin
-      input: Half-circle back, kick
-      note: ["Command grab"]
-      
-    - name: Kaihou
-      input: Forward, down, down-forward, kick
 
   super_art:
     - name: I. Raishin Mahha Ken

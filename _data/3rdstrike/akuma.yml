@@ -27,7 +27,7 @@
       input: Forward, down, down-forward, kick
 
     - name: Hyakki Gouzan
-      input: During Hyakkishu, neutral position
+      input: During Hyakkishu, do nothing
 
     - name: Hyakki Gousho
       input: During Hyakkishu, punch

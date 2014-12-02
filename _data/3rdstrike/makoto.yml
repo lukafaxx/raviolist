@@ -1,25 +1,25 @@
 - character: Makoto
 
   special_move:
+    - name: Karakusa
+      input: Half-circle back, kick
+      note: ["Command grab"]
+
     - name: Hayate
       input: Quarter-circle forward, punch
       note: ["EX", "Hold punch to charge"]
+
+    - name: Fukiage
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
 
     - name: Oroshi
       input: Quarter-circle back, punch
       note: ["EX", "Overhead"]
 
-    - name: Karakusa
-      input: Half-circle back, kick
-      note: ["Command grab"]
-
     - name: Tsurugi
       input: (in air) Quarter-circle back, kick
       note: ["EX", "Overhead"]
-
-    - name: Fukiage
-      input: Forward, down, down-forward, punch
-      note: ["EX"]
 
   super_art:
     - name: I. Seichusen Godanzuki

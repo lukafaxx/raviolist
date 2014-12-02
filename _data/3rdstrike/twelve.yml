@@ -2,7 +2,7 @@
 
   special_move:
     - name: Kokkuu
-      input: (in air) Forward, forward or back, back
+      input: (in air) Back, back or forward, forward
 
     - name: N.D.L.
       input: Quarter-circle forward, punch

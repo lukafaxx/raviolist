@@ -1,14 +1,6 @@
 - character: Oro
 
   special_move:
-    - name: Jinchuu Watari
-      input: Quarter-circle forward, kick
-      note: ["EX", "Overhead"]
-
-    - name: Hitobashira Nobori
-      input: (in air) Quarter-circle forward, kick
-      note: ["EX", "Overhead", "Press kick repeatedly for more hits"]
-
     - name: Niou Riki
       input: Half-circle back, punch
 
@@ -19,6 +11,14 @@
     - name: Oni Yanma
       input: Charge down, then up + punch
       note: ["EX"]
+
+    - name: Jinchuu Watari
+      input: Quarter-circle forward, kick
+      note: ["EX", "Overhead"]
+
+    - name: Hitobashira Nobori
+      input: (in air) Quarter-circle forward, kick
+      note: ["EX", "Overhead", "Press kick repeatedly for more hits"]
 
   super_art:
     - name: I. Kishin Riki
@@ -31,9 +31,6 @@
     - name: "I. Kishin Riki: Anti-Air"
       input: (in air) During Kishin Riki, punch
       note: ["Command grab"]
-
-    - name: I. Kishin Riki
-      input: Quarter-circle forward x 2, punch
 
     - name: II. Yagyou Dama
       input: Quarter-circle forward x 2, punch
