@@ -1,0 +1,36 @@
+- character: Hugo
+
+  special_move:
+    - name: Monster Lariat
+      input: Quarter-circle forward, kick
+      note: ["EX"]
+
+    - name: Giant Palm Bomber
+      input: Quarter-circle back, punch
+      note: ["EX"]
+
+    - name: Ultra Throw
+      input: Half-circle back, kick
+      note: ["Command grab"]
+      
+    - name: Shootdown Backbreaker
+      input: Forward, down, down-forward, kick
+
+    - name: Meat Squasher
+      input: 360°, kick
+      note: ["Command grab"]
+
+    - name: Moonsault Press
+      input: 360°, punch
+      note: ["Command grab"]
+
+  super_art:
+    - name: I. Gigas Breaker
+      input: 720°, punch
+
+    - name: II. Megaton Press
+      input: Quarter-circle forward x 2, kick
+
+    - name: III. Hammer Frenzy
+      input: Quarter-circle forward x 2, punch
+      note: ["Hold punch to feint"]

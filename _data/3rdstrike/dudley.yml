@@ -1,0 +1,42 @@
+- character: Dudley
+
+  special_move:
+    - name: Machine Gun Blow
+      input: Half-circle forward, punch
+      note: ["EX"]
+
+    - name: Ducking
+      input: Half-circle forward, kick
+
+    - name: Ducking Straight
+      input: During Ducking, punch
+
+    - name: Ducking Upper
+      input: During Ducking, kick
+
+    - name: Cross Counter
+      input: Half-circle back, punch
+      note: ["EX", "Counter attack"]
+
+    - name: Punch and Counter
+      input: Half-circle back, forward, punch
+      note: ["EX", "Counter attack"]
+
+    - name: Short Swing Blow
+      input: Half-circle back, kick
+      note: ["EX"]
+
+    - name: Jet Upper
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+  super_art:
+    - name: I. Rocket Upper
+      input: Quarter-circle forward x 2, punch
+
+    - name: II. Rolling thunder
+      input: Quarter-circle forward x 2, punch
+      note: ["Press punch repeatedly for more hits"]
+
+    - name: III. Corkscrew Blow
+      input: Quarter-circle forward x 2, punch

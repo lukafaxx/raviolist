@@ -1,0 +1,29 @@
+- character: Ken
+
+  special_move:
+    - name: Hadouken
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku
+      input: Quarter-circle back, kick
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku (air)
+      input: (in air) Quarter-circle back, kick
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+      
+  super_art:
+    - name: I. Shoryureppa
+      input: Quarter-circle forward x 2, punch
+
+    - name: II. Shinryuken
+      input: Quarter-circle forward x 2, kick
+      note: ["Press kick repeatedly for more hits"]
+
+    - name: III. Shippu Jinraikyaku
+      input: Quarter-circle forward x 2, kick

@@ -1,0 +1,28 @@
+- character: Chun-Li
+
+  special_move:
+    - name: Kikou Ken
+      input: Half-circle forward, punch
+      note: ["EX"]
+
+    - name: Hazanshu
+      input: Half-circle back, kick
+      note: ["EX"]
+
+    - name: Spinning Bird Kick
+      input: Charge down, then up + kick
+      note: ["EX"]
+
+    - name: Hyakuretsu Kyaku
+      input: Press kick repeatedly
+      note: ["EX"]
+
+  super_art:
+    - name: I. Kikou Shou
+      input: Quarter-circle forward x 2, punch
+
+    - name: II. Houyoku Sen
+      input: Quarter-circle forward x 2, kick
+
+    - name: III. Tensei Ranka
+      input: Quarter-circle forward x 2, kick

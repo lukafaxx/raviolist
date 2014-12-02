@@ -1,0 +1,32 @@
+- character: Yun
+
+  special_move:
+    - name: Zesshou Hohou
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
+    - name: Kobokushi
+      input: Quarter-circle back, punch
+      note: ["Press any two punches for feint"]
+
+    - name: Zenpou Tenshin
+      input: Half-circle back, kick
+      note: ["Command grab"]
+    
+    - name: Tetsuzanko
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+    - name: Nishoukyaku
+      input: Forward, down, down-forward, kick
+      note: ["EX"]
+
+  super_art:
+    - name: I. You-hou
+      input: Quarter-circle forward x 2, punch
+
+    - name: II. Sourai Rengeki
+      input: Quarter-circle forward x 2, punch
+
+    - name: III. Genei-jin
+      input: Quarter-circle forward x 2, punch

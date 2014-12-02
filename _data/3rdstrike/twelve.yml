@@ -1,0 +1,31 @@
+- character: Twelve
+
+  special_move:
+    - name: Kokkuu
+      input: (in air) Forward, forward or back, back
+
+    - name: N.D.L.
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
+    - name: A.X.E.
+      input: Quarter-circle back, punch
+      note: ["EX", "Press punch repeatedly for more hits"]
+
+    - name: A.X.E. (air)
+      input: (in air) Quarter-circle back, punch
+      note: ["EX", "Press punch repeatedly for more hits"]
+
+    - name: D.R.A.
+      input: (in air) Quarter-circle back, kick
+      note: ["EX"]
+
+  super_art:
+    - name: I. X.N.D.L.
+      input: Quarter-circle forward x 2, punch
+
+    - name: II. X.F.L.A.T.
+      input: (in air) Quarter-circle forward x 2, kick
+
+    - name: III. X.C.O.P.Y.
+      input: Quarter-circle forward x 2, punch
