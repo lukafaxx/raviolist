@@ -24,7 +24,7 @@ For values under the **note** key, we make use of an inline formatted list.
 note: ["Command grab"]
 ```
 
-Empty keys can be removed entirely.
+Empty keys can be removed entirely, and new keys are always welcome (if one wants to add damage output or frame data, name aliases, anime fighters inputs conventions, etc). 
 
 It is always best to refer to the official in-game move list when creating a new character for Raviolist, but even those have inconsistencies. We also refer to everything below this point for the proper terminology to use.
 
