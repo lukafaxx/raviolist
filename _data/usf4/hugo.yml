@@ -1,0 +1,58 @@
+- character: Hugo
+
+  special_move:
+    - name: Giant Palm Bomber
+      input: Quarter-circle back, punch
+      note: ["EX"]
+
+    - name: Moonsault Press
+      input: 360°, punch
+      note: ["EX", "Command grab"]
+
+    - name: Shootdown Backbreaker
+      input: Forward, down, down-forward, kick
+      note: ["EX", "Anti-air grab"]
+
+    - name: Meat Squasher
+      input: 360°, kick
+      note: ["EX", "Command grab"]
+
+    - name: Ultra Throw
+      input: Half-circle back, kick
+      note: ["EX"]
+
+    - name: Monster Lariat
+      input: Quarter-circle forward, kick
+      note: ["EX", "Armor Break"]
+
+  super_combo:
+    - name: Hammer Mountain
+      input: Quarter-circle forward x 2, punch
+      note: ["Hold punch for feint"]
+
+  ultra_combo:
+    - name: I. Gigas Breaker
+      input: 360° x 2, all three punches
+      note: ["Command grab"]
+
+    - name: II. Megaton Press
+      input: Quarter-circle forward x 2, all three kicks
+      note: ["Anti-air grab"]
+
+  normal_throw:
+    - name: Neck Hanging Tree
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Body Slam
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Body Press
+      input: (during vertical or forward jump) Down + HP
+
+    - name: Hammer Hook
+      input: Forward + HP
+
+    - name: Leap Attack
+      input: Down, down, MK
+      note: ["Overhead"]
