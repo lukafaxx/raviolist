@@ -8,8 +8,8 @@
 
       {% assign gamelist = site.data.games | sort:"year" | reverse %}
       {% for gameitem in gamelist %}
-      {% assign gameurl = gameitem.short | append: '/' %}
-      <a class="sidebar-nav-item{% if page.url contains gameurl %} active{% endif %}{% if gameitem.status == "nothing" %} nothing{% endif %}{% if gameitem.status == "incomplete" %} incomplete{% endif %}" href="{{ site.baseurl }}/{{ gameurl }}">{{ gameitem.title }}</a>
+      {% assign gameurl = gameitem.short | append: '/' | prepend: '/' %}
+      <a class="sidebar-nav-item{% if page.url contains gameurl %} active{% endif %}{% if gameitem.status == "nothing" %} nothing{% endif %}{% if gameitem.status == "incomplete" %} incomplete{% endif %}" href="{{ site.baseurl }}{{ gameurl }}">{{ gameitem.title }}</a>
       {% endfor %}
 
     </nav>
