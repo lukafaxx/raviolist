@@ -19,7 +19,7 @@
 
     - name: Ultra Throw
       input: Half-circle back, kick
-      note: ["EX"]
+      note: ["EX", "Command grab"]
 
     - name: Monster Lariat
       input: Quarter-circle forward, kick
