@@ -13,9 +13,6 @@
       input: Half-circle back, kick
       note: ["Command grab"]
 
-    - name: Backdrop Bomb
-      input: (behind opponent) 360°, punch
-
     - name: Flash Chop
       input: Quarter-circle forward, punch
       note: ["EX"]
@@ -35,6 +32,10 @@
   super_art:
     - name: I. Hyper Bomb
       input: 360°, punch
+
+    - name: I. Backdrop Bomb
+      input: (behind opponent) Half-circle back, punch
+      note: ["Command grab"]
 
     - name: II. Boomerang Raid
       input: Quarter-circle forward x 2, punch
