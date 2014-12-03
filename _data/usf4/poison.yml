@@ -1,0 +1,46 @@
+- character: Poison
+
+  special_move:
+    - name: Whip of Love
+      input: Quarter-circle back, punch
+      note: ["EX", "Can be performed three times in sequence"]
+
+    - name: Love Me Tender
+      input: Quarter-circle back, kick
+      note: ["EX", "Armor Break", "Press kick on hit to shift to a throw"]
+
+    - name: Kissed by a Goddess
+      input: Forward, down, down-forward, kick
+      note: ["EX"]
+
+    - name: Aeolus Edge
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
+  super_combo:
+    - name: Thunder Whip
+      input: Quarter-circle forward x 2, punch
+
+  ultra_combo:
+    - name: I. Love Storm
+      input: Quarter-circle forward x 2, all three punches
+      note: ["Armor Break"]
+
+    - name: II. Poison Kiss
+      input: Half-circle back x 2, all three punches
+      note: ["Command grab"]
+
+  normal_throw:
+    - name: Slapshot
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Frankensteiner
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Elbow Drop
+      input: Forward + MP
+      note: ["Overhead"]
+
+    - name: Backflip
+      input: All three kicks
