@@ -18,15 +18,15 @@
       note: ["EX"]
 
     - name: Scramble > Break
-      input: Charge back, then forward + kick, punch
+      input: Charge back, then forward + kick > punch
       note: ["Armor Break during HP Break from EX Scramble"]
 
     - name: Scramble > Razor Edge Slicer
-      input: Charge back, then forward + LK, kick
+      input: Charge back, then forward + LK > kick
       note: ["Armor Break during razor Edge Slicer from EX Scramble"]
 
     - name: Scramble > Cannon Strike
-      input: Charge back, then forward + MK or HK, kick
+      input: Charge back, then forward + MK or HK > kick
 
   super_combo:
     - name: Strafe Dagger

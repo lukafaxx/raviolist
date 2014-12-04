@@ -25,11 +25,11 @@
       input: Quarter-circle forward x 2, punch
 
     - name: "I. Kishin Riki: Activate"
-      input: During Kishin Riki, punch
+      input: During Kishin Riki > punch
       note: ["Command grab"]
 
     - name: "I. Kishin Riki: Anti-Air"
-      input: (in air) During Kishin Riki, punch
+      input: During Kishin Riki > (in air) punch
       note: ["Command grab"]
 
     - name: II. Yagyou Dama

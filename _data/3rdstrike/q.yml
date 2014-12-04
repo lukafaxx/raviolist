@@ -32,8 +32,8 @@
       input: Quarter-circle forward x 2, punch
 
     - name: "III. Total Destruction: Activate"
-      input: During Total Destruction, quarter-circle forward, punch
+      input: During Total Destruction > quarter-circle forward, punch
 
     - name: "III. Total Destruction: Danger"
-      input: During Total Destruction, quarter-circle forward, kick
+      input: During Total Destruction > quarter-circle forward, kick
       note: ["Command grab"]

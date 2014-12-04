@@ -3,7 +3,7 @@
   special_move:
     - name: Kakushu Raku Kyaku
       input: (near opponent) Hold MK
-      
+
     - name: Kikou Ken
       input: Half-circle forward, punch
       note: ["EX"]

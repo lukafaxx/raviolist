@@ -9,10 +9,10 @@
       input: Half-circle forward, kick
 
     - name: Ducking Straight
-      input: During Ducking, punch
+      input: During Ducking > punch
 
     - name: Ducking Upper
-      input: During Ducking, kick
+      input: During Ducking > kick
 
     - name: Cross Counter
       input: Half-circle back, punch

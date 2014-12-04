@@ -6,18 +6,18 @@
       note: ["EX"]
 
     - name: Change of Direction > Second Mid
-      input: During Change of Direction, forward + punch
+      input: During Change of Direction > forward + punch
       note: ["Overhead"]
 
     - name: Change of Direction > Second Low
-      input: During Change of Direction, forward + kick
+      input: During Change of Direction > forward + kick
 
     - name: Change of Direction > Second Mid OR Second Low > Finish Mid
-      input: During Change of Direction > Second Mid OR Second Low, forward + punch
+      input: During Change of Direction > Second Mid OR Second Low > forward + punch
       note: ["Armor Break", "Overhead"]
 
     - name: Change of Direction > Second Mid OR Second Low > Finish Low
-      input: During Change of Direction > Second Mid OR Second Low, forward + kick
+      input: During Change of Direction > Second Mid OR Second Low > forward + kick
       note: ["Armor Break"]
 
     - name: Wheel Kick

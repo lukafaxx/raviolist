@@ -54,10 +54,10 @@
       input: Back + MK
 
     - name: Kintekishu > Tenkukyaku
-      input: Back + MK, MK
+      input: During Kintekishu > MK
 
     - name: Kintekishu > Tenkukyaku > Tenshokyaku
-      input: Back + MK, MK, down, up + MK
+      input: During Kintekishu > Tenkukyaku > down, up + MK
 
     - name: Yosokyaku
       input: (in air) Down + MK

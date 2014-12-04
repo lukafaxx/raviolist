@@ -27,16 +27,16 @@
       input: Forward, down, down-forward, kick
 
     - name: Hyakki Gouzan
-      input: During Hyakkishu, do nothing
+      input: During Hyakkishu > do nothing
 
     - name: Hyakki Gousho
-      input: During Hyakkishu, punch
+      input: During Hyakkishu > punch
 
     - name: Hyakki Goujin
-      input: During Hyakkishu, kick
+      input: During Hyakkishu > kick
 
     - name: Hyakki Gousai
-      input: During Hyakkishu, (near opponent) LP + LK
+      input: During Hyakkishu > (near opponent) LP + LK
       note: ["Command grab"]
 
   super_art:

@@ -21,26 +21,26 @@
       input: During Oga, back
 
     - name: Oga > Close Kick
-      input: During Oga, down or neutral position
+      input: During Oga > down or neutral position
       note: ["Armor Break"]
 
     - name: Oga > Far Kick
-      input: During Oga, down-forward or forward
+      input: During Oga > down-forward or forward
       note: ["Armor Break"]
 
     - name: Oga > Ceiling Jump
-      input: During Oga, up-back or up or up-forward
+      input: During Oga > up-back or up or up-forward
 
     - name: Oga > Falling Kick
-      input: During Oga, up-back or up or up-forward and down
+      input: During Oga > up-back or up or up-forward and down
       note: ["Armor Break"]
 
     - name: Oga > Close Range Kick Right
-      input: During Oga, up-back or up or up-forward and down-forward or forward
+      input: During Oga > up-back or up or up-forward and down-forward or forward
       note: ["Armor Break"]
 
     - name: Oga > Close Range Kick Left
-      input: During Oga, up-back or up or up-forward and down-back or back
+      input: During Oga > up-back or up or up-forward and down-back or back
       note: ["Armor Break"]
 
   super_combo:

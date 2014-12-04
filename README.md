@@ -24,7 +24,7 @@ For values under the **note** key, we make use of an inline formatted list.
 note: ["Command grab"]
 ```
 
-Empty keys can be removed entirely, and new keys are always welcome (if one wants to add damage output or frame data, name aliases, anime fighters inputs conventions, etc). 
+Empty keys can be removed entirely, and new keys are always welcome (if one wants to add damage output or frame data, name aliases, anime fighters inputs conventions, etc).
 
 It is always best to refer to the official in-game move list when creating a new character for Raviolist, but even those have inconsistencies. We also refer to everything below this point for the proper terminology to use.
 
@@ -94,6 +94,7 @@ note: ["Command grab"]
 * +
 * and
 * or
+* >
 
 ```
 name: Rampage
@@ -142,7 +143,7 @@ We generally write 'close', 'crouching' or 'jumping' for target combos. Otherwis
 * charge and release {button}
 * {multiple directions} x 2
 * press {button} repeatedly
-* during {name}
+* during {name} >
 * close {button}
 * far {button}
 * crouching {button}
