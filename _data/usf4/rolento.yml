@@ -1,0 +1,53 @@
+- character: Rolento
+
+  special_move:
+    - name: Stinger
+      input: Forward, down, down-forward, kick > punch or kick
+      note: ["EX"]
+
+    - name: Mekong Delta Attack
+      input: All three punches > (when landing) punch
+      note: ["EX", "Armor Break"]
+
+    - name: Mekong Delta Air Raid
+      input: Quarter-circle back, punch > punch
+      note: ["EX", "Armor Break", "Overhead"]
+
+    - name: Mekong Delta Escape
+      input: Quarter-circle back, kick
+      note: ["EX"]
+
+    - name: Patriot Circle
+      input: Quarter-circle forward, punch
+      note: ["EX", "Can be performed three times in sequence"]
+
+  super_combo:
+    - name: Mine Sweeper
+      input: Quarter-circle back x 2, punch
+
+  ultra_combo:
+    - name: I. Patriot Sweeper
+      input: Quarter-circle forward x 2, all three punches
+      note: ["Armor Break"]
+
+    - name: II. Take No Prisoners
+      input: Quarter-circle forward x 2, all three kicks
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Colonel Carrier
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Deadly Package
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Trick Rod
+      input: Forward + MK
+      note: ["Overhead"]
+
+    - name: Spike Rod
+      input: (in air) Down + MK
+
+    - name: Trick Landing
+      input: (when landing) All three kicks
