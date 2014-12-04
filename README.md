@@ -90,6 +90,8 @@ note: ["Command grab"]
 
 ### join
 
+We use ',' before the following inputs necessary for the move to come out, '+' for simultaneous inputs (e.g. command normals or charge moves) and '>' for moves such as followups or target combos, where the first part can be performed independently of the following ones. 
+
 * ,
 * +
 * and

@@ -63,7 +63,7 @@
       input: Back + MP
 
     - name: Backhand Punch
-      input: Far HP, HP
+      input: Far HP > HP
 
     - name: Spin Kick
       input: Forward + LK
@@ -85,31 +85,31 @@
       input: Down, up
 
     - name: Target Combo 1
-      input: Jumping HP, forward + MK
+      input: Jumping HP > forward + MK
 
     - name: Target Combo 2
-      input: (during angled jump) Jumping LP, forward + HP
+      input: (during angled jump) Jumping LP > forward + HP
 
     - name: Target Combo 3
-      input: (during angled jump) Jumping LK, forward + MK
+      input: (during angled jump) Jumping LK > forward + MK
 
     - name: Target Combo 4
-      input: Close LP, MP, HP
+      input: Close LP > MP > HP
 
     - name: Target Combo 5
-      input: Far LP, MP, forward + LK
+      input: Far LP > MP > forward + LK
 
     - name: Target Combo 6
-      input: Close LP, MP, crouching HK, HK
+      input: Close LP > MP > crouching HK > HK
 
     - name: Target Combo 7
-      input: Back + MK, forward + MK
+      input: Back + MK > forward + MK
 
     - name: Target Combo 8
-      input: Close HP, crouching HK, HK
+      input: Close HP > crouching HK > HK
 
     - name: Target Combo 9
-      input: LK, MK, HK
+      input: LK > MK > HK
 
     - name: Target Combo 10
-      input: Crouching HK, HK
+      input: Crouching HK > HK

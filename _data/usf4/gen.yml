@@ -79,13 +79,13 @@
       input: (Mantis) All three kicks
 
     - name: Target Combo 1
-      input: (Mantis) Crouching LK, crouching MK
+      input: (Mantis) Crouching LK > crouching MK
 
     - name: Target Combo 2
-      input: (Mantis) Close HP, MK
+      input: (Mantis) Close HP > MK
 
     - name: "Change Style: Mantis"
       input: (Crane) All three punches
 
     - name: Shakudan
-      input: (Crane) Jumping HK, HK
+      input: (Crane) Jumping HK > HK

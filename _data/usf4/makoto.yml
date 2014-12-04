@@ -44,10 +44,10 @@
 
   unique_attack:
     - name: Yamase
-      input: Forward + HP, HP
+      input: Forward + HP > HP
 
     - name: Target Combo 1
-      input: LK, MK
+      input: LK > MK
 
     - name: Target Combo 2
-      input: Forward + MK, HK
+      input: Forward + MK > HK

@@ -50,4 +50,4 @@
       note: ["Overhead", "Hold kick to feint"]
 
     - name: Target Combo
-      input: Close MP, HP
+      input: Close MP > HP

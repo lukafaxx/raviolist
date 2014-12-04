@@ -56,10 +56,10 @@
 
   unique_attack:
     - name: Target Combo 1
-      input: Close MP, HK
+      input: Close MP > HK
 
     - name: Target Combo 2
-      input: Close MP, HP
+      input: Close MP > HP
 
     - name: Fox Tail
       input: Down-forward + MK

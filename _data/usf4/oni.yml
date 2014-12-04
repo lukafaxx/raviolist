@@ -65,7 +65,7 @@
       input: Back + MP
 
     - name: Target Combo 1
-      input: Forward + LP, MP
+      input: Forward + LP > MP
 
     - name: Target Combo 2
-      input: Back + MP, HP
+      input: Back + MP > HP

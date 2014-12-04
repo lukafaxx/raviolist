@@ -43,4 +43,4 @@
       note: ["Overhead"]
 
     - name: Target Combo
-      input: Close MP, down-forward + HK
+      input: Close MP > down-forward + HK
