@@ -349,10 +349,14 @@ a.sidebar-nav-item:focus {
  border-bottom: 1px dotted #56717f;
 }
 
-.roster-item-aka {
- font-size: .85rem;
- text-transform: uppercase;
+.roster-item.todo {
  color: #0a0e10;
+}
+
+.roster-item.todo a {
+  text-transform: none;
+  font-size: .8rem;
+  float: right;
 }
 
 .from_game {

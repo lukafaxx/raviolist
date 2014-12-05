@@ -3,17 +3,20 @@ layout: page
 ---
 
 {% assign game = page.permalink | remove: '/' %}
+{% assign gamechar = site.data[game]._characters %}
 
 <div class="roster">
 
-{% for gamechar in site.data[game] %}
-
+{% for char in gamechar %}
+  {% if char.status != 'todo' %}
   <div class="roster-item">
-  {% for name in gamechar[1] %}
-    <a href="{{ site.baseurl }}/{{ game }}/{{ gamechar[0] }}/">{{ name.character }}</a>&nbsp;&nbsp;<span class="roster-item-aka">{{ name.aka }}</span>
-  {% endfor %}
+    <a href="{{ site.baseurl }}/{{ game }}/{{ char.name | downcase | remove: '.' | remove: '-' | remove: ' ' }}/">{{ char.name }}</a>
   </div>
-
+  {% else %}
+  <div class="roster-item todo">
+    {{ char.name }} <span><a href="{{ site.baseurl }}/contribute/">contribute</a></span>
+  </div>
+  {% endif %}
 {% endfor %}
 
 </div>

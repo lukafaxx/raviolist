@@ -1,0 +1,44 @@
+- { name: Abel }
+- { name: Adon,      status: todo }
+- { name: Akuma,     status: todo }
+- { name: Balrog }
+- { name: Blanka }
+- { name: Cammy,     status: todo }
+- { name: Chun-Li }
+- { name: Cody,      status: todo }
+- { name: C. Viper,  status: todo }
+- { name: Dan,       status: todo }
+- { name: Decapre }
+- { name: Dee Jay,   status: todo }
+- { name: Dhalsim,   status: todo }
+- { name: Dudley,    status: todo }
+- { name: E. Honda }
+- { name: Elena }
+- { name: El Fuerte, status: todo }
+- { name: Evil Ryu,  status: todo }
+- { name: Fei Long }
+- { name: Gen }
+- { name: Gouken,    status: todo }
+- { name: Guile,     status: todo }
+- { name: Guy,       status: todo }
+- { name: Hakan,     status: todo }
+- { name: Hugo }
+- { name: Ibuki }
+- { name: Juri,      status: todo }
+- { name: Ken }
+- { name: Makoto }
+- { name: M. Bison,  status: todo }
+- { name: Oni }
+- { name: Poison }
+- { name: Rolento }
+- { name: Rose,      status: todo }
+- { name: Rufus,     status: todo }
+- { name: Ryu }
+- { name: Sagat,     status: todo }
+- { name: Sakura,    status: todo }
+- { name: Seth,      status: todo }
+- { name: T. Hawk,   status: todo }
+- { name: Vega }
+- { name: Yang,      status: todo }
+- { name: Yun,       status: todo }
+- { name: Zangief,   status: todo }
