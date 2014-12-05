@@ -153,7 +153,6 @@ p {
 }
 
 .sidebar a {
-  font-weight: normal;
   color: #fff;
 }
 
@@ -174,6 +173,7 @@ p {
   display: block;
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.05);
+  font-weight: 600;
 }
 
 .sidebar-nav-item.about {
@@ -184,10 +184,12 @@ p {
 
 .sidebar-nav-item.nothing {
   color: #000;
+  font-weight: 400;
 }
 
 .sidebar-nav-item.incomplete {
   color: #aaa;
+  font-weight: 400;
 }
 
 .sidebar-nav-item.active,
@@ -341,22 +343,37 @@ a.sidebar-nav-item:focus {
 }
 
 .roster-item {
+ cursor: pointer;
+ display: block;
  font-weight: none;
  font-size: 1rem;
  text-transform: uppercase;
- margin-bottom: .5rem;
- padding-bottom: .5rem;
+ padding: .5rem;
  border-bottom: 1px dotted #56717f;
 }
 
+.roster-item:hover,
+.roster-item:focus {
+ color: #fff;
+ background-color: #56717f;
+ outline: 1px solid #56717f;
+}
+
 .roster-item.todo {
+ cursor: default;
  color: #0a0e10;
+ outline: none;
 }
 
 .roster-item.todo a {
-  text-transform: none;
-  font-size: .8rem;
-  float: right;
+ text-transform: none;
+ font-size: .8rem;
+ float: right;
+}
+
+.roster-item.todo:hover,
+.roster-item.todo:focus {
+ background-color: inherit;
 }
 
 .from_game {
