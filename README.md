@@ -90,7 +90,7 @@ note: ["Command grab"]
 
 ### join
 
-We use ',' before the following inputs necessary for the move to come out, '+' for simultaneous inputs (e.g. command normals or charge moves) and '>' for moves such as followups or target combos, where the first part can be performed independently of the following ones. 
+We use ',' before the following inputs necessary for the move to come out, '+' for simultaneous inputs (e.g. command normals or charge moves) and '>' for moves such as followups or target combos, where the first part can be performed independently of the following ones.
 
 * ,
 * +
@@ -166,18 +166,22 @@ This file contains a list of all completed video games, or that we seek to compl
 
 * **title:** The title of the game, always written between double quotation marks. We sometimes add '(year)' for old games otherwise named exactly like more relevant ones.
 * **year:** The year or year.month of release of the game.
-* **short:** A shortened name for the game that matches its HTML game page permalink and game layout.
+* **short:** A shortened name for the game that will match its HTML game page permalink and game layout.
 * **status:** Whether the game is 'incomplete' or 'nothing' has been done about a single character yet. We remove this key once the game is completed.
 
 The values under those keys are used by the sidebar to display the games in reversed chronological order, with working links, and with different colors depending of their status of completion.
 
 ### _data/{game}/
 
-The name of this subfolder matches its HTML game page permalink and value under the **short** key in _data/games.yml.
+The name of this subfolder matches the value under the **short** key in _data/games.yml and will match its HTML game page permalink.
+
+### _data/{game}/_characters.yml
+
+This file contains a list of all characters from {game} with their status of completion. We remove the **status** key once a character is completed. 
 
 ### _data/{game}/{character}.yml
 
-The name of this file matches its HTML character page permalink. This file contains the data we need to generate the HTML character page.
+The filename must match the full name of the character as it can be seen in _data/{game}/characters.yml, but in lowercase and without any special character ('.', '-' or ' '). For example, 'E. Honda' becomes 'ehonda.yml'. The filename will match its HTML character page permalink. This file contains the data we need to generate the HTML character page.
 
 ### _layouts/game.html
 
