@@ -1,48 +1,48 @@
 - character: Joe
 
-  normal_throws:
+  normal_throw:
     - name: Kubizumou Hiza-Jigoku
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Step-in Middle Kick
-      input: forward, LK
-	  
-    - name: Sliding
-      input: down-forward, LK
+      input: Forward + LK
 
-  special_moves:
+    - name: Sliding
+      input: Down-forward + LK
+
+  special_move:
     - name: Hurricane Upper
-      input: half-circle forward, LP or HP
-      note: ["EX Available"]
+      input: Half-circle forward, punch
+      note: ["EX"]
 
     - name: Tiger Kick
-      input: forward, down, down-forward, LK or HK
-      note: ["EX Available"]
-      
+      input: Forward, down, down-forward, kick
+      note: ["EX"]
+
     - name: Slash Kick
-      input: half-circle forward, LK or HK
-      note: ["EX Available"]
+      input: Half-circle forward, kick
+      note: ["EX"]
 
     - name: Bakuretsuken
-      input: Press LP or HP repeatedly
-      note: ["EX Available"]
+      input: Press punch repeatedly
+      note: ["EX"]
 
     - name: Bakuretsu Finish
-      input: during Bakuretsuken > quarter-circle back, LP or HP
-	  
+      input: During Bakuretsuken > quarter-circle back, punch
+
     - name: Ougon no Kakato
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
-	  
-  super_special_moves:
+      input: Quarter-circle back, kick
+      note: ["EX"]
+
+  desperation_move:
     - name: Screw Upper
-      input: quarter-circle forward x 2, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle forward x 2, punch
+      note: ["EX"]
 
     - name: Bakuretsu Hurricane Tiger Kakato
-      input: quarter-circle forward, half-circle back, LP or HP
-	  
-  neo_max_super_special_moves:
+      input: Quarter-circle forward, half-circle back, punch
+
+  neo_max_desperation_move:
     - name: Screw Straight
-      input: quarter-circle forward x 2, LK + HK
+      input: Quarter-circle forward x 2, LK + HK

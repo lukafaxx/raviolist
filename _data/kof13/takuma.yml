@@ -1,42 +1,42 @@
 - character: Takuma
 
-  normal_throws:
+  normal_throw:
     - name: Ippon Seoi
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Sokutou-Geri
-      input: forward, LK
+      input: Forward + LK
 
-  special_moves:
+  special_move:
     - name: Ko-Ou Ken
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle forward, punch
+      note: ["EX"]
 
     - name: Hien Shippuu Kyaku
-      input: charge down-back, then forward, LK or HK
-      note: ["EX Available"]
-      
+      input: Charge down-back, then forward + kick
+      note: ["EX"]
+
     - name: Zanretsuken
-      input: forward, back, forward, LP or HP
-      note: ["EX Available"]
+      input: Forward, back, forward, punch
+      note: ["EX"]
 
     - name: Kyokugen Hougeki
-      input: half-circle back, LK or HK
-      note: ["EX Available"]
+      input: Half-circle back, kick
+      note: ["EX"]
 
     - name: Kyokugen Ko-Ou
-      input: quarter-circle forward, LK or HK
-      note: ["EX Available"]	  
-	  
-  super_special_moves:
+      input: Quarter-circle forward, kick
+      note: ["EX"]
+
+  desperation_move:
     - name: Haoh Shikou Ken
-      input: forward, half-circle forward, LP or HP
-      note: ["EX Available"]
-	  
+      input: Forward, half-circle forward, punch
+      note: ["EX"]
+
     - name: Ryuuko Ranbu
-      input: quarter-circle forward, half-circle back, LP or HP
-	  
-  neo_max_super_special_moves:
+      input: Quarter-circle forward, half-circle back, punch
+
+  neo_max_desperation_move:
     - name: Biruto Appar
-      input: quarter-circle forward x 2, LP + HP
+      input: Quarter-circle forward x 2, LP + HP

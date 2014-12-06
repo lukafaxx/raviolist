@@ -1,58 +1,58 @@
 - character: Mr. Karate
 
-  normal_throws:
+  normal_throw:
     - name: Ippon Seoi
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Seiken Sandan Tsuki
-      input: forward, LP
-	  
+      input: Forward + LP
+
     - name: Sokutou-Geri
-      input: forward, LK
+      input: Forward + LK
 
-  special_moves:
+  special_move:
     - name: Kohoh
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
 
-    - name: Kohou(Brake)
-      input: during Kohoh (HP) > LP + LK
-      
+    - name: Kohou (Brake)
+      input: During Kohoh (HP) > LP + LK
+
     - name: Shouran Kyaku
-      input: half-circle back, LK or HK
-      note: ["EX Available"]
+      input: Half-circle back, kick
+      note: ["EX"]
 
     - name: Hakyokujin
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle back, punch
+      note: ["EX"]
 
     - name: Zanretuken
-      input: forward, back, forward, LP or HP
-      note: ["EX Available"]
-	  
+      input: Forward, back, forward, punch
+      note: ["EX"]
+
     - name: Hien Shippuu Kyaku
-      input: (in air) half-circle forward, LK or HK
-      note: ["EX Available"]
-	  
+      input: (in air) Half-circle forward, kick
+      note: ["EX"]
+
     - name: Ko-Ou Ken
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]
-	  
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
     - name: Kokyaku
-      input: during Ko-Ou Ken (HP) > forward, forward
-	  
-  super_special_moves:
+      input: During Ko-Ou Ken (HP) > forward, forward
+
+  desperation_move:
     - name: Haoh Shikou Ken
-      input: forward, half-circle forward, LP or HP
-	  
+      input: Forward, half-circle forward, punch
+
     - name: Ryuuko Ranbu
-      input: quarter-circle forward, half-circle back, LP or HP
-      note: ["EX Available"]
-	  
+      input: Quarter-circle forward, half-circle back, punch
+      note: ["EX"]
+
     - name: Kyokugen Kohou
-      input: quarter-circle forward x 2, LK or HK
-	  
-  neo_max_super_special_moves:
+      input: Quarter-circle forward x 2, kick
+
+  neo_max_desperation_move:
     - name: Kishin Sanga Geki
-      input: quarter-circle back, half-circle forward, LP + HP
+      input: Quarter-circle back, half-circle forward, LP + HP

@@ -1,44 +1,44 @@
 - character: Billy
 
-  normal_throws:
+  normal_throw:
     - name: Jigoku Otoshi
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Dai Kaiten-Geri
-      input: forward, LP
-	  
+      input: Forward + LP
+
     - name: Sao Uchi
-      input: back, LP
+      input: Back + LP
 
     - name: Boutakatobi-Geri
-      input: forward, LK
-	  
-  special_moves:
+      input: Forward + LK
+
+  special_move:
     - name: Sansetsu Kon Chuudan Uchi
-      input: half-circle forward, LP or HP
-      note: ["EX Available"]
+      input: Half-circle forward, punch
+      note: ["EX"]
 
     - name: Kaen Sansetsu Kon Chuudan Uchi
-      input: during Sansetsu Kon Chuudan Uchi (HP or EX) > quarter-circle forward, LP or HP
-      
+      input: During Sansetsu Kon Chuudan Uchi (HP or EX) > quarter-circle forward, punch
+
     - name: Senpuu Kon
-      input: press LP or HP repeatedly
-      note: ["EX Available"]
+      input: Press punch repeatedly
+      note: ["EX"]
 
     - name: Suzume Otoshi
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle back, punch
+      note: ["EX"]
 
     - name: Kyoushuu Hishou Kon
-      input: forward, down, down-forward, LK or HK
-      note: ["EX Available"]	  
-	  
-  super_special_moves:
+      input: Forward, down, down-forward, kick
+      note: ["EX"]
+
+  desperation_move:
     - name: Chou Kaen Senpuu Kon
-      input: quarter-circle forward, half-circle back, LP or HP
-      note: ["EX Available"]
-	  
-  neo_max_super_special_moves:
+      input: Quarter-circle forward, half-circle back, punch
+      note: ["EX"]
+
+  neo_max_desperation_move:
     - name: Dai Guren Rasen Kon
-      input: quarter-circle forward x 2, LP + HP
+      input: Quarter-circle forward x 2, LP + HP

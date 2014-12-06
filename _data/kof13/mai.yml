@@ -1,48 +1,48 @@
 - character: Mai
 
-  normal_throws:
+  normal_throw:
     - name: Fuusha Kuzushi
-      input: (near opponent) forward or back, HP or HK
-	  
+      input: Forward or back + HP or HK
+
     - name: Yume-Zakura
-      input: (near opponent, in air) forward or back, HP
+      input: (in air) Forward or back + HP
 
-  command_moves:
+  command_normal:
     - name: Ukihane
-      input: (in air) down, LK
-	  
-    - name: Sankakutobi
-      input: (in air, near wall) up-forward
+      input: (in air) Down + LK
 
-  special_moves:
+    - name: Sankakutobi
+      input: (in air, near wall) Up-forward
+
+  special_move:
     - name: Ryuuenbu
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle back, punch
+      note: ["EX"]
 
     - name: Kachousen
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]
-      
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
     - name: Hissatsu Shinobi-Bachi
-      input: half-circle forward, LK or HK
-      note: ["EX Available"]
+      input: Half-circle forward, kick
+      note: ["EX"]
 
     - name: Musasabi no Mai
-      input: charge down, then up, hold LP or hold HP
+      input: Charge down, then up + hold punch
 
     - name: Musasabi no Mai (Feint)
-      input: charge down, then up, LP or HP
+      input: Charge down, then up + punch
 
     - name: Musasabi no Mai (Air)
-      input: (in air) quarter-circle back, LP or HP
-      note: ["EX Available"]
-	  
-  super_special_moves:
+      input: (in air) Quarter-circle back, punch
+      note: ["EX"]
+
+  desperation_move:
     - name: Chou Hissatsu Shinobi-Bachi
-      input: quarter-circle back, half-circle forward, LK or HK
-      note: ["EX Available, Also in air"]
-	  
-  neo_max_super_special_moves:
-    - name: Shiranui-Ryuu: Kunoichi-No-Mai
-      input: quarter-circle forward, half-circle back, LP + HP
-      note: ["Also in air"]
+      input: Quarter-circle back, half-circle forward, kick
+      note: ["EX", "Can be performed in air"]
+
+  neo_max_desperation_move:
+    - name: "Shiranui-Ryuu: Kunoichi-No-Mai"
+      input: Quarter-circle forward, half-circle back, LP + HP
+      note: ["Can be performed in air"]

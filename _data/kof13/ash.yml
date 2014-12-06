@@ -1,47 +1,47 @@
 - character: Ash
 
-  normal_throws:
-    - name: Récompenses 
-      input: (near opponent) forward or back, HP or HK
+  normal_throw:
+    - name: Récompenses
+      input: Forward or back, HP or HK
 
-  command_moves:
+  command_normal:
     - name: Floréal
-      input: back, LK
-	  
+      input: Back + LK
+
     - name: Floréal (back)
-      input: back, HK
-	  
-  special_moves:
+      input: Back + HK
+
+  special_move:
     - name: Ventôse
-      input: charge back, then forward, LP or HP
-      note: ["EX Available"]
+      input: Charge back, then forward + punch
+      note: ["EX"]
 
     - name: Nivôse
-      input: charge down, then up, LK or HK
-      note: ["EX Available"]
-      
+      input: Charge down, then up + kick
+      note: ["EX"]
+
     - name: Génie
-      input: quarter-circle back, LP or LK or HP or HK
-      note: ["EX Available"]
+      input: Quarter-circle back, punch or kick
+      note: ["EX"]
 
     - name: Germinal Caprice
-      input: charge back, then forward, LK or HK
-      note: ["EX Available"]
+      input: Charge back, then forward + kick
+      note: ["EX"]
 
-  super_special_moves:
+  desperation_move:
     - name: Thermidor
-      input: quarter-circle forward x 2, LP or HP
-	  
+      input: Quarter-circle forward x 2, punch
+
     - name: Pluviôse
-      input: quarter-circle forward x 2, LK or HK
-      note: ["EX Available"]
-	  
+      input: Quarter-circle forward x 2, kick
+      note: ["EX"]
+
     - name: Sans-Culotte
       input: LP, LK, HP, HK
-	  
+
     - name: Germinal
-      input: during Sans-Culotte > quarter-circle back, half-circle forward, LP + HP
-	  
-  neo_max_super_special_moves:
+      input: During Sans-Culotte > quarter-circle back, half-circle forward, LP + HP
+
+  neo_max_desperation_move:
     - name: Fructidor
-      input: half-circle back x 2, LK + HK
+      input: Half-circle back x 2, LK + HK

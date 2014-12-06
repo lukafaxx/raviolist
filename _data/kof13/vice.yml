@@ -1,41 +1,41 @@
 - character: Vice
 
-  normal_throws:
+  normal_throw:
     - name: Death Blow
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Dokken
-      input: forward, LP
-	  
-  special_moves:
+      input: Forward + LP
+
+  special_move:
     - name: Deicide
-      input: half-circle forward, LK or HK
-      note: ["EX Available"]
+      input: Half-circle forward, kick
+      note: ["EX"]
 
     - name: Gorefest
-      input: half-circle back, forward, LP or HP
-      note: ["EX Available"]
-      
+      input: Half-circle back, forward + punch
+      note: ["EX"]
+
     - name: Splash
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
 
     - name: Mayhem
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle back, punch
+      note: ["EX"]
 
     - name: (Derivation) Splash
-      input: during Mayhem > quarter-circle forward, LP or HP
-	  
-  super_special_moves:
+      input: During Mayhem > quarter-circle forward, punch
+
+  desperation_move:
     - name: Negative Gain
-      input: half-circle back x 2, LK or HK
-      note: ["EX Available"]
-	  
+      input: Half-circle back x 2, kick
+      note: ["EX"]
+
     - name: Overkill
-      input: (in air) down-back, quarter-circle forward, up-forward, up, down, LP or HP
-	  
-  neo_max_super_special_moves:
+      input: (in air) Down-back, quarter-circle forward, up-forward, up, down + punch
+
+  neo_max_desperation_move:
     - name: Awaking Blood
-      input: quarter-circle back, half-circle forward, LP + HP
+      input: Quarter-circle back, half-circle forward, LP + HP

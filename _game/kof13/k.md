@@ -1,5 +1,5 @@
 ---
 layout: kof13
 title: K'
-permalink: /kof13/kdash/
+permalink: /kof13/k/
 ---

@@ -1,84 +1,81 @@
 - character: EX Kyo
 
-  normal_throws:
+  normal_throw:
     - name: Issetsu Seoinage
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
-    - name: Ge-shiki: Gofu Yo
-      input: forward, LK
+  command_normal:
+    - name: "Ge-shiki: Gofu Yo"
+      input: Forward + LK
 
     - name: Hachi-Ju-Hachi Shiki
-      input: down-forward, HK
+      input: Down-forward + HK
 
-    - name: Ge-shiki: Naraku Otoshi
-      input: (in air) down, HP
-	  
-  special_moves:
-  
-    - name: Hyaku Shiki: Oniyaki
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
-	  
+    - name: "Ge-shiki: Naraku Otoshi"
+      input: (in air) Down + HP
+
+  special_move:
+    - name: "Hyaku Shiki: Oniyaki"
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
     - name: R.E.D. Kick
-      input: back, down, down-back, LK or HK
-      note: ["EX Available"]
+      input: Back, down, down-back, kick
+      note: ["EX"]
 
-    - name: Ni-Hyaku-Ju-Ni Shiki: Kototsuki Yo
-      input: half-circle back, LK or HK
-      note: ["EX Available"]
-      
-    - name: Nana-Ju-Go Shiki: Kai
-      input: quarter-circle forward, LK or HK, LK or HK
-      note: ["EX Available"]
+    - name: "Ni-Hyaku-Ju-Ni Shiki: Kototsuki Yo"
+      input: Half-circle back, kick
+      note: ["EX"]
 
-    - name: Hyaku-Ju-Yon Shiki: Aragami
-      input: quarter-circle forward, LP
+    - name: "Nana-Ju-Go Shiki: Kai"
+      input: Quarter-circle forward, kick, kick
+      note: ["EX"]
 
-    - name: Hyaku-Ni-Ju-Hachi Shiki: Konokizu
-      input: during Hyaku-Ju-Yon Shiki: Aragami > quarter-circle forward, LP
-	  
-    - name: Hyaku-Ni-Ju-Nana Shiki: Yanosabi(1)
-      input: during Hyaku-Ni-Ju-Hachi Shiki: Konokizu > LP or HP
-	  
-    - name: Hyaku-Ni-Ju-Go Shiki: Nanase(1)
-      input: during Hyaku-Ni-Ju-Hachi Shiki: Konokizu > LK or HK
-	  
-    - name: Hyaku-Ni-Ju-Nana Shiki: Yanosabi(2)
-      input: during Hyaku-Ju-Yon Shiki: Aragami > half-circle back, LP or HP
-	  
-    - name: Ge-shiki: Migari Ugachi
-      input: during Hyaku-Ni-Ju-Nana Shiki: Yanosabi(2) > LP or HP
-	  
-    - name: Hyaku-Ni-Ju-Go Shiki: Nanase(2)
-      input: during Hyaku-Ni-Ju-Nana Shiki: Yanosabi(2) > LK or HK
-	  
-    - name: Hyaku-Ju-Go Shiki: Dokugami
-      input: quarter-circle forward, HP
-      note: ["EX Available"]
-	  
-    - name: Hyaku-Ju-Yon Shiki: Aragami
-      input: during Hyaku-Ju-Go Shiki: Dokugami > quarter-circle forward, LP or HP
-	  
-    - name: Yon-Hyaku-Ichi Shiki: Tumiyomi
-      input: during Hyaku-Ju-Go Shiki: Dokugami > half-circle back, LP or HP
-	  
-    - name: Yon-Hyaku-Ni Shiki: Batuyomi
-      input: Yon-Hyaku-Ichi Shiki: Tumiyomi > forward, LP or HP
-	  
-    - name: Hyaku Shiki: Oniyaki
-      input: Yon-Hyaku-Ni Shiki: Batuyomi > forward, down, down-forward, LP or HP
-	  
-	  
+    - name: "Hyaku-Ju-Yon Shiki: Aragami"
+      input: Quarter-circle forward, LP
 
-  super_special_moves:
-    - name: Ura Hyaku-Hachi Shiki: Orochinagi
-      input: quarter-circle back, half-circle forward, LP or HP
-      note: ["EX Available"]
-	  
-    - name: Saishuu Kessen Ougi "Mu-shiki"
-      input: quarter-circle forward x 2, LP or HP
-	  
-  neo_max_super_special_moves:
-    - name: Saishuu Kessen Hiougi "Totsuka"
-      input: quarter-circle forward x 2, LK + HK
+    - name: "Hyaku-Ni-Ju-Hachi Shiki: Konokizu"
+      input: "During Hyaku-Ju-Yon Shiki: Aragami > quarter-circle forward, LP"
+
+    - name: "Hyaku-Ni-Ju-Nana Shiki: Yanosabi (1)"
+      input: "During Hyaku-Ni-Ju-Hachi Shiki: Konokizu > punch"
+
+    - name: "Hyaku-Ni-Ju-Go Shiki: Nanase (1)"
+      input: "During Hyaku-Ni-Ju-Hachi Shiki: Konokizu > kick"
+
+    - name: "Hyaku-Ni-Ju-Nana Shiki: Yanosabi (2)"
+      input: "During Hyaku-Ju-Yon Shiki: Aragami > half-circle back, punch"
+
+    - name: "Ge-shiki: Migari Ugachi"
+      input: "During Hyaku-Ni-Ju-Nana Shiki: Yanosabi (2) > punch"
+
+    - name: "Hyaku-Ni-Ju-Go Shiki: Nanase (2)"
+      input: "During Hyaku-Ni-Ju-Nana Shiki: Yanosabi (2) > kick"
+
+    - name: "Hyaku-Ju-Go Shiki: Dokugami"
+      input: Quarter-circle forward, HP
+      note: ["EX"]
+
+    - name: "Hyaku-Ju-Yon Shiki: Aragami"
+      input: "During Hyaku-Ju-Go Shiki: Dokugami > quarter-circle forward, punch"
+
+    - name: "Yon-Hyaku-Ichi Shiki: Tumiyomi"
+      input: "During Hyaku-Ju-Go Shiki: Dokugami > half-circle back, punch"
+
+    - name: "Yon-Hyaku-Ni Shiki: Batuyomi"
+      input: "Yon-Hyaku-Ichi Shiki: Tumiyomi > forward, punch"
+
+    - name: "Hyaku Shiki: Oniyaki"
+      input: "Yon-Hyaku-Ni Shiki: Batuyomi > forward, down, down-forward, punch"
+
+  desperation_move:
+    - name: "Ura Hyaku-Hachi Shiki: Orochinagi"
+      input: Quarter-circle back, half-circle forward, punch
+      note: ["EX"]
+
+    - name: "Saishuu Kessen Ougi Mu-shiki"
+      input: Quarter-circle forward x 2, punch
+
+  neo_max_desperation_move:
+    - name: "Saishuu Kessen Hiougi Totsuka"
+      input: Quarter-circle forward x 2, LK + HK

@@ -1,64 +1,64 @@
 - character: Chin
 
-  normal_throws:
+  normal_throw:
     - name: Hougeki
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Zabantetsu
-      input: down, down, LP or HP
-	  
+      input: Down, down, punch
+
     - name: Choukarou
-      input: down, down, LK or HK
+      input: Down, down, kick
 
     - name: Choukarou (Cancel)
-      input: during Choukarou, LK + HK
-	  
+      input: During Choukarou, LK + HK
+
     - name: Distant HK ~ Choukarou
-      input: far HK, hold HK
-	  
+      input: Far HK, hold HK
+
     - name: Uron Kouchuu
-      input: down-forward, HK
-	  
+      input: Down-forward + HK
+
     - name: Uron Kouchuu (Feint)
-      input: during Uron Kouchuu > hold HK
-	  
-  special_moves:
+      input: During Uron Kouchuu > hold HK
+
+  special_move:
     - name: Suiho
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
+      input: Quarter-circle back, kick
+      note: ["EX"]
 
     - name: Getsuga Chougeki
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
-      
+      input: Quarter-circle back, punch
+      note: ["EX"]
+
     - name: Nikikyaku
-      input: down-forward, LK, LK
-      note: ["EX Available"]
+      input: Down-forward + LK, LK
+      note: ["EX"]
 
     - name: Getsuga Soushu
-      input: during Zabantetsu > LP or HP
-      note: ["EX Available"]
+      input: During Zabantetsu > punch
+      note: ["EX"]
 
     - name: Hougeki
-      input: during Zabantetsu or Choukarou > forward or back, HP
-	  
+      input: During Zabantetsu or Choukarou > forward or back + HP
+
     - name: Drinking
-      input: back, down, down-back, LP or HP
-	  
+      input: Back, down, down-back, punch
+
     - name: Kaitenteki Kuutotsu Ken
-      input: half-circle forward, LK or HK
-      note: ["EX Available"]
-	  
-  super_special_moves:
+      input: Half-circle forward, kick
+      note: ["EX"]
+
+  desperation_move:
     - name: Toukuu Hiten Hou
-      input: quarter-circle forward x 2, LP or HP
-      note: ["EX Available"]
-	  
+      input: Quarter-circle forward x 2, punch
+      note: ["EX"]
+
     - name: Tetsuzankou
-      input: during Drinking > quarter-circle back, half-circle forward, LP or HP
-	  
-  neo_max_super_special_moves:
-    - name: Suisou: Gouran Ennhou
-      input: quarter-circle forward x 2, LK + HK
-      note: ["Also in air"]
+      input: During Drinking > quarter-circle back, half-circle forward, punch
+
+  neo_max_desperation_move:
+    - name: "Suisou: Gouran Ennhou"
+      input: Quarter-circle forward x 2, LK + HK
+      note: ["Can be performed in air"]

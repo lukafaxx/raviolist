@@ -1,48 +1,48 @@
 - character: Kim
 
-  normal_throws:
+  normal_throw:
     - name: Sakkyaku Nage
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Naeryo Chagi
-      input: forward, LK
-	  
-    - name: Twio Yop Chagi
-      input: forward, forward, LP
+      input: Forward + LK
 
-  special_moves:
+    - name: Twio Yop Chagi
+      input: Forward, forward + LP
+
+  special_move:
     - name: Hangetsuzan
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
+      input: Quarter-circle back, kick
+      note: ["EX"]
 
     - name: Air Hangetsuzan
-      input: (in air) quarter-circle back, LK or HK
-      note: ["EX Available"]
-      
+      input: (in air) Quarter-circle back, kick
+      note: ["EX"]
+
     - name: Hishou Kyaku
-      input: (in air) quarter-circle forward, LK or HK
-      note: ["EX Available"]
+      input: (in air) Quarter-circle forward, kick
+      note: ["EX"]
 
     - name: Hienzan
-      input: charge down, then up, LK or HK
-      note: ["EX Available"]
+      input: Charge down, then up + kick
+      note: ["EX"]
 
     - name: Hienzan (Follow Up)
-      input: during Hienzan (HK) > down, HK
-	  
-  super_special_moves:
+      input: During Hienzan (HK) > down + HK
+
+  desperation_move:
     - name: Houou Kyaku
-      input: quarter-circle back, down-back, forward, LK or HK
-      note: ["EX Available"]
-	  
+      input: Quarter-circle back, down-back, forward, kick
+      note: ["EX"]
+
     - name: Air Houou Kyaku
-      input: (in air) quarter-circle back, down-back, forward, LK or HK
-      note: ["EX Available"]
-	  
+      input: (in air) Quarter-circle back, down-back, forward, kick
+      note: ["EX"]
+
     - name: Houou Hiten Kyaku
-      input: quarter-circle forward x 2, LK or HK
-	  
-  neo_max_super_special_moves:
+      input: Quarter-circle forward x 2, kick
+
+  neo_max_desperation_move:
     - name: Zero-Shiki Houou Kyaku
-      input: quarter-circle back, down-back, forward, LP + HP
+      input: Quarter-circle back, down-back, forward, LP + HP

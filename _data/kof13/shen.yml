@@ -1,51 +1,51 @@
 - character: Shen
 
-  normal_throws:
+  normal_throw:
     - name: Kokakugeki
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Fusenkyaku
-      input: forward, LK
-	  
-  special_moves:
+      input: Forward + LK
+
+  special_move:
     - name: Gekiken
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle forward, punch
+      note: ["EX"]
 
     - name: Gekiken (Charge)
-      input: quarter-circle forward, HP
-      note: ["Hold for at least 4 seconds, can release early"]
-      
+      input: Quarter-circle forward, hold HP
+      note: ["Hold HP for four seconds"]
+
     - name: Gekiken (Feint)
-      input: during Gekiken (HP) > LK or HK
+      input: During Gekiken (HP) > kick
 
     - name: Fukkogeki
-      input: quarter-circle back, LP
-      note: ["EX Available"]
+      input: Quarter-circle back, LP
+      note: ["EX"]
 
     - name: Kouryuugeki
-      input: during Fukkogeki > quarter-circle forward, LP
+      input: During Fukkogeki > quarter-circle forward, LP
 
     - name: Tenrenken
-      input: quarter-circle forward, LK or HK
-      note: ["EX Available"]
-	  
+      input: Quarter-circle forward, kick
+      note: ["EX"]
+
     - name: Danken
-      input: half-circle back, forward, LP or HP
-      note: ["EX Available"]
-	  
+      input: Half-circle back, forward, punch
+      note: ["EX"]
+
     - name: Danken (Repel)
-      input: quarter-circle back, HP
-	  
-  super_special_moves:
-    - name: Zetsu: Gekiken
-      input: quarter-circle forward x 2, LP or HP
-      note: ["EX Available"]
-	  
+      input: Quarter-circle back, HP
+
+  desperation_move:
+    - name: "Zetsu: Gekiken"
+      input: Quarter-circle forward x 2, punch
+      note: ["EX"]
+
     - name: Bakushin
       input: HP, LP, LK, HP
-	  
-  neo_max_super_special_moves:
+
+  neo_max_desperation_move:
     - name: Tenshou Bakushingeki
-      input: quarter-circle forward, half-circle back, LP + HP
+      input: Quarter-circle forward, half-circle back, LP + HP

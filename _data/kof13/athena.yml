@@ -1,49 +1,49 @@
 - character: Athena
 
-  normal_throws:
+  normal_throw:
     - name: Psychic Attack
-      input: (near opponent) forward or back, HP or HK
+      input: (near opponent) Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Phoenix Bomb
-      input: forward, LK
-	  
-    - name: Phoenix Bomb(air)
-      input: (in air) forward, LK
+      input: Forward + LK
 
-  special_moves:
+    - name: Phoenix Bomb (air)
+      input: (in air) Forward + LK
+
+  special_move:
     - name: Psycho Ball Attack
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle back, punch
+      note: ["EX"]
 
     - name: Psycho Sword
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
-      
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
     - name: Psycho Reflector
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
+      input: Quarter-circle back, kick
+      note: ["EX"]
 
     - name: Phoenix Arrow
-      input: (in air) quarter-circle back, LK or HK
-      note: ["EX Available"]
+      input: (in air) Quarter-circle back, kick
+      note: ["EX"]
 
     - name: Psychic Teleport
-      input: quarter-circle forward, LK or HK
-      note: ["EX Available"]
-	  
+      input: Quarter-circle forward, kick
+      note: ["EX"]
+
     - name: Super Psychic Throw
-      input: half-circle forward, LP or HP
-      note: ["EX Available"]
-	  
-  super_special_moves:
+      input: Half-circle forward, punch
+      note: ["EX"]
+
+  desperation_move:
     - name: Shining Crystal Bit
-      input: half-circle back x 2, LP or HP
-      note: ["EX Available"]
-	  
-    - name: Shining Crystal Bit(Air)
-      input: (in air) half-circle back x 2, LP or HP
-	  
-  neo_max_super_special_moves:
+      input: Half-circle back x 2, punch
+      note: ["EX"]
+
+    - name: Shining Crystal Bit (air)
+      input: (in air) Half-circle back x 2, punch
+
+  neo_max_desperation_move:
     - name: Psycho Medley 13
-      input: half-circle back, forward, LP + HP
+      input: Half-circle back, forward + LP + HP

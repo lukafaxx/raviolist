@@ -1,47 +1,47 @@
 - character: Kula
 
-  normal_throws:
+  normal_throw:
     - name: Ice Coffin
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: One Inch
-      input: forward, LP
-	  
-    - name: Slider Shoot
-      input: down-forward, LK
+      input: Forward + LP
 
-  special_moves:
+    - name: Slider Shoot
+      input: Down-forward + LK
+
+  special_move:
     - name: Crow Bite
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
 
     - name: Diamond Breath
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]
-      
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
     - name: Counter Shell
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle back, punch
+      note: ["EX"]
 
     - name: Lay Spin
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
+      input: Quarter-circle back, kick
+      note: ["EX"]
 
-    - name: Lay Spin(Stand)
-      input: during Lay Spin > forward, LK
-	  
-    - name: Lay Spin(Sit)
-      input: during Lay Spin > forward, HK
-	  
-  super_special_moves:
+    - name: Lay Spin (Stand)
+      input: During Lay Spin > forward + LK
+
+    - name: Lay Spin (Sit)
+      input: During Lay Spin > forward + HK
+
+  desperation_move:
     - name: Diamond Edge
-      input: quarter-circle forward x 2, LP or HP
-      note: ["EX Available"]
-	  
+      input: Quarter-circle forward x 2, punch
+      note: ["EX"]
+
     - name: Freeze Execution
-      input: half-circle back x 2, LP or HP
-	  
-  neo_max_super_special_moves:
-    - name: Neo: Freeze Execution
-      input: half-circle back x 2, LK + HK
+      input: Half-circle back x 2, punch
+
+  neo_max_desperation_move:
+    - name: "Neo: Freeze Execution"
+      input: Half-circle back x 2, LK + HK

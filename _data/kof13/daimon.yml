@@ -1,45 +1,45 @@
 - character: Daimon
 
-  normal_throws:
+  normal_throw:
     - name: Okuri Ashibarai
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Zujou-Barai
-      input: down-forward, HP
-	  
-  special_moves:
+      input: Down-forward + HP
+
+  special_move:
     - name: Tenchi-Gaeshi
-      input: half-circle back, forward, LP or HP
-      note: ["EX Available"]
+      input: Half-circle back, forward + punch
+      note: ["EX"]
 
     - name: Kumo-Tsukami Nage
-      input: half-circle forward, LP
-      note: ["EX Available"]
-      
+      input: Half-circle forward, LP
+      note: ["EX"]
+
     - name: Kirikabu-Gaeshi
-      input: half-circle forward, HP
+      input: Half-circle forward, HP
 
     - name: Jiraishin
-      input: forward, down, down-forward, LP
-      note: ["EX Available"]
+      input: Forward, down, down-forward, LP
+      note: ["EX"]
 
     - name: Jiraishin (Feint)
-      input: forward, down, down-forward, HP
-	  
+      input: Forward, down, down-forward, HP
+
     - name: Chou Ukemi
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
-	  
+      input: Quarter-circle back, kick
+      note: ["EX"]
+
     - name: Chou Oosoto-Gari
-      input: forward, down, down-forward, LK or HK
-      note: ["EX Available"]	
-	  
-  super_special_moves:
+      input: Forward, down, down-forward, kick
+      note: ["EX"]
+
+  desperation_move:
     - name: Jigoku Gokuraku-Otoshi
-      input: half-circle back x 2, LP or HP
-      note: ["EX Available"]
-	  
-  neo_max_super_special_moves:
+      input: Half-circle back x 2, punch
+      note: ["EX"]
+
+  neo_max_desperation_move:
     - name: Kyoutendouchi
-      input: quarter-circle forward x 2, LP + HP
+      input: Quarter-circle forward x 2, LP + HP

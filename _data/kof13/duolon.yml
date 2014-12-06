@@ -1,47 +1,47 @@
 - character: Duo Lon
 
-  normal_throws:
-    - name: Suishu: Shoukoh
-      input: (near opponent) forward or back, HP or HK
+  normal_throw:
+    - name: "Suishu: Shoukoh"
+      input: Forward or back + HP or HK
 
-  special_moves:
+  special_move:
     - name: Genmuken
-      input: forward, LP
-      note: ["EX Available"]
+      input: Forward + LP
+      note: ["EX"]
 
     - name: Air Genmuken
-      input: (in air) forward, LP
-      note: ["EX Available"]
-      
+      input: (in air) Forward + LP
+      note: ["EX"]
+
     - name: Genmukyaku
-      input: forward, LK
-      note: ["EX Available"]
+      input: Forward + LK
+      note: ["EX"]
 
     - name: Air Genmukyaku
-      input: (in air) forward, LK
-      note: ["EX Available"]
+      input: (in air) Forward + LK
+      note: ["EX"]
 
-    - name: Himoukyaku: Zen
-      input: quarter-circle forward, LK or HK
-      note: ["EX Available"]	  
-	  
-    - name: Himoukyaku: Go
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
-	  
+    - name: "Himoukyaku: Zen"
+      input: Quarter-circle forward, kick
+      note: ["EX"]
+
+    - name: "Himoukyaku: Go"
+      input: Quarter-circle back, kick
+      note: ["EX"]
+
     - name: Shaki Juuryuu
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available, can be repeated 3 times"]
-	  
+      input: Quarter-circle forward, punch
+      note: ["EX", "Can be performed three times in sequence"]
+
     - name: Juon Shikon
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
-	  
-  super_special_moves:
-    - name: Hiden: Genmu Bakkou Shikon
-      input: quarter-circle back, half-circle forward, LP or HP
-      note: ["EX Available"]
-	  
-  neo_max_super_special_moves:
-    - name: Hiden: Genmu Juon Shikon Sou
-      input: half-circle back x 2, LP + HP
+      input: Quarter-circle back, punch
+      note: ["EX"]
+
+  desperation_move:
+    - name: "Hiden: Genmu Bakkou Shikon"
+      input: Quarter-circle back, half-circle forward, punch
+      note: ["EX"]
+
+  neo_max_desperation_move:
+    - name: "Hiden: Genmu Juon Shikon Sou"
+      input: Half-circle back x 2, LP + HP

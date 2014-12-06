@@ -1,52 +1,52 @@
 - character: Kensou
 
-  normal_throws:
+  normal_throw:
     - name: Ryuu Hosui
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Backflip
       input: LK + HK
-	  
-  special_moves:
+
+  special_move:
     - name: Ryuu Touda
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available, EX can be repeated up to 4 times"]
+      input: Quarter-circle forward, punch
+      note: ["EX", "EX can be performed four times in sequence"]
 
     - name: Rintesshou
-      input: during Ryuu Touda > quarter-circle forward, LP or HP
-      
+      input: During Ryuu Touda > quarter-circle forward, punch
+
     - name: (Derivation) Shikkuu Zanryuu Kyaku
-      input: during Rintesshou > quarter-circle forward, LK or HK
+      input: During Rintesshou > quarter-circle forward, kick
 
     - name: Shikkuu Zanryuu Kyaku
-      input: quarter-circle forward, LK or HK
-      note: ["EX Available"]
+      input: Quarter-circle forward, kick
+      note: ["EX"]
 
     - name: Ryuu Bokko
-      input: forward, down, down-forward, press LP or HP repeatedly
-      note: ["EX Available"]
-	  
+      input: Forward, down, down-forward, press punch repeatedly
+      note: ["EX"]
+
     - name: Ryuugaku-Sai
-      input: back, down, down-back, LK or HK
-      note: ["EX Available"]
-	  
+      input: Back, down, down-back, kick
+      note: ["EX"]
+
     - name: Ryuusou-Geki
-      input: (in air) quarter-circle back, LP or HP
-      note: ["EX Available"]
-	  
+      input: (in air) Quarter-circle back, punch
+      note: ["EX"]
+
     - name: Choukyuudan
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
-	  
-  super_special_moves:
-    - name: Shinryuu: Choukyuudan
-      input: quarter-circle back x 2, LP or HP
-      note: ["EX Available"]
-	  
+      input: Quarter-circle back, punch
+      note: ["EX"]
+
+  desperation_move:
+    - name: "Shinryuu: Choukyuudan"
+      input: Quarter-circle back x 2, punch
+      note: ["EX"]
+
     - name: Shinryuu Seikoushou
-      input: quarter-circle forward, half-circle back, LP or HP
-	  
-  neo_max_super_special_moves:
-    - name: Seigan: Senki Hakkei
-      input: quarter-circle forward x 2, LP + HP
+      input: Quarter-circle forward, half-circle back, punch
+
+  neo_max_desperation_move:
+    - name: "Seigan: Senki Hakkei"
+      input: Quarter-circle forward x 2, LP + HP

@@ -1,56 +1,56 @@
 - character: Robert
 
-  normal_throws:
+  normal_throw:
     - name: Kubikiri Nage
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Upper
-      input: forward, LP
-	  
+      input: Forward + LP
+
     - name: Low Kick
-      input: forward, LK
+      input: Forward + LK
 
     - name: Ushiro Geri
       input: (in air) LK + HK
 
     - name: Sankaku-tobi
-      input: (in air, near wall) back, LK + HK
-	  
-  special_moves:
+      input: (in air, near wall) Back + LK + HK
+
+  special_move:
     - name: Ryuuga
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
 
     - name: Ryuu-Geki Ken
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]
-      
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
     - name: Hien Shippuu Kyaku
-      input: charge down-back, then forward, LK or HK
-      note: ["EX Available"]
+      input: Charge down-back, then forward + kick
+      note: ["EX"]
 
     - name: Hien Ryuujin Kyaku
-      input: (in air) quarter-circle back, LK or HK
-      note: ["EX Available"]
+      input: (in air) Quarter-circle back, kick
+      note: ["EX"]
 
     - name: Gen-ei Kyaku
-      input: forward, back, forward, LK or HK
-      note: ["EX Available"]	  
+      input: Forward, back, forward, kick
+      note: ["EX"]
 
-    - name: Ryuuren: Gen-ei Kyaku
-      input: half-circle forward, LK or HK
-      note: ["EX Available"]	  
-	  
-  super_special_moves:
+    - name: "Ryuuren: Gen-ei Kyaku"
+      input: Half-circle forward, kick
+      note: ["EX"]
+
+  desperation_move:
     - name: Haoh Shoukou Ken
-      input: forward, half-circle forward, LP or HP
+      input: Forward, half-circle forward, punch
 
     - name: Ryuuko Ranbu
-      input: quarter-circle forward, half-circle back, LP or HP
-      note: ["EX Available"]
-	  
-  neo_max_super_special_moves:
+      input: Quarter-circle forward, half-circle back, punch
+      note: ["EX"]
+
+  neo_max_desperation_move:
     - name: Hien Shippuu Ryuujin Kyaku
-      input: quarter-circle forward, half-circle back, LK + HK
-      note: ["Also in air"]
+      input: Quarter-circle forward, half-circle back, LK + HK
+      note: ["Can be performed in air"]

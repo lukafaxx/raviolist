@@ -1,42 +1,42 @@
 - character: Andy
 
-  normal_throws:
+  normal_throw:
     - name: Kakaekomi Nago
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Hirate Uchi
-      input: forward, LP
-	  
-  special_moves:
+      input: Forward + LP
+
+  special_move:
     - name: Zan-ei Ken
-      input: down-back, forward, LP or HP
-      note: ["EX Available"]
+      input: Down-back, forward, punch
+      note: ["EX"]
 
     - name: Kuuha Dan
-      input: half-circle forward, LK or HK
-      note: ["EX Available"]
-      
+      input: Half-circle forward, kick
+      note: ["EX"]
+
     - name: Kuuha Dan (Brake)
-      input: during Kuuha Dan > LK + HK
+      input: During Kuuha Dan > LK + HK
 
     - name: Hishou Ken
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle back, punch
+      note: ["EX"]
 
     - name: Shouryuu Dan
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]	  
-	  
-  super_special_moves:
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+  desperation_move:
     - name: Chou Reppa Dan
-      input: quarter-circle back, half-circle forward, LK or HK
-      note: ["EX Available"]
-	  
-    - name: Zetsu: Hishou Ken
-      input: quarter-circle forward, half-circle back, LP or HP
-	  
-  neo_max_super_special_moves:
+      input: Quarter-circle back, half-circle forward, kick
+      note: ["EX"]
+
+    - name: "Zetsu: Hishou Ken"
+      input: Quarter-circle forward, half-circle back, punch
+
+  neo_max_desperation_move:
     - name: Chou Shin Soku Zan-ei Ken
-      input: quarter-circle back, half-circle forward, LP + HP
-      note: ["Also in air"]
+      input: Quarter-circle back, half-circle forward, LP + HP
+      note: ["Can be performed in air"]

@@ -1,52 +1,52 @@
 - character: Saiki
 
-  normal_throws:
+  normal_throw:
     - name: Sha
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: In
-      input: (in air) forward, LK
-	  
+      input: (in air) Forward + LK
+
     - name: Hatsu
-      input: (in air) back, LK
-	  
-  special_moves:
+      input: (in air) Back + LK
+
+  special_move:
     - name: Kiyoku-no-Tsuki
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle forward, punch
+      note: ["EX"]
 
     - name: Hanetsurube-no-Nata
-      input: forward, down, down-forward, LK or HK
-      note: ["EX Available"]
-      
+      input: Forward, down, down-forward, kick
+      note: ["EX"]
+
     - name: Kasahazushi-no-Tsuchi
-      input: during Hanetsurube-no-Nata (HK or EX) > hold LP or LK or HP or HK
+      input: During Hanetsurube-no-Nata (HK or EX) > hold punch or kick
 
     - name: Hiori-no-Kusabi
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
+      input: Quarter-circle back, kick
+      note: ["EX"]
 
     - name: Ura Shichiri
-      input: during Hiori-no-Kusabi (HK or EX) > hold LP or LK or HP or HK
-	  
+      input: During Hiori-no-Kusabi (HK or EX) > hold punch or kick
+
     - name: Shichiri-Gake
-      input: down, down, LP or LK or HP or HK
-	  
-  super_special_moves:
+      input: Down, down, punch or kick
+
+  desperation_move:
     - name: Washiba Otoshi
-      input: quarter-circle forward x 2, LK or HK
-	  
+      input: Quarter-circle forward x 2, kick
+
     - name: Yami Otoshi
-      input: (in air) quarter-circle forward x 2, LK or HK
-	  
+      input: (in air) Quarter-circle forward x 2, kick
+
     - name: Toyokami-no-Fune
-      input: quarter-circle forward x 2, LP or HP
-	  
+      input: Quarter-circle forward x 2, punch
+
     - name: Kyoryuu-no-Ori
-      input: half-circle back x 2, LP or HP
-      note: ["EX Available"]
-	  
-  neo_max_super_special_moves:
+      input: Half-circle back x 2, punch
+      note: ["EX"]
+
+  neo_max_desperation_move:
     - name: Kasumi
-      input: quarter-circle back, half-circle forward, LP + HP
+      input: Quarter-circle back, half-circle forward, LP + HP

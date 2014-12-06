@@ -1,43 +1,43 @@
 - character: Clark
 
-  normal_throws:
+  normal_throw:
     - name: Death Mountain Buster
-      input: (near opponent) forward or back, HP or HK
-	  
+      input: Forward or back + HP or HK
+
     - name: Death Lake Driver
-      input: (near opponent, in air) forward or back, HP
+      input: (in air) Forward or back + HP
 
-  command_moves:
+  command_normal:
     - name: Jet Upper
-      input: down-forward, LP
-	  
-    - name: Step
-      input: forward, LK + HK
+      input: Down-forward + LP
 
-  special_moves:
+    - name: Step
+      input: Forward + LK + HK
+
+  special_move:
     - name: Super Argentine Backbreaker
-      input: half-circle forward, LK or HK
-      note: ["EX Available"]
+      input: Half-circle forward, kick
+      note: ["EX"]
 
     - name: Flashing Elbow
-      input: during Super Argentine Backbreaker > quarter-circle forward, LP or HP
-      
+      input: During Super Argentine Backbreaker > quarter-circle forward, punch
+
     - name: Vulcan Punch
-      input: press LP or HP repeatedly
-      note: ["EX Available"]
+      input: Press punch repeatedly
+      note: ["EX"]
 
     - name: Gatling Attack
-      input: charge back, then forward, LP or HP
-      note: ["EX Available"]
+      input: Charge back, then forward + punch
+      note: ["EX"]
 
     - name: (Derivation) Death Lake Driver
-      input: during Gatling Attack (HP or EX) > forward, down, down-forward, LP or HP
-	  
-  super_special_moves:
+      input: During Gatling Attack (HP or EX) > forward, down, down-forward, punch
+
+  desperation_move:
     - name: Ultra Argentine Backbreaker
-      input: half-circle back x 2, LP or HP
-      note: ["EX Available"]
-	  
-  neo_max_super_special_moves:
+      input: Half-circle back x 2, punch
+      note: ["EX"]
+
+  neo_max_desperation_move:
     - name: Ultra Clark Buster
-      input: half-circle back x 2, LK + HK
+      input: Half-circle back x 2, LK + HK

@@ -1,45 +1,45 @@
 - character: Kyo
 
-  normal_throws:
+  normal_throw:
     - name: Issetsu Seoinage
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
-    - name: Ge-shiki: Gofu Yo
-      input: forward, LK
+  command_normal:
+    - name: "Ge-shiki: Gofu Yo"
+      input: Forward + LK
 
     - name: Hachi-Ju-Hachi Shiki
-      input: down-forward, HK
+      input: Down-forward + HK
 
-    - name: Ge-shiki: Naraku Otoshi
-      input: (in air) down, HP
-	  
-  special_moves:
-    - name: Hyaku Shiki: Oniyaki
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
+    - name: "Ge-shiki: Naraku Otoshi"
+      input: (in air) Down + HP
 
-    - name: Hyaku-Hachi Shiki: Yamibarai
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]
-      
-    - name: Hyaku-Ichi Shiki: Oboroguruma
-      input: back, down, down-back, LK or HK
-      note: ["EX Available"]
+  special_move:
+    - name: "Hyaku Shiki: Oniyaki"
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
 
-    - name: Ni-Hyaku-Ju-Ni Shiki: Kototsuki Yo
-      input: half-circle back, LK or HK
-      note: ["EX Available"]
+    - name: "Hyaku-Hachi Shiki: Yamibarai"
+      input: Quarter-circle forward, punch
+      note: ["EX"]
 
-    - name: Nana-Ju-Go Shiki: Kai
-      input: quarter-circle forward, LK or HK
-      note: ["EX Available"]	  
-	  
-  super_special_moves:
-    - name: Ura Hyaku-Hachi Shiki: Orochinagi
-      input: quarter-circle back, half-circle forward, LP or HP
-      note: ["EX Available, also in air"]
-	  
-  neo_max_super_special_moves:
-    - name: Ura Hyaku-Ni-Ju-Ichi Shiki: Ama-no-Murakumo
-      input: quarter-circle forward x 2, LP + HP
+    - name: "Hyaku-Ichi Shiki: Oboroguruma"
+      input: Back, down, down-back, kick
+      note: ["EX"]
+
+    - name: "Ni-Hyaku-Ju-Ni Shiki: Kototsuki Yo"
+      input: Half-circle back, kick
+      note: ["EX"]
+
+    - name: "Nana-Ju-Go Shiki: Kai"
+      input: Quarter-circle forward, kick
+      note: ["EX"]
+
+  desperation_move:
+    - name: "Ura Hyaku-Hachi Shiki: Orochinagi"
+      input: Quarter-circle back, half-circle forward, punch
+      note: ["EX, Can be performed in air"]
+
+  neo_max_desperation_move:
+    - name: "Ura Hyaku-Ni-Ju-Ichi Shiki: Ama-no-Murakumo"
+      input: Quarter-circle forward x 2, LP + HP

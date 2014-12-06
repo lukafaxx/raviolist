@@ -1,37 +1,37 @@
 - character: Mature
 
-  normal_throws:
+  normal_throw:
     - name: Death Blow
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  special_moves:
+  special_move:
     - name: Despair
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
 
-    - name: Despair(Attack)
-      input: during Despair > LP or HP
-      
+    - name: Despair (Attack)
+      input: During Despair > punch
+
     - name: Deathrow
-      input: quarter-circle back, LP or HP
-      note: ["Can be repeated 3 times, EX Available, EX can be repeated 5 times"]
+      input: Quarter-circle back, punch
+      note: ["EX", "Can be performed three times in sequence", "EX can be performed five times in sequence"]
 
     - name: Metal Massacre
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
+      input: Quarter-circle back, kick
+      note: ["EX"]
 
     - name: Ebony Tears
-      input: quarter-circle forward, half-circle back, LP or HP
-      note: ["EX Available"]	  
-	  
-  super_special_moves:
+      input: Quarter-circle forward, half-circle back, punch
+      note: ["EX"]
+
+  desperation_move:
     - name: Heaven's Gate
-      input: quarter-circle back, half-circle forward, LK or HK
-	  
+      input: Quarter-circle back, half-circle forward, kick
+
     - name: Nocturnal Rites
-      input: quarter-circle forward x 2, LP or HP
-      note: ["EX Available"]
-	  
-  neo_max_super_special_moves:
+      input: Quarter-circle forward x 2, punch
+      note: ["EX"]
+
+  neo_max_desperation_move:
     - name: Awaking Blood
-      input: quarter-circle back, half-circle forward, LP + HP
+      input: Quarter-circle back, half-circle forward, LP + HP

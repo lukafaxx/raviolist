@@ -1,42 +1,42 @@
 - character: Leona
 
-  normal_throws:
+  normal_throw:
     - name: Leona Crash
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Strike Arch
-      input: forward, LK
-	  
-  special_moves:
+      input: Forward + LK
+
+  special_move:
     - name: Baltic Launcher
-      input: charge back, then forward, LP or HP
-      note: ["EX Available"]
+      input: Charge back, then forward + punch
+      note: ["EX"]
 
     - name: Moon Slasher
-      input: charge down, then up, LP or HP
-      note: ["EX Available"]
-      
+      input: Charge down, then up + punch
+      note: ["EX"]
+
     - name: Earring Bomb
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
+      input: Quarter-circle back, kick
+      note: ["EX"]
 
     - name: Grand Saber
-      input: charge back, then forward, LK or HK
-      note: ["EX Available"]
+      input: Charge back, then forward + kick
+      note: ["EX"]
 
     - name: X-Calibur
-      input: (in air) quarter-circle back, LP or HP
-      note: ["EX Available"]	  
-	  
-  super_special_moves:
+      input: (in air) Quarter-circle back, punch
+      note: ["EX"]
+
+  desperation_move:
     - name: V-Slasher
-      input: (in air) quarter-circle forward, half-circle back, LP or HP
-      note: ["EX Available"]
-	  
+      input: (in air) Quarter-circle forward, half-circle back, punch
+      note: ["EX"]
+
     - name: Slash Saber
-      input: quarter-circle back, half-circle forward, LK or HK
-	  
-  neo_max_super_special_moves:
+      input: Quarter-circle back, half-circle forward, kick
+
+  neo_max_desperation_move:
     - name: Leona Blade
-      input: quarter-circle back, half-circle forward, LP + HP
+      input: Quarter-circle back, half-circle forward, LP + HP

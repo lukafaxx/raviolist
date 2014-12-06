@@ -1,46 +1,46 @@
-- character:
+- character: Elizabeth
 
-  normal_throws:
+  normal_throw:
     - name: Maniêre
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Un Coup De Pied
-      input: forward, LK
-	  
-  special_moves:
+      input: Forward + LK
+
+  special_move:
     - name: Étincelles
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle forward, punch
+      note: ["EX"]
 
     - name: Rêverie-Souhaiter
-      input: quarter-circle forward, LK or HK
-      note: ["EX Available"]
-      
+      input: Quarter-circle forward, kick
+      note: ["EX"]
+
     - name: Rêverie-Prier
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
+      input: Quarter-circle back, kick
+      note: ["EX"]
 
     - name: Rêverie-Geler
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
+      input: Quarter-circle back, punch
+      note: ["EX"]
 
     - name: Mistral
-      input: half-circle back, forward, LP or HP
-      note: ["EX Available"]	  
+      input: Half-circle back, forward + punch
+      note: ["EX"]
 
     - name: Coup De Vent
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
-	  
-  super_special_moves:
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+  desperation_move:
     - name: Noble-Blanche
-      input: quarter-circle forward x 2, LP or HP
-      note: ["EX Available"]
-	  
+      input: Quarter-circle forward x 2, punch
+      note: ["EX"]
+
     - name: Grand Rafale
-      input: quarter-circle forward, half-circle back, LP or HP
-	  
-  neo_max_super_special_moves:
+      input: Quarter-circle forward, half-circle back, punch
+
+  neo_max_desperation_move:
     - name: Étoile Filante
       input: quarter-circle back, half-circle forward, LK + HK

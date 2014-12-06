@@ -1,45 +1,44 @@
 - character: Ryo
 
-  normal_throws:
+  normal_throw:
     - name: Tomoe Nage
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
+  command_normal:
     - name: Hyouchuu Wari
-      input: forward, LP
-	  
+      input: Forward + LP
+
     - name: Jyoudan Uke
-      input: forward, LK
+      input: Forward + LK
 
     - name: Gedan Uke
-      input: down-forward, LK
+      input: Down-forward + LK
 
-	  
-  special_moves:
+  special_move:
     - name: Kohou
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
 
     - name: Ko-Ou Ken
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]
-      
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
     - name: Hien Shippuu Kyaku
-      input: half-circle back, LK or HK
-      note: ["EX Available"]
+      input: Half-circle back, kick
+      note: ["EX"]
 
     - name: Zanretsuken
-      input: forward, back, forward, LP or HP
-      note: ["EX Available"]
-	  
-  super_special_moves:
+      input: Forward, back, forward, punch
+      note: ["EX"]
+
+  desperation_move:
     - name: Haoh Shoukou Ken
-      input: forward, half-circle forward, LP or HP
+      input: Forward, half-circle forward, punch
 
     - name: Ryuuko Ranbu
-      input: quarter-circle forward, half-circle back, LP or HP
-      note: ["EX Available"]
-	  
-  neo_max_super_special_moves:
-    - name: Shin: Tenchi Haoh Ken
-      input: quarter-circle forward x 2, LP + HP
+      input: Quarter-circle forward, half-circle back, punch
+      note: ["EX"]
+
+  neo_max_desperation_move:
+    - name: "Shin: Tenchi Haoh Ken"
+      input: Quarter-circle forward x 2, LP + HP

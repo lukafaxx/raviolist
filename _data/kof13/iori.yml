@@ -1,41 +1,41 @@
 - character: Iori
 
-  normal_throws:
+  normal_throw:
     - name: Sakahagi
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
-    - name: Ge-shiki: Yumebiki
-      input: forward, LP, LP
-	  
-    - name: Ge-shiki: Kui
-      input: down-forward, HP
+  command_normal:
+    - name: "Ge-shiki: Yumebiki"
+      input: Forward + LP, LP
 
-    - name: Ge-shiki: Yuri-Ori
-      input: (in air) back, LK
-	  
-  special_moves:
-    - name: Hyaku-Yon Shiki: Nue-Uchi
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
+    - name: "Ge-shiki: Kui"
+      input: Down-forward + HP
 
-    - name: Yon-Hyaku-Ichi Shiki: Shougetsu
-      input: quarter-circle back, LP or HP
-      note: ["EX Available"]
-      
-    - name: Hyaku-Ju-Kyu Shiki: Akegarasu
-      input: quarter-circle back, LK or HK
-      note: ["EX Available"]
+    - name: "Ge-shiki: Yuri-Ori"
+      input: (in air) Back + LK
 
-    - name: Ni-Hyaku-San Shiki: Tsuchi Tsubaki
-      input: half-circle forward, LP or HP
-      note: ["EX Available"]
-	  
-  super_special_moves:
-    - name: Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome
-      input: quarter-circle forward, half-circle back, LP or HP
-      note: ["EX Available"]
-	  
-  neo_max_super_special_moves:
-    - name: Kin Sen-Ni-Hyaku-Ju-Hachi Shiki: Yatagarasu
-      input: quarter-circle forward x 2, LK + HK
+  special_move:
+    - name: "Hyaku-Yon Shiki: Nue-Uchi"
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+    - name: "Yon-Hyaku-Ichi Shiki: Shougetsu"
+      input: Quarter-circle back, punch
+      note: ["EX"]
+
+    - name: "Hyaku-Ju-Kyu Shiki: Akegarasu"
+      input: Quarter-circle back, kick
+      note: ["EX"]
+
+    - name: "Ni-Hyaku-San Shiki: Tsuchi Tsubaki"
+      input: Half-circle forward, punch
+      note: ["EX"]
+
+  desperation_move:
+    - name: "Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome"
+      input: Quarter-circle forward, half-circle back, punch
+      note: ["EX"]
+
+  neo_max_desperation_move:
+    - name: "Kin Sen-Ni-Hyaku-Ju-Hachi Shiki: Yatagarasu"
+      input: Quarter-circle forward x 2, LK + HK

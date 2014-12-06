@@ -1,52 +1,52 @@
 - character: EX Iori
 
-  normal_throws:
+  normal_throw:
     - name: Sakahagi
-      input: (near opponent) forward or back, HP or HK
+      input: Forward or back + HP or HK
 
-  command_moves:
-    - name: Ge-shiki: Yumebiki
-      input: forward, LP, LP
-	  
-    - name: Ge-shiki: Yuriori
-      input: (in air) back, LK
+  command_normal:
+    - name: "Ge-shiki: Yumebiki"
+      input: Forward + LP, LP
 
-    - name: Ge-shiki: Gofu In "Shinigami"
-      input: forward, LK
+    - name: "Ge-shiki: Yuriori"
+      input: (in air) Back + LK
 
-	  
-  special_moves:
-    - name: Hyaku Shiki: Oniyaki
-      input: forward, down, down-forward, LP or HP
-      note: ["EX Available"]
+    - name: "Ge-shiki: Gofu In Shinigami"
+      input: Forward + LK
 
-    - name: Ni-Hyaku-Ju-Ni Shiki: Kototsuki In
-      input: half-circle back, LK or HK
-      note: ["EX Available"]
-      
-    - name: Hyaku-Ni-Ju-Nana Shiki: Aoibana
-      input: quarter-circle back, LP or HP
-      note: ["EX Available, can be performed 3 times"]
+
+  special_move:
+    - name: "Hyaku Shiki: Oniyaki"
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+    - name: "Ni-Hyaku-Ju-Ni Shiki: Kototsuki In"
+      input: Half-circle back, kick
+      note: ["EX"]
+
+    - name: "Hyaku-Ni-Ju-Nana Shiki: Aoibana"
+      input: Quarter-circle back, punch
+      note: ["EX", "Can be performed three times in sequence"]
 
     - name: Kuzukaze
-      input: half-circle back, forward, LP or HP
-      note: ["EX Available"]
+      input: Half-circle back, forward + punch
+      note: ["EX"]
 
-    - name: Hyaku-Hachi Shiki: Yamibarai
-      input: quarter-circle forward, LP or HP
-      note: ["EX Available"]	  
-	  
-  super_special_moves:
-    - name: Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome
-      input: quarter-circle forward, half-circle back, LP or HP
-      note: ["EX Available"]
-	  
-    - name: Ura San-Byaku-Ju-Roku Shiki: Saika
-      input: during Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome > quarter-circle forward x 4, LP + HP
-	  
-    - name: Ura Sen-Ni-Hyaku-Nana Shiki: Yamisogi
-      input: quarter-circle forward x 2, LP or HP
-	  
-  neo_max_super_special_moves:
-    - name: Ura Sen-Ni-Ju-ku Shiki: Homurahotogi
-      input: quarter-circle back, half-circle forward, LP + HP
+    - name: "Hyaku-Hachi Shiki: Yamibarai"
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
+  desperation_move:
+    - name: "Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome"
+      input: Quarter-circle forward, half-circle back, punch
+      note: ["EX"]
+
+    - name: "Ura San-Byaku-Ju-Roku Shiki: Saika"
+      input: "During Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome > quarter-circle forward x 4, LP + HP"
+
+    - name: "Ura Sen-Ni-Hyaku-Nana Shiki: Yamisogi"
+      input: Quarter-circle forward x 2, punch
+
+  neo_max_desperation_move:
+    - name: "Ura Sen-Ni-Ju-ku Shiki: Homurahotogi"
+      input: Quarter-circle back, half-circle forward, LP + HP
