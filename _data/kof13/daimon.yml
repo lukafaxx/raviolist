@@ -1,0 +1,45 @@
+- character: Daimon
+
+  normal_throws:
+    - name: Okuri Ashibarai
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Zujou-Barai
+      input: down-forward, HP
+	  
+  special_moves:
+    - name: Tenchi-Gaeshi
+      input: half-circle back, forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Kumo-Tsukami Nage
+      input: half-circle forward, LP
+      note: ["EX Available"]
+      
+    - name: Kirikabu-Gaeshi
+      input: half-circle forward, HP
+
+    - name: Jiraishin
+      input: forward, down, down-forward, LP
+      note: ["EX Available"]
+
+    - name: Jiraishin (Feint)
+      input: forward, down, down-forward, HP
+	  
+    - name: Chou Ukemi
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Chou Oosoto-Gari
+      input: forward, down, down-forward, LK or HK
+      note: ["EX Available"]	
+	  
+  super_special_moves:
+    - name: Jigoku Gokuraku-Otoshi
+      input: half-circle back x 2, LP or HP
+      note: ["EX Available"]
+	  
+  neo_max_super_special_moves:
+    - name: Kyoutendouchi
+      input: quarter-circle forward x 2, LP + HP

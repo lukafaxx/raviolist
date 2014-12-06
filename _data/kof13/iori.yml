@@ -1,0 +1,41 @@
+- character: Iori
+
+  normal_throws:
+    - name: Sakahagi
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Ge-shiki: Yumebiki
+      input: forward, LP, LP
+	  
+    - name: Ge-shiki: Kui
+      input: down-forward, HP
+
+    - name: Ge-shiki: Yuri-Ori
+      input: (in air) back, LK
+	  
+  special_moves:
+    - name: Hyaku-Yon Shiki: Nue-Uchi
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Yon-Hyaku-Ichi Shiki: Shougetsu
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+      
+    - name: Hyaku-Ju-Kyu Shiki: Akegarasu
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Ni-Hyaku-San Shiki: Tsuchi Tsubaki
+      input: half-circle forward, LP or HP
+      note: ["EX Available"]
+	  
+  super_special_moves:
+    - name: Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome
+      input: quarter-circle forward, half-circle back, LP or HP
+      note: ["EX Available"]
+	  
+  neo_max_super_special_moves:
+    - name: Kin Sen-Ni-Hyaku-Ju-Hachi Shiki: Yatagarasu
+      input: quarter-circle forward x 2, LK + HK

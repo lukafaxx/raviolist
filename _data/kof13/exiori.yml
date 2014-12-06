@@ -1,0 +1,52 @@
+- character: EX Iori
+
+  normal_throws:
+    - name: Sakahagi
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Ge-shiki: Yumebiki
+      input: forward, LP, LP
+	  
+    - name: Ge-shiki: Yuriori
+      input: (in air) back, LK
+
+    - name: Ge-shiki: Gofu In "Shinigami"
+      input: forward, LK
+
+	  
+  special_moves:
+    - name: Hyaku Shiki: Oniyaki
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Ni-Hyaku-Ju-Ni Shiki: Kototsuki In
+      input: half-circle back, LK or HK
+      note: ["EX Available"]
+      
+    - name: Hyaku-Ni-Ju-Nana Shiki: Aoibana
+      input: quarter-circle back, LP or HP
+      note: ["EX Available, can be performed 3 times"]
+
+    - name: Kuzukaze
+      input: half-circle back, forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Hyaku-Hachi Shiki: Yamibarai
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]	  
+	  
+  super_special_moves:
+    - name: Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome
+      input: quarter-circle forward, half-circle back, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Ura San-Byaku-Ju-Roku Shiki: Saika
+      input: during Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome > quarter-circle forward x 4, LP + HP
+	  
+    - name: Ura Sen-Ni-Hyaku-Nana Shiki: Yamisogi
+      input: quarter-circle forward x 2, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Ura Sen-Ni-Ju-ku Shiki: Homurahotogi
+      input: quarter-circle back, half-circle forward, LP + HP

@@ -1,0 +1,52 @@
+- character: Hwa
+
+  normal_throws:
+    - name: Kubizumou ~ Hiza Jigoku
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Sliding
+      input: down-forward, LK
+	  
+  special_moves:
+    - name: Dragon Kick
+      input: forward, down, down-forward, LK or HK
+      note: ["EX Available"]
+
+    - name: EX Dragon Kick (Follow Up)
+      input: during Dragon Kick (EX) > up-back or back or down-back or up-forward or forward or down-forward, LK or HK
+      note: ["Can be performed twice"]
+      
+    - name: Air Dragon Kick
+      input: (in air) forward, down, down-forward, LK or HK
+      note: ["EX Available"]
+
+    - name: EX Air Dragon Kick (Follow Up)
+      input: during Air Dragon Kick (EX) > up-back or back or down-back or up-forward or forward or down-forward, LK or HK
+      note: ["Can be performed twice"]
+
+    - name: Dragon Tail
+      input: quarter-circle back, LK or HK
+      note: ["EX Available, also in air"]
+	  
+    - name: Bakuretsuken
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Bakuretsu Finish
+      input: during Bakuretsuken > quarter-circle forward, LP or HP
+	  
+  super_special_moves:
+    - name: Dragon Dance
+      input: quarter-circle forward x 2, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Dragon Back Breaker
+      input: quarter-circle forward, half-circle back, LP or HP
+	  
+    - name: Drinking
+      input: quarter-circle back x 2, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Final Dragon Kick
+      input: quarter-circle forward, half-circle back, LK + HK

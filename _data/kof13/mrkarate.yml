@@ -1,0 +1,58 @@
+- character: Mr. Karate
+
+  normal_throws:
+    - name: Ippon Seoi
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Seiken Sandan Tsuki
+      input: forward, LP
+	  
+    - name: Sokutou-Geri
+      input: forward, LK
+
+  special_moves:
+    - name: Kohoh
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Kohou(Brake)
+      input: during Kohoh (HP) > LP + LK
+      
+    - name: Shouran Kyaku
+      input: half-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Hakyokujin
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: Zanretuken
+      input: forward, back, forward, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Hien Shippuu Kyaku
+      input: (in air) half-circle forward, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Ko-Ou Ken
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Kokyaku
+      input: during Ko-Ou Ken (HP) > forward, forward
+	  
+  super_special_moves:
+    - name: Haoh Shikou Ken
+      input: forward, half-circle forward, LP or HP
+	  
+    - name: Ryuuko Ranbu
+      input: quarter-circle forward, half-circle back, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Kyokugen Kohou
+      input: quarter-circle forward x 2, LK or HK
+	  
+  neo_max_super_special_moves:
+    - name: Kishin Sanga Geki
+      input: quarter-circle back, half-circle forward, LP + HP

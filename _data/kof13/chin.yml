@@ -1,0 +1,64 @@
+- character: Chin
+
+  normal_throws:
+    - name: Hougeki
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Zabantetsu
+      input: down, down, LP or HP
+	  
+    - name: Choukarou
+      input: down, down, LK or HK
+
+    - name: Choukarou (Cancel)
+      input: during Choukarou, LK + HK
+	  
+    - name: Distant HK ~ Choukarou
+      input: far HK, hold HK
+	  
+    - name: Uron Kouchuu
+      input: down-forward, HK
+	  
+    - name: Uron Kouchuu (Feint)
+      input: during Uron Kouchuu > hold HK
+	  
+  special_moves:
+    - name: Suiho
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Getsuga Chougeki
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+      
+    - name: Nikikyaku
+      input: down-forward, LK, LK
+      note: ["EX Available"]
+
+    - name: Getsuga Soushu
+      input: during Zabantetsu > LP or HP
+      note: ["EX Available"]
+
+    - name: Hougeki
+      input: during Zabantetsu or Choukarou > forward or back, HP
+	  
+    - name: Drinking
+      input: back, down, down-back, LP or HP
+	  
+    - name: Kaitenteki Kuutotsu Ken
+      input: half-circle forward, LK or HK
+      note: ["EX Available"]
+	  
+  super_special_moves:
+    - name: Toukuu Hiten Hou
+      input: quarter-circle forward x 2, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Tetsuzankou
+      input: during Drinking > quarter-circle back, half-circle forward, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Suisou: Gouran Ennhou
+      input: quarter-circle forward x 2, LK + HK
+      note: ["Also in air"]

@@ -1,0 +1,52 @@
+- character: Saiki
+
+  normal_throws:
+    - name: Sha
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: In
+      input: (in air) forward, LK
+	  
+    - name: Hatsu
+      input: (in air) back, LK
+	  
+  special_moves:
+    - name: Kiyoku-no-Tsuki
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Hanetsurube-no-Nata
+      input: forward, down, down-forward, LK or HK
+      note: ["EX Available"]
+      
+    - name: Kasahazushi-no-Tsuchi
+      input: during Hanetsurube-no-Nata (HK or EX) > hold LP or LK or HP or HK
+
+    - name: Hiori-no-Kusabi
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Ura Shichiri
+      input: during Hiori-no-Kusabi (HK or EX) > hold LP or LK or HP or HK
+	  
+    - name: Shichiri-Gake
+      input: down, down, LP or LK or HP or HK
+	  
+  super_special_moves:
+    - name: Washiba Otoshi
+      input: quarter-circle forward x 2, LK or HK
+	  
+    - name: Yami Otoshi
+      input: (in air) quarter-circle forward x 2, LK or HK
+	  
+    - name: Toyokami-no-Fune
+      input: quarter-circle forward x 2, LP or HP
+	  
+    - name: Kyoryuu-no-Ori
+      input: half-circle back x 2, LP or HP
+      note: ["EX Available"]
+	  
+  neo_max_super_special_moves:
+    - name: Kasumi
+      input: quarter-circle back, half-circle forward, LP + HP

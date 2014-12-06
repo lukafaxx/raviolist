@@ -1,0 +1,47 @@
+- character: Duo Lon
+
+  normal_throws:
+    - name: Suishu: Shoukoh
+      input: (near opponent) forward or back, HP or HK
+
+  special_moves:
+    - name: Genmuken
+      input: forward, LP
+      note: ["EX Available"]
+
+    - name: Air Genmuken
+      input: (in air) forward, LP
+      note: ["EX Available"]
+      
+    - name: Genmukyaku
+      input: forward, LK
+      note: ["EX Available"]
+
+    - name: Air Genmukyaku
+      input: (in air) forward, LK
+      note: ["EX Available"]
+
+    - name: Himoukyaku: Zen
+      input: quarter-circle forward, LK or HK
+      note: ["EX Available"]	  
+	  
+    - name: Himoukyaku: Go
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Shaki Juuryuu
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available, can be repeated 3 times"]
+	  
+    - name: Juon Shikon
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+	  
+  super_special_moves:
+    - name: Hiden: Genmu Bakkou Shikon
+      input: quarter-circle back, half-circle forward, LP or HP
+      note: ["EX Available"]
+	  
+  neo_max_super_special_moves:
+    - name: Hiden: Genmu Juon Shikon Sou
+      input: half-circle back x 2, LP + HP

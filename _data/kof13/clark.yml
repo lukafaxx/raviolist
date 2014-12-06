@@ -1,0 +1,43 @@
+- character: Clark
+
+  normal_throws:
+    - name: Death Mountain Buster
+      input: (near opponent) forward or back, HP or HK
+	  
+    - name: Death Lake Driver
+      input: (near opponent, in air) forward or back, HP
+
+  command_moves:
+    - name: Jet Upper
+      input: down-forward, LP
+	  
+    - name: Step
+      input: forward, LK + HK
+
+  special_moves:
+    - name: Super Argentine Backbreaker
+      input: half-circle forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Flashing Elbow
+      input: during Super Argentine Backbreaker > quarter-circle forward, LP or HP
+      
+    - name: Vulcan Punch
+      input: press LP or HP repeatedly
+      note: ["EX Available"]
+
+    - name: Gatling Attack
+      input: charge back, then forward, LP or HP
+      note: ["EX Available"]
+
+    - name: (Derivation) Death Lake Driver
+      input: during Gatling Attack (HP or EX) > forward, down, down-forward, LP or HP
+	  
+  super_special_moves:
+    - name: Ultra Argentine Backbreaker
+      input: half-circle back x 2, LP or HP
+      note: ["EX Available"]
+	  
+  neo_max_super_special_moves:
+    - name: Ultra Clark Buster
+      input: half-circle back x 2, LK + HK

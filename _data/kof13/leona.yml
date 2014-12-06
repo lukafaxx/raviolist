@@ -1,0 +1,42 @@
+- character: Leona
+
+  normal_throws:
+    - name: Leona Crash
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Strike Arch
+      input: forward, LK
+	  
+  special_moves:
+    - name: Baltic Launcher
+      input: charge back, then forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Moon Slasher
+      input: charge down, then up, LP or HP
+      note: ["EX Available"]
+      
+    - name: Earring Bomb
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Grand Saber
+      input: charge back, then forward, LK or HK
+      note: ["EX Available"]
+
+    - name: X-Calibur
+      input: (in air) quarter-circle back, LP or HP
+      note: ["EX Available"]	  
+	  
+  super_special_moves:
+    - name: V-Slasher
+      input: (in air) quarter-circle forward, half-circle back, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Slash Saber
+      input: quarter-circle back, half-circle forward, LK or HK
+	  
+  neo_max_super_special_moves:
+    - name: Leona Blade
+      input: quarter-circle back, half-circle forward, LP + HP

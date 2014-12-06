@@ -1,0 +1,47 @@
+- character: Ash
+
+  normal_throws:
+    - name: Récompenses 
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Floréal
+      input: back, LK
+	  
+    - name: Floréal (back)
+      input: back, HK
+	  
+  special_moves:
+    - name: Ventôse
+      input: charge back, then forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Nivôse
+      input: charge down, then up, LK or HK
+      note: ["EX Available"]
+      
+    - name: Génie
+      input: quarter-circle back, LP or LK or HP or HK
+      note: ["EX Available"]
+
+    - name: Germinal Caprice
+      input: charge back, then forward, LK or HK
+      note: ["EX Available"]
+
+  super_special_moves:
+    - name: Thermidor
+      input: quarter-circle forward x 2, LP or HP
+	  
+    - name: Pluviôse
+      input: quarter-circle forward x 2, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Sans-Culotte
+      input: LP, LK, HP, HK
+	  
+    - name: Germinal
+      input: during Sans-Culotte > quarter-circle back, half-circle forward, LP + HP
+	  
+  neo_max_super_special_moves:
+    - name: Fructidor
+      input: half-circle back x 2, LK + HK

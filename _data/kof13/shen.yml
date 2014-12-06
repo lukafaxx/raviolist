@@ -1,0 +1,51 @@
+- character: Shen
+
+  normal_throws:
+    - name: Kokakugeki
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Fusenkyaku
+      input: forward, LK
+	  
+  special_moves:
+    - name: Gekiken
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Gekiken (Charge)
+      input: quarter-circle forward, HP
+      note: ["Hold for at least 4 seconds, can release early"]
+      
+    - name: Gekiken (Feint)
+      input: during Gekiken (HP) > LK or HK
+
+    - name: Fukkogeki
+      input: quarter-circle back, LP
+      note: ["EX Available"]
+
+    - name: Kouryuugeki
+      input: during Fukkogeki > quarter-circle forward, LP
+
+    - name: Tenrenken
+      input: quarter-circle forward, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Danken
+      input: half-circle back, forward, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Danken (Repel)
+      input: quarter-circle back, HP
+	  
+  super_special_moves:
+    - name: Zetsu: Gekiken
+      input: quarter-circle forward x 2, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Bakushin
+      input: HP, LP, LK, HP
+	  
+  neo_max_super_special_moves:
+    - name: Tenshou Bakushingeki
+      input: quarter-circle forward, half-circle back, LP + HP

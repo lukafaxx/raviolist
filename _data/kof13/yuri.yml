@@ -1,0 +1,69 @@
+- character: Yuri
+
+  normal_throws:
+    - name: Oni Harite
+      input: (near opponent) forward or back, HP or HK
+	  
+    - name: Tsubame Otoshi
+      input: (near opponent, in air) forward or back, HP
+
+  command_moves:
+    - name: Yuri Raijin Kyaku
+      input: (in air) down-forward, LK
+	  
+    - name: Enyoku
+      input: forward, LP
+
+  special_moves:
+    - name: Saiha
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: Ko-Ou Ken
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+      
+    - name: Hyakuretsu Binta
+      input: half-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Kuuga (Yuri Chou Upper)
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Raiou Ken
+      input: quarter-circle forward, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Air Raiou Ken
+      input: (in air) quarter-circle forward, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Houyoku
+      input: forward, down, down-forward, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Hien Souha
+      input: during Houyoku > LP or HP
+	  
+    - name: Yuri Raijin Kyaku
+      input: during Houyoku > LK or HK
+	  
+    - name: Tsubame Otoshi
+      input: during Houyoku > LP + HP
+	  
+    - name: Air Raiou Ken
+      input: during Houyoku > quarter-circle forward, LK or HK
+	  
+  super_special_moves:
+    - name: Haoh Shoukou Ken
+      input: forward, half-circle forward, LP or HP
+	  
+    - name: Hien Houou Kyaku
+      input: quarter-circle forward, half-circle back, LK or HK
+      note: ["EX Available"]
+	  
+  neo_max_super_special_moves:
+    - name: Haoh Raiou Ken
+      input: quarter-circle back x 2, LP + HP
+      note: ["Also in air"]

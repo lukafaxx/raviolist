@@ -1,0 +1,39 @@
+- character: King
+
+  normal_throws:
+    - name: Hook Buster
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Sliding
+      input: down-forward, HK
+	  
+  special_moves:
+    - name: Venom Strike
+      input: quarter-circle forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Air Venom Strike
+      input: (in air) quarter-circle forward, LK or HK
+      note: ["EX Available"]
+      
+    - name: Trap Shot
+      input: forward, down, down-forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Tornado Kick '95
+      input: half-circle back, LK or HK
+      note: ["EX Available"]
+
+  super_special_moves:
+    - name: Surprise Rose
+      input: quarter-circle forward x 2, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Double Strike
+      input: quarter-circle forward x 2, LK or HK
+	  
+  neo_max_super_special_moves:
+    - name: Venom Shot
+      input: quarter-circle back x 2, LK + HK
+      note: ["Also in air"]

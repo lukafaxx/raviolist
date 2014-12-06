@@ -1,0 +1,45 @@
+- character: Ryo
+
+  normal_throws:
+    - name: Tomoe Nage
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Hyouchuu Wari
+      input: forward, LP
+	  
+    - name: Jyoudan Uke
+      input: forward, LK
+
+    - name: Gedan Uke
+      input: down-forward, LK
+
+	  
+  special_moves:
+    - name: Kohou
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Ko-Ou Ken
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+      
+    - name: Hien Shippuu Kyaku
+      input: half-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Zanretsuken
+      input: forward, back, forward, LP or HP
+      note: ["EX Available"]
+	  
+  super_special_moves:
+    - name: Haoh Shoukou Ken
+      input: forward, half-circle forward, LP or HP
+
+    - name: Ryuuko Ranbu
+      input: quarter-circle forward, half-circle back, LP or HP
+      note: ["EX Available"]
+	  
+  neo_max_super_special_moves:
+    - name: Shin: Tenchi Haoh Ken
+      input: quarter-circle forward x 2, LP + HP

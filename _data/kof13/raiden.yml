@@ -1,0 +1,41 @@
+- character: Raiden
+
+  normal_throws:
+    - name: Neck Hanging
+      input: (near opponent) forward or back, HP or HK
+	  
+  special_moves:
+    - name: Giant Bomb
+      input: charge down-back, then forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Giant Bomb (Feint)
+      input: during Giant Bomb > LP + LK
+      
+    - name: Dokugiri
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: Raiden Bomb
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Head Crush
+      input: half-circle forward, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Super Dropkick
+      input: charge and release LK or HK
+      note: ["Charge for at least 4 seconds"]
+	  
+  super_special_moves:
+    - name: Super Raiden Drop
+      input: half-circle back x 2, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Crazy Train
+      input: quarter-circle forward x 2, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Raiden Bomber
+      input: quarter-circle forward x 2, LK + HK

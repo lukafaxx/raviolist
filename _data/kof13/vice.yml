@@ -1,0 +1,41 @@
+- character: Vice
+
+  normal_throws:
+    - name: Death Blow
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Dokken
+      input: forward, LP
+	  
+  special_moves:
+    - name: Deicide
+      input: half-circle forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Gorefest
+      input: half-circle back, forward, LP or HP
+      note: ["EX Available"]
+      
+    - name: Splash
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Mayhem
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: (Derivation) Splash
+      input: during Mayhem > quarter-circle forward, LP or HP
+	  
+  super_special_moves:
+    - name: Negative Gain
+      input: half-circle back x 2, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Overkill
+      input: (in air) down-back, quarter-circle forward, up-forward, up, down, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Awaking Blood
+      input: quarter-circle back, half-circle forward, LP + HP
