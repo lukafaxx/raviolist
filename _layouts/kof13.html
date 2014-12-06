@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<div class="page">
+
+  {% assign mainchicken = page.permalink | remove_first: '/kof13/' | remove: '/' %}
+  {% for chara in site.data.kof13[mainchicken] %}
+
+  <h1 class="page-title">{{ chara.character }}</h1>
+  <span class="from_game">The King of Fighters XIII</span>
+
+  <h2 class="move_cat"><span>Special Move</span></h2>
+  {% for special in chara.special_move %}
+  <p class="move">
+    <span class="move_name">{{ special.name }}</span><br />
+    <span class="move_input">{{ special.input }}</span><br />
+    <span class="move_note">{{ special.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Desperation Move</span></h2>
+  {% for super in chara.desperation_move %}
+  <p class="move">
+    <span class="move_name">{{ super.name }}</span><br />
+    <span class="move_input">{{ super.input }}</span><br />
+    <span class="move_note">{{ super.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Neo Max Desperation Move</span></h2>
+  {% for neo in chara.neo_max_desperation_move %}
+  <p class="move">
+    <span class="move_name">{{ neo.name }}</span><br />
+    <span class="move_input">{{ neo.input }}</span><br />
+    <span class="move_note">{{ neo.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Normal Throw</span></h2>
+  {% for throw in chara.normal_throw %}
+  <p class="move">
+    <span class="move_name">{{ throw.name }}</span><br />
+    <span class="move_input">{{ throw.input }}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Command Normal</span></h2>
+  {% if chara.command_normal == null %}
+  <p>This character has no command normal.</p>
+  {% endif %}
+  {% for command in chara.command_normal %}
+  <p class="move">
+    <span class="move_name">{{ command.name }}</span><br />
+    <span class="move_input">{{ command.input }}</span><br />
+    <span class="move_note">{{ command.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+
+  {% endfor %}
+
+</div>

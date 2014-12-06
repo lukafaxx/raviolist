@@ -9,7 +9,8 @@ layout: page
 
 {% for char in gamechar %}
   {% if char.status != 'todo' %}
-    <a class="roster-item" href="{{ site.baseurl }}/{{ game }}/{{ char.name | downcase | remove: '.' | remove: '-' | remove: ' ' }}/">{{ char.name }}</a>
+    {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
+    <a class="roster-item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}</a>
   {% else %}
     <span class="roster-item todo">{{ char.name }}<a href="{{ site.baseurl }}/contribute/">contribute</a></span>
   {% endif %}
