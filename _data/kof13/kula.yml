@@ -1,0 +1,47 @@
+- character: Kula
+
+  normal_throws:
+    - name: Ice Coffin
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: One Inch
+      input: forward, LP
+	  
+    - name: Slider Shoot
+      input: down-forward, LK
+
+  special_moves:
+    - name: Crow Bite
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Diamond Breath
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+      
+    - name: Counter Shell
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: Lay Spin
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Lay Spin(Stand)
+      input: during Lay Spin > forward, LK
+	  
+    - name: Lay Spin(Sit)
+      input: during Lay Spin > forward, HK
+	  
+  super_special_moves:
+    - name: Diamond Edge
+      input: quarter-circle forward x 2, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Freeze Execution
+      input: half-circle back x 2, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Neo: Freeze Execution
+      input: half-circle back x 2, LK + HK

@@ -1,0 +1,42 @@
+- character: Terry
+
+  normal_throws:
+    - name: Buster Throw
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Rising Upper
+      input: down-forward, HP
+	  
+    - name: Back Knuckle
+      input: forward, LP
+	  
+  special_moves:
+    - name: Power Wave
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Burning Knuckle
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+      
+    - name: Crack Shoot
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Rising Tackle
+      input: charge down, then up, LP or HP
+      note: ["EX Available"]
+
+  super_special_moves:
+    - name: Power Geyser
+      input: quarter-circle back, down-back, forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Buster Wolf
+      input: quarter-circle forward x 2, LK or HK
+      note: ["EX Available"]
+	  
+  neo_max_super_special_moves:
+    - name: Trinity Geyser
+      input: quarter-circle forward x 2, LP + HP

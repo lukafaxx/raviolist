@@ -1,0 +1,55 @@
+- character: Benimaru
+
+  normal_throws:
+    - name: Catch and Shoot
+      input: (near opponent) forward or back, HP or HK
+	  
+    - name: Spinning Knee Drop
+      input: (near opponent, in air) forward or back, HP
+
+  command_moves:
+    - name: Jackknife Kick
+      input: forward, LK
+
+    - name: Flying Drill
+      input: (in air) down, HK
+
+  special_moves:
+    - name: Iai-Geri
+      input: quarter-circle forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Handou Sandan-Geri
+      input: during Iai-Geri > down, up, LK or HK
+      
+    - name: Super Inazuma Kick
+      input: forward, down, down-forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Benimaru Lancer
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: Raijinken
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]	  
+
+    - name: Air Raijinken
+      input:(in air) quarter-circle forward, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Benimaru Colider
+      input: half-circle back, forward, LP or HP
+      note: ["EX Available"]
+	  
+  super_special_moves:
+    - name: Rai-Kou Ken
+      input: quarter-circle forward x 2, LP or HP
+      note: ["EX Available"]
+
+    - name: Benimaru Rolling Thunder
+      input: quarter-circle back x 2, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Rai-Kouken
+      input: quarter-circle forward x 2, LK + HK

@@ -1,0 +1,42 @@
+- character: Ralf
+
+  normal_throws:
+    - name: Dynamite Head Butt
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Jet Upper
+      input: down-forward, LP
+	  
+  special_moves:
+    - name: Burning Hammer
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Dynamite Ralf Punch
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+      
+    - name: Vulcan Punch
+      input: press LP or HP repeatedly
+      note: ["EX Available"]
+
+    - name: Dive Bomber Punch
+      input: (in air) quarter-circle forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Gatling Attack
+      input: charge back, then forward, LP or HP
+      note: ["EX Available"]	  
+	  
+  super_special_moves:
+    - name: Galactica Phantom
+      input: quarter-circle forward x 2, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Bareback Vulcan Punch
+      input: quarter-circle back, half-circle forward, LK or HK
+	  
+  neo_max_super_special_moves:
+    - name: Jet: Vulcan Punch
+      input: half-circle back x 2, LP + HP

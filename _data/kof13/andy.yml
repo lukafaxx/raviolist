@@ -1,0 +1,42 @@
+- character: Andy
+
+  normal_throws:
+    - name: Kakaekomi Nago
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Hirate Uchi
+      input: forward, LP
+	  
+  special_moves:
+    - name: Zan-ei Ken
+      input: down-back, forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Kuuha Dan
+      input: half-circle forward, LK or HK
+      note: ["EX Available"]
+      
+    - name: Kuuha Dan (Brake)
+      input: during Kuuha Dan > LK + HK
+
+    - name: Hishou Ken
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: Shouryuu Dan
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]	  
+	  
+  super_special_moves:
+    - name: Chou Reppa Dan
+      input: quarter-circle back, half-circle forward, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Zetsu: Hishou Ken
+      input: quarter-circle forward, half-circle back, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Chou Shin Soku Zan-ei Ken
+      input: quarter-circle back, half-circle forward, LP + HP
+      note: ["Also in air"]

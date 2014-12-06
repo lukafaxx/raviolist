@@ -1,0 +1,46 @@
+- character:
+
+  normal_throws:
+    - name: Maniêre
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Un Coup De Pied
+      input: forward, LK
+	  
+  special_moves:
+    - name: Étincelles
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Rêverie-Souhaiter
+      input: quarter-circle forward, LK or HK
+      note: ["EX Available"]
+      
+    - name: Rêverie-Prier
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Rêverie-Geler
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: Mistral
+      input: half-circle back, forward, LP or HP
+      note: ["EX Available"]	  
+
+    - name: Coup De Vent
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]
+	  
+  super_special_moves:
+    - name: Noble-Blanche
+      input: quarter-circle forward x 2, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Grand Rafale
+      input: quarter-circle forward, half-circle back, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Étoile Filante
+      input: quarter-circle back, half-circle forward, LK + HK

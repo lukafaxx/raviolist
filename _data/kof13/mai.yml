@@ -1,0 +1,48 @@
+- character: Mai
+
+  normal_throws:
+    - name: Fuusha Kuzushi
+      input: (near opponent) forward or back, HP or HK
+	  
+    - name: Yume-Zakura
+      input: (near opponent, in air) forward or back, HP
+
+  command_moves:
+    - name: Ukihane
+      input: (in air) down, LK
+	  
+    - name: Sankakutobi
+      input: (in air, near wall) up-forward
+
+  special_moves:
+    - name: Ryuuenbu
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: Kachousen
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available"]
+      
+    - name: Hissatsu Shinobi-Bachi
+      input: half-circle forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Musasabi no Mai
+      input: charge down, then up, hold LP or hold HP
+
+    - name: Musasabi no Mai (Feint)
+      input: charge down, then up, LP or HP
+
+    - name: Musasabi no Mai (Air)
+      input: (in air) quarter-circle back, LP or HP
+      note: ["EX Available"]
+	  
+  super_special_moves:
+    - name: Chou Hissatsu Shinobi-Bachi
+      input: quarter-circle back, half-circle forward, LK or HK
+      note: ["EX Available, Also in air"]
+	  
+  neo_max_super_special_moves:
+    - name: Shiranui-Ryuu: Kunoichi-No-Mai
+      input: quarter-circle forward, half-circle back, LP + HP
+      note: ["Also in air"]

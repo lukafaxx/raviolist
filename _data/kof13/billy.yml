@@ -1,0 +1,44 @@
+- character: Billy
+
+  normal_throws:
+    - name: Jigoku Otoshi
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Dai Kaiten-Geri
+      input: forward, LP
+	  
+    - name: Sao Uchi
+      input: back, LP
+
+    - name: Boutakatobi-Geri
+      input: forward, LK
+	  
+  special_moves:
+    - name: Sansetsu Kon Chuudan Uchi
+      input: half-circle forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Kaen Sansetsu Kon Chuudan Uchi
+      input: during Sansetsu Kon Chuudan Uchi (HP or EX) > quarter-circle forward, LP or HP
+      
+    - name: Senpuu Kon
+      input: press LP or HP repeatedly
+      note: ["EX Available"]
+
+    - name: Suzume Otoshi
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: Kyoushuu Hishou Kon
+      input: forward, down, down-forward, LK or HK
+      note: ["EX Available"]	  
+	  
+  super_special_moves:
+    - name: Chou Kaen Senpuu Kon
+      input: quarter-circle forward, half-circle back, LP or HP
+      note: ["EX Available"]
+	  
+  neo_max_super_special_moves:
+    - name: Dai Guren Rasen Kon
+      input: quarter-circle forward x 2, LP + HP

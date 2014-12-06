@@ -1,0 +1,48 @@
+- character: Joe
+
+  normal_throws:
+    - name: Kubizumou Hiza-Jigoku
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Step-in Middle Kick
+      input: forward, LK
+	  
+    - name: Sliding
+      input: down-forward, LK
+
+  special_moves:
+    - name: Hurricane Upper
+      input: half-circle forward, LP or HP
+      note: ["EX Available"]
+
+    - name: Tiger Kick
+      input: forward, down, down-forward, LK or HK
+      note: ["EX Available"]
+      
+    - name: Slash Kick
+      input: half-circle forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Bakuretsuken
+      input: Press LP or HP repeatedly
+      note: ["EX Available"]
+
+    - name: Bakuretsu Finish
+      input: during Bakuretsuken > quarter-circle back, LP or HP
+	  
+    - name: Ougon no Kakato
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+	  
+  super_special_moves:
+    - name: Screw Upper
+      input: quarter-circle forward x 2, LP or HP
+      note: ["EX Available"]
+
+    - name: Bakuretsu Hurricane Tiger Kakato
+      input: quarter-circle forward, half-circle back, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Screw Straight
+      input: quarter-circle forward x 2, LK + HK

@@ -1,0 +1,48 @@
+- character: Kim
+
+  normal_throws:
+    - name: Sakkyaku Nage
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Naeryo Chagi
+      input: forward, LK
+	  
+    - name: Twio Yop Chagi
+      input: forward, forward, LP
+
+  special_moves:
+    - name: Hangetsuzan
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Air Hangetsuzan
+      input: (in air) quarter-circle back, LK or HK
+      note: ["EX Available"]
+      
+    - name: Hishou Kyaku
+      input: (in air) quarter-circle forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Hienzan
+      input: charge down, then up, LK or HK
+      note: ["EX Available"]
+
+    - name: Hienzan (Follow Up)
+      input: during Hienzan (HK) > down, HK
+	  
+  super_special_moves:
+    - name: Houou Kyaku
+      input: quarter-circle back, down-back, forward, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Air Houou Kyaku
+      input: (in air) quarter-circle back, down-back, forward, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Houou Hiten Kyaku
+      input: quarter-circle forward x 2, LK or HK
+	  
+  neo_max_super_special_moves:
+    - name: Zero-Shiki Houou Kyaku
+      input: quarter-circle back, down-back, forward, LP + HP

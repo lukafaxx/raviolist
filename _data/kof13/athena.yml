@@ -1,0 +1,49 @@
+- character: Athena
+
+  normal_throws:
+    - name: Psychic Attack
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Phoenix Bomb
+      input: forward, LK
+	  
+    - name: Phoenix Bomb(air)
+      input: (in air) forward, LK
+
+  special_moves:
+    - name: Psycho Ball Attack
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: Psycho Sword
+      input: forward, down, down-forward, LP or HP
+      note: ["EX Available"]
+      
+    - name: Psycho Reflector
+      input: quarter-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Phoenix Arrow
+      input: (in air) quarter-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Psychic Teleport
+      input: quarter-circle forward, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Super Psychic Throw
+      input: half-circle forward, LP or HP
+      note: ["EX Available"]
+	  
+  super_special_moves:
+    - name: Shining Crystal Bit
+      input: half-circle back x 2, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Shining Crystal Bit(Air)
+      input: (in air) half-circle back x 2, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Psycho Medley 13
+      input: half-circle back, forward, LP + HP

@@ -1,0 +1,38 @@
+- character: Maxima
+
+  normal_throws:
+    - name: Dynamite Drop
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: M-9 Maxima Missile(Prototype)
+      input: down-forward, HP
+
+  special_moves:
+    - name: M-4 Vapor Cannon
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+
+    - name: M-4 Vapor Cannon(Air)
+      input: (in air) quarter-circle back, LP or HP
+      note: ["EX Available"]
+      
+    - name: M-19 Blitz Cannon
+      input: forward, down, down-forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Maxima Press
+      input: half-circle back, LK or HK
+      note: ["EX Available"]
+
+    - name: Maxima Press (Follow Up)
+      input: during Maxima Press > quarter-circle back, LP or HP
+	  
+  super_special_moves:
+    - name: Double Vapor Cannon
+      input: quarter-circle forward x 2, LP or HP
+      note: ["EX Available"]
+	  
+  neo_max_super_special_moves:
+    - name: Maxima Laser
+      input: half-circle back x 2, LP + HP

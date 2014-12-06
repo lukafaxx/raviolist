@@ -1,0 +1,52 @@
+- character: Kensou
+
+  normal_throws:
+    - name: Ryuu Hosui
+      input: (near opponent) forward or back, HP or HK
+
+  command_moves:
+    - name: Backflip
+      input: LK + HK
+	  
+  special_moves:
+    - name: Ryuu Touda
+      input: quarter-circle forward, LP or HP
+      note: ["EX Available, EX can be repeated up to 4 times"]
+
+    - name: Rintesshou
+      input: during Ryuu Touda > quarter-circle forward, LP or HP
+      
+    - name: (Derivation) Shikkuu Zanryuu Kyaku
+      input: during Rintesshou > quarter-circle forward, LK or HK
+
+    - name: Shikkuu Zanryuu Kyaku
+      input: quarter-circle forward, LK or HK
+      note: ["EX Available"]
+
+    - name: Ryuu Bokko
+      input: forward, down, down-forward, press LP or HP repeatedly
+      note: ["EX Available"]
+	  
+    - name: Ryuugaku-Sai
+      input: back, down, down-back, LK or HK
+      note: ["EX Available"]
+	  
+    - name: Ryuusou-Geki
+      input: (in air) quarter-circle back, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Choukyuudan
+      input: quarter-circle back, LP or HP
+      note: ["EX Available"]
+	  
+  super_special_moves:
+    - name: Shinryuu: Choukyuudan
+      input: quarter-circle back x 2, LP or HP
+      note: ["EX Available"]
+	  
+    - name: Shinryuu Seikoushou
+      input: quarter-circle forward, half-circle back, LP or HP
+	  
+  neo_max_super_special_moves:
+    - name: Seigan: Senki Hakkei
+      input: quarter-circle forward x 2, LP + HP
