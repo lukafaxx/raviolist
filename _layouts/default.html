@@ -46,6 +46,11 @@
   <script src="{{ site.baseurl }}/jquery.mCustomScrollbar.concat.min.js"></script>
 
   <script>
+  function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+
+  if (!isMobile()) {
     (function($){
         $(window).load(function(){
             $(".sidebar").mCustomScrollbar({
@@ -53,6 +58,7 @@
             });
         });
     })(jQuery);
+  }
   </script>
 
 </body>
