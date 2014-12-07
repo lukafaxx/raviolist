@@ -5,15 +5,23 @@ layout: page
 {% assign game = page.permalink | remove: '/' %}
 {% assign gamechar = site.data[game]._characters %}
 
-<div class="roster">
+{% if gamechar == null %}
 
-{% for char in gamechar %}
-  {% if char.status != 'todo' %}
-    {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
-    <a class="roster-item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}</a>
-  {% else %}
-    <span class="roster-item todo">{{ char.name }}<a href="{{ site.baseurl }}/contribute/">contribute</a></span>
-  {% endif %}
-{% endfor %}
+  This game page has not been completed yet, but you can <a href="{{ site.baseurl }}/about/">contribute</a> to its development!
 
-</div>
+{% else %}
+
+  <div class="roster">
+
+  {% for char in gamechar %}
+    {% if char.status != 'todo' %}
+      {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
+      <a class="roster-item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}</a>
+    {% else %}
+      <span class="roster-item todo">{{ char.name }}<a href="{{ site.baseurl }}/about/">contribute</a></span>
+    {% endif %}
+  {% endfor %}
+
+  </div>
+
+{% endif %}
