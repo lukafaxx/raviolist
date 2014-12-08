@@ -10,7 +10,7 @@
       note: ["EX"]
 
     - name: Rising Jaguar
-      input: Forward, down, down-forward + kick
+      input: Forward, down, down-forward, kick
       note: ["EX"]
 
     - name: Jaguar Tooth
