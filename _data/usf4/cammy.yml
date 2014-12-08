@@ -1,0 +1,55 @@
+- character: Cammy
+
+  special_move:
+    - name: Cannon Spike
+      input: Forward, down, down-forward, kick
+      note: ["EX"]
+
+    - name: Spiral Arrow
+      input: Quarter-circle forward, kick
+      note: ["EX"]
+
+    - name: Quick Spin Knuckle
+      input: Half-circle forward, punch
+      note: ["EX", "Armor Break"]
+
+    - name: Hooligan Combination
+      input: Starting from down-back, half-circle forward, punch
+      note: ["EX"]
+
+    - name: Hooligan Combination > Razor's Edge Slicer
+      input: During Hooligan Combination > do nothing
+
+    - name: Hooligan Combination > Fatal Leg Twister
+      input: During Hooligan Combination > (near opponent) LP + LK
+      note: ["Command grab"]
+
+    - name: Hooligan Combination > Crossed Scissors
+      input: During Hooligan Combination > (near opponent, in air) LP + LK
+      note: ["Command grab"]
+
+    - name: Cannon Strike
+      input: (during forward jump) Quarter-circle back, kick
+      note: ["EX version can be done with any jump"]
+
+  super_combo:
+    - name: Spin Drive Smasher
+      input: Quarter-circle forward x 2, kick
+
+  ultra_combo:
+    - name: I. Gyro Drive Smasher
+      input: Quarter-circle forward x 2, all three kicks
+
+    - name: II. Gekirinken
+      input: Quarter-circle back x 2, all three punches
+      note: ["Counter attack"]
+
+  normal_throw:
+    - name: Hooligan Suplex
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Frankensteiner
+      input: Back + LP + LK
+
+    - name: Flying Neck Breaker
+      input: (in air) LP + LK

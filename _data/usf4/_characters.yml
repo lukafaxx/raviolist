@@ -3,7 +3,7 @@
 - { name: Akuma }
 - { name: Balrog }
 - { name: Blanka }
-- { name: Cammy,     status: todo }
+- { name: Cammy }
 - { name: Chun-Li }
 - { name: Cody,      status: todo }
 - { name: C. Viper,  status: todo }
