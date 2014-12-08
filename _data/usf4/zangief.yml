@@ -1,0 +1,54 @@
+- character: Zangief
+
+  special_move:
+    - name: Spinning Piledriver
+      input: 360°, punch
+      note: ["EX", "Command grab"]
+
+    - name: Banishing Flat
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+    - name: Double Lariat
+      input: All three punches
+
+    - name: Quick Double Lariat
+      input: All three kicks
+
+    - name: Flying Power Bomb
+      input: 360°, kick
+      note: ["EX", "Command grab", "Becomes Atomic Suplex when close"]
+
+  super_combo:
+    - name: Final Atomic Buster
+      input: 360° x 2, punch
+      note: ["Command grab"]
+
+  ultra_combo:
+    - name: I. Ultimate Atomic Buster
+      input: 360° x 2, all three punches
+      note: ["Command grab"]
+
+    - name: II. Siberian Blizzard
+      input: (in air) 360° x 2, all three kicks
+      note: ["Anti-air grab"]
+
+  normal_throw:
+    - name: Bodyslam
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Brain Buster
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Flying Body Attack
+      input: (during angled jump) Down + HP
+
+    - name: Double Knee Drop
+      input: (during angled jump) Down + LK
+
+    - name: Headbutt
+      input: (during vertical jump) Up + MP or HP
+
+    - name: Long Kick
+      input: Down-forward + HK
