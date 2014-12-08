@@ -1,0 +1,52 @@
+- character: Dan
+
+  special_move:
+    - name: Gadoken
+      input: Quarter-circle forward, punch
+      note: ["EX"]
+
+    - name: Koryuken
+      input: Forward, down, down-forward, punch
+      note: ["EX"]
+
+    - name: Dankukyaku
+      input: Quarter-circle back, kick
+      note: ["EX", "Armor Break"]
+
+    - name: Airborne Dankukyaku
+      input: (in air) Quarter-circle back, kick
+      note: ["EX"]
+
+  super_combo:
+    - name: Hissho Buraiken
+      input: Quarter-circle forward x 2, punch
+
+    - name: Legendary Taunt
+      input: Quarter-circle forward x 2, HP + HK
+      note: ["Cancel into Ultra I, drop the stick and walk away"]
+
+  ultra_combo:
+    - name: I. Shisso Buraiken
+      input: Quarter-circle forward x 2, all three punches
+
+    - name: II. Haoh Gadoken
+      input: Quarter-circle forward x 2, all three kicks
+
+  normal_throw:
+    - name: Gado Thrust
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Saikyo Haraigoshi
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Jumping Taunt
+      input: (in air) HP + HK
+      note: ["Builds meter"]
+
+    - name: Ducking Taunt
+      input: Down + HP + HK
+      note: ["Builds meter"]
+
+    - name: Saikyo Kick
+      input: Back + HK
