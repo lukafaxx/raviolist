@@ -34,7 +34,7 @@
       input: 360°, punch
 
     - name: I. Backdrop Bomb
-      input: (behind opponent) Half-circle back, punch
+      input: (behind opponent) 360°, punch
       note: ["Command grab"]
 
     - name: II. Boomerang Raid
@@ -42,3 +42,25 @@
 
     - name: III. Stun Gun Headbutt
       input: Quarter-circle forward x 2, punch
+
+  command_normal:
+    - name: Flying Cross Chop
+      input: (in air) Down + HP
+
+    - name: Chop
+      input: Forward + MP
+
+    - name: Lariat
+      input: Forward + HP
+
+    - name: Headbutt
+      input: Back + HP
+
+    - name: Sleeper Hold
+      input: (behind opponent) Back + HP
+
+    - name: Target Combo 1
+      input: Crouching LK, MK
+
+    - name: Target Combo 2
+      input: Crouching LK, HK 

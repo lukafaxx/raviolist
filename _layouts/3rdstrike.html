@@ -42,6 +42,16 @@ layout: default
   </p>
   {% endfor %}
 
+  <h2 class="move_cat"><span>Command Normal</span></h2>
+  {% for command in chara.command_normal %}
+  <p class="move">
+    <span class="move_name">{{ command.name }}</span><br />
+    <span class="move_input">{{ command.input }}</span><br />
+    <span class="move_note">{{ command.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+  <br />
+
 {% endfor %}
 
 </div>
