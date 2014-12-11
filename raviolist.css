@@ -472,6 +472,11 @@ a.sidebar-nav-item:focus {
   margin-bottom: 4em;
 }
 
+.post {
+  padding-bottom: 1rem;
+  border-bottom: 1px dotted #56717f;
+}
+
 .page-title,
 .post-title {
   color: #fff;
