@@ -139,7 +139,7 @@ note: ["Overhead"]
 
 ### various
 
-We generally write 'close', 'crouching' or 'jumping' for target combos. Otherwise, we prefer the use of '(near opponent)', 'down +' or '(in air)'.
+We generally write 'close', 'cr.' or 'j.' for target combos. Otherwise, we prefer the use of '(near opponent)', 'down +' or '(in air)'.
 
 * hold {button}
 * charge and release {button}
@@ -148,8 +148,8 @@ We generally write 'close', 'crouching' or 'jumping' for target combos. Otherwis
 * during {name} >
 * close {button}
 * far {button}
-* crouching {button}
-* jumping {button}
+* cr.{button}
+* j.{button}
 
 
 ```
@@ -177,7 +177,7 @@ The name of this subfolder matches the value under the **short** key in _data/ga
 
 ### _data/{game}/_characters.yml
 
-This file contains a list of all characters from {game} with their status of completion. We remove the **status** key once a character is completed. 
+This file contains a list of all characters from {game} with their status of completion. We remove the **status** key once a character is completed.
 
 ### _data/{game}/{character}.yml
 

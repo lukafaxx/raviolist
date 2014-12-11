@@ -67,4 +67,4 @@
       input: (during angled jump, near wall) Up-forward
 
     - name: Target Combo
-      input: (during angled jump) Jumping HP > HP
+      input: (during angled jump) j.HP > HP

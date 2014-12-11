@@ -60,7 +60,7 @@
       input: (behind opponent) Back + HP
 
     - name: Target Combo 1
-      input: Crouching LK, MK
+      input: cr.LK, MK
 
     - name: Target Combo 2
-      input: Crouching LK, HK 
+      input: cr.LK, HK 

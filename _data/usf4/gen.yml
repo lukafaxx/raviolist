@@ -79,7 +79,7 @@
       input: (Mantis) All three kicks
 
     - name: Target Combo 1
-      input: (Mantis) Crouching LK > crouching MK
+      input: (Mantis) cr.LK > cr.MK
 
     - name: Target Combo 2
       input: (Mantis) Close HP > MK
@@ -88,4 +88,4 @@
       input: (Crane) All three punches
 
     - name: Shakudan
-      input: (Crane) Jumping HK > HK
+      input: (Crane) j.HK > HK

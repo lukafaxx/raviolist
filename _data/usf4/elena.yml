@@ -66,4 +66,4 @@
       input: HP > HK
 
     - name: Target Combo 4
-      input: MK > crouching HP
+      input: MK > cr.HP

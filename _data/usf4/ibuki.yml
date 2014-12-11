@@ -85,13 +85,13 @@
       input: Down, up
 
     - name: Target Combo 1
-      input: Jumping HP > forward + MK
+      input: j.HP > forward + MK
 
     - name: Target Combo 2
-      input: (during angled jump) Jumping LP > forward + HP
+      input: (during angled jump) j.LP > forward + HP
 
     - name: Target Combo 3
-      input: (during angled jump) Jumping LK > forward + MK
+      input: (during angled jump) j.LK > forward + MK
 
     - name: Target Combo 4
       input: Close LP > MP > HP
@@ -100,16 +100,16 @@
       input: Far LP > MP > forward + LK
 
     - name: Target Combo 6
-      input: Close LP > MP > crouching HK > HK
+      input: Close LP > MP > cr.HK > HK
 
     - name: Target Combo 7
       input: Back + MK > forward + MK
 
     - name: Target Combo 8
-      input: Close HP > crouching HK > HK
+      input: Close HP > cr.HK > HK
 
     - name: Target Combo 9
       input: LK > MK > HK
 
     - name: Target Combo 10
-      input: Crouching HK > HK
+      input: cr.HK > HK
