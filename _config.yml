@@ -14,7 +14,7 @@ url:                 http://lukafaxx.github.io/raviolist/
 baseurl:             /raviolist
 paginate:            5
 include:             [_game]
-exclude:             ["Gemfile", "Gemfile.lock", "LICENSE.md", "README.md"]
+exclude:             ["Gemfile", "Gemfile.lock", "LICENSE.md", "README.md", "convert.txt"]
 
 # About/contact
 author:
