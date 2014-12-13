@@ -40,11 +40,11 @@
 
   max_super_art:
     - name: I. EX Kishin Riki
-      input: qcf qcf any two punches
+      input: qcf qcf pp
       note: ["Command grab"]
 
     - name: II. EX Yagyou Dama
-      input: qcf qcf any two punches
+      input: qcf qcf pp
 
     - name: III. EX Tengu Stone
-      input: qcf qcf any two punches
+      input: qcf qcf pp

@@ -26,4 +26,4 @@
 
     - name: III. Aegis Reflector
       input: qcf qcf punch
-      note: ["Press any two punches for anti-air reflector"]
+      note: ["Press pp for anti-air reflector"]

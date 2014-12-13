@@ -54,6 +54,8 @@ note: ["Overhead"]
 * hcf
 * hcb
 * 360
+* 360cc
+* cwing
 
 ```
 name: "Shiranui Ryuu: Kunoichi No Mai"
@@ -61,20 +63,9 @@ input: qcf hcb LP + HP
 note: ["Can be performed in air"]
 ```
 
-### other directions
-
-* starting from {direction}, {multiple directions}
-* 360cc
-
-```
-name: Rekkukyaku
-input: starting from downback, hcf kick
-note: ["EX", "Armor Break added to first hit"]
-```
-
 ### button (sets examples)
 
-* LP - MP - HP - LK - MK - HK - punch - kick - any two punches - any two kicks - ppp - kkk
+* LP - MP - HP - LK - MK - HK - punch - kick - pp - kk - ppp - kkk
 * L - M - H - attack - any two attacks - S
 * P - K - S - HS - D
 * W - S - WP - SP

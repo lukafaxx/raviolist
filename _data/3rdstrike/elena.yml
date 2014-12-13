@@ -30,4 +30,4 @@
 
     - name: III. Healing
       input: qcf qcf punch
-      note: ["Press any two punches to cancel"]
+      note: ["Press pp to cancel"]

@@ -5,7 +5,7 @@
       input: qcb punch
 
     - name: Fake Byakko Soushouda
-      input: qcb any two punches
+      input: qcb pp
 
     - name: Zenpou Tenshin
       input: hcb kick

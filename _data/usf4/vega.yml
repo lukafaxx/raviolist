@@ -69,4 +69,4 @@
       input: (during angled jump, near wall) upforward
 
     - name: Pick Up Mask
-      input: Down + any two punches
+      input: Down + pp

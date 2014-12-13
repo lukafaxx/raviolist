@@ -28,11 +28,11 @@
       note: ["Hold punches to change the timing of dash"]
 
     - name: II. Shout of Earth (anti-air)
-      input: chdownback downforward downback upforward with ppp
+      input: chdownback downforward downback upforward + ppp
       note: ["Armor Break", "Hold punches to change timing"]
 
     - name: II. Shout of Earth (anti-ground)
-      input: chdownback downforward downback upforward with kkk
+      input: chdownback downforward downback upforward + kkk
       note: ["Armor Break"]
 
   normal_throw:

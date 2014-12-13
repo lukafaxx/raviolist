@@ -21,7 +21,7 @@
       input: (in air) qcb kick
 
     - name: Ashura Senku
-      input: dpf or dpb and any two punches or any two kicks
+      input: dpf or dpb and pp or kk
 
     - name: Hyakkishu
       input: dpf kick
@@ -61,4 +61,4 @@
       note: ["Command grab"]
 
     - name: Kongou Kokuretsuzan
-      input: down down down any two punches
+      input: down down down pp

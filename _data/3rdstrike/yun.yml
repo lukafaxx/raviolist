@@ -9,7 +9,7 @@
       input: qcb punch
 
     - name: Fake Kobokushi
-      input: qcb any two punches
+      input: qcb pp
 
     - name: Zesshou Hohou
       input: qcf punch
