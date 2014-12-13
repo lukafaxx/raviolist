@@ -38,12 +38,12 @@ jQuery.fn.input = function(spanMatch, checkCase, bound) {
 var viewInput = {
 
   "punch"         : "<span class='button'>P</span>",
-  "pp"            : "<span class='button'>P</span><span class='button flow'>P</span>",
-  "ppp"           : "<span class='button'>P</span><span class='button flow'>P</span><span class='button flow'>P</span>",
+  "pp"            : "<span style='white-space:nowrap;'><span class='button'>P</span><span class='button flow'>P</span></span>",
+  "ppp"           : "<span style='white-space:nowrap;'><span class='button'>P</span><span class='button flow'>P</span><span class='button flow'>P</span></span>",
 
   "kick"          : "<span class='button'>K</span>",
-  "kk"            : "<span class='button'>K</span><span class='button flow'>K</span>",
-  "kkk"           : "<span class='button'>K</span><span class='button flow'>K</span><span class='button flow'>K</span>",
+  "kk"            : "<span style='white-space:nowrap;'><span class='button'>K</span><span class='button flow'>K</span></span>",
+  "kkk"           : "<span style='white-space:nowrap;'><span class='button'>K</span><span class='button flow'>K</span><span class='button flow'>K</span></span>",
 
   "lp"            : "<span class='button'>LP</span>",
   "mp"            : "<span class='button'>MP</span>",
@@ -69,18 +69,18 @@ var viewInput = {
   "chdownback"    : "<img src='/raviolist/img/ch1.png' />",
   "chback"        : "<img src='/raviolist/img/ch4.png' />",
 
-  "dpf"           : "<img src='/raviolist/img/6.png' /> <img src='/raviolist/img/2.png' /> <img src='/raviolist/img/3.png' />",
-  "dpb"           : "<img src='/raviolist/img/4.png' /> <img src='/raviolist/img/2.png' /> <img src='/raviolist/img/1.png' />",
+  "dpf"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/6.png' /> <img src='/raviolist/img/2.png' /> <img src='/raviolist/img/3.png' /></span>",
+  "dpb"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/4.png' /> <img src='/raviolist/img/2.png' /> <img src='/raviolist/img/1.png' /></span>",
 
-  "qcf"           : "<img src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/6.png' />",
-  "qcb"           : "<img src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/4.png' />",
+  "qcf"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/6.png' /></span>",
+  "qcb"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/4.png' /></span>",
 
-  "hcf"           : "<img src='/raviolist/img/4.png' /><img class='flow' src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/6.png' />",
-  "hcb"           : "<img src='/raviolist/img/6.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/4.png' />",
+  "hcf"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/4.png' /><img class='flow' src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/6.png' /></span>",
+  "hcb"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/6.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/4.png' /></span>",
 
   "360"           : "<span class='button'>360</span>",
 
-  "cwing"         : "<img src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/6.png' /><img class='flow' src='/raviolist/img/9.png' />",
+  "cwing"         : "<span style='white-space:nowrap;'><img src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/6.png' /><img class='flow' src='/raviolist/img/9.png' /></span>",
 
 };
 
