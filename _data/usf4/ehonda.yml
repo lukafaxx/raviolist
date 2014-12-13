@@ -6,29 +6,29 @@
       note: ["EX"]
 
     - name: Sumo Headbutt
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX", "Armor Break"]
 
     - name: Sumo Smash
-      input: Charge down, then up + kick
+      input: chdown up + kick
       note: ["EX"]
 
     - name: Oicho Throw
-      input: Half-circle back, punch
+      input: hcb punch
       note: ["EX", "Command grab"]
 
   super_combo:
     - name: Super Killer Head Ram
-      input: Charge back, then forward, back, forward + punch
+      input: chback forward back forward + punch
       note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Ultimate Killer Head Ram
-      input: Charge back, then forward, back, forward + all three punches
+      input: chback forward back forward + ppp
       note: ["Armor Break"]
 
     - name: II. Orochi Breaker
-      input: 360° x 2, all three punches
+      input: 360 360 ppp
 
   normal_throw:
     - name: Sabaori
@@ -39,8 +39,8 @@
 
   unique_attack:
     - name: Shikofumi
-      input: Down-forward + HK
+      input: downforward + HK
       note: ["Overhead"]
 
     - name: Target Combo
-      input: Close MP > down-forward + HK
+      input: Close MP >  + HK

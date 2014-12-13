@@ -2,35 +2,35 @@
 
   special_move:
     - name: Spinning Piledriver
-      input: 360°, punch
+      input: 360 punch
       note: ["EX", "Command grab"]
 
     - name: Banishing Flat
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Double Lariat
-      input: All three punches
+      input: ppp
 
     - name: Quick Double Lariat
-      input: All three kicks
+      input: kkk
 
     - name: Flying Power Bomb
-      input: 360°, kick
+      input: 360 kick
       note: ["EX", "Command grab", "Becomes Atomic Suplex when close"]
 
   super_combo:
     - name: Final Atomic Buster
-      input: 360° x 2, punch
+      input: 360 360 punch
       note: ["Command grab"]
 
   ultra_combo:
     - name: I. Ultimate Atomic Buster
-      input: 360° x 2, all three punches
+      input: 360 360 ppp
       note: ["Command grab"]
 
     - name: II. Siberian Blizzard
-      input: (in air) 360° x 2, all three kicks
+      input: (in air) 360 360 kkk
       note: ["Anti-air grab"]
 
   normal_throw:
@@ -48,7 +48,7 @@
       input: (during angled jump) Down + LK
 
     - name: Headbutt
-      input: (during vertical jump) Up + MP or HP
+      input: (during up jump) Up + MP or HP
 
     - name: Long Kick
-      input: Down-forward + HK
+      input: downforward + HK

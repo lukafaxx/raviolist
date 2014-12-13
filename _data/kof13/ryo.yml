@@ -12,33 +12,33 @@
       input: Forward + LK
 
     - name: Gedan Uke
-      input: Down-forward + LK
+      input: downforward + LK
 
   special_move:
     - name: Kohou
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Ko-Ou Ken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Hien Shippuu Kyaku
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX"]
 
     - name: Zanretsuken
-      input: Forward, back, forward, punch
+      input: forward back forward punch
       note: ["EX"]
 
   desperation_move:
     - name: Haoh Shoukou Ken
-      input: Forward, half-circle forward, punch
+      input: forward hcf punch
 
     - name: Ryuuko Ranbu
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: "Shin: Tenchi Haoh Ken"
-      input: Quarter-circle forward x 2, LP + HP
+      input: qcf qcf LP + HP

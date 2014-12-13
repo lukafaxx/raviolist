@@ -6,22 +6,22 @@
 
   special_move:
     - name: Giant Bomb
-      input: Charge down-back, then forward + punch
+      input: chdownback forward + punch
       note: ["EX"]
 
     - name: Giant Bomb (Feint)
       input: During Giant Bomb > LP + LK
 
     - name: Dokugiri
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Raiden Bomb
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Head Crush
-      input: Half-circle forward, kick
+      input: hcf kick
       note: ["EX"]
 
     - name: Super Dropkick
@@ -30,12 +30,12 @@
 
   desperation_move:
     - name: Super Raiden Drop
-      input: Half-circle back x 2, punch
+      input: hcb hcb punch
       note: ["EX"]
 
     - name: Crazy Train
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
   neo_max_desperation_move:
     - name: Raiden Bomber
-      input: Quarter-circle forward x 2, LK + HK
+      input: qcf qcf LK + HK

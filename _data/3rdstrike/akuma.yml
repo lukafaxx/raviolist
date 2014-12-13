@@ -3,28 +3,28 @@
 
   special_move:
     - name: Gou Hadouken
-      input: Quarter-circle forward, punch
+      input: qcf punch
 
     - name: Zankuu Hadouken
-      input: (in air) Quarter-circle forward, punch
+      input: (in air) qcf punch
 
     - name: Shakunetsu-Hadouken
-      input: Half-circle back, punch
+      input: hcb punch
 
     - name: Gou Shoryuken
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
 
     - name: Tatsumaki Zankuukyaku
-      input: Quarter-circle back, kick
+      input: qcb kick
 
     - name: Tatsumaki Zankuukyaku (air)
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
 
     - name: Ashura Senku
-      input: Forward, down, down-forward or back, down, down-back and any two punches or any two kicks
+      input: forward down downforward or back down downback and any two punches or any two kicks
 
     - name: Hyakkishu
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
 
     - name: Hyakki Gouzan
       input: During Hyakkishu > do nothing
@@ -41,24 +41,24 @@
 
   super_art:
     - name: I. Messatsu Gou Hadou
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: I. Tenma Gou Zankuu
-      input: (in air) Quarter-circle forward x 2, punch
+      input: (in air) qcf qcf punch
 
     - name: II. Messatsu Gou Shoryu
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: III. Messatsu-Gourasen
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
     - name: III. Messatsu-GouSenpuu
-      input: (in air) Quarter-circle forward x 2, kick
+      input: (in air) qcf qcf kick
 
   max_super_art:
     - name: Shungokusatsu
-      input: LP, LP, forward, LK, HP
+      input: LP LP forward LK HP
       note: ["Command grab"]
 
     - name: Kongou Kokuretsuzan
-      input: Down, down, down, any two punches
+      input: down down down any two punches

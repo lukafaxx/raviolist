@@ -2,35 +2,35 @@
 
   special_move:
     - name: Monster Lariat
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: Giant Palm Bomber
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Ultra Throw
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["Command grab"]
 
     - name: Shootdown Backbreaker
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
 
     - name: Meat Squasher
-      input: 360°, kick
+      input: 360 kick
       note: ["Command grab"]
 
     - name: Moonsault Press
-      input: 360°, punch
+      input: 360 punch
       note: ["Command grab"]
 
   super_art:
     - name: I. Gigas Breaker
-      input: 360° x 2, punch
+      input: 360 360 punch
 
     - name: II. Megaton Press
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
     - name: III. Hammer Frenzy
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["Hold punch to feint"]

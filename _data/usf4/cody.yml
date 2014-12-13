@@ -2,15 +2,15 @@
 
   special_move:
     - name: Bad Stone
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX", "Not possible when holding knife", "Hold punch for increased power"]
 
     - name: Criminal Upper
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Ruffian Kick
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX", "Armor Break"]
 
     - name: Zonk Knuckle
@@ -19,15 +19,15 @@
 
   super_combo:
     - name: Dead End Irony
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
   ultra_combo:
     - name: I. Final Destruction
-      input: Quarter-circle forward x 2, all three punches
+      input: qcf qcf ppp
       note: ["Armor Break"]
 
     - name: II. Last Dread Dust
-      input: Quarter-circle back x 2, all three punches
+      input: qcb qcb ppp
 
   normal_throw:
     - name: Prisoner Throw
@@ -41,10 +41,10 @@
       input: Down + HP + HK
 
     - name: Pick up Knife
-      input: (while standing over knife) Down + all three punches
+      input: (while standing over knife) Down + ppp
 
     - name: Knife Throw
-      input: (while holding knife) Quarter-circle forward, punch
+      input: (while holding knife) qcf punch
       note: ["Armor Break"]
 
     - name: Knife Attack

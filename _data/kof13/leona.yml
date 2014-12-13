@@ -10,33 +10,33 @@
 
   special_move:
     - name: Baltic Launcher
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX"]
 
     - name: Moon Slasher
-      input: Charge down, then up + punch
+      input: chdown up + punch
       note: ["EX"]
 
     - name: Earring Bomb
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Grand Saber
-      input: Charge back, then forward + kick
+      input: chback forward + kick
       note: ["EX"]
 
     - name: X-Calibur
-      input: (in air) Quarter-circle back, punch
+      input: (in air) qcb punch
       note: ["EX"]
 
   desperation_move:
     - name: V-Slasher
-      input: (in air) Quarter-circle forward, half-circle back, punch
+      input: (in air) qcf hcb punch
       note: ["EX"]
 
     - name: Slash Saber
-      input: Quarter-circle back, half-circle forward, kick
+      input: qcb hcf kick
 
   neo_max_desperation_move:
     - name: Leona Blade
-      input: Quarter-circle back, half-circle forward, LP + HP
+      input: qcb hcf LP + HP

@@ -6,32 +6,32 @@
 
   special_move:
     - name: Despair
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Despair (Attack)
       input: During Despair > punch
 
     - name: Deathrow
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX", "Can be performed three times in sequence", "EX can be performed five times in sequence"]
 
     - name: Metal Massacre
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Ebony Tears
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
       note: ["EX"]
 
   desperation_move:
     - name: Heaven's Gate
-      input: Quarter-circle back, half-circle forward, kick
+      input: qcb hcf kick
 
     - name: Nocturnal Rites
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: Awaking Blood
-      input: Quarter-circle back, half-circle forward, LP + HP
+      input: qcb hcf LP + HP

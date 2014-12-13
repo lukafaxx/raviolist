@@ -6,65 +6,65 @@
       note: ["EX", "Armor Break"]
 
     - name: Gekiro
-      input: (Mantis) Forward, down, down-forward, kick
+      input: (Mantis) forward down downforward kick
       note: ["EX", "Press kick after hit for followup"]
 
     - name: Jyasen
-      input: (Crane) Charge back, then forward + punch
+      input: (Crane) chback forward + punch
       note: ["EX"]
 
     - name: Oga
-      input: (Crane) Charge down, then up + kick
+      input: (Crane) chdown up + kick
       note: ["EX"]
 
     - name: Oga > Sudden Stop
-      input: During Oga, back
+      input: During Oga > back
 
     - name: Oga > Close Kick
       input: During Oga > down or neutral position
       note: ["Armor Break"]
 
     - name: Oga > Far Kick
-      input: During Oga > down-forward or forward
+      input: During Oga > downforward or forward
       note: ["Armor Break"]
 
     - name: Oga > Ceiling Jump
-      input: During Oga > up-back or up or up-forward
+      input: During Oga > upback or up or upforward
 
     - name: Oga > Falling Kick
-      input: During Oga > up-back or up or up-forward and down
+      input: During Oga > upback or up or upforward and down
       note: ["Armor Break"]
 
     - name: Oga > Close Range Kick Right
-      input: During Oga > up-back or up or up-forward and down-forward or forward
+      input: During Oga > upback or up or upforward and downforward or forward
       note: ["Armor Break"]
 
     - name: Oga > Close Range Kick Left
-      input: During Oga > up-back or up or up-forward and down-back or back
+      input: During Oga > upback or up or upforward and downback or back
       note: ["Armor Break"]
 
   super_combo:
     - name: Zan'ei
-      input: (Mantis) Quarter-circle forward x 2, punch
+      input: (Mantis) qcf qcf punch
       note: ["Armor Break"]
 
     - name: Jyakoha
-      input: (Crane) Quarter-circle forward x 2, kick
+      input: (Crane) qcf qcf kick
 
   ultra_combo:
     - name: I. Zetsuei
-      input: (Mantis) Quarter-circle forward x 2, all three punches
+      input: (Mantis) qcf qcf ppp
       note: ["Armor Break"]
 
     - name: I. Ryukoha
-      input: (Crane) Quarter-circle forward x 2, all three kicks
+      input: (Crane) qcf qcf kkk
 
     - name: II. Shitenketsu
-      input: (Mantis) Quarter-circle back x 2, all three punches
+      input: (Mantis) qcb qcb ppp
       note: ["Armor Break"]
 
     - name: II. Teiga
-      input: (Crane, in air) Quarter-circle forward x 2, all three kicks
+      input: (Crane, in air) qcf qcf kkk
       note: ["Armor Break"]
 
   normal_throw:
@@ -76,7 +76,7 @@
 
   unique_attack:
     - name: "Change Style: Crane"
-      input: (Mantis) All three kicks
+      input: (Mantis) kkk
 
     - name: Target Combo 1
       input: (Mantis) cr.LK > cr.MK
@@ -85,7 +85,7 @@
       input: (Mantis) Close HP > MK
 
     - name: "Change Style: Mantis"
-      input: (Crane) All three punches
+      input: (Crane) ppp
 
     - name: Shakudan
       input: (Crane) j.HK > HK

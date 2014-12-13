@@ -2,11 +2,11 @@
 
   special_move:
     - name: Psycho Sting
-      input: Charge down, then up + punch
+      input: chdown up + punch
       note: ["EX", "Armor Break"]
 
     - name: Spiral Arrow
-      input: (in air) Charge back, then forward + kick
+      input: (in air) chback forward + kick
       note: ["EX"]
 
     - name: Rapid Dagger
@@ -14,34 +14,34 @@
       note: ["EX"]
 
     - name: Scramble
-      input: Charge back, then forward + kick
+      input: chback forward + kick
       note: ["EX"]
 
     - name: Scramble > Break
-      input: Charge back, then forward + kick > punch
+      input: chback forward + kick > punch
       note: ["Armor Break during HP Break from EX Scramble"]
 
     - name: Scramble > Razor Edge Slicer
-      input: Charge back, then forward + LK > kick
+      input: chback forward + LK > kick
       note: ["Armor Break during razor Edge Slicer from EX Scramble"]
 
     - name: Scramble > Cannon Strike
-      input: Charge back, then forward + MK or HK > kick
+      input: chback forward + MK or HK > kick
 
   super_combo:
     - name: Strafe Dagger
-      input: Charge back, then forward, back, forward + punch
+      input: chback forward back forward + punch
 
   ultra_combo:
     - name: I. Psycho Stream
-      input: Charge back, then forward, back, forward + all three punches
+      input: chback forward back forward + ppp
 
     - name: II. DCM (anti-ground)
-      input: Charge back, then forward, back, forward + all three kicks
+      input: chback forward back forward + kkk
       note: ["Armor Break"]
 
     - name: II. DCM (anti-air)
-      input: Charge down-back, then down-forward, down-back, up-forward + all three kicks
+      input: chdownback downforward downback upforward + kkk
       note: ["Armor Break"]
 
   normal_throw:
@@ -62,5 +62,5 @@
       input: Close MP > HP
 
     - name: Fox Tail
-      input: Down-forward + MK
+      input: downforward + MK
       note: ["Overhead"]

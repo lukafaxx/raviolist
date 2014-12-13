@@ -2,31 +2,31 @@
 
   special_move:
     - name: Zenten
-      input: Quarter-circle back, punch
+      input: qcb punch
 
     - name: Sean Tackle
-      input: Half-circle forward, punch
+      input: hcf punch
       note: ["EX", "Hold punch for follow up"]
 
     - name: Dragon Smash
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Tornado
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Ryuubi Kyaku
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX", "Overhead"]
 
   super_art:
     - name: I. Hadou Burst
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. Shoryuu Cannon
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["Press punch repeatedly for more hits"]
 
     - name: III. Hyper Tornado
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch

@@ -16,29 +16,29 @@
 
   special_move:
     - name: Sansetsu Kon Chuudan Uchi
-      input: Half-circle forward, punch
+      input: hcf punch
       note: ["EX"]
 
     - name: Kaen Sansetsu Kon Chuudan Uchi
-      input: During Sansetsu Kon Chuudan Uchi (HP or EX) > quarter-circle forward, punch
+      input: During Sansetsu Kon Chuudan Uchi (HP or EX) > qcf punch
 
     - name: Senpuu Kon
       input: Press punch repeatedly
       note: ["EX"]
 
     - name: Suzume Otoshi
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Kyoushuu Hishou Kon
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
   desperation_move:
     - name: Chou Kaen Senpuu Kon
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: Dai Guren Rasen Kon
-      input: Quarter-circle forward x 2, LP + HP
+      input: qcf qcf LP + HP

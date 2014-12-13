@@ -6,37 +6,37 @@
 
   command_normal:
     - name: Rising Upper
-      input: Down-forward + HP
+      input: downforward + HP
 
     - name: Back Knuckle
       input: Forward + LP
 
   special_move:
     - name: Power Wave
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Burning Knuckle
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Crack Shoot
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Rising Tackle
-      input: Charge down, then up + punch
+      input: chdown up + punch
       note: ["EX"]
 
   desperation_move:
     - name: Power Geyser
-      input: Quarter-circle back, down-back, forward, punch
+      input: qcb downback forward punch
       note: ["EX"]
 
     - name: Buster Wolf
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: Trinity Geyser
-      input: Quarter-circle forward x 2, LP + HP
+      input: qcf qcf LP + HP

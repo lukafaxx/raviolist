@@ -2,31 +2,31 @@
 
   special_move:
     - name: Gohadoken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Shakunetsu Hadoken
-      input: Half-circle back, punch
+      input: hcb punch
       note: ["EX"]
 
     - name: Zanku Hadoken
-      input: (in air) Quarter-circle forward, punch
+      input: (in air) qcf punch
       note: ["EX"]
 
     - name: Goshoryuken
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Tatsumaki Zankukyaku
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Airborne Tatsumaki Zankukyaku
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX"]
 
     - name: Hyakkishu
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Hyakkishu > Hyakki Gouzan
@@ -44,20 +44,20 @@
       note: ["Command grab"]
 
     - name: Ashura Senku
-      input: Forward, down, down-forward or back, down, down-back and all three punches or all three kicks
+      input: forward down downforward or back down downback and ppp or kkk
 
   super_combo:
     - name: Raging Demon
-      input: LP, LP, forward, LK, HP
+      input: LP LP forward LK HP
       note: ["Command grab"]
 
   ultra_combo:
     - name: I. Wrath of the Raging Demon
-      input: LP, LP, back, LK, HP
+      input: LP LP back LK HP
       note: ["Command grab"]
 
     - name: II. Demon Armageddon
-      input: Up, up, all three kicks
+      input: up up kkk
       note: ["Armor Break"]
 
   normal_throw:
@@ -73,4 +73,4 @@
       note: ["Overhead"]
 
     - name: Tenmakujinkyaku
-      input: (at top of forward jump arc) Down + MK
+      input: (at top of upforward jump arc) Down + MK

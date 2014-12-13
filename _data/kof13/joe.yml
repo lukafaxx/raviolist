@@ -9,19 +9,19 @@
       input: Forward + LK
 
     - name: Sliding
-      input: Down-forward + LK
+      input: downforward + LK
 
   special_move:
     - name: Hurricane Upper
-      input: Half-circle forward, punch
+      input: hcf punch
       note: ["EX"]
 
     - name: Tiger Kick
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Slash Kick
-      input: Half-circle forward, kick
+      input: hcf kick
       note: ["EX"]
 
     - name: Bakuretsuken
@@ -29,20 +29,20 @@
       note: ["EX"]
 
     - name: Bakuretsu Finish
-      input: During Bakuretsuken > quarter-circle back, punch
+      input: During Bakuretsuken > qcb punch
 
     - name: Ougon no Kakato
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
   desperation_move:
     - name: Screw Upper
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["EX"]
 
     - name: Bakuretsu Hurricane Tiger Kakato
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
 
   neo_max_desperation_move:
     - name: Screw Straight
-      input: Quarter-circle forward x 2, LK + HK
+      input: qcf qcf LK + HK

@@ -13,37 +13,37 @@
 
   special_move:
     - name: Psycho Ball Attack
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Psycho Sword
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Psycho Reflector
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Phoenix Arrow
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX"]
 
     - name: Psychic Teleport
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: Super Psychic Throw
-      input: Half-circle forward, punch
+      input: hcf punch
       note: ["EX"]
 
   desperation_move:
     - name: Shining Crystal Bit
-      input: Half-circle back x 2, punch
+      input: hcb hcb punch
       note: ["EX"]
 
     - name: Shining Crystal Bit (air)
-      input: (in air) Half-circle back x 2, punch
+      input: (in air) hcb hcb punch
 
   neo_max_desperation_move:
     - name: Psycho Medley 13
-      input: Half-circle back, forward + LP + HP
+      input: hcb forward + LP + HP

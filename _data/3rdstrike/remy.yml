@@ -2,28 +2,28 @@
 
   special_move:
     - name: Light of Virtue
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX"]
 
     - name: Light of Virtue (low)
-      input: Charge back, then forward + kick
+      input: chback forward + kick
       note: ["EX"]
 
     - name: Rising Rage Flash
-      input: Charge down, then up + kick
+      input: chdown up + kick
       note: ["EX"]
 
     - name: Cold Blue Kick
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
   super_art:
     - name: I. Light of Justice
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. Supreme Rising Rage Flash
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
     - name: III. Blue Nocturne
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
       note: ["Counter attack"]

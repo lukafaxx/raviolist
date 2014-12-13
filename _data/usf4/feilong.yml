@@ -2,31 +2,31 @@
 
   special_move:
     - name: Rekkaken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX", "Can be performed three times in sequence"]
 
     - name: Shienkyaku
-      input: Back, down, down-back, kick
+      input: back down downback kick
       note: ["EX"]
 
     - name: Rekkukyaku
-      input: Starting from down-back, half-circle forward, kick
+      input: starting from downback, hcf kick
       note: ["EX", "Armor Break added to first hit"]
 
     - name: Tenshin
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX", "Command grab"]
 
   super_combo:
     - name: Rekkashinken
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
   ultra_combo:
     - name: I. Rekkashingeki
-      input: Quarter-circle forward x 2, all three punches
+      input: qcf qcf ppp
 
     - name: II. Gekirinken
-      input: Quarter-circle forward x 2, all three kicks
+      input: qcf qcf kkk
       note: ["Counter attack"]
 
   normal_throw:

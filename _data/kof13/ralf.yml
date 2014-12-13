@@ -6,15 +6,15 @@
 
   command_normal:
     - name: Jet Upper
-      input: Down-forward + LP
+      input: downforward + LP
 
   special_move:
     - name: Burning Hammer
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Dynamite Ralf Punch
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Vulcan Punch
@@ -22,21 +22,21 @@
       note: ["EX"]
 
     - name: Dive Bomber Punch
-      input: (in air) Quarter-circle forward, punch
+      input: (in air) qcf punch
       note: ["EX"]
 
     - name: Gatling Attack
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX"]
 
   desperation_move:
     - name: Galactica Phantom
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["EX"]
 
     - name: Bareback Vulcan Punch
-      input: Quarter-circle back, half-circle forward, kick
+      input: qcb hcf kick
 
   neo_max_desperation_move:
     - name: "Jet: Vulcan Punch"
-      input: Half-circle back x 2, LP + HP
+      input: hcb hcb LP + HP

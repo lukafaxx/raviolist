@@ -6,40 +6,40 @@
 
   command_normal:
     - name: Zujou-Barai
-      input: Down-forward + HP
+      input: downforward + HP
 
   special_move:
     - name: Tenchi-Gaeshi
-      input: Half-circle back, forward + punch
+      input: hcb forward + punch
       note: ["EX"]
 
     - name: Kumo-Tsukami Nage
-      input: Half-circle forward, LP
+      input: hcf LP
       note: ["EX"]
 
     - name: Kirikabu-Gaeshi
-      input: Half-circle forward, HP
+      input: hcf HP
 
     - name: Jiraishin
-      input: Forward, down, down-forward, LP
+      input: forward down downforward LP
       note: ["EX"]
 
     - name: Jiraishin (Feint)
-      input: Forward, down, down-forward, HP
+      input: forward down downforward HP
 
     - name: Chou Ukemi
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Chou Oosoto-Gari
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
   desperation_move:
     - name: Jigoku Gokuraku-Otoshi
-      input: Half-circle back x 2, punch
+      input: hcb hcb punch
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: Kyoutendouchi
-      input: Quarter-circle forward x 2, LP + HP
+      input: qcf qcf LP + HP

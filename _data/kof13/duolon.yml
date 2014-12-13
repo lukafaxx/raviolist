@@ -22,26 +22,26 @@
       note: ["EX"]
 
     - name: "Himoukyaku: Zen"
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: "Himoukyaku: Go"
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Shaki Juuryuu
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX", "Can be performed three times in sequence"]
 
     - name: Juon Shikon
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
   desperation_move:
     - name: "Hiden: Genmu Bakkou Shikon"
-      input: Quarter-circle back, half-circle forward, punch
+      input: qcb hcf punch
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: "Hiden: Genmu Juon Shikon Sou"
-      input: Half-circle back x 2, LP + HP
+      input: hcb hcb LP + HP

@@ -2,31 +2,31 @@
 
   special_move:
     - name: Karakusa
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["Command grab"]
 
     - name: Hayate
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX", "Hold punch to charge"]
 
     - name: Fukiage
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Oroshi
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX", "Overhead"]
 
     - name: Tsurugi
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX", "Overhead"]
 
   super_art:
     - name: I. Seichusen Godanzuki
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. Abare Tosanami
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
     - name: III. Tanden Renki
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch

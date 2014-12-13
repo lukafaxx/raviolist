@@ -10,42 +10,42 @@
 
   special_move:
     - name: Gekiken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Gekiken (Charge)
-      input: Quarter-circle forward, hold HP
+      input: qcf hold HP
       note: ["Hold HP for four seconds"]
 
     - name: Gekiken (Feint)
       input: During Gekiken (HP) > kick
 
     - name: Fukkogeki
-      input: Quarter-circle back, LP
+      input: qcb LP
       note: ["EX"]
 
     - name: Kouryuugeki
-      input: During Fukkogeki > quarter-circle forward, LP
+      input: During Fukkogeki > qcf LP
 
     - name: Tenrenken
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: Danken
-      input: Half-circle back, forward, punch
+      input: hcb forward punch
       note: ["EX"]
 
     - name: Danken (Repel)
-      input: Quarter-circle back, HP
+      input: qcb HP
 
   desperation_move:
     - name: "Zetsu: Gekiken"
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["EX"]
 
     - name: Bakushin
-      input: HP, LP, LK, HP
+      input: HP LP LK HP
 
   neo_max_desperation_move:
     - name: Tenshou Bakushingeki
-      input: Quarter-circle forward, half-circle back, LP + HP
+      input: qcf hcb LP + HP

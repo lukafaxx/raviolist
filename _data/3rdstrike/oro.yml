@@ -2,27 +2,27 @@
 
   special_move:
     - name: Niou Riki
-      input: Half-circle back, punch
+      input: hcb punch
 
     - name: Nichirin Shou
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX"]
 
     - name: Oni Yanma
-      input: Charge down, then up + punch
+      input: chdown up + punch
       note: ["EX"]
 
     - name: Jinchuu Watari
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX", "Overhead"]
 
     - name: Hitobashira Nobori
-      input: (in air) Quarter-circle forward, kick
+      input: (in air) qcf kick
       note: ["EX", "Overhead", "Press kick repeatedly for more hits"]
 
   super_art:
     - name: I. Kishin Riki
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: "I. Kishin Riki: Activate"
       input: During Kishin Riki > punch
@@ -33,18 +33,18 @@
       note: ["Command grab"]
 
     - name: II. Yagyou Dama
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: III. Tengu Stone
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
   max_super_art:
     - name: I. EX Kishin Riki
-      input: Quarter-circle forward x 2, any two punches
+      input: qcf qcf any two punches
       note: ["Command grab"]
 
     - name: II. EX Yagyou Dama
-      input: Quarter-circle forward x 2, any two punches
+      input: qcf qcf any two punches
 
     - name: III. EX Tengu Stone
-      input: Quarter-circle forward x 2, any two punches
+      input: qcf qcf any two punches

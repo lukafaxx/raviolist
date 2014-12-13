@@ -2,37 +2,37 @@
 
   special_move:
     - name: Fukiage
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX version can hit opponent on the ground"]
 
     - name: Hayate
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX", "Armor Break added on EX version", "Hold punch for more power, press kick to cancel"]
 
     - name: Oroshi
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX", "Armor Break"]
 
     - name: Karakusa
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX", "Command grab"]
 
     - name: Tsurugi
-      input: (during vertical or forward jump) Quarter-circle back, kick
+      input: (during up or upforward jump) qcb kick
       note: ["EX"]
 
   super_combo:
     - name: Tanden Renki
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["Temporary power boost"]
 
   ultra_combo:
     - name: I. Seichusen Godanzuki
-      input: Quarter-circle forward x 2, all three punches
+      input: qcf qcf ppp
       note: ["Armor Break"]
 
     - name: II. Abare Tosanami
-      input: Quarter-circle forward x 2, all three kicks
+      input: qcf qcf kkk
       note: ["Armor Break"]
 
   normal_throw:

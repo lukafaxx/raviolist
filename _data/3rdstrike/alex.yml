@@ -2,46 +2,46 @@
 
   special_move:
     - name: Power Bomb
-      input: Half-circle back, punch
+      input: hcb punch
       note: ["Command grab"]
 
     - name: Power Backdrop
-      input: (behind opponent) Half-circle back, punch
+      input: (behind opponent) hcb punch
       note: ["Command grab"]
 
     - name: Spiral DDT
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["Command grab"]
 
     - name: Flash Chop
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Air Knee Smash
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Air Stampede
-      input: Charge down, then up + kick
+      input: chdown up + kick
       note: ["EX"]
 
     - name: Slash Elbow
-      input: Charge back, then forward + kick
+      input: chback forward + kick
       note: ["EX"]
 
   super_art:
     - name: I. Hyper Bomb
-      input: 360°, punch
+      input: 360 punch
 
     - name: I. Backdrop Bomb
-      input: (behind opponent) 360°, punch
+      input: (behind opponent) 360 punch
       note: ["Command grab"]
 
     - name: II. Boomerang Raid
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: III. Stun Gun Headbutt
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
   command_normal:
     - name: Flying Cross Chop

@@ -2,24 +2,24 @@
 
   special_move:
     - name: Jaguar Kick
-      input: Back, down, down-back, kick
+      input: back down downback kick
       note: ["EX", "Armor Break"]
 
     - name: Airborne Jaguar Kick
-      input: (during vertical or forward jump) Quarter-circle back, kick
+      input: (during up or upforward jump) qcb kick
       note: ["EX"]
 
     - name: Rising Jaguar
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Jaguar Tooth
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX", "Armor Break"]
 
   super_combo:
     - name: Jaguar Varied Assault
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: Jaguar Varied Assault > Thousand Jaguars
       input: During Jaguar Varied Assault > press punch repeatedly
@@ -29,11 +29,11 @@
 
   ultra_combo:
     - name: I. Jaguar Revolver
-      input: Quarter-circle back x 2, all three kicks
+      input: qcb qcb kkk
       note: ["Armor Break"]
 
     - name: II. Jaguar Avalanche
-      input: Quarter-circle forward x 2, all three kicks
+      input: qcf qcf kkk
       note: ["Armor Break"]
 
   normal_throw:

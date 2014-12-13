@@ -2,32 +2,32 @@
 
   special_move:
     - name: Hadoken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Shoryuken
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Tatsumaki Senpukyaku
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX", "Armor Break"]
 
     - name: Airborne Tatsumaki Senpukyaku
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX", "Armor Break"]
 
   super_combo:
     - name: Shoryureppa
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
   ultra_combo:
     - name: I. Shinryuken
-      input: Quarter-circle forward x 2, all three punches
+      input: qcf qcf ppp
       note: ["Armor Break"]
 
     - name: II. Guren Senpukyaku
-      input: Quarter-circle forward x 2, all three kicks
+      input: qcf qcf kkk
       note: ["Armor Break"]
 
   normal_throw:

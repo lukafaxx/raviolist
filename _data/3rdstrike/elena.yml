@@ -2,32 +2,32 @@
 
   special_move:
     - name: Rhino Horn
-      input: Half-circle forward, kick
+      input: hcf kick
       note: ["EX"]
 
     - name: Mallet Smash
-      input: Half-circle back, punch
+      input: hcb punch
       note: ["EX"]
 
     - name: Spin Scythe
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Scratch Wheel
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX", "Can be performed again on hit for followup"]
 
     - name: Lynx Tail
-      input: Back, down, down-back, kick
+      input: back down downback kick
       note: ["EX"]
 
   super_art:
     - name: I. Spinning Beat
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
     - name: II. Brave Dance
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
     - name: III. Healing
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["Press any two punches to cancel"]

@@ -12,10 +12,10 @@ For the value under the **name** key, we use, if we can, the official name from 
 name: II. Yoga Shangri-La
 ```
 
-For the sake of both reading simplicity and proper development, it is especially important that the values written under the **input** key of each character data file respect the same terminology across all games. In addition, we capitalize the first word of the value except for situational conditions written between parentheses.
+For the sake of both reading simplicity and proper development, it is especially important that the values written under the **input** key of each character data file respect the same terminology across all games.
 
 ```
-input: (in air) Quarter-circle forward x 2, all three kicks
+input: (in air) qcf qcf kkk
 ```
 
 For values under the **note** key, we make use of an inline formatted list.
@@ -31,51 +31,47 @@ It is always best to refer to the official in-game move list when creating a new
 ### direction
 
 * up
-* up-forward
+* upforward
 * forward
-* down-forward
+* downforward
 * down
-* down-back
+* downback
 * back
-* up-back
+* upback
 
 ```
 name: Ougi Kogetsu Zan
-input: Forward, down, down-forward + Slash
+input: forward down downforward + slash
 ```
 
 ### multiple directions
 
-* quarter-circle forward
-* quarter-circle back
-* half-circle forward
-* half-circle back
-* 360°
+* qcf
+* qcb
+* hcf
+* hcb
+* 360
 
 ```
 name: "Shiranui Ryuu: Kunoichi No Mai"
-input: Quarter-circle forward, half-circle back, LP + HP
+input: qcf hcb LP + HP
 note: ["Can be performed in air"]
 ```
 
 ### other directions
 
 * starting from {direction}, {multiple directions}
-* dash forward
-* back dash
-* double jump
-* run
-* 360° counter-clockwise
+* 360cc
 
 ```
 name: Rekkukyaku
-input: Starting from down-back, half-circle forward, kick
+input: starting from downback, hcf kick
 note: ["EX", "Armor Break added to first hit"]
 ```
 
 ### button (sets examples)
 
-* LP - MP - HP - LK - MK - HK - punch - kick - any two punches - any two kicks - all three punches - all three kicks
+* LP - MP - HP - LK - MK - HK - punch - kick - any two punches - any two kicks - ppp - kkk
 * L - M - H - attack - any two attacks - S
 * P - K - S - HS - D
 * W - S - WP - SP
@@ -84,35 +80,35 @@ note: ["EX", "Armor Break added to first hit"]
 
 ```
 name: Houten Geki
-input: Half-circle back, attack
+input: hcb attack
 note: ["Command grab"]
 ```
 
 ### join
 
-We use ',' before the following inputs necessary for the move to come out, '+' for simultaneous inputs (e.g. command normals or charge moves) and '>' for moves such as followups or target combos, where the first part can be performed independently of the following ones.
+We use '+' for simultaneous inputs (e.g. command normals or charge moves) and '>' for moves such as followups or target combos, where the first part can be performed independently of the following ones. ',' can be used for links.
 
-* ,
 * +
+* >
 * and
 * or
-* >
+* ,
 
 ```
 name: Rampage
-input: Quarter-circle forward and W or S
+input: qcf and W or S
 note: ["SB", "Can be performed in air"]
 ```
 
 ### charge
 
-* charge down, then {direction} + {button}
-* charge down-back, then {direction} + {button}
-* charge back, then {direction} + {button}
+* chdown {direction} + {button}
+* chdownback {direction} + {button}
+* chback {direction} + {button}
 
 ```
 name: II. Sonic Hurricane
-input: Charge back, then forward, back, forward + all three punches
+input: chback forward back forward + ppp
 ```
 
 ### situational (examples)
@@ -122,18 +118,19 @@ We write those to show how to make the move come out, not particularly how to ma
 * (in air)
 * (near opponent)
 * (during angled jump)
+* (during up or upforward jump)
 * (jump distance)
 
 In addition, some position conventions mostly used for 3D fighting games:
 
 * (from right side)
 * (behind opponent)
-* (on the ground, facing down with feet toward opponent)
-* (fully crouched, with back toward opponent)
+* (on the ground, facing ground with feet toward opponent)
+* (fully crouched, facing away from opponent)
 
 ```
 name: Rock Crusher
-input: (near opponent) Forward or back + MP
+input: (near opponent) forward or back + MP
 note: ["Overhead"]
 ```
 
@@ -143,7 +140,6 @@ We generally write 'close', 'cr.' or 'j.' for target combos. Otherwise, we prefe
 
 * hold {button}
 * charge and release {button}
-* {multiple directions} x 2
 * press {button} repeatedly
 * during {name} >
 * close {button}

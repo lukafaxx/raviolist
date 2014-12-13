@@ -2,55 +2,55 @@
 
   special_move:
     - name: Gohadoken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX", "Hold punch to change properties"]
 
     - name: Gorai Hadoken
-      input: Half-circle back, punch
+      input: hcb punch
       note: ["EX"]
 
     - name: Zanku Hadosho
-      input: (in air) Quarter-circle back, punch
+      input: (in air) qcb punch
       note: ["EX"]
 
     - name: Goshoryuken
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Tatsumaki Zankukyaku
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX", "Armor Break"]
 
     - name: Airborne Tatsumaki Zankukyaku
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX"]
 
     - name: Sekisei Jiraiken
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Rakan Dantojin
-      input: Half-circle forward, kick
+      input: hcf kick
       note: ["EX", "Armor Break"]
 
   super_combo:
     - name: Raging Demon
-      input: LP, LP, forward, LK, HP
+      input: LP LP forward LK HP
       note: ["Command grab", "Can be performed in air"]
 
   ultra_combo:
     - name: I. Meido Gohado
-      input: Quarter-circle forward x 2, all three punches
+      input: qcf qcf ppp
       note: ["Armor Break"]
 
     - name: I. Messatsu-Gozanku
-      input: (in air) Quarter-circle forward x 2, all three punches
+      input: (in air) qcf qcf ppp
 
     - name: I. Messatsu-Gotenha
-      input: Quarter-circle forward x 2, all three kicks
+      input: qcf qcf kkk
 
     - name: II. Tenchi Sokaigen
-      input: Half-circle back x 2, all three punches
+      input: hcb hcb ppp
       note: ["Armor Break"]
 
   normal_throw:

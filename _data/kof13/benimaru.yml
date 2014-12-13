@@ -16,40 +16,40 @@
 
   special_move:
     - name: Iai-Geri
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: Handou Sandan-Geri
-      input: During Iai-Geri > down, up, kick
+      input: During Iai-Geri > down up kick
 
     - name: Super Inazuma Kick
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Benimaru Lancer
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Raijinken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Air Raijinken
-      input: (in air) Quarter-circle forward, punch
+      input: (in air) qcf punch
       note: ["EX"]
 
     - name: Benimaru Colider
-      input: Half-circle back, forward + punch
+      input: hcb forward + punch
       note: ["EX"]
 
   desperation_move:
     - name: Rai-Kou Ken
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["EX"]
 
     - name: Benimaru Rolling Thunder
-      input: Quarter-circle back x 2, punch
+      input: qcb qcb punch
 
   neo_max_desperation_move:
     - name: Rai-Kouken
-      input: Quarter-circle forward x 2, LK + HK
+      input: qcf qcf LK + HK

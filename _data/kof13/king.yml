@@ -6,34 +6,34 @@
 
   command_normal:
     - name: Sliding
-      input: Down-forward + HK
+      input: downforward + HK
 
   special_move:
     - name: Venom Strike
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: Air Venom Strike
-      input: (in air) Quarter-circle forward, kick
+      input: (in air) qcf kick
       note: ["EX"]
 
     - name: Trap Shot
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Tornado Kick '95
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX"]
 
   desperation_move:
     - name: Surprise Rose
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["EX"]
 
     - name: Double Strike
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
   neo_max_desperation_move:
     - name: Venom Shot
-      input: Quarter-circle back x 2, LK + HK
+      input: qcb qcb LK + HK
       note: ["Can be performed in air"]

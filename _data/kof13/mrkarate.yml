@@ -13,46 +13,46 @@
 
   special_move:
     - name: Kohoh
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Kohou (Brake)
       input: During Kohoh (HP) > LP + LK
 
     - name: Shouran Kyaku
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX"]
 
     - name: Hakyokujin
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Zanretuken
-      input: Forward, back, forward, punch
+      input: forward back forward punch
       note: ["EX"]
 
     - name: Hien Shippuu Kyaku
-      input: (in air) Half-circle forward, kick
+      input: (in air) hcf kick
       note: ["EX"]
 
     - name: Ko-Ou Ken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Kokyaku
-      input: During Ko-Ou Ken (HP) > forward, forward
+      input: During Ko-Ou Ken (HP) > forward forward
 
   desperation_move:
     - name: Haoh Shikou Ken
-      input: Forward, half-circle forward, punch
+      input: forward hcf punch
 
     - name: Ryuuko Ranbu
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
       note: ["EX"]
 
     - name: Kyokugen Kohou
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
   neo_max_desperation_move:
     - name: Kishin Sanga Geki
-      input: Quarter-circle back, half-circle forward, LP + HP
+      input: qcb hcf LP + HP

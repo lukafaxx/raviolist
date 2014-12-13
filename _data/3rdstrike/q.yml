@@ -2,38 +2,38 @@
 
   special_move:
     - name: Capture & Deadly Blow
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["Command grab"]
 
     - name: Dashing Head Attack
-      input: Charge back, then forward + hold punch
+      input: chback forward + hold punch
       note: ["Overhead"]
 
     - name: Dashing Straight
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX"]
 
     - name: Dashing Leg Attack
-      input: Charge back, then forward + kick
+      input: chback forward + kick
       note: ["EX"]
 
     - name: High Speed Barrage
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
   super_art:
     - name: I. Critical Combo Attack
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. Deadly Double Combination
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: III. Total Destruction
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: "III. Total Destruction: Activate"
-      input: During Total Destruction > quarter-circle forward, punch
+      input: During Total Destruction > qcf punch
 
     - name: "III. Total Destruction: Danger"
-      input: During Total Destruction > quarter-circle forward, kick
+      input: During Total Destruction > qcf kick
       note: ["Command grab"]

@@ -10,37 +10,37 @@
 
   special_move:
     - name: Étincelles
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Rêverie-Souhaiter
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: Rêverie-Prier
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Rêverie-Geler
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Mistral
-      input: Half-circle back, forward + punch
+      input: hcb forward + punch
       note: ["EX"]
 
     - name: Coup De Vent
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
   desperation_move:
     - name: Noble-Blanche
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["EX"]
 
     - name: Grand Rafale
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
 
   neo_max_desperation_move:
     - name: Étoile Filante
-      input: quarter-circle back, half-circle forward, LK + HK
+      input: qcb hcf LK + HK

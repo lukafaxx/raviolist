@@ -20,7 +20,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Released under Attribution-NonCommercial 4.0 International License
 
-raviolist Data
+raviolist Data and Image
 Copyright (c) 2014 @lukafaxx, https://twitter.com/lukafaxx.
 
-Although you are free to copy and redistribute the data files in any medium or format, remix, transform, and build upon the material, you may not use the data files for commercial purpose.
+Although you are free to copy and redistribute the data and image files in any medium or format, remix, transform, and build upon the material, you may not use the data and image files for commercial purpose.

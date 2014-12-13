@@ -2,35 +2,35 @@
 
   special_move:
     - name: Gadoken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Koryuken
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Dankukyaku
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX", "Armor Break"]
 
     - name: Airborne Dankukyaku
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX"]
 
   super_combo:
     - name: Hissho Buraiken
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: Legendary Taunt
-      input: Quarter-circle forward x 2, HP + HK
+      input: qcf qcf HP + HK
       note: ["Cancel into Ultra I, drop the stick and walk away"]
 
   ultra_combo:
     - name: I. Shisso Buraiken
-      input: Quarter-circle forward x 2, all three punches
+      input: qcf qcf ppp
 
     - name: II. Haoh Gadoken
-      input: Quarter-circle forward x 2, all three kicks
+      input: qcf qcf kkk
 
   normal_throw:
     - name: Gado Thrust

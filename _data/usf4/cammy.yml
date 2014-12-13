@@ -2,19 +2,19 @@
 
   special_move:
     - name: Cannon Spike
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Spiral Arrow
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: Quick Spin Knuckle
-      input: Half-circle forward, punch
+      input: hcf punch
       note: ["EX", "Armor Break"]
 
     - name: Hooligan Combination
-      input: Starting from down-back, half-circle forward, punch
+      input: starting from downback, hcf punch
       note: ["EX"]
 
     - name: Hooligan Combination > Razor's Edge Slicer
@@ -29,19 +29,19 @@
       note: ["Command grab"]
 
     - name: Cannon Strike
-      input: (during forward jump) Quarter-circle back, kick
+      input: (during upforward jump) qcb kick
       note: ["EX version can be done with any jump"]
 
   super_combo:
     - name: Spin Drive Smasher
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
   ultra_combo:
     - name: I. Gyro Drive Smasher
-      input: Quarter-circle forward x 2, all three kicks
+      input: qcf qcf kkk
 
     - name: II. Gekirinken
-      input: Quarter-circle back x 2, all three punches
+      input: qcb qcb ppp
       note: ["Counter attack"]
 
   normal_throw:

@@ -2,15 +2,15 @@
 
   special_move:
     - name: Rolling Attack
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX", "Armor Break"]
 
     - name: Backstep Roll
-      input: Charge back, then forward + kick
+      input: chback forward + kick
       note: ["EX"]
 
     - name: Vertical Roll
-      input: Charge down, then up + kick
+      input: chdown up + kick
       note: ["EX"]
 
     - name: Electric Thunder
@@ -19,20 +19,20 @@
 
   super_combo:
     - name: Ground Shave Roll
-      input: Charge back, then forward, back, forward + punch
+      input: chback forward back forward + punch
       note: ["Hold punch to change the timing of dash"]
 
   ultra_combo:
     - name: I. Lightning Cannonball
-      input: Charge back, then forward, back, forward + all three punches
+      input: chback forward back forward + ppp
       note: ["Hold punches to change the timing of dash"]
 
     - name: II. Shout of Earth (anti-air)
-      input: Charge down-back, then down-forward, down-back, up-forward with all three punches
+      input: chdownback downforward downback upforward with ppp
       note: ["Armor Break", "Hold punches to change timing"]
 
     - name: II. Shout of Earth (anti-ground)
-      input: Charge down-back, then down-forward, down-back, up-forward with all three kicks
+      input: chdownback downforward downback upforward with kkk
       note: ["Armor Break"]
 
   normal_throw:
@@ -48,14 +48,14 @@
       note: ["Overhead"]
 
     - name: Amazon River Run
-      input: Down-forward + HP
+      input: downforward + HP
 
     - name: Surprise Forward
-      input: Forward + all three kicks
+      input: Forward + kkk
 
     - name: Surprise Back
-      input: Back + all three kicks
+      input: Back + kkk
 
     - name: Coward Crouch
-      input: Down + all three punches
+      input: Down + ppp
       note: ["Hold down to change timing"]

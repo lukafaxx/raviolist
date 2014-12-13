@@ -10,33 +10,33 @@
 
   special_move:
     - name: Zan-ei Ken
-      input: Down-back, forward, punch
+      input: downback forward + punch
       note: ["EX"]
 
     - name: Kuuha Dan
-      input: Half-circle forward, kick
+      input: hcf kick
       note: ["EX"]
 
     - name: Kuuha Dan (Brake)
       input: During Kuuha Dan > LK + HK
 
     - name: Hishou Ken
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Shouryuu Dan
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
   desperation_move:
     - name: Chou Reppa Dan
-      input: Quarter-circle back, half-circle forward, kick
+      input: qcb hcf kick
       note: ["EX"]
 
     - name: "Zetsu: Hishou Ken"
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
 
   neo_max_desperation_move:
     - name: Chou Shin Soku Zan-ei Ken
-      input: Quarter-circle back, half-circle forward, LP + HP
+      input: qcb hcf LP + HP
       note: ["Can be performed in air"]

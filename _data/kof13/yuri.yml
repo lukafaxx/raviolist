@@ -9,38 +9,38 @@
 
   command_normal:
     - name: Yuri Raijin Kyaku
-      input: (in air) Down-forward + LK
+      input: (in air)  + LK
 
     - name: Enyoku
       input: Forward + LP
 
   special_move:
     - name: Saiha
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Ko-Ou Ken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Hyakuretsu Binta
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX"]
 
     - name: Kuuga (Yuri Chou Upper)
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Raiou Ken
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: Air Raiou Ken
-      input: (in air) Quarter-circle forward, kick
+      input: (in air) qcf kick
       note: ["EX"]
 
     - name: Houyoku
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Hien Souha
@@ -53,17 +53,17 @@
       input: During Houyoku > LP + HP
 
     - name: Air Raiou Ken
-      input: During Houyoku > quarter-circle forward, kick
+      input: During Houyoku > qcf kick
 
   desperation_move:
     - name: Haoh Shoukou Ken
-      input: Forward, half-circle forward, punch
+      input: forward hcf punch
 
     - name: Hien Houou Kyaku
-      input: Quarter-circle forward, half-circle back, kick
+      input: qcf hcb kick
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: Haoh Raiou Ken
-      input: Quarter-circle back x 2, LP + HP
+      input: qcb qcb LP + HP
       note: ["Can be performed in air"]

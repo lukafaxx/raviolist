@@ -2,34 +2,34 @@
 
   special_move:
     - name: Elbow Cannon
-      input: Down-back + HP
+      input: downback + HP
 
     - name: Snake Fang
-      input: Half-circle forward, kick
+      input: hcf kick
 
     - name: Denji Blast
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["Press punch repeatedly for more hits"]
 
     - name: Flying Viper
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["Overhead", "EX"]
 
     - name: Rising Cobra
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["Overhead", "EX"]
 
     - name: Tornado Hook
-      input: Half-circle forward, punch
+      input: hcf punch
       note: ["EX"]
 
   super_art:
     - name: I. Magnetic Storm
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["Press punch repeatedly for more hits"]
 
     - name: II. Slam Dance
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: III. Electric Snake
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch

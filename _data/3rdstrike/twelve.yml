@@ -2,30 +2,30 @@
 
   special_move:
     - name: Kokkuu
-      input: (in air) Back, back or forward, forward
+      input: (in air) back back or forward forward
 
     - name: N.D.L.
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: A.X.E.
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX", "Press punch repeatedly for more hits"]
 
     - name: A.X.E. (air)
-      input: (in air) Quarter-circle back, punch
+      input: (in air) qcb punch
       note: ["EX", "Press punch repeatedly for more hits"]
 
     - name: D.R.A.
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX"]
 
   super_art:
     - name: I. X.N.D.L.
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. X.F.L.A.T.
-      input: (in air) Quarter-circle forward x 2, kick
+      input: (in air) qcf qcf kick
 
     - name: III. X.C.O.P.Y.
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch

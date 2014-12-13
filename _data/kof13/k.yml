@@ -10,7 +10,7 @@
 
   special_move:
     - name: Ein Trigger
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Second Shoot
@@ -20,38 +20,38 @@
       input: During Ein Trigger > forward + HK
 
     - name: (Derivation) Blackout
-      input: During Ein Trigger > back, kick
+      input: During Ein Trigger > back + kick
 
     - name: Blackout
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: Crow Bite
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Crow Bite (Follow Up)
       input: During Crow Bite (HP) > forward + kick
 
     - name: Minute Spike
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Narrow Spike
-      input: During Minute Spike > quarter-circle back, kick
+      input: During Minute Spike > qcb kick
 
     - name: Air Minute Spike
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX"]
 
   desperation_move:
     - name: Heat Drive
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: Chain Drive
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: Hyper Chain Drive
-      input: Half-circle back x 2, LP + HP
+      input: hcb hcb LP + HP

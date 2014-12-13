@@ -10,33 +10,33 @@
 
   special_move:
     - name: Ko-Ou Ken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Hien Shippuu Kyaku
-      input: Charge down-back, then forward + kick
+      input: chdownback forward + kick
       note: ["EX"]
 
     - name: Zanretsuken
-      input: Forward, back, forward, punch
+      input: forward back forward punch
       note: ["EX"]
 
     - name: Kyokugen Hougeki
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX"]
 
     - name: Kyokugen Ko-Ou
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
   desperation_move:
     - name: Haoh Shikou Ken
-      input: Forward, half-circle forward, punch
+      input: forward hcf punch
       note: ["EX"]
 
     - name: Ryuuko Ranbu
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
 
   neo_max_desperation_move:
     - name: Biruto Appar
-      input: Quarter-circle forward x 2, LP + HP
+      input: qcf qcf LP + HP

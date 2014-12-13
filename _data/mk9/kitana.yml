@@ -2,53 +2,53 @@
 
   special_attacks:
     - name: Fan Toss
-      input: Down, forward, FP
+      input: down forward FP
       note: ["Can be performed in air"]
 
     - name: Upraise
-      input: Back, back, BP
+      input: back back BP
 
     - name: Cutting Fan
-      input: Down, forward, BP
+      input: down forward BP
 
     - name: Square Boost
-      input: Down, back, FP
+      input: down back FP
       note: ["Can be performed in air"]
 
     - name: Pretty Kick
-      input: Down, back, FK
+      input: down back FK
 
     - name: Fake Out Kick
-      input: Down, back, BK
+      input: down back BK
 
   enhanced_attacks:
     - name: Charged Fan
-      input: Down, forward, FP + block
+      input: down forward FP + block
       note: ["Hold FP to charge"]
 
     - name: Uplift
-      input: Back, back, BP + block
+      input: back back BP + block
 
     - name: Fan Dice
-      input: Down, forward, BP + block
+      input: down forward BP + block
 
     - name: Square Wave
-      input: Down, back, FP + block
+      input: down back FP + block
       note: ["Can be performed in air"]
 
     - name: Pretty Legs
-      input: Down, back, FK + block
+      input: down back FK + block
 
   tag_specials:
     - name: Tag Out
       input: Tag
 
     - name: Tag Attack
-      input: Down, forward + tag
+      input: down forward + tag
       note: ["Uses one bar of super"]
 
     - name: Tag Assist
-      input: Down, back + tag
+      input: down back + tag
       note: ["Uses one bar of super"]
 
   xray_attacks:
@@ -58,92 +58,92 @@
 
   finishing_moves:
     - name: Fan Opener
-      input: (sweep distance) Down, down, back, forward, BP
+      input: (sweep distance) down down back forward BP
 
     - name: Splitting Headache
-      input: (sweep distance) Forward, down, forward, back, FK
+      input: (sweep distance) forward down forward back FK
 
     - name: Stage Fatality
-      input: (distance varies) Forward, down, down, FK
+      input: (distance varies) forward down down FK
 
     - name: Babality
-      input: (jump distance) Forward, down, forward, BK
+      input: (jump distance) forward down forward BK
 
   basic_attacks:
     - name: Uppercut
-      input: Down + BP
+      input: down + BP
 
     - name: Fan Slice
-      input: Back + FP
+      input: back + FP
 
     - name: Uprise
-      input: Back + BP
+      input: back + BP
 
     - name: Shin Kick
-      input: Back + FK
+      input: back + FK
 
     - name: Fan Stab
-      input: Forward + BP
+      input: forward + BP
 
     - name: Hop Kick
-      input: Forward + FK
+      input: forward + FK
 
     - name: Spin Kick
-      input: Forward + BK
+      input: forward + BK
 
     - name: Sweep
-      input: Back + BK
+      input: back + BK
 
   kombo_attacks:
     - name: Royal Pain
-      input: FP, FP, BP
+      input: FP FP BP
 
     - name: Dignified
-      input: Back + FP, BP
+      input: back + FP BP
 
     - name: Majestic
-      input: BP, FP, BP
+      input: BP FP BP
 
     - name: Noble Lift
-      input: Forward + BP, FP
+      input: Forward + BP FP
 
     - name: Regal Assault
-      input: FK, FK, FK
+      input: FK FK FK
 
     - name: Blue Blood
-      input: Back + FK, FK
+      input: back + FK FK
 
     - name: Power Intrusion
-      input: Forward + FK, FP, BP
+      input: forward + FK FP BP
 
     - name: Deadly Rush
-      input: Forward + BK, FP
+      input: forward + BK FP
 
     - name: Pure Kicks
-      input: Forward + BK, FK
+      input: forward + BK FK
 
     - name: Deception
-      input: Forward + BK, back + BK
+      input: forward + BK back + BK
 
   fast_tags:
     - name: Truth Be Told
-      input: Forward + BP, FP, tag
+      input: forward + BP FP tag
 
     - name: Effortless
-      input: Forward + FK, FP, BP, tag
+      input: forward + FK FP BP tag
 
     - name: Big Fan
-      input: Back, back, BP, tag
+      input: back back BP tag
 
   tag_kombos:
     - name: Pretty Princess
-      input: Back + FP, tag
+      input: back + FP tag
 
     - name: Mesmerizing
-      input: BP, FP, tag
+      input: BP FP tag
 
     - name: Magnificent
-      input: FK, FK, tag
+      input: FK FK tag
 
     - name: Disrespect
-      input: Forward + FK, FP, tag
+      input: forward + FK FP tag

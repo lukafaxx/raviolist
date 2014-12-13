@@ -9,23 +9,23 @@
       input: Forward + LK
 
     - name: Twio Yop Chagi
-      input: Forward, forward + LP
+      input: forward forward + LP
 
   special_move:
     - name: Hangetsuzan
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Air Hangetsuzan
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX"]
 
     - name: Hishou Kyaku
-      input: (in air) Quarter-circle forward, kick
+      input: (in air) qcf kick
       note: ["EX"]
 
     - name: Hienzan
-      input: Charge down, then up + kick
+      input: chdown up + kick
       note: ["EX"]
 
     - name: Hienzan (Follow Up)
@@ -33,16 +33,16 @@
 
   desperation_move:
     - name: Houou Kyaku
-      input: Quarter-circle back, down-back, forward, kick
+      input: qcb downback forward + kick
       note: ["EX"]
 
     - name: Air Houou Kyaku
-      input: (in air) Quarter-circle back, down-back, forward, kick
+      input: (in air) qcb downback forward + kick
       note: ["EX"]
 
     - name: Houou Hiten Kyaku
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
   neo_max_desperation_move:
     - name: Zero-Shiki Houou Kyaku
-      input: Quarter-circle back, down-back, forward, LP + HP
+      input: qcb downback forward + LP + HP

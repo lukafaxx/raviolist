@@ -2,30 +2,30 @@
 
   special_move:
     - name: Kunai
-      input: (in air) Quarter-circle forward, punch
+      input: (in air) qcf punch
       note: ["EX", "Follow up with Kasumi Suzaku during descent"]
 
     - name: Tsuijigoe
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["Follow up with Kunai or Kasumi Suzaku during descent"]
 
     - name: Neck Breaker
-      input: Half-circle forward, punch
+      input: hcf punch
       note: ["EX", "Armor Break"]
 
     - name: Raida
-      input: Half-circle back, punch
+      input: hcb punch
       note: ["EX", "Armor Break"]
 
     - name: Kasumi Gake
-      input: Quarter-circle forward, kick
+      input: qcf kick
 
     - name: Kazegiri
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX version can be followed up with Kunai"]
 
     - name: Tsumuji
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Tsumuji > Followup Attack
@@ -33,19 +33,19 @@
       note: ["Kick for high attack, down + kick for low"]
 
     - name: Hien
-      input: Back, down, down-back, kick
+      input: back down downback kick
       note: ["EX", "Follow up with Kunai or Kasumi Suzaku during downward arc after attack"]
 
   super_combo:
     - name: Kasumi Suzaku
-      input: (in air) Quarter-circle forward x 2, punch
+      input: (in air) qcf qcf punch
 
   ultra_combo:
     - name: I. Yoroitoshi
-      input: Half-circle back x 2, all three punches
+      input: hcb hcb ppp
 
     - name: II. Hashinsho
-      input: Quarter-circle forward x 2, all three kicks
+      input: qcf qcf kkk
       note: ["Armor Break"]
 
   normal_throw:
@@ -76,13 +76,13 @@
       note: ["Overhead"]
 
     - name: Sazan
-      input: Down-forward + MK
+      input: downforward + MK
 
     - name: Bonsho Kick
       input: Forward + HK
 
     - name: High Jump
-      input: Down, up
+      input: down up
 
     - name: Target Combo 1
       input: j.HP > forward + MK

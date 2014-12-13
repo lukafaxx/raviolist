@@ -2,7 +2,7 @@
 
   normal_throw:
     - name: Récompenses
-      input: Forward or back, HP or HK
+      input: Forward or back + HP or HK
 
   command_normal:
     - name: Floréal
@@ -13,35 +13,35 @@
 
   special_move:
     - name: Ventôse
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX"]
 
     - name: Nivôse
-      input: Charge down, then up + kick
+      input: chdown up + kick
       note: ["EX"]
 
     - name: Génie
-      input: Quarter-circle back, punch or kick
+      input: qcb punch or kick
       note: ["EX"]
 
     - name: Germinal Caprice
-      input: Charge back, then forward + kick
+      input: chback forward + kick
       note: ["EX"]
 
   desperation_move:
     - name: Thermidor
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: Pluviôse
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
       note: ["EX"]
 
     - name: Sans-Culotte
       input: LP, LK, HP, HK
 
     - name: Germinal
-      input: During Sans-Culotte > quarter-circle back, half-circle forward, LP + HP
+      input: During Sans-Culotte > qcb hcf LP + HP
 
   neo_max_desperation_move:
     - name: Fructidor
-      input: Half-circle back x 2, LK + HK
+      input: hcb hcb LK + HK

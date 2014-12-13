@@ -2,28 +2,28 @@
 
   special_move:
     - name: Hadouken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Shoryuken
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Tatsumaki Senpukyaku
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Tatsumaki Senpukyaku (air)
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX"]
 
   super_art:
     - name: I. Shoryureppa
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. Shinryuken
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
       note: ["Press kick repeatedly for more hits"]
 
     - name: III. Shippu Jinraikyaku
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick

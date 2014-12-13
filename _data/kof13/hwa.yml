@@ -6,47 +6,47 @@
 
   command_normal:
     - name: Sliding
-      input: Down-forward + LK
+      input: downforward + LK
 
   special_move:
     - name: Dragon Kick
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: EX Dragon Kick (Follow Up)
-      input: During Dragon Kick (EX) > up-back or back or down-back or up-forward or forward or down-forward, kick
+      input: During Dragon Kick (EX) > upback or back or downback or upforward or forward or downforward kick
       note: ["Can be performed two times in sequence"]
 
     - name: Air Dragon Kick
-      input: (in air) Forward, down, down-forward, kick
+      input: (in air) forward down downforward kick
       note: ["EX"]
 
     - name: EX Air Dragon Kick (Follow Up)
-      input: During Air Dragon Kick (EX) > up-back or back or down-back or up-forward or forward or down-forward, kick
+      input: During Air Dragon Kick (EX) > upback or back or downback or upforward or forward or downforward kick
       note: ["Can be performed two times in sequence"]
 
     - name: Dragon Tail
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX", "Can be performed in air"]
 
     - name: Bakuretsuken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Bakuretsu Finish
-      input: During Bakuretsuken > quarter-circle forward, punch
+      input: During Bakuretsuken > qcf punch
 
   desperation_move:
     - name: Dragon Dance
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
       note: ["EX"]
 
     - name: Dragon Back Breaker
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
 
     - name: Drinking
-      input: Quarter-circle back x 2, punch
+      input: qcb qcb punch
 
   neo_max_desperation_move:
     - name: Final Dragon Kick
-      input: Quarter-circle forward, half-circle back, LK + HK
+      input: qcf hcb LK + HK

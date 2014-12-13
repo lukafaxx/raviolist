@@ -9,23 +9,23 @@
       input: Forward + LP
 
     - name: Slider Shoot
-      input: Down-forward + LK
+      input: downforward + LK
 
   special_move:
     - name: Crow Bite
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Diamond Breath
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Counter Shell
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Lay Spin
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Lay Spin (Stand)
@@ -36,12 +36,12 @@
 
   desperation_move:
     - name: Diamond Edge
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["EX"]
 
     - name: Freeze Execution
-      input: Half-circle back x 2, punch
+      input: hcb hcb punch
 
   neo_max_desperation_move:
     - name: "Neo: Freeze Execution"
-      input: Half-circle back x 2, LK + HK
+      input: hcb hcb LK + HK

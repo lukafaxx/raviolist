@@ -2,11 +2,11 @@
 
   special_move:
     - name: Machine Gun Blow
-      input: Half-circle forward, punch
+      input: hcf punch
       note: ["EX"]
 
     - name: Ducking
-      input: Half-circle forward, kick
+      input: hcf kick
 
     - name: Ducking Straight
       input: During Ducking > punch
@@ -15,28 +15,28 @@
       input: During Ducking > kick
 
     - name: Cross Counter
-      input: Half-circle back, punch
+      input: hcb punch
       note: ["EX", "Counter attack"]
 
     - name: Punch and Counter
-      input: Half-circle back, forward + punch
+      input: hcb forward + punch
       note: ["EX", "Counter attack"]
 
     - name: Short Swing Blow
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX"]
 
     - name: Jet Upper
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
   super_art:
     - name: I. Rocket Upper
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. Rolling thunder
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["Press punch repeatedly for more hits"]
 
     - name: III. Corkscrew Blow
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch

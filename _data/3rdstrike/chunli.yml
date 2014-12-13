@@ -5,15 +5,15 @@
       input: (near opponent) Hold MK
 
     - name: Kikou Ken
-      input: Half-circle forward, punch
+      input: hcf punch
       note: ["EX"]
 
     - name: Hazanshu
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX"]
 
     - name: Spinning Bird Kick
-      input: Charge down, then up + kick
+      input: chdown up + kick
       note: ["EX"]
 
     - name: Hyakuretsu Kyaku
@@ -22,10 +22,10 @@
 
   super_art:
     - name: I. Kikou Shou
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. Houyoku Sen
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
     - name: III. Tensei Ranka
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick

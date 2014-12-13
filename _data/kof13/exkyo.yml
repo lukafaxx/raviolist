@@ -9,73 +9,73 @@
       input: Forward + LK
 
     - name: Hachi-Ju-Hachi Shiki
-      input: Down-forward + HK
+      input: downforward + HK
 
     - name: "Ge-shiki: Naraku Otoshi"
       input: (in air) Down + HP
 
   special_move:
     - name: "Hyaku Shiki: Oniyaki"
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: R.E.D. Kick
-      input: Back, down, down-back, kick
+      input: back down downback kick
       note: ["EX"]
 
     - name: "Ni-Hyaku-Ju-Ni Shiki: Kototsuki Yo"
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX"]
 
     - name: "Nana-Ju-Go Shiki: Kai"
-      input: Quarter-circle forward, kick, kick
+      input: qcf kick kick
       note: ["EX"]
 
     - name: "Hyaku-Ju-Yon Shiki: Aragami"
-      input: Quarter-circle forward, LP
+      input: qcf LP
 
     - name: "Hyaku-Ni-Ju-Hachi Shiki: Konokizu"
-      input: "During Hyaku-Ju-Yon Shiki: Aragami > quarter-circle forward, LP"
+      input: qcf LP > qcf LP
 
-    - name: "Hyaku-Ni-Ju-Nana Shiki: Yanosabi (1)"
-      input: "During Hyaku-Ni-Ju-Hachi Shiki: Konokizu > punch"
+    - name: "Hyaku-Ni-Ju-Nana Shiki: Yanosabi"
+      input: qcf LP > qcf LP > punch
 
-    - name: "Hyaku-Ni-Ju-Go Shiki: Nanase (1)"
-      input: "During Hyaku-Ni-Ju-Hachi Shiki: Konokizu > kick"
+    - name: "Hyaku-Ni-Ju-Go Shiki: Nanase"
+      input: qcf LP > qcf LP > kick
 
-    - name: "Hyaku-Ni-Ju-Nana Shiki: Yanosabi (2)"
-      input: "During Hyaku-Ju-Yon Shiki: Aragami > half-circle back, punch"
+    - name: "Hyaku-Ni-Ju-Nana Shiki: Yanosabi"
+      input: qcf LP > hcb punch
 
     - name: "Ge-shiki: Migari Ugachi"
-      input: "During Hyaku-Ni-Ju-Nana Shiki: Yanosabi (2) > punch"
+      input: qcf LP > hcb punch > punch
 
-    - name: "Hyaku-Ni-Ju-Go Shiki: Nanase (2)"
-      input: "During Hyaku-Ni-Ju-Nana Shiki: Yanosabi (2) > kick"
+    - name: "Hyaku-Ni-Ju-Go Shiki: Nanase"
+      input: qcf LP > hcb punch > kick
 
     - name: "Hyaku-Ju-Go Shiki: Dokugami"
-      input: Quarter-circle forward, HP
+      input: qcf HP
       note: ["EX"]
 
     - name: "Hyaku-Ju-Yon Shiki: Aragami"
-      input: "During Hyaku-Ju-Go Shiki: Dokugami > quarter-circle forward, punch"
+      input: qcf HP > qcf punch
 
     - name: "Yon-Hyaku-Ichi Shiki: Tumiyomi"
-      input: "During Hyaku-Ju-Go Shiki: Dokugami > half-circle back, punch"
+      input: qcf HP > hcb punch
 
     - name: "Yon-Hyaku-Ni Shiki: Batuyomi"
-      input: "Yon-Hyaku-Ichi Shiki: Tumiyomi > forward, punch"
+      input: qcf HP > hcb punch > forward + punch
 
     - name: "Hyaku Shiki: Oniyaki"
-      input: "Yon-Hyaku-Ni Shiki: Batuyomi > forward, down, down-forward, punch"
+      input: qcf HP > hcb punch > forward + punch > forward down downforward punch
 
   desperation_move:
     - name: "Ura Hyaku-Hachi Shiki: Orochinagi"
-      input: Quarter-circle back, half-circle forward, punch
+      input: qcb hcf punch
       note: ["EX"]
 
     - name: "Saishuu Kessen Ougi Mu-shiki"
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
   neo_max_desperation_move:
     - name: "Saishuu Kessen Hiougi Totsuka"
-      input: Quarter-circle forward x 2, LK + HK
+      input: qcf qcf LK + HK

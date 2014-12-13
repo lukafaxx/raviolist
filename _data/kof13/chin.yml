@@ -6,34 +6,34 @@
 
   command_normal:
     - name: Zabantetsu
-      input: Down, down, punch
+      input: down down punch
 
     - name: Choukarou
-      input: Down, down, kick
+      input: down down kick
 
     - name: Choukarou (Cancel)
-      input: During Choukarou, LK + HK
+      input: During Choukarou > LK + HK
 
     - name: Distant HK ~ Choukarou
       input: Far HK, hold HK
 
     - name: Uron Kouchuu
-      input: Down-forward + HK
+      input: downforward + HK
 
     - name: Uron Kouchuu (Feint)
       input: During Uron Kouchuu > hold HK
 
   special_move:
     - name: Suiho
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Getsuga Chougeki
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: Nikikyaku
-      input: Down-forward + LK, LK
+      input: downforward + LK LK
       note: ["EX"]
 
     - name: Getsuga Soushu
@@ -44,21 +44,21 @@
       input: During Zabantetsu or Choukarou > forward or back + HP
 
     - name: Drinking
-      input: Back, down, down-back, punch
+      input: back down downback punch
 
     - name: Kaitenteki Kuutotsu Ken
-      input: Half-circle forward, kick
+      input: hcf kick
       note: ["EX"]
 
   desperation_move:
     - name: Toukuu Hiten Hou
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["EX"]
 
     - name: Tetsuzankou
-      input: During Drinking > quarter-circle back, half-circle forward, punch
+      input: During Drinking > qcb hcf punch
 
   neo_max_desperation_move:
     - name: "Suisou: Gouran Ennhou"
-      input: Quarter-circle forward x 2, LK + HK
+      input: qcf qcf LK + HK
       note: ["Can be performed in air"]

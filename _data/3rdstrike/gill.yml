@@ -2,26 +2,26 @@
 
   special_move:
     - name: Pyrokinesis
-      input: (from left side) Quarter-circle forward, punch
+      input: (from left side) qcf punch
 
     - name: Cryokinesis
-      input: (from right side) Quarter-circle forward, punch
+      input: (from right side) qcf punch
 
     - name: Saber Lariat
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
 
     - name: Moonsault Knee Drop
-      input: Half-circle back, kick
+      input: hcb kick
 
     - name: Psycho Head Butt
-      input: Quarter-circle back, punch
+      input: qcb punch
 
   super_art:
     - name: I. Meteor Shower
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. Sephirotic Wing
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
   max_super_art:
     - name: III. Resurrection

@@ -426,18 +426,20 @@ a.sidebar-nav-item:focus {
 }
 
 .move_name {
- color: #0a0e10;
  text-transform: uppercase;
- font-weight: 600;
+ font-weight: 400;
  letter-spacing: .1rem;
 }
 
 .move_input {
+ color: #000;
  word-spacing: .2rem;
 }
 
-.move_input:after {
-  content: '';
+.move_input img {
+ vertical-align: middle;
+ width: 40px;
+ height: 40px;
 }
 
 .move_note {
@@ -693,10 +695,8 @@ blockquote p:last-child {
 }
 
 img {
-  display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
+  margin: 0;
 }
 
 table {

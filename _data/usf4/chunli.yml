@@ -6,65 +6,65 @@
       note: ["EX"]
 
     - name: Kikoken
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX"]
 
     - name: Hazanshu
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX", "Armor Break during EX Hazanshu", "Overhead"]
 
     - name: Spinning Bird Kick
-      input: Charge down, then up + kick
+      input: chdown up + kick
       note: ["EX", "Armor Break"]
 
   super_combo:
     - name: Senretsukyaku
-      input: Charge back, then forward, back, forward + kick
+      input: chback forward back forward + kick
 
   ultra_combo:
     - name: I. Hosenka
-      input: Charge back, then forward, back, forward + all three kicks
+      input: chback forward back forward + kkk
       note: ["Armor Break"]
 
     - name: II. Kikosho
-      input: Quarter-circle forward x 2, all three punches
+      input: qcf qcf ppp
 
   normal_throw:
     - name: Koshuto
-      input: Forward (or neutral position) + LP + LK
+      input: forward (or neutral position) + LP + LK
 
     - name: Kirinshu
-      input: Back + LP + LK
+      input: back + LP + LK
 
     - name: Ryuseiraku
       input: (in air) LP + LK
 
   unique_attack:
     - name: Kakukyakuraku
-      input: Down-forward + HK
+      input: downforward + HK
       note: ["Overhead"]
 
     - name: Rear Spin Kick
-      input: Down-forward + LK
+      input: downforward + LK
 
     - name: Kakusenshu
-      input: Forward + MK
+      input: forward + MK
 
     - name: Kintekishu
-      input: Back + MK
+      input: back + MK
 
     - name: Kintekishu > Tenkukyaku
-      input: During Kintekishu > MK
+      input: back + MK > MK
 
     - name: Kintekishu > Tenkukyaku > Tenshokyaku
-      input: During Kintekishu > Tenkukyaku > down, up + MK
+      input: back + MK > MK > down up + MK
 
     - name: Yosokyaku
-      input: (in air) Down + MK
+      input: (in air) down + MK
       note: ["Can be performed three times in sequence"]
 
     - name: Wall Jump
-      input: (during angled jump, near wall) Up-forward
+      input: (during angled jump, near wall) upforward
 
     - name: Target Combo
       input: (during angled jump) j.HP > HP

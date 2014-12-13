@@ -6,7 +6,7 @@
 
   command_normal:
     - name: "Ge-shiki: Yumebiki"
-      input: Forward + LP, LP
+      input: Forward + LP LP
 
     - name: "Ge-shiki: Yuriori"
       input: (in air) Back + LK
@@ -17,36 +17,36 @@
 
   special_move:
     - name: "Hyaku Shiki: Oniyaki"
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: "Ni-Hyaku-Ju-Ni Shiki: Kototsuki In"
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX"]
 
     - name: "Hyaku-Ni-Ju-Nana Shiki: Aoibana"
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX", "Can be performed three times in sequence"]
 
     - name: Kuzukaze
-      input: Half-circle back, forward + punch
+      input: hcb forward + punch
       note: ["EX"]
 
     - name: "Hyaku-Hachi Shiki: Yamibarai"
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
   desperation_move:
     - name: "Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome"
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
       note: ["EX"]
 
     - name: "Ura San-Byaku-Ju-Roku Shiki: Saika"
-      input: "During Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome > quarter-circle forward x 4, LP + HP"
+      input: "During Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome > qcf qcf qcf qcf, LP + HP"
 
     - name: "Ura Sen-Ni-Hyaku-Nana Shiki: Yamisogi"
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
   neo_max_desperation_move:
     - name: "Ura Sen-Ni-Ju-ku Shiki: Homurahotogi"
-      input: Quarter-circle back, half-circle forward, LP + HP
+      input: qcb hcf LP + HP

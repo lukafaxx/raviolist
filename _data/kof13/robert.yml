@@ -19,38 +19,38 @@
 
   special_move:
     - name: Ryuuga
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Ryuu-Geki Ken
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Hien Shippuu Kyaku
-      input: Charge down-back, then forward + kick
+      input: chdownback forward + kick
       note: ["EX"]
 
     - name: Hien Ryuujin Kyaku
-      input: (in air) Quarter-circle back, kick
+      input: (in air) qcb kick
       note: ["EX"]
 
     - name: Gen-ei Kyaku
-      input: Forward, back, forward, kick
+      input: forward back forward kick
       note: ["EX"]
 
     - name: "Ryuuren: Gen-ei Kyaku"
-      input: Half-circle forward, kick
+      input: hcf kick
       note: ["EX"]
 
   desperation_move:
     - name: Haoh Shoukou Ken
-      input: Forward, half-circle forward, punch
+      input: forward hcf punch
 
     - name: Ryuuko Ranbu
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: Hien Shippuu Ryuujin Kyaku
-      input: Quarter-circle forward, half-circle back, LK + HK
+      input: qcf hcb LK + HK
       note: ["Can be performed in air"]

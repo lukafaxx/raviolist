@@ -9,37 +9,37 @@
       input: Forward + LK
 
     - name: Hachi-Ju-Hachi Shiki
-      input: Down-forward + HK
+      input: downforward + HK
 
     - name: "Ge-shiki: Naraku Otoshi"
       input: (in air) Down + HP
 
   special_move:
     - name: "Hyaku Shiki: Oniyaki"
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: "Hyaku-Hachi Shiki: Yamibarai"
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: "Hyaku-Ichi Shiki: Oboroguruma"
-      input: Back, down, down-back, kick
+      input: back down downback kick
       note: ["EX"]
 
     - name: "Ni-Hyaku-Ju-Ni Shiki: Kototsuki Yo"
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["EX"]
 
     - name: "Nana-Ju-Go Shiki: Kai"
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
   desperation_move:
     - name: "Ura Hyaku-Hachi Shiki: Orochinagi"
-      input: Quarter-circle back, half-circle forward, punch
+      input: qcb hcf punch
       note: ["EX, Can be performed in air"]
 
   neo_max_desperation_move:
     - name: "Ura Hyaku-Ni-Ju-Ichi Shiki: Ama-no-Murakumo"
-      input: Quarter-circle forward x 2, LP + HP
+      input: qcf qcf LP + HP

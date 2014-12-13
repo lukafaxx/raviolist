@@ -10,32 +10,32 @@
 
   special_move:
     - name: Deicide
-      input: Half-circle forward, kick
+      input: hcf kick
       note: ["EX"]
 
     - name: Gorefest
-      input: Half-circle back, forward + punch
+      input: hcb forward + punch
       note: ["EX"]
 
     - name: Splash
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Mayhem
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
     - name: (Derivation) Splash
-      input: During Mayhem > quarter-circle forward, punch
+      input: During Mayhem > qcf punch
 
   desperation_move:
     - name: Negative Gain
-      input: Half-circle back x 2, kick
+      input: hcb hcb kick
       note: ["EX"]
 
     - name: Overkill
-      input: (in air) Down-back, quarter-circle forward, up-forward, up, down + punch
+      input: (in air) downback qcf upforward up down + punch
 
   neo_max_desperation_move:
     - name: Awaking Blood
-      input: Quarter-circle back, half-circle forward, LP + HP
+      input: qcb hcf LP + HP

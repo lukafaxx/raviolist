@@ -2,33 +2,33 @@
 
   special_move:
     - name: Zenpou Tenshin
-      input: Half-circle back, kick
+      input: hcb kick
       note: ["Command grab"]
 
     - name: Kobokushi
-      input: Quarter-circle back, punch
+      input: qcb punch
 
     - name: Fake Kobokushi
-      input: Quarter-circle back, any two punches
+      input: qcb any two punches
 
     - name: Zesshou Hohou
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Tetsuzanko
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
       note: ["EX"]
 
     - name: Nishoukyaku
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
   super_art:
     - name: I. You-hou
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. Sourai Rengeki
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: III. Genei-jin
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch

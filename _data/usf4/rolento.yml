@@ -2,36 +2,36 @@
 
   special_move:
     - name: Stinger
-      input: Forward, down, down-forward, kick > punch or kick
+      input: forward down downforward kick > punch or kick
       note: ["EX"]
 
     - name: Mekong Delta Attack
-      input: All three punches > (when landing) punch
+      input: ppp > (when landing) punch
       note: ["EX", "Armor Break"]
 
     - name: Mekong Delta Air Raid
-      input: Quarter-circle back, punch > punch
+      input: qcb punch > punch
       note: ["EX", "Armor Break", "Overhead"]
 
     - name: Mekong Delta Escape
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Patriot Circle
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX", "Can be performed three times in sequence"]
 
   super_combo:
     - name: Mine Sweeper
-      input: Quarter-circle back x 2, punch
+      input: qcb qcb punch
 
   ultra_combo:
     - name: I. Patriot Sweeper
-      input: Quarter-circle forward x 2, all three punches
+      input: qcf qcf ppp
       note: ["Armor Break"]
 
     - name: II. Take No Prisoners
-      input: Quarter-circle forward x 2, all three kicks
+      input: qcf qcf kkk
       note: ["Armor Break"]
 
   normal_throw:
@@ -50,4 +50,4 @@
       input: (in air) Down + MK
 
     - name: Trick Landing
-      input: (when landing) All three kicks
+      input: (when landing) kkk

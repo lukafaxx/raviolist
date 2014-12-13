@@ -9,35 +9,35 @@
 
   command_normal:
     - name: Jet Upper
-      input: Down-forward + LP
+      input: downforward + LP
 
     - name: Step
       input: Forward + LK + HK
 
   special_move:
     - name: Super Argentine Backbreaker
-      input: Half-circle forward, kick
+      input: hcf kick
       note: ["EX"]
 
     - name: Flashing Elbow
-      input: During Super Argentine Backbreaker > quarter-circle forward, punch
+      input: During Super Argentine Backbreaker > qcf punch
 
     - name: Vulcan Punch
       input: Press punch repeatedly
       note: ["EX"]
 
     - name: Gatling Attack
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX"]
 
     - name: (Derivation) Death Lake Driver
-      input: During Gatling Attack (HP or EX) > forward, down, down-forward, punch
+      input: During Gatling Attack (HP or EX) > forward down downforward punch
 
   desperation_move:
     - name: Ultra Argentine Backbreaker
-      input: Half-circle back x 2, punch
+      input: hcb hcb punch
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: Ultra Clark Buster
-      input: Half-circle back x 2, LK + HK
+      input: hcb hcb LK + HK

@@ -2,28 +2,28 @@
 
   special_move:
     - name: Metallic Sphere
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX", "Hold punch to charge"]
 
     - name: Chariot Tackle
-      input: Charge back, then forward + kick
+      input: chback forward + kick
       note: ["EX"]
 
     - name: Violence Knee Drop
-      input: Charge down, then up + kick
+      input: chdown up + kick
       note: ["EX", "Overhead"]
 
     - name: Dangerous Headbutt
-      input: Charge down, then up + punch
+      input: chdown up + punch
       note: ["EX"]
 
   super_art:
     - name: I. Tyrant Slaughter
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: II. Temporal Thunder
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: III. Aegis Reflector
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
       note: ["Press any two punches for anti-air reflector"]

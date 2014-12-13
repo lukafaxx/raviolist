@@ -2,32 +2,32 @@
 
   special_move:
     - name: Whip of Love
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX", "Can be performed three times in sequence"]
 
     - name: Love Me Tender
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX", "Armor Break", "Press kick on hit to shift to a throw"]
 
     - name: Kissed by a Goddess
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Aeolus Edge
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
   super_combo:
     - name: Thunder Whip
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
   ultra_combo:
     - name: I. Love Storm
-      input: Quarter-circle forward x 2, all three punches
+      input: qcf qcf ppp
       note: ["Armor Break"]
 
     - name: II. Poison Kiss
-      input: Half-circle back x 2, all three punches
+      input: hcb hcb ppp
       note: ["Command grab"]
 
   normal_throw:
@@ -43,4 +43,4 @@
       note: ["Overhead"]
 
     - name: Backflip
-      input: All three kicks
+      input: kkk

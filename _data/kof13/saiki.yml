@@ -13,40 +13,40 @@
 
   special_move:
     - name: Kiyoku-no-Tsuki
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Hanetsurube-no-Nata
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Kasahazushi-no-Tsuchi
       input: During Hanetsurube-no-Nata (HK or EX) > hold punch or kick
 
     - name: Hiori-no-Kusabi
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
     - name: Ura Shichiri
       input: During Hiori-no-Kusabi (HK or EX) > hold punch or kick
 
     - name: Shichiri-Gake
-      input: Down, down, punch or kick
+      input: down down punch or kick
 
   desperation_move:
     - name: Washiba Otoshi
-      input: Quarter-circle forward x 2, kick
+      input: qcf qcf kick
 
     - name: Yami Otoshi
-      input: (in air) Quarter-circle forward x 2, kick
+      input: (in air) qcf qcf kick
 
     - name: Toyokami-no-Fune
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: Kyoryuu-no-Ori
-      input: Half-circle back x 2, punch
+      input: hcb hcb punch
       note: ["EX"]
 
   neo_max_desperation_move:
     - name: Kasumi
-      input: Quarter-circle back, half-circle forward, LP + HP
+      input: qcb hcf LP + HP

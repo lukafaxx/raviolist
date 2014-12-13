@@ -10,43 +10,43 @@
 
   special_move:
     - name: Ryuu Touda
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX", "EX can be performed four times in sequence"]
 
     - name: Rintesshou
-      input: During Ryuu Touda > quarter-circle forward, punch
+      input: During Ryuu Touda > qcf punch
 
     - name: (Derivation) Shikkuu Zanryuu Kyaku
-      input: During Rintesshou > quarter-circle forward, kick
+      input: During Rintesshou > qcf kick
 
     - name: Shikkuu Zanryuu Kyaku
-      input: Quarter-circle forward, kick
+      input: qcf kick
       note: ["EX"]
 
     - name: Ryuu Bokko
-      input: Forward, down, down-forward, press punch repeatedly
+      input: forward down downforward press punch repeatedly
       note: ["EX"]
 
     - name: Ryuugaku-Sai
-      input: Back, down, down-back, kick
+      input: back down downback kick
       note: ["EX"]
 
     - name: Ryuusou-Geki
-      input: (in air) Quarter-circle back, punch
+      input: (in air) qcb punch
       note: ["EX"]
 
     - name: Choukyuudan
-      input: Quarter-circle back, punch
+      input: qcb punch
       note: ["EX"]
 
   desperation_move:
     - name: "Shinryuu: Choukyuudan"
-      input: Quarter-circle back x 2, punch
+      input: qcb qcb punch
       note: ["EX"]
 
     - name: Shinryuu Seikoushou
-      input: Quarter-circle forward, half-circle back, punch
+      input: qcf hcb punch
 
   neo_max_desperation_move:
     - name: "Seigan: Senki Hakkei"
-      input: Quarter-circle forward x 2, LP + HP
+      input: qcf qcf LP + HP

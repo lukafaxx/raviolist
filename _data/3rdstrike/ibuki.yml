@@ -2,41 +2,41 @@
 
   special_move:
     - name: Raida
-      input: Half-circle back, punch
+      input: hcb punch
 
     - name: Kasumi Gake
-      input: Quarter-circle forward, kick
+      input: qcf kick
 
     - name: Tsuiji Goe
-      input: Forward, down, down-forward, punch
+      input: forward down downforward punch
 
     - name: Kunai
-      input: (in air) Quarter-circle forward, punch
+      input: (in air) qcf punch
       note: ["EX"]
 
     - name: Kubi Ori
-      input: Quarter-circle forward, punch
+      input: qcf punch
       note: ["EX"]
 
     - name: Kazekiri
-      input: Forward, down, down-forward, kick
+      input: forward down downforward kick
       note: ["EX"]
 
     - name: Hien
-      input: Back, down, down-back, kick
+      input: back down downback kick
       note: ["Overhead"]
 
     - name: Tsumuji
-      input: Quarter-circle back, kick
+      input: qcb kick
       note: ["EX"]
 
   super_art:
     - name: I. Kasumi Suzaku
-      input: (in air) Quarter-circle forward x 2, punch
+      input: (in air) qcf qcf punch
       note: ["Press punch repeatedly for more hits"]
 
     - name: II. Yoroi Dooshi
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch
 
     - name: III. Yami Shigure
-      input: Quarter-circle forward x 2, punch
+      input: qcf qcf punch

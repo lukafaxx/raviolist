@@ -3,19 +3,19 @@
 
   special_move:
     - name: Rolling Crystal Flash
-      input: Charge back, then forward + punch
+      input: chback forward + punch
       note: ["EX"]
 
     - name: Scarlet Terror
-      input: Charge down-back, then forward + kick
+      input: chdownback forward + kick
       note: ["EX", "Armor Break"]
 
     - name: Sky High Claw
-      input: Charge down, then up + punch
+      input: chdown up + punch
       note: ["EX", "Armor Break during EX Sky High Claw"]
 
     - name: Flying Barcelona Attack
-      input: Charge down, then up + kick
+      input: chdown up + kick
       note: ["EX", "Press punch after wall jump for followup"]
 
     - name: Flying Barcelona Attack > Izuna Drop
@@ -23,12 +23,12 @@
       note: ["Command grab"]
 
     - name: Remove Claw
-      input: Forward, down, down-forward + punch
+      input: forward down downforward + punch
       note: ["EX version removes mask"]
 
   super_combo:
     - name: Flying Barcelona Special
-      input: Charge down-back, then down-forward, down-back, up-forward + kick
+      input: chdownback downforward downback upforward + kick
       note: ["Press any punch after wall jump for followup"]
 
     - name: Flying Barcelona Special > Rolling Izuna Drop
@@ -37,11 +37,11 @@
 
   ultra_combo:
     - name: I. Bloody High Claw
-      input: Charge down-back, then down-forward, down-back, up-forward + all three kicks
+      input: chdownback downforward downback upforward + kkk
       note: ["Armor Break"]
 
     - name: II. Splendid Claw
-      input: Charge down-back, then forward, back, forward + all three kicks
+      input: chdownback forward back forward + kkk
       note: ["Armor Break"]
 
   normal_throw:
@@ -56,17 +56,17 @@
 
   unique_attack:
     - name: Piece of Mercury
-      input: Down-forward + MK
+      input: downforward + MK
       note: ["Overhead"]
 
     - name: Cosmic Heel
-      input: Down-forward + HK
+      input: downforward + HK
 
     - name: Back Slash
-      input: All three kicks
+      input: kkk
 
     - name: Wall Jump
-      input: (during angled jump, near wall) Up-forward
+      input: (during angled jump, near wall) upforward
 
     - name: Pick Up Mask
       input: Down + any two punches
