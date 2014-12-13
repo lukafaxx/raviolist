@@ -438,8 +438,27 @@ a.sidebar-nav-item:focus {
 
 .move_input img {
  vertical-align: middle;
- width: 40px;
- height: 40px;
+ width: 30px;
+ height: 30px;
+}
+
+.button {
+ display: inline-block;
+ font-weight: 600;
+ vertical-align: middle;
+ height: 30px;
+ width: 30px;
+ line-height: 30px;
+ -moz-border-radius: 30px;
+ border-radius: 30px;
+ background: #000;
+ color: #37474f;
+ text-align: center;
+ font-size: .8em;
+}
+
+.flow {
+  margin-left: -5px;
 }
 
 .move_note {
