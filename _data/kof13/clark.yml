@@ -31,7 +31,7 @@
       note: ["EX"]
 
     - name: (Derivation) Death Lake Driver
-      input: During Gatling Attack (HP or EX) > forward down downforward punch
+      input: During Gatling Attack (HP or EX) > dpf punch
 
   desperation_move:
     - name: Ultra Argentine Backbreaker

@@ -10,7 +10,7 @@
       note: ["EX", "Armor Break", "Press kick on hit to shift to a throw"]
 
     - name: Kissed by a Goddess
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Aeolus Edge

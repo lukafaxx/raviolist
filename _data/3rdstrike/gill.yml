@@ -8,7 +8,7 @@
       input: (from right side) qcf punch
 
     - name: Saber Lariat
-      input: forward down downforward punch
+      input: dpf punch
 
     - name: Moonsault Knee Drop
       input: hcb kick

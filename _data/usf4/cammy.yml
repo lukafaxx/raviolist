@@ -2,7 +2,7 @@
 
   special_move:
     - name: Cannon Spike
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Spiral Arrow

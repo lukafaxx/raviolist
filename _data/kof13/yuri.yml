@@ -28,7 +28,7 @@
       note: ["EX"]
 
     - name: Kuuga (Yuri Chou Upper)
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX"]
 
     - name: Raiou Ken
@@ -40,7 +40,7 @@
       note: ["EX"]
 
     - name: Houyoku
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Hien Souha

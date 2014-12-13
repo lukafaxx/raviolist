@@ -8,7 +8,7 @@
       input: qcf kick
 
     - name: Tsuiji Goe
-      input: forward down downforward punch
+      input: dpf punch
 
     - name: Kunai
       input: (in air) qcf punch
@@ -19,11 +19,11 @@
       note: ["EX"]
 
     - name: Kazekiri
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Hien
-      input: back down downback kick
+      input: dpb kick
       note: ["Overhead"]
 
     - name: Tsumuji

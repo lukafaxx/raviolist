@@ -6,7 +6,7 @@
       note: ["EX", "Command grab"]
 
     - name: Banishing Flat
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX"]
 
     - name: Double Lariat

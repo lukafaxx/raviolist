@@ -6,7 +6,7 @@
       note: ["EX", "Can be performed three times in sequence"]
 
     - name: Shienkyaku
-      input: back down downback kick
+      input: dpb kick
       note: ["EX"]
 
     - name: Rekkukyaku

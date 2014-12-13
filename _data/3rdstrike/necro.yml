@@ -8,7 +8,7 @@
       input: hcf kick
 
     - name: Denji Blast
-      input: forward down downforward punch
+      input: dpf punch
       note: ["Press punch repeatedly for more hits"]
 
     - name: Flying Viper

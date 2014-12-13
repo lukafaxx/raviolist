@@ -14,7 +14,7 @@
       note: ["Command grab"]
 
     - name: Shootdown Backbreaker
-      input: forward down downforward kick
+      input: dpf kick
 
     - name: Meat Squasher
       input: 360 kick

@@ -2,7 +2,7 @@
 
   special_move:
     - name: Fukiage
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX version can hit opponent on the ground"]
 
     - name: Hayate

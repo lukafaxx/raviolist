@@ -12,7 +12,7 @@
       input: hcb punch
 
     - name: Gou Shoryuken
-      input: forward down downforward punch
+      input: dpf punch
 
     - name: Tatsumaki Zankuukyaku
       input: qcb kick
@@ -21,10 +21,10 @@
       input: (in air) qcb kick
 
     - name: Ashura Senku
-      input: forward down downforward or back down downback and any two punches or any two kicks
+      input: dpf or dpb and any two punches or any two kicks
 
     - name: Hyakkishu
-      input: forward down downforward kick
+      input: dpf kick
 
     - name: Hyakki Gouzan
       input: During Hyakkishu > do nothing

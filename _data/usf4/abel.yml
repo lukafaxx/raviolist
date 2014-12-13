@@ -29,7 +29,7 @@
       note: ["EX"]
 
     - name: Falling Sky
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX"]
 
     - name: Tornado Throw

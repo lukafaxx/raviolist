@@ -14,7 +14,7 @@
       note: ["EX"]
 
     - name: Goshoryuken
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX"]
 
     - name: Tatsumaki Zankukyaku
@@ -26,7 +26,7 @@
       note: ["EX"]
 
     - name: Hyakkishu
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Hyakkishu > Hyakki Gouzan
@@ -44,7 +44,7 @@
       note: ["Command grab"]
 
     - name: Ashura Senku
-      input: forward down downforward or back down downback and ppp or kkk
+      input: dpf or dpb and ppp or kkk
 
   super_combo:
     - name: Raging Demon

@@ -14,7 +14,7 @@
       note: ["EX"]
 
     - name: Goshoryuken
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX"]
 
     - name: Tatsumaki Zankukyaku
@@ -26,7 +26,7 @@
       note: ["EX"]
 
     - name: Sekisei Jiraiken
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Rakan Dantojin

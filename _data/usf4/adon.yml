@@ -2,7 +2,7 @@
 
   special_move:
     - name: Jaguar Kick
-      input: back down downback kick
+      input: dpb kick
       note: ["EX", "Armor Break"]
 
     - name: Airborne Jaguar Kick
@@ -10,7 +10,7 @@
       note: ["EX"]
 
     - name: Rising Jaguar
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Jaguar Tooth

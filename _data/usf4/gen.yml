@@ -6,7 +6,7 @@
       note: ["EX", "Armor Break"]
 
     - name: Gekiro
-      input: (Mantis) forward down downforward kick
+      input: (Mantis) dpf kick
       note: ["EX", "Press kick after hit for followup"]
 
     - name: Jyasen

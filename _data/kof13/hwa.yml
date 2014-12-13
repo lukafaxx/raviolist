@@ -10,7 +10,7 @@
 
   special_move:
     - name: Dragon Kick
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: EX Dragon Kick (Follow Up)
@@ -18,7 +18,7 @@
       note: ["Can be performed two times in sequence"]
 
     - name: Air Dragon Kick
-      input: (in air) forward down downforward kick
+      input: (in air) dpf kick
       note: ["EX"]
 
     - name: EX Air Dragon Kick (Follow Up)

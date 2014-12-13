@@ -21,18 +21,18 @@
       input: hcf HP
 
     - name: Jiraishin
-      input: forward down downforward LP
+      input: dpf LP
       note: ["EX"]
 
     - name: Jiraishin (Feint)
-      input: forward down downforward HP
+      input: dpf HP
 
     - name: Chou Ukemi
       input: qcb kick
       note: ["EX"]
 
     - name: Chou Oosoto-Gari
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
   desperation_move:

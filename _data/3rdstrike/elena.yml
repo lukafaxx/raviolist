@@ -14,11 +14,11 @@
       note: ["EX"]
 
     - name: Scratch Wheel
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX", "Can be performed again on hit for followup"]
 
     - name: Lynx Tail
-      input: back down downback kick
+      input: dpb kick
       note: ["EX"]
 
   super_art:

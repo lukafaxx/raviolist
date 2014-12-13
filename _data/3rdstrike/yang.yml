@@ -12,7 +12,7 @@
       note: ["Command grab"]
 
     - name: Kaihou
-      input: forward down downforward kick
+      input: dpf kick
 
     - name: Tourou Zan
       input: qcf punch

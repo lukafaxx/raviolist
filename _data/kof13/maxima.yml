@@ -18,7 +18,7 @@
       note: ["EX"]
 
     - name: M-19 Blitz Cannon
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Maxima Press

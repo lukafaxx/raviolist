@@ -6,7 +6,7 @@
       note: ["EX"]
 
     - name: Koryuken
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX"]
 
     - name: Dankukyaku

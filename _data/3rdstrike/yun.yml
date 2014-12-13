@@ -16,11 +16,11 @@
       note: ["EX"]
 
     - name: Tetsuzanko
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX"]
 
     - name: Nishoukyaku
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
   super_art:

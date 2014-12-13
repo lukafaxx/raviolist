@@ -44,7 +44,7 @@
       input: During Zabantetsu or Choukarou > forward or back + HP
 
     - name: Drinking
-      input: back down downback punch
+      input: dpb punch
 
     - name: Kaitenteki Kuutotsu Ken
       input: hcf kick

@@ -9,7 +9,7 @@
       note: ["EX", "Hold punch for follow up"]
 
     - name: Dragon Smash
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX"]
 
     - name: Tornado

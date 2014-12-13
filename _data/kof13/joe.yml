@@ -17,7 +17,7 @@
       note: ["EX"]
 
     - name: Tiger Kick
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Slash Kick

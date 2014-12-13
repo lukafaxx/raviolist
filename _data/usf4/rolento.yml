@@ -2,7 +2,7 @@
 
   special_move:
     - name: Stinger
-      input: forward down downforward kick > punch or kick
+      input: dpf kick > punch or kick
       note: ["EX"]
 
     - name: Mekong Delta Attack

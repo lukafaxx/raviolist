@@ -40,12 +40,15 @@ It is always best to refer to the official in-game move list when creating a new
 * upback
 
 ```
-name: Ougi Kogetsu Zan
-input: forward down downforward + slash
+name: Kakukyakuraku
+input: downforward + HK
+note: ["Overhead"]
 ```
 
 ### multiple directions
 
+* dpf
+* dpb
 * qcf
 * qcb
 * hcf

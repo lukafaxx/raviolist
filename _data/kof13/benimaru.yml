@@ -23,7 +23,7 @@
       input: During Iai-Geri > down up kick
 
     - name: Super Inazuma Kick
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Benimaru Lancer

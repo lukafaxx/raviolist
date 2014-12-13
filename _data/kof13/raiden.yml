@@ -17,7 +17,7 @@
       note: ["EX"]
 
     - name: Raiden Bomb
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX"]
 
     - name: Head Crush

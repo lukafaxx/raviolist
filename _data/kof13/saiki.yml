@@ -17,7 +17,7 @@
       note: ["EX"]
 
     - name: Hanetsurube-no-Nata
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Kasahazushi-no-Tsuchi

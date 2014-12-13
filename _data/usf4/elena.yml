@@ -6,11 +6,11 @@
       note: ["EX", "Overhead"]
 
     - name: Scratch Wheel
-      input: forward down downforward kick
+      input: dpf kick
       note: ["EX"]
 
     - name: Lynx Tail
-      input: back down downback kick
+      input: dpb kick
       note: ["EX"]
 
     - name: Spin Scythe

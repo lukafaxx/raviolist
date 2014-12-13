@@ -17,7 +17,7 @@
 
   special_move:
     - name: "Hyaku Shiki: Oniyaki"
-      input: forward down downforward punch
+      input: dpf punch
       note: ["EX"]
 
     - name: "Ni-Hyaku-Ju-Ni Shiki: Kototsuki In"
