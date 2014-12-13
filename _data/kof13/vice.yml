@@ -38,4 +38,4 @@
 
   neo_max_desperation_move:
     - name: Awaking Blood
-      input: qcb hcf LP + HP
+      input: qcb hcf pp

@@ -42,11 +42,11 @@
       note: ["EX"]
 
     - name: "Ura San-Byaku-Ju-Roku Shiki: Saika"
-      input: "During Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome > qcf qcf qcf qcf, LP + HP"
+      input: qcf hcb punch > qcf qcf qcf qcf pp
 
     - name: "Ura Sen-Ni-Hyaku-Nana Shiki: Yamisogi"
       input: qcf qcf punch
 
   neo_max_desperation_move:
     - name: "Ura Sen-Ni-Ju-ku Shiki: Homurahotogi"
-      input: qcb hcf LP + HP
+      input: qcb hcf pp

@@ -55,4 +55,4 @@
 
   neo_max_desperation_move:
     - name: Kishin Sanga Geki
-      input: qcb hcf LP + HP
+      input: qcb hcf pp

@@ -14,7 +14,7 @@
       note: ["EX"]
 
     - name: EX Dragon Kick (Follow Up)
-      input: During Dragon Kick (EX) > upback or back or downback or upforward or forward or downforward kick
+      input: dpf kk > upback or back or downback or upforward or forward or downforward kick
       note: ["Can be performed two times in sequence"]
 
     - name: Air Dragon Kick
@@ -22,7 +22,7 @@
       note: ["EX"]
 
     - name: EX Air Dragon Kick (Follow Up)
-      input: During Air Dragon Kick (EX) > upback or back or downback or upforward or forward or downforward kick
+      input: dpf kk > upback or back or downback or upforward or forward or downforward kick
       note: ["Can be performed two times in sequence"]
 
     - name: Dragon Tail
@@ -49,4 +49,4 @@
 
   neo_max_desperation_move:
     - name: Final Dragon Kick
-      input: qcf hcb LK + HK
+      input: qcf hcb kk

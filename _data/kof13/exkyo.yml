@@ -78,4 +78,4 @@
 
   neo_max_desperation_move:
     - name: "Saishuu Kessen Hiougi Totsuka"
-      input: qcf qcf LK + HK
+      input: qcf qcf kk

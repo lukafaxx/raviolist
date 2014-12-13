@@ -6,7 +6,7 @@
 
   command_normal:
     - name: Backflip
-      input: LK + HK
+      input: kk
 
   special_move:
     - name: Ryuu Touda
@@ -49,4 +49,4 @@
 
   neo_max_desperation_move:
     - name: "Seigan: Senki Hakkei"
-      input: qcf qcf LP + HP
+      input: qcf qcf pp

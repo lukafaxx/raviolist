@@ -38,4 +38,4 @@
 
   neo_max_desperation_move:
     - name: Raiden Bomber
-      input: qcf qcf LK + HK
+      input: qcf qcf kk

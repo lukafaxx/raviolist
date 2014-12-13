@@ -38,4 +38,4 @@
 
   neo_max_desperation_move:
     - name: "Kin Sen-Ni-Hyaku-Ju-Hachi Shiki: Yatagarasu"
-      input: qcf qcf LK + HK
+      input: qcf qcf kk

@@ -12,7 +12,7 @@
       input: downforward + LP
 
     - name: Step
-      input: Forward + LK + HK
+      input: Forward + kk
 
   special_move:
     - name: Super Argentine Backbreaker
@@ -40,4 +40,4 @@
 
   neo_max_desperation_move:
     - name: Ultra Clark Buster
-      input: hcb hcb LK + HK
+      input: hcb hcb kk

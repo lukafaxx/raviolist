@@ -39,4 +39,4 @@
 
   neo_max_desperation_move:
     - name: "Jet: Vulcan Punch"
-      input: hcb hcb LP + HP
+      input: hcb hcb pp

@@ -39,4 +39,4 @@
 
   neo_max_desperation_move:
     - name: Leona Blade
-      input: qcb hcf LP + HP
+      input: qcb hcf pp

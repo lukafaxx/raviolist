@@ -44,4 +44,4 @@
 
   neo_max_desperation_move:
     - name: "Hiden: Genmu Juon Shikon Sou"
-      input: hcb hcb LP + HP
+      input: hcb hcb pp

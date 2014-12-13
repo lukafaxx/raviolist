@@ -46,4 +46,4 @@
 
   neo_max_desperation_move:
     - name: Psycho Medley 13
-      input: hcb forward + LP + HP
+      input: hcb forward + pp

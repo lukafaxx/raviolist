@@ -45,4 +45,4 @@
 
   neo_max_desperation_move:
     - name: Screw Straight
-      input: qcf qcf LK + HK
+      input: qcf qcf kk

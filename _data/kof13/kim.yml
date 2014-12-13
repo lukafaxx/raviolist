@@ -45,4 +45,4 @@
 
   neo_max_desperation_move:
     - name: Zero-Shiki Houou Kyaku
-      input: qcb downback forward + LP + HP
+      input: qcb downback forward + pp

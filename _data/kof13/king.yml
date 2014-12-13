@@ -35,5 +35,5 @@
 
   neo_max_desperation_move:
     - name: Venom Shot
-      input: qcb qcb LK + HK
+      input: qcb qcb kk
       note: ["Can be performed in air"]

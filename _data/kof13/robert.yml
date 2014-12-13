@@ -12,10 +12,10 @@
       input: Forward + LK
 
     - name: Ushiro Geri
-      input: (in air) LK + HK
+      input: (in air) kk
 
     - name: Sankaku-tobi
-      input: (in air, near wall) Back + LK + HK
+      input: (in air, near wall) Back + kk
 
   special_move:
     - name: Ryuuga
@@ -52,5 +52,5 @@
 
   neo_max_desperation_move:
     - name: Hien Shippuu Ryuujin Kyaku
-      input: qcf hcb LK + HK
+      input: qcf hcb kk
       note: ["Can be performed in air"]

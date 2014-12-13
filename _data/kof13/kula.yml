@@ -44,4 +44,4 @@
 
   neo_max_desperation_move:
     - name: "Neo: Freeze Execution"
-      input: hcb hcb LK + HK
+      input: hcb hcb kk

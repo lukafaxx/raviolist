@@ -52,4 +52,4 @@
 
   neo_max_desperation_move:
     - name: Rai-Kouken
-      input: qcf qcf LK + HK
+      input: qcf qcf kk

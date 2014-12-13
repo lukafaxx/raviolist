@@ -41,4 +41,4 @@
 
   neo_max_desperation_move:
     - name: "Shin: Tenchi Haoh Ken"
-      input: qcf qcf LP + HP
+      input: qcf qcf pp

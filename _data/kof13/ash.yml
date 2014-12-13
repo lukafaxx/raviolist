@@ -40,8 +40,8 @@
       input: LP, LK, HP, HK
 
     - name: Germinal
-      input: During Sans-Culotte > qcb hcf LP + HP
+      input: During Sans-Culotte > qcb hcf pp
 
   neo_max_desperation_move:
     - name: Fructidor
-      input: hcb hcb LK + HK
+      input: hcb hcb kk

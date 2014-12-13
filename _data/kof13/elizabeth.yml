@@ -43,4 +43,4 @@
 
   neo_max_desperation_move:
     - name: Étoile Filante
-      input: qcb hcf LK + HK
+      input: qcb hcf kk

@@ -54,4 +54,4 @@
 
   neo_max_desperation_move:
     - name: Hyper Chain Drive
-      input: hcb hcb LP + HP
+      input: hcb hcb pp

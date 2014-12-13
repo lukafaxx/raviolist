@@ -50,7 +50,7 @@
       input: During Houyoku > kick
 
     - name: Tsubame Otoshi
-      input: During Houyoku > LP + HP
+      input: During Houyoku > pp
 
     - name: Air Raiou Ken
       input: During Houyoku > qcf kick
@@ -65,5 +65,5 @@
 
   neo_max_desperation_move:
     - name: Haoh Raiou Ken
-      input: qcb qcb LP + HP
+      input: qcb qcb pp
       note: ["Can be performed in air"]

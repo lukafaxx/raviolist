@@ -35,4 +35,4 @@
 
   neo_max_desperation_move:
     - name: Maxima Laser
-      input: hcb hcb LP + HP
+      input: hcb hcb pp

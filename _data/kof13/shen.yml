@@ -48,4 +48,4 @@
 
   neo_max_desperation_move:
     - name: Tenshou Bakushingeki
-      input: qcf hcb LP + HP
+      input: qcf hcb pp

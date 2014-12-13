@@ -49,4 +49,4 @@
 
   neo_max_desperation_move:
     - name: Kasumi
-      input: qcb hcf LP + HP
+      input: qcb hcf pp

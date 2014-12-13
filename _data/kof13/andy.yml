@@ -18,7 +18,7 @@
       note: ["EX"]
 
     - name: Kuuha Dan (Brake)
-      input: During Kuuha Dan > LK + HK
+      input: During Kuuha Dan > kk
 
     - name: Hishou Ken
       input: qcb punch
@@ -38,5 +38,5 @@
 
   neo_max_desperation_move:
     - name: Chou Shin Soku Zan-ei Ken
-      input: qcb hcf LP + HP
+      input: qcb hcf pp
       note: ["Can be performed in air"]

@@ -42,4 +42,4 @@
 
   neo_max_desperation_move:
     - name: Kyoutendouchi
-      input: qcf qcf LP + HP
+      input: qcf qcf pp

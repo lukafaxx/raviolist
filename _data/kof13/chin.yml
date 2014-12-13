@@ -12,7 +12,7 @@
       input: down down kick
 
     - name: Choukarou (Cancel)
-      input: During Choukarou > LK + HK
+      input: During Choukarou > kk
 
     - name: Distant HK ~ Choukarou
       input: Far HK, hold HK
@@ -60,5 +60,5 @@
 
   neo_max_desperation_move:
     - name: "Suisou: Gouran Ennhou"
-      input: qcf qcf LK + HK
+      input: qcf qcf kk
       note: ["Can be performed in air"]
