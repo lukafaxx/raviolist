@@ -32,14 +32,14 @@
 
   normal_throw:
     - name: Slapshot
-      input: Forward (or neutral position) + LP + LK
+      input: forward (or neutral position) + LP + LK
 
     - name: Frankensteiner
-      input: Back + LP + LK
+      input: back + LP + LK
 
   unique_attack:
     - name: Elbow Drop
-      input: Forward + MP
+      input: forward + MP
       note: ["Overhead"]
 
     - name: Backflip
