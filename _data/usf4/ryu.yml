@@ -31,15 +31,15 @@
 
   normal_throw:
     - name: Shoulder Throw
-      input: Forward (or neutral position) + LP + LK
+      input: forward (or neutral position) + lp + lk
 
     - name: Somersault Throw
-      input: Back + LP + LK
+      input: back + lp + lk
 
   unique_attack:
     - name: Collarbone Breaker
-      input: Forward + MP
+      input: forward + mp
       note: ["Overhead"]
 
     - name: Solar Plexus Strike
-      input: Forward + HP
+      input: forward + hp
