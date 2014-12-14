@@ -32,7 +32,7 @@
 - { name: Poison }
 - { name: Rolento }
 - { name: Rose,      status: todo }
-- { name: Rufus,     status: todo }
+- { name: Rufus }
 - { name: Ryu }
 - { name: Sagat }
 - { name: Sakura }
