@@ -1,0 +1,48 @@
+- character: Juri
+
+  special_move:
+    - name: Fuhajin
+      input: qcf kick
+      note: ["EX"]
+
+    - name: Shikusen
+      input: (during up or upforward jump) qcb kick
+      note: ["EX", "Armor Break", "EX version can be done with any jump"]
+
+    - name: Shikusen > 2nd Impact
+      input: During Shikusen > kick
+
+    - name: Shikusen > 3rd Strike
+      input: During Shikusen > 2nd Impact > kick
+
+    - name: Senpusha
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Kasatushi
+      input: qcb punch
+      note: ["EX", "Only against certain attacks"]
+
+  super_combo:
+    - name: Fuharenjin
+      input: qcb qcb kick
+
+  ultra_combo:
+    - name: I. Feng Shui Engine
+      input: qcf qcf ppp
+
+    - name: II. Kaisen Dankairaku
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Karen Kick
+      input: forward (or neutral position) + lp + lk
+
+    - name: Assatsu Kick
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Sekku
+      input: forward + mk
+      note: ["Overhead"]
