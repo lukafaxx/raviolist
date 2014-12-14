@@ -20,7 +20,7 @@
 - { name: Gen }
 - { name: Gouken,    status: todo }
 - { name: Guile,     status: todo }
-- { name: Guy,       status: todo }
+- { name: Guy }
 - { name: Hakan }
 - { name: Hugo }
 - { name: Ibuki }

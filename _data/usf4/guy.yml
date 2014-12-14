@@ -1,0 +1,73 @@
+- character: Guy
+
+  special_move:
+    - name: Hozanto
+      input: qcb punch
+      note: ["EX", "Armor Break"]
+
+    - name: Bushin Senpukyaku
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Bushin Izuna Otoshi
+      input: qcf punch > punch
+      note: ["EX", "Command grab", "When opponent is far, Bushin Izuna Otoshi replaced with Elbow Drop"]
+
+    - name: Run
+      input: qcf kick
+      note: ["EX"]
+
+    - name: Run > Sudden Stop
+      input: qcf kick > lk
+
+    - name: Run > Shadow Kick
+      input: qcf kick > mk
+
+    - name: Run > Neck Flip
+      input: qcf kick > hk
+      note: ["Overhead"]
+
+    - name: Kaiten Izuna Otoshi
+      input: (in air) qcf punch
+      note: ["EX", "Command grab"]
+
+  super_combo:
+    - name: Bushin Hasoken
+      input: qcf qcf punch
+
+  ultra_combo:
+    - name: I. Bushin Goraisenpujin
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+    - name: II. Bushin Muso Renge
+      input: hcb hcb ppp
+      note: ["Command grab"]
+
+  normal_throw:
+    - name: Grab Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: Shoulder Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Elbow Drop
+      input: (while jumping) down + mp
+
+    - name: Ninja Sickle
+      input: downforward + hk
+
+    - name: Neck Breaker
+      input: forward + mp
+      note: ["Overhead"]
+
+    - name: Bushin Gokusaken
+      input: lp > mp > hp > hk
+      note: ["Switch HK to cr.HK for throw"]
+
+    - name: Wall Jump
+      input: (during angled jump, near wall) upforward
+
+    - name: Target Combo
+      input: mp > hp
