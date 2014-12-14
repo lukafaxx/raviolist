@@ -1,0 +1,71 @@
+- character: Yun
+
+  special_move:
+    - name: Kobokushi
+      input: qcb punch
+      note: ["EX", "Armor Break", "Use LP for feint"]
+
+    - name: Zesshou Hohou
+      input: qcf punch
+      note: ["EX", "Armor Break"]
+
+    - name: Tetsuzanko
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Nishokyaku
+      input: dpf kick
+      note: ["EX"]
+
+    - name: Zenpou Tenshin
+      input: hcb kick
+      note: ["EX", "Command grab"]
+
+  super_combo:
+    - name: Genei Jin
+      input: qcf qcf punch
+      note: ["Temporarily changes attack properties"]
+
+  ultra_combo:
+    - name: I. You Hou
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Sorai Rengeki
+      input: qcf qcf kkk
+
+  normal_throw:
+    - name: Gekitei Futai
+      input: forward (or neutral position) + lp + lk
+
+    - name: Ento Shugeki
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Senpukyaku
+      input: forward + mk
+      note: ["Overhead"]
+
+    - name: Dakai
+      input: forward + hp
+
+    - name: Raigeki Shu
+      input: (during up or upforward jump) downforward + kick
+      note: ["Divekick"]
+
+    - name: Target Combo 1
+      input: j.lp > forward + hp
+
+    - name: Target Combo 2
+      input: cr.mp > cr.hp
+
+    - name: Target Combo 3
+      input: cr.hk > hk
+      note: ["Not possible during Genei Jin"]
+
+    - name: Target Combo 4
+      input: mp > hp > back + hp
+      note: ["Armor Break added to 3rd hit", "Not possible during Genei Jin"]
+
+    - name: Target Combo 5
+      input: lp > lk > mp
