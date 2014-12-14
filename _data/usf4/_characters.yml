@@ -36,7 +36,7 @@
 - { name: Ryu }
 - { name: Sagat,     status: todo }
 - { name: Sakura,    status: todo }
-- { name: Seth,      status: todo }
+- { name: Seth }
 - { name: T. Hawk }
 - { name: Vega }
 - { name: Yang }

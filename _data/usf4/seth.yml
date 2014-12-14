@@ -1,0 +1,57 @@
+- character: Seth
+
+  special_move:
+    - name: Sonic Boom
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: dpf punch
+      note: ["EX", "Can be performed three times in sequence"]
+
+    - name: Hyakuretsukyaku
+      input: qcb kick
+      note: ["EX", "Armor Break"]
+
+    - name: Tanden Engine
+      input: qcb punch
+      note: ["EX x 2", "Armor Break during EX Tanden Engine"]
+
+    - name: Spinning Piledriver
+      input: 360 punch
+      note: ["EX", "Command grab"]
+
+    - name: Yoga Teleport
+      input: dpf or dpb + ppp or kkk
+
+  super_combo:
+    - name: Tanden Storm
+      input: qcf qcf punch
+
+  ultra_combo:
+    - name: I. Tanden Stream
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Tanden Typhoon
+      input: qcb qcb ppp
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Genocide Shot
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Death Throw
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Yosokyaku
+      input: (while jumping) down + mk
+      note: ["Can be performed three times in sequence"]
+
+    - name: Tenmakujinkyaku
+      input: (at top of upforward jump arc) down + hk
+      note: ["Divekick"]
+
+    - name: Wall Jump
+      input: (during angled jump, near wall) upforward
