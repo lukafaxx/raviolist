@@ -1,0 +1,53 @@
+- character: T. Hawk
+
+  special_move:
+    - name: Mexican Typhoon
+      input: 360 punch
+      note: ["EX", "Command grab"]
+
+    - name: Tomahawk Buster
+      input: dpf punch
+      note: ["EX", "At apex, follow up with PPP. Consumes 1/4 S.C. Gauge"]
+
+    - name: Condor Dive
+      input: (during up or upforward jump) ppp
+      note: ["Armor Break"]
+
+    - name: EX Condor Dive
+      input: (in air) kkk
+      note: ["Armor Break", "Consumes 1/4 S.C. Gauge"]
+
+    - name: Condor Spire
+      input: dpf + kick
+      note: ["EX", "Armor Break with EX Condor Spire"]
+
+  super_combo:
+    - name: Double Typhoon
+      input: 360 360 punch
+      note: ["Command grab"]
+
+  ultra_combo:
+    - name: I. Raging Typhoon
+      input: 360 360 ppp
+      note: ["Command grab"]
+
+    - name: II. Raging Slash
+      input: hcb hcb kkk
+      note: ["Anti-air grab"]
+
+  normal_throw:
+    - name: Neck Hanging Tree
+      input: forward (or neutral position) + lp + lk
+
+    - name: Mexican Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Heavy Body Press
+      input: (during jump) down + hp
+
+    - name: Heavy Shoulder
+      input: (during jump) down + mp
+
+    - name: Thrust Peak
+      input: downforward + lp
