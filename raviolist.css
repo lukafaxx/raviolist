@@ -553,6 +553,12 @@ a.sidebar-nav-item:focus {
   color: inherit;
 }
 
+@media (max-width: 30em) {
+  .responsive_block {
+    margin-bottom: 2rem;
+  }
+}
+
 .pagination {
   overflow: hidden;
   margin-left: -1rem;
