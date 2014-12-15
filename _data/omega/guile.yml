@@ -1,0 +1,76 @@
+- character: Guile
+
+  special_move:
+    - name: Sonic Boom
+      input: chback forward + punch
+      note: ["EX"]
+
+    - name: Sonic Boom > Sonic Break
+      input: During EX Sonic Boom > pp
+      note: ["EX x 2"]
+
+    - name: Flash Kick
+      input: chdown up + kick
+      note: ["EX", "Armor Break on EX version"]
+
+    - name: Blitz Combination
+      input: qcf kick
+      note: ["EX"]
+      
+    - name: Strike Eagle
+      input: qcb kick
+      note: ["EX", "Armor Break"]
+
+  super_combo:
+    - name: Double Flash
+      input: chdownback downforward downback upforward + kick
+
+  ultra_combo:
+    - name: I. Flash Explosion
+      input: chdownback downforward downback upforward + kkk
+
+    - name: II. Sonic Hurricane
+      input: chback forward back forward + ppp
+
+  normal_throw:
+    - name: Dragon Suplex
+      input: forward (or neutral position) + lp + lk
+
+    - name: Judo Throw
+      input: back + lp + lk
+
+    - name: Flying Mare
+      input: (in air) forward (or neutral position) + lp + lk
+
+    - name: Flying Buster Drop
+      input: (in air) back + lp + lk
+
+  unique_attack:
+    - name: Straight Chop
+      input: forward + mp
+      note: ["Overhead"]
+
+    - name: Spinning Back Knuckle
+      input: forward + hp
+
+    - name: Knee Bazooka
+      input: forward or back + lk
+
+    - name: Rolling Sobat
+      input: forward or back + mk
+
+    - name: Reverse Spin Kick
+      input: (near opponent) forward or back + hk
+
+    - name: Guile High Kick
+      input: downforward + hk
+
+    - name: Shades of Glory
+      input: down + hp + hk
+      note: ["Does nothing. Does everything."]
+
+    - name: Target Combo
+      input: cr.mk > forward + mp
+
+    - name: Douji Oshi Special
+      input: cr.lk > lk + punch
