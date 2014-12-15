@@ -7,7 +7,7 @@
 
     - name: Shoryuken
       input: dpf punch
-      note: ["EX"]
+      note: ["EX", "Armor Break added on EX version"]
 
     - name: Tatsumaki Senpukyaku
       input: qcb kick
@@ -16,6 +16,18 @@
     - name: Airborne Tatsumaki Senpukyaku
       input: (in air) qcb kick
       note: ["EX"]
+
+    - name: Hanagashi
+      input: forward + hp + hk
+      note: ["Parry"]
+
+    - name: Hanagashi > Tesshin
+      input: After Hanagashi > ppp
+      note: ["EX x 2"]
+
+    - name: Hanagashi > Isshin
+      input: After parried Hanagashi > ppp
+      note: ["EX x 2"]
 
   super_combo:
     - name: Shinku Hadoken
@@ -43,3 +55,14 @@
 
     - name: Solar Plexus Strike
       input: forward + hp
+
+    - name: Axe Kick
+      input: back + hk
+
+    - name: Target Combo 1
+      input: Far hp > hk
+      note: ["Armor Break"]
+
+    - name: Target Combo 2
+      input: Far mp > hp > hk
+      note: ["Armor Break"]
