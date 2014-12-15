@@ -1,0 +1,62 @@
+- character: Dee Jay
+
+  special_move:
+    - name: Air Slasher
+      input: qcf punch
+      note: ["EX"]
+
+    - name: EX Air Slasher 2nd
+      input: During EX Air Slasher > pp
+
+    - name: Double Rolling Sobat
+      input: qcf kick
+      note: ["Armor Break"]
+
+    - name: Maximum Hurricane
+      input: qcf kk
+      note: ["Armor Break"]
+
+    - name: Jackknife Maximum
+      input: dpf kick
+      note: ["EX"]
+
+    - name: Machinegun Upper
+      input: qcb punch
+      note: ["EX", "Armor Break", "Except for EX version, press punch repeatedly for more hits"]
+
+    - name: Waning Moon
+      input: hcb kick
+      note: ["EX"]
+
+  super_combo:
+    - name: Sobat Carnival
+      input: qcf qcf kick
+
+  ultra_combo:
+    - name: I. Sobat Festival
+      input: qcf qcf kkk
+
+    - name: II. Climax Beat
+      input: qcb qcb ppp
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Swing Over Launch
+      input: forward (or neutral position) + lp + lk
+
+    - name: Flip Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Knee Shot
+      input: (during angled jump) down + lk
+
+    - name: Sunrise Heel
+      input: downforward + mk
+      note: ["Overhead"]
+
+    - name: Maximum High
+      input: forward + hk
+
+    - name: Maximum High > Funky Somersault
+      input: forward + hk > down up hk 
