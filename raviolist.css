@@ -554,13 +554,8 @@ a.sidebar-nav-item:focus {
 }
 
 .responsive_block {
+  margin: 1rem 0;
   border-top: 1px dotted #56717f;
-}
-
-@media (max-width: 30em) {
-  .responsive_block {
-    margin-bottom: 2rem;
-  }
 }
 
 .pagination {
