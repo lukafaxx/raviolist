@@ -553,6 +553,10 @@ a.sidebar-nav-item:focus {
   color: inherit;
 }
 
+.responsive_block {
+  border-top: 1px dotted #56717f;
+}
+
 @media (max-width: 30em) {
   .responsive_block {
     margin-bottom: 2rem;
