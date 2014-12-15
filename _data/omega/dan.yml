@@ -1,0 +1,65 @@
+- character: Dan
+
+  special_move:
+    - name: Gadoken
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Koryuken
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Dankukyaku
+      input: qcb kick
+      note: ["EX", "Armor Break"]
+
+    - name: Airborne Dankukyaku
+      input: (in air) qcb kick
+      note: ["EX", "Armor Break on MK version only"]
+
+    - name: 弾烈拳
+      input: qcb punch
+      note: ["EX"]
+
+    - name: Saikyo 転塵砕
+      input: 360 kick
+      note: ["Command grab"]
+
+  super_combo:
+    - name: Hissho Buraiken
+      input: qcb qcb punch
+
+    - name: Legendary Taunt
+      input: qcf qcf hp + hk
+      note: ["Cancel into Ultra I, drop the stick and walk away"]
+
+  ultra_combo:
+    - name: I. Shisso Buraiken
+      input: qcb qcb ppp
+
+    - name: II. Haoh Gadoken
+      input: qcf qcf kkk
+
+  normal_throw:
+    - name: Gado Thrust
+      input: forward (or neutral position) + lp + lk
+
+    - name: Saikyo Haraigoshi
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Kachiwari Tegatana
+      input: forward + hp
+      note: ["Overhead"]
+
+    - name: Saikyo Ryu Bogyo
+      input: (after blocking a hit) ppp
+      note: ["Parry"]
+
+    - name: Jumping Taunt
+      input: (in air) hp + hk
+      note: ["Builds meter"]
+
+    - name: Ducking Taunt
+      input: down + hp + hk
+      note: ["Builds meter"]
