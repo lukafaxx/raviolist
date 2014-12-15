@@ -1,0 +1,94 @@
+- character: El Fuerte
+
+  special_move:
+    - name: Habanero Dash
+      input: qcf punch
+      note: ["EX gains armor (2 hits)"]
+
+    - name: Habanero Dash > Sudden Stop
+      input: qcf punch > lp
+
+    - name: Habanero Dash > Tostada Press
+      input: qcf punch > mp
+      note: ["Overhead", "Can control in air with forward or back"]
+
+    - name: Habanero Dash > Fajita Buster
+      input: qcf punch > hp
+      note: ["Command grab on standing opponents", "Can control in air with forward or back"]
+
+    - name: Habanero Dash > Back Step
+      input: qcf punch > lk
+
+    - name: Habanero Dash > Gordita Sobat
+      input: qcf punch > mk
+
+    - name: Habanero Dash > Calamari Slide
+      input: qcf punch > hk
+
+    - name: Habanero Back Dash
+      input: qcb punch
+      note: ["EX gains armor (2 hits)"]
+
+    - name: Habanero Back Dash > Sudden Stop
+      input: qcb punch > lp
+
+    - name: Habanero Back Dash > Tostada Press
+      input: qcb punch > mp
+      note: ["Overhead", "Can control in air with forward or back"]
+
+    - name: Habanero Back Dash > Propeller Tortilla
+      input: qcb punch > hp
+      note: ["Command grab", "Can control in air with forward or back"]
+
+    - name: Habanero Back Dash > Picadillo Jump
+      input: qcb punch > kick
+      note: ["Can control in air with forward or back"]
+
+    - name: Quesadilla Bomb
+      input: Charge and release kick
+      note: ["EX", "Armor Break"]
+
+    - name: Guacamole Leg Throw
+      input: dpf kick
+      note: ["EX", "Anti-air grab"]
+
+  super_combo:
+    - name: El Fuerte Dynamite
+      input: qcf qcf kick
+
+  ultra_combo:
+    - name: I. El Fuerte Flying Giga Buster
+      input: qcf qcf kkk
+      note: ["Command grab"]
+
+    - name: II. El Fuerte Ultra Spark
+      input: qcb qcb kkk
+      note: ["Command grab"]
+
+  normal_throw:
+    - name: Tepache Bomb
+      input: forward (or neutral position) + lp + lk
+
+    - name: Chili Mexicano
+      input: back + lp + lk
+
+    - name: Sky Sorpressa Drop
+      input: (in air) lp + lk
+
+  unique_attack:
+    - name: Shower Kick
+      input: forward + mk
+
+    - name: Wall Jump
+      input: (during angled jump, near wall) upforward
+
+    - name: Wall Jump > Tostada Press
+      input: (just after Wall Jump) mp
+      note: ["Can control in air with forward or back"]
+
+    - name: Wall Jump > Fajita Buster
+      input: (just after Wall Jump) hp
+      note: ["Command grab on standing opponents", "Can control in air with forward or back"]
+
+    - name: Target Combo
+      input: Far mk > mk

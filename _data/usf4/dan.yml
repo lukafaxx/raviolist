@@ -22,7 +22,7 @@
       input: qcf qcf punch
 
     - name: Legendary Taunt
-      input: qcf qcf HP + HK
+      input: qcf qcf hp + hk
       note: ["Cancel into Ultra I, drop the stick and walk away"]
 
   ultra_combo:
@@ -34,19 +34,19 @@
 
   normal_throw:
     - name: Gado Thrust
-      input: Forward (or neutral position) + LP + LK
+      input: forward (or neutral position) + lp + lk
 
     - name: Saikyo Haraigoshi
-      input: Back + LP + LK
+      input: back + lp + lk
 
   unique_attack:
     - name: Jumping Taunt
-      input: (in air) HP + HK
+      input: (in air) hp + hk
       note: ["Builds meter"]
 
     - name: Ducking Taunt
-      input: Down + HP + HK
+      input: down + hp + hk
       note: ["Builds meter"]
 
     - name: Saikyo Kick
-      input: Back + HK
+      input: back + hk
