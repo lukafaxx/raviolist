@@ -1,0 +1,57 @@
+- character: Poison
+
+  special_move:
+    - name: Whip of Love
+      input: qcb punch
+      note: ["EX", "Can be performed three times in sequence"]
+
+    - name: Love Me Tender
+      input: qcb kick
+      note: ["EX", "Armor Break", "Press kick on hit to shift to a throw"]
+
+    - name: Kissed by a Goddess
+      input: dpf kick
+      note: ["EX"]
+
+    - name: Aeolus Edge
+      input: qcf punch
+      note: ["EX", "Except for EX version, hold punch to change timing"]
+
+    - name: Ascension
+      input: dpb kick
+      note: ["EX"]
+
+    - name: Honey Trap
+      input: qcf kick
+
+    - name: EX Honey Trap
+      input: qcf kk
+      note: ["EX x 2"]
+
+  super_combo:
+    - name: Thunder Whip
+      input: qcf qcf punch
+
+  ultra_combo:
+    - name: I. Love Storm
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Poison Kiss
+      input: hcb hcb ppp
+      note: ["Command grab"]
+
+  normal_throw:
+    - name: Slapshot
+      input: forward (or neutral position) + lp + lk
+
+    - name: Frankensteiner
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Elbow Drop
+      input: forward + mp
+      note: ["Overhead"]
+
+    - name: Backflip
+      input: kkk
