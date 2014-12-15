@@ -20,7 +20,7 @@
     - name: 鷹翼脚
       input: qcf kick
 
-    - name: 鳳翼扇
+    - name: Houyokusen
       input: qcf pp
       note: ["EX x 2"]
 
@@ -68,10 +68,10 @@
       input: (in air) down + MK
       note: ["Can be performed three times in sequence"]
 
-    - name: 発勁
+    - name: Hakkei
       input: back + hp
 
-    - name: 飛燕蹴
+    - name: Hienshu
       input: (at the start of upforward jump) down + lk
       note: ["Divekick"]
 
