@@ -3,23 +3,30 @@
   special_move:
     - name: Mexican Typhoon
       input: 360 punch
-      note: ["EX", "Command grab"]
+      note: ["Command grab"]
+
+    - name: Thunder Bird
+      input: 360 pp
+      note: ["EX x 2", "Command grab"]
 
     - name: Tomahawk Buster
       input: dpf punch
       note: ["EX", "At apex of EX version, follow up with PPP. Consumes 1/4 S.C. Gauge"]
 
     - name: Condor Dive
-      input: (during up or upforward jump) ppp
-      note: ["Armor Break"]
-
-    - name: EX Condor Dive
-      input: (in air) kkk
-      note: ["Armor Break", "Consumes 1/4 S.C. Gauge"]
+      input: (during up or upforward jump) qcf punch
+      note: ["EX"]
 
     - name: Condor Spire
-      input: dpf + kick
-      note: ["EX", "Armor Break with EX Condor Spire"]
+      input: qcf + kick
+      note: ["EX", "Armor Break"]
+
+    - name: Condor Rise
+      input: kkk
+
+    - name: Earth Rage
+      input: qcb punch
+      note: ["EX"]
 
   super_combo:
     - name: Double Typhoon
@@ -32,7 +39,7 @@
       note: ["Command grab"]
 
     - name: II. Raging Slash
-      input: hcb hcb kkk
+      input: hcb hcb ppp
       note: ["Anti-air grab"]
 
   normal_throw:
@@ -51,3 +58,7 @@
 
     - name: Thrust Peak
       input: downforward + lp
+
+    - name: Hunting Hawk
+      input: forward + hp
+      note: ["Overhead"]
