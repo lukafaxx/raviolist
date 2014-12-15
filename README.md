@@ -65,8 +65,8 @@ note: ["Can be performed in air"]
 
 ### button (sets examples)
 
-* LP - MP - HP - LK - MK - HK - punch - kick - pp - kk - ppp - kkk
-* L - M - H - attack - any two attacks - S
+* lp - mp - hp - lk - mk - hk - punch - kick - pp - kk - ppp - kkk
+* L - M - H - atk - any two atk - S
 * P - K - S - HS - D
 * W - S - WP - SP
 * FP - BP - FK - BK - block - tag - flip stance
@@ -74,7 +74,7 @@ note: ["Can be performed in air"]
 
 ```
 name: Houten Geki
-input: hcb attack
+input: hcb atk
 note: ["Command grab"]
 ```
 

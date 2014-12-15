@@ -1,0 +1,64 @@
+- character: Evil Ryu
+
+  special_move:
+    - name: Hadoken
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Shakunetsu Hadoken
+      input: hcb punch
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Airborne Tatsumaki Senpukyaku
+      input: (in air) qcb kick
+      note: ["EX"]
+
+    - name: Ashura Senku
+      input: dpf or dpb + ppp or kkk
+
+    - name: Ryusokyaku
+      input: hcf kick
+      note: ["EX", "Armor Break", "Overhead added on EX version"]
+
+  super_combo:
+    - name: Raging Demon
+      input: LP LP forward LK HP
+      note: ["Command grab"]
+
+  ultra_combo:
+    - name: I. Metsu Hadoken
+      input: qcf qcf ppp
+      note: ["Armor Break", "Hold punches for more power"]
+
+    - name: II. Messatsu-Goshoryu
+      input: qcf qcf kkk
+
+  normal_throw:
+    - name: Shoulder Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: Somersault Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Zugaihasatsu
+      input: forward + mp
+      note: ["Overhead"]
+
+    - name: Senbukyaku
+      input: forward + mk
+
+    - name: Tenmakujinkyaku
+      input: (at top of upforward jump arc) down + mk
+      note: ["Divekick"]
+
+    - name: Target Combo
+      input: mp > hp
