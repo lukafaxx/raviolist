@@ -1,0 +1,41 @@
+- character: Dee Jay
+
+  special_move:
+    - name: Air Slasher
+      input: chback forward + punch
+      note: ["EX"]
+
+    - name: Double Rolling Sobat
+      input: chback forward + kick
+      note: ["EX", "Armor Break"]
+
+    - name: Jackknife Maximum
+      input: chdown up + kick
+      note: ["EX"]
+
+    - name: Machinegun Upper
+      input: chdown up + punch
+      note: ["EX", "Armor Break", "Press punch repeatedly for more hits"]
+
+  super_combo:
+    - name: Sobat Carnival
+      input: chback forward back forward + kick
+
+  ultra_combo:
+    - name: I. Sobat Festival
+      input: chback forward back forward + kkk
+
+    - name: II. Climax Beat
+      input: chdownback downforward downback upforward + ppp
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Swing Over Launch
+      input: forward (or neutral position) + lp + lk
+
+    - name: Flip Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Knee Shot
+      input: (during angled jump) down + lk
