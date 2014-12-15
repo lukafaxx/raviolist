@@ -141,7 +141,7 @@ p {
   overflow-y: auto;
   font-size: .9rem;
   color: rgba(255,255,255,.6);
-  background-color: #232323;
+  background-color: #343434;
   -webkit-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
@@ -172,13 +172,12 @@ p {
 .sidebar-nav-item {
   display: block;
   padding: .5rem 1rem;
-  border-top: 1px solid rgba(255,255,255,.05);
+  border-top: 1px solid rgba(255,255,255,.1);
   font-weight: 600;
 }
 
-.sidebar-nav-item.about {
+.sidebar-nav-item.special {
   text-align: center;
-  border-top: none;
   font-style: italic;
 }
 
@@ -463,7 +462,7 @@ a.sidebar-nav-item:focus {
 
 .move_note {
  font-style: italic;
- color: #0a0e10;
+ color: #89d2dc;
  font-size: .8rem;
 }
 
