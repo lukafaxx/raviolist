@@ -1,0 +1,45 @@
+- character: C. Viper
+
+  special_move:
+    - name: Thunder Knuckle
+      input: qcb punch
+      note: ["EX", "Armor Break", "Cancel with any two punches"]
+
+    - name: Burning Kick
+      input: qcb kick
+      note: ["EX", "Can be performed in air"]
+
+    - name: Seismic Hammer
+      input: dpf punch
+      note: ["EX", "Cancel with any two punches"]
+
+  super_combo:
+    - name: Emergency Combination
+      input: qcb qcb punch
+
+  ultra_combo:
+    - name: I. Burst Time
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Burning Dance
+      input: (in air) qcb qcb kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Ab Fitness
+      input: forward (or neutral position) + lp + lk
+
+    - name: Temple Massage
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Viper Elbow
+      input: forward + mp
+      note: ["Overhead"]
+
+    - name: Double Kick
+      input: forward + hk
+
+    - name: High Jump
+      input: down up
