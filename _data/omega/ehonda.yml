@@ -13,9 +13,25 @@
       input: chdown up + kick
       note: ["EX"]
 
+    - name: Salt Toss
+      input: qcf kick
+      note: ["E. Honda now playable"]
+
+    - name: Zuri Fugaku
+      input: chback forward + kick
+      note: ["EX"]
+
+    - name: Back Crusher
+      input: hcb kick
+      note: ["EX", "Command grab"]
+
     - name: Oicho Throw
       input: hcb punch
-      note: ["EX", "Command grab"]
+      note: ["Command grab"]
+
+    - name: Orochi Slammer
+      input: hcb pp
+      note: ["EX x 2", "Command grab"]
 
   super_combo:
     - name: Super Killer Head Ram
@@ -28,7 +44,7 @@
       note: ["Armor Break"]
 
     - name: II. Orochi Breaker
-      input: 360 360 ppp
+      input: hcb hcb ppp
       note: ["Command grab"]
 
   normal_throw:
@@ -43,5 +59,11 @@
       input: downforward + hk
       note: ["Overhead"]
 
+    - name: Sweep Kick
+      input: forward + hk
+
     - name: Target Combo
       input: Close mp > downforward + hk
+
+    - name: Target Combo 2
+      input: Close mp > hp
