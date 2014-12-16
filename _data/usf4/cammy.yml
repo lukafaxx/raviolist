@@ -10,7 +10,7 @@
       note: ["EX"]
 
     - name: Quick Spin Knuckle
-      input: hcf punch
+      input: hcb punch
       note: ["EX", "Armor Break"]
 
     - name: Hooligan Combination
