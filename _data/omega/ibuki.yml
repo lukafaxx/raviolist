@@ -1,0 +1,131 @@
+- character: Ibuki
+
+  special_move:
+    - name: Kunai
+      input: (in air) qcf punch
+      note: ["EX", "Follow up with Kasumi Suzaku during descent"]
+
+    - name: Tsuijigoe
+      input: dpf punch
+      note: ["Follow up with Kunai or Kasumi Suzaku during descent"]
+
+    - name: Neck Breaker
+      input: hcf punch
+      note: ["EX", "Armor Break"]
+
+    - name: Raida
+      input: hcb punch
+      note: ["EX", "Armor Break"]
+
+    - name: Kasumi Gake
+      input: qcf kick
+
+    - name: Kazegiri
+      input: dpf kick
+      note: ["EX version can be followed up with Kunai"]
+
+    - name: Tsumuji
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Tsumuji > Followup Attack
+      input: During Tsumuji > kick or down + kick
+      note: ["Kick for high attack, down + kick for low"]
+
+    - name: Hien
+      input: dpb kick
+      note: ["EX", "Follow up with Kunai or Kasumi Suzaku during downward arc after attack"]
+
+    - name: Kagenui
+      input: dpb punch
+
+    - name: Yamishigure
+      input: dpb pp
+      note: ["Consumes 1/2 S.C. Gauge"]
+
+  super_combo:
+    - name: Kasumi Suzaku
+      input: qcf qcf kick
+      note: ["Can be performed in air"]
+
+  ultra_combo:
+    - name: I. Yoroitoshi
+      input: hcb hcb ppp
+
+    - name: II. Hashinsho
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Yami Kazura
+      input: forward (or neutral position) + lp + lk
+
+    - name: Uki Yami
+      input: back + lp + lk
+
+    - name: Tobizaru
+      input: (in air) lp + lk
+
+  unique_attack:
+    - name: Agemen
+      input: back + mp
+
+    - name: Spin Kick
+      input: forward + lk
+
+    - name: Reverse Spin Kick
+      input: back + hk
+
+    - name: Hammer Kick
+      input: downforward + mk
+
+    - name: Sazan
+      input: downforward + lk
+
+    - name: Bonsho Kick
+      input: forward + hk
+
+    - name: Spiral Elbow
+      input: forward + hp
+
+    - name: Backhand Punch
+      input: forward + hp > hp
+
+    - name: High Jump
+      input: down up
+
+    - name: Target Combo 1
+      input: j.hp > mk
+
+    - name: Target Combo 2
+      input: (during angled jump) j.lp > hp
+
+    - name: Target Combo 3
+      input: (during angled jump) j.lk > mk
+
+    - name: Target Combo 4
+      input: Close lp > mp > hp
+
+    - name: Target Combo 5
+      input: Far lp > mp > forward + lk
+
+    - name: Target Combo 6
+      input: Close lp > mp > cr.hk > hk
+
+    - name: Target Combo 7
+      input: back + mk > forward + mk
+
+    - name: Target Combo 8
+      input: Close hp > cr.hk > hk
+
+    - name: Target Combo 9
+      input: lk > mk > hk
+
+    - name: Target Combo 10
+      input: cr.hk > hk
+
+    - name: Target Combo 11
+      input: Far mp > forward + lk
+
+    - name: Target Combo 12
+      input: back + mp > hp

@@ -23,7 +23,7 @@
 - { name: Guy, status: todo }
 - { name: Hakan, status: todo }
 - { name: Hugo, status: todo }
-- { name: Ibuki, status: todo }
+- { name: Ibuki }
 - { name: Juri, status: todo }
 - { name: Ken }
 - { name: Makoto }
