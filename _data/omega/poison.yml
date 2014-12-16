@@ -23,9 +23,6 @@
 
     - name: Honey Trap
       input: qcf kick
-
-    - name: EX Honey Trap
-      input: qcf kk
       note: ["EX x 2"]
 
   super_combo:

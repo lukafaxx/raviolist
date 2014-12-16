@@ -7,7 +7,7 @@
 
     - name: Sonic Boom > Sonic Break
       input: During EX Sonic Boom > pp
-      note: ["EX x 2"]
+      note: ["EX x 2", "Can be performed twice"]
 
     - name: Flash Kick
       input: chdown up + kick
@@ -16,7 +16,7 @@
     - name: Blitz Combination
       input: qcf kick
       note: ["EX"]
-      
+
     - name: Strike Eagle
       input: qcb kick
       note: ["EX", "Armor Break"]
@@ -72,5 +72,5 @@
     - name: Target Combo
       input: cr.mk > forward + mp
 
-    - name: Douji Oshi Special
+    - name: CPS1 Chain
       input: cr.lk > lk + punch

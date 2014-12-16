@@ -14,7 +14,7 @@
 
     - name: Maximum Hurricane
       input: qcf kk
-      note: ["Armor Break"]
+      note: ["EX x 2", "Armor Break"]
 
     - name: Jackknife Maximum
       input: dpf kick
@@ -58,5 +58,5 @@
     - name: Maximum High
       input: forward + hk
 
-    - name: Maximum High > Funky Somersault
-      input: forward + hk > down up hk 
+    - name: Maximum High > Funky Summersault
+      input: forward + hk > down up hk

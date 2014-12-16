@@ -17,11 +17,11 @@
       input: (in air) qcb kick
       note: ["EX", "Armor Break on MK version only"]
 
-    - name: 弾烈拳
+    - name: Danretsuken
       input: qcb punch
       note: ["EX"]
 
-    - name: Saikyo 転塵砕
+    - name: Saikyo Tenjinsai
       input: 360 kick
       note: ["Command grab"]
 
@@ -48,11 +48,11 @@
       input: back + lp + lk
 
   unique_attack:
-    - name: Kachiwari Tegatana
+    - name: Kachiwari Chop
       input: forward + hp
       note: ["Overhead"]
 
-    - name: Saikyo Ryu Bogyo
+    - name: Saikyoryu Defense
       input: (after blocking a hit) ppp
       note: ["Parry"]
 

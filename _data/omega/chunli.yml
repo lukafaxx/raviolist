@@ -17,10 +17,10 @@
       input: chdown up + kick
       note: ["EX", "Armor Break"]
 
-    - name: 鷹翼脚
+    - name: Oyokukyaku
       input: qcf kick
 
-    - name: Houyokusen
+    - name: Hoyokusen
       input: qcf pp
       note: ["EX x 2"]
 

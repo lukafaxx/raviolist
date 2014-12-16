@@ -34,13 +34,13 @@
       note: ["Armor Break"]
 
   normal_throw:
-    - name: Concealed Kill アジン
+    - name: Concealed Kill Advance
       input: Forward (or neutral position) + LP + LK
 
-    - name: Concealed Kill ドゥヴァ
+    - name: Concealed Kill Invert
       input: Back + LP + LK
 
-    - name: Concealed Kill トゥリー
+    - name: Concealed Kill Hover
       input: (in air) LP + LK
 
   unique_attack:

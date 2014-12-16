@@ -22,11 +22,11 @@
       note: ["Parry"]
 
     - name: Hanagashi > Tesshin
-      input: After Hanagashi > ppp
+      input: During Hanagashi > ppp
       note: ["EX x 2"]
 
     - name: Hanagashi > Isshin
-      input: After parried Hanagashi > ppp
+      input: During parried Hanagashi > ppp
       note: ["EX x 2"]
 
   super_combo:

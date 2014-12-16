@@ -1,0 +1,64 @@
+- character: Ken
+
+  special_move:
+    - name: Reppu Hadoshu
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Tatsumaki Senpukyaku
+      input: qcb kick
+      note: ["EX", "Armor Break"]
+
+    - name: Airborne Tatsumaki Senpukyaku
+      input: (in air) qcb kick
+      note: ["EX"]
+
+    - name: Kamabaraigeri
+      input: qcf kick
+
+    - name: Raikou Nataotoshi
+      input: qcf and hold kick
+      note: ["Overhead"]
+
+    - name: Shippu Jinraikyaku
+      input: qcf kk
+      note: ["EX x 2"]
+
+  super_combo:
+    - name: Shoryureppa
+      input: qcf qcf kick
+
+  ultra_combo:
+    - name: I. Shinryuken
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Guren Senpukyaku
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Shoulder Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: Hell Wheel
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Inazuma Kick
+      input: back + mk
+      note: ["Overhead"]
+
+    - name: Forward Step Kick
+      input: forward + mk
+
+    - name: Thunder Kick
+      input: forward + hk
+      note: ["Overhead", "Hold HK to feint"]
+
+    - name: Target Combo
+      input: Close mp > hp
