@@ -31,7 +31,7 @@
 
     - name: Orochi Slammer
       input: hcb pp
-      note: ["EX x 2", "Command grab"]
+      note: ["Command grab", "Consumes 1/2 S.C. Gauge"]
 
   super_combo:
     - name: Super Killer Head Ram

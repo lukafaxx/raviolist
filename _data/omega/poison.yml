@@ -23,7 +23,7 @@
 
     - name: Honey Trap
       input: qcf kick
-      note: ["EX x 2"]
+      note: ["EX", "EX version Consumes 1/2 S.C. Gauge"]
 
   super_combo:
     - name: Thunder Whip

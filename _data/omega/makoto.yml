@@ -23,7 +23,7 @@
 
     - name: Shikiri
       input: qcf kick
-      note: ["Cancel moves", "EX consumes 1/2 S.C. Gauge"]
+      note: ["Cancel moves", "EX version consumes 1/2 S.C. Gauge"]
 
     - name: Isana
       input: dpb punch
@@ -31,7 +31,7 @@
 
     - name: EX Tanden Renki
       input: qcf qcf punch
-      note: ["EX x 2", "Temporary power boost"]
+      note: ["Temporary power boost", "Consumes 1/2 S.C. Gauge"]
 
   super_combo:
     - name: Tanden Renki

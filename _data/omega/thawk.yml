@@ -7,11 +7,11 @@
 
     - name: Thunder Bird
       input: 360 pp
-      note: ["EX x 2", "Command grab"]
+      note: ["Command grab", "Consumes 1/2 S.C. Gauge"]
 
     - name: Tomahawk Buster
       input: dpf punch
-      note: ["EX", "At apex of EX version, follow up with PPP. Consumes 1/4 S.C. Gauge"]
+      note: ["EX", "At apex of EX version, follow up with PPP (consumes 1/4 S.C. Gauge)"]
 
     - name: Condor Dive
       input: (during up or upforward jump) qcf punch

@@ -7,7 +7,7 @@
 
     - name: Sonic Boom > Sonic Break
       input: During EX Sonic Boom > pp
-      note: ["EX x 2", "Can be performed twice"]
+      note: ["Can be performed twice", "Consumes 1/2 S.C. Gauge"]
 
     - name: Flash Kick
       input: chdown up + kick

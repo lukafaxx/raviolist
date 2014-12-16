@@ -22,7 +22,7 @@
 
     - name: Tiger Raid
       input: qcb kk
-      note: ["EX x 2"]
+      note: ["Consumes 1/2 S.C. Gauge"]
 
     - name: Angry Charge
       input: qcb qcb kick

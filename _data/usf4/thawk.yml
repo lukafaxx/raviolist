@@ -7,7 +7,7 @@
 
     - name: Tomahawk Buster
       input: dpf punch
-      note: ["EX", "At apex of EX version, follow up with PPP. Consumes 1/4 S.C. Gauge"]
+      note: ["EX", "At apex of EX version, follow up with PPP (consumes 1/4 S.C. Gauge)"]
 
     - name: Condor Dive
       input: (during up or upforward jump) ppp

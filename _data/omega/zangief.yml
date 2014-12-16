@@ -7,7 +7,7 @@
 
     - name: Spinning Piledriver Special
       input: 360 pp
-      note: ["EX x 2", "Command grab"]
+      note: ["Command grab", "Consumes 1/2 S.C. Gauge"]
 
     - name: Banishing Flat
       input: dpf punch

@@ -26,7 +26,7 @@
 
     - name: Electric Grenade
       input: Press pp repeatedly
-      note: ["EX x 2"]
+      note: ["Consumes 1/2 S.C. Gauge"]
 
   super_combo:
     - name: Ground Shave Roll
