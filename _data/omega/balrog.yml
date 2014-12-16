@@ -1,0 +1,68 @@
+- character: Balrog
+  aka: Boxer, M. Bison
+
+  special_move:
+    - name: Dash Straight
+      input: chback forward + punch
+      note: ["EX"]
+
+    - name: Gigaton Blow
+      input: During hit EX Dash Straight > ppp
+      note: ["EX x 3","Armor Break"]
+
+    - name: Dash Upper
+      input: chback forward + kick
+      note: ["EX"]
+
+    - name: Dash Low Straight
+      input: chback downforward + punch
+      note: ["EX"]
+
+    - name: Dash Low Smash
+      input: chback downforward + kick
+      note: ["EX", "Armor Break"]
+
+    - name: Dash Swing Blow
+      input: chback downforward + hold punch
+      note: ["EX", "Armor Break", "Overhead"]
+
+    - name: Buffalo Head
+      input: chdown up + punch
+      note: ["EX"]
+
+    - name: Turn Punch
+      input: Charge and release hp or hk
+      note: ["Armor Break"]
+
+    - name: EX Turn Punch
+      input: Charge hp or hk, hold another button and release
+      note: ["Armor Break", "Consumes 1/4 S.C. Gauge"]
+
+    - name: Horn Breaker
+      input: hcb punch
+      note: ["EX", "Command grab"]
+
+  super_combo:
+    - name: Crazy Buffalo
+      input: chback forward back forward + punch or kick
+      note: ["Armor Break", "Hold kick for uppercuts"]
+
+  ultra_combo:
+    - name: I. Violent Buffalo
+      input: chback forward back forward + ppp or kkk
+      note: ["Armor Break", "Hold kick for uppercuts"]
+
+    - name: II. Dirty Bull
+      input: hcb hcb ppp
+      note: ["Command grab"]
+
+  normal_throw:
+    - name: Head Bomber
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Lever Break
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Charge Up
+      input: Far hold hp or hk
