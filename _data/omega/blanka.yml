@@ -13,13 +13,24 @@
       input: chdown up + kick
       note: ["EX"]
 
+    - name: Lighting Mole
+      input: dpf punch
+      note: ["EX"]
+
+    - name: EX Coward Crouch
+      input: down + hp + hk
+      note: ["Consumes 1/4 S.C. Gauge"]
+
     - name: Electric Thunder
       input: Press punch repeatedly
-      note: ["EX"]
+
+    - name: Electric Grenade
+      input: Press pp repeatedly
+      note: ["EX x 2"]
 
   super_combo:
     - name: Ground Shave Roll
-      input: chback forward back forward + punch
+      input: chback forward back forward + punch or kick
       note: ["Hold punch to change the timing of dash"]
 
   ultra_combo:
@@ -44,8 +55,8 @@
 
   unique_attack:
     - name: Rock Crusher
-      input: (near opponent) forward or back + mp
-      note: ["Overhead"]
+      input: (near opponent) forward + mp
+      note: ["Overhead", "Hold MP to change timing"]
 
     - name: Amazon River Run
       input: downforward + hp
@@ -59,3 +70,9 @@
     - name: Coward Crouch
       input: down + ppp
       note: ["Hold down to change timing"]
+
+    - name: Coward Crouch > Wild Lift
+      input: During Coward Crouch > punch
+
+    - name: Coward Crouch > Raid Jump
+      input: During Coward Crouch > kick
