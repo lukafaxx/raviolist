@@ -1,0 +1,68 @@
+- character: Sagat
+
+  special_move:
+    - name: High Tiger Shot
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Low Tiger Shot
+      input: qcf kick
+      note: ["EX"]
+
+    - name: Tiger Uppercut
+      input: dpf punch
+      note: ["EX", "Armor Break added with Angry Charge"]
+
+    - name: Tiger Knee Crush
+      input: dpf kick
+      note: ["EX", "Armor Break"]
+
+    - name: Tiger Claw
+      input: qcb kick
+
+    - name: Tiger Raid
+      input: qcb kk
+      note: ["EX x 2"]
+
+    - name: Angry Charge
+      input: qcb qcb kick
+      note: ["Consumes 1/4 S.C. Gauge", "The properties of the first Tiger Uppercut after angry Charge will change"]
+
+  super_combo:
+    - name: Tiger Genocide
+      input: qcf qcf kick
+
+  ultra_combo:
+    - name: I. Tiger Destruction
+      input: qcf qcf kkk
+
+    - name: II. Tiger Cannon
+      input: qcf qcf ppp
+
+  normal_throw:
+    - name: Tiger Rage
+      input: forward (or neutral position) + lp + lk
+
+    - name: Tiger Carry
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Heavy Tiger Elbow
+      input: forward + hp
+      note: ["Overhead"]
+
+    - name: Low Step Kick
+      input: forward + lk
+
+    - name: High Step Kick
+      input: forward + hk
+
+    - name: Edge Knee Strike
+      input: Before HK starts > hk
+      note: ["Can be buffered from another move"]
+
+    - name: Target Combo
+      input: Close mk, hk
+
+    - name: Fake Kick
+      input: Before Target Combo HK starts > hk
