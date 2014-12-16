@@ -30,7 +30,7 @@
 
     - name: Falling Sky
       input: dpf punch
-      note: ["EX"]
+      note: ["EX", "Anti-air grab"]
 
     - name: Tornado Throw
       input: hcb punch

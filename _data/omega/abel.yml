@@ -1,0 +1,68 @@
+- character: Abel
+
+  special_move:
+    - name: Grappling
+      input: qcf punch
+      note: ["EX", "Command grab"]
+
+    - name: Wheel Kick
+      input: qcb kick
+      note: ["EX", "Armor Break"]
+
+    - name: Falling Sky
+      input: dpf punch
+      note: ["EX", "Anti-air grab"]
+
+    - name: Tornado Throw
+      input: hcb punch
+      note: ["EX", "Command grab"]
+
+    - name: Shoulder Tackle
+      input: qcf kick
+      note: ["EX", "Armor Break added on EX and fully charged versions", "Hold kick to charge, cancel with punch"]
+
+  super_combo:
+    - name: Heartless
+      input: qcf qcf punch
+      note: ["Armor Break"]
+
+  ultra_combo:
+    - name: I. Soulless
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Breathless
+      input: qcf qcf kkk
+      note: ["Command Grab", "Hold kicks to change timing of dash, cancel with punch or down down"]
+
+  normal_throw:
+    - name: Drop Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: Pincer Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Side Kick
+      input: downforward + mk
+
+    - name: Back Hand Knuckle
+      input: forward + mp
+
+    - name: Over Hand Hook
+      input: forward + hp
+
+    - name: Palm Drop
+      input: (in air) down + hp
+
+    - name: Marseilles Roll
+      input: (during wake-up) forward + kick
+
+    - name: Target Combo 1
+      input: Close lp > lp
+
+    - name: Target Combo 2
+      input: Close mp > mp
+
+    - name: Target Combo 3
+      input: Close hp > hp
