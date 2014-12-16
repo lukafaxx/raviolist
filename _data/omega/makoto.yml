@@ -21,6 +21,18 @@
       input: (during up or upforward jump) qcb kick
       note: ["EX"]
 
+    - name: Shikiri
+      input: qcf kick
+      note: ["Cancel moves", "EX consumes 1/2 S.C. Gauge"]
+
+    - name: Isana
+      input: dpb punch
+      note: ["EX", "Armor Break"]
+
+    - name: EX Tanden Renki
+      input: qcf qcf punch
+      note: ["EX x 2"]
+
   super_combo:
     - name: Tanden Renki
       input: qcf qcf punch
@@ -31,9 +43,13 @@
       input: qcf qcf ppp
       note: ["Armor Break"]
 
+    - name: I. Seichusen Midarezuki
+      input: During combo > qcf qcf ppp
+      note: ["Armor Break"]
+
     - name: II. Abare Tosanami
       input: qcf qcf kkk
-      note: ["Armor Break"]
+      note: ["Armor Break", "Properties change during EX Shikiri"]
 
   normal_throw:
     - name: Head Butt
@@ -45,6 +61,10 @@
   unique_attack:
     - name: Yamase
       input: forward + hp > hp
+
+    - name: Kumoharai
+      input: During Tanden Renki > mp + mk
+      note: ["Parry"]
 
     - name: Target Combo 1
       input: lk > mk
