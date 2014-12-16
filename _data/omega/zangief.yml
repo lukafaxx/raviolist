@@ -3,10 +3,18 @@
   special_move:
     - name: Spinning Piledriver
       input: 360 punch
-      note: ["EX", "Command grab"]
+      note: ["Command grab"]
+
+    - name: Spinning Piledriver Special
+      input: 360 pp
+      note: ["EX x 2", "Command grab"]
 
     - name: Banishing Flat
       input: dpf punch
+      note: ["EX"]
+
+    - name: Russian Stomping
+      input: qcf kick
       note: ["EX"]
 
     - name: Double Lariat
@@ -50,5 +58,16 @@
     - name: Headbutt
       input: (during up jump) up + mp or hp
 
+    - name: Dynamite Punch
+      input: Far hold hp
+      note: ["Armor Break"]
+
+    - name: Chrome Head
+      input: forward + hp
+
     - name: Long Kick
       input: downforward + hk
+
+    - name: Iron Body
+      input: forward + hp + hk
+      note: ["Parry"]
