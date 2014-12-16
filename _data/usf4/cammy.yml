@@ -28,6 +28,9 @@
       input: During Hooligan Combination > (near opponent, in air) LP + LK
       note: ["Command grab"]
 
+    - name: Hooligan Combination > Cannon Strike
+      input: During Hooligan Combination > qcb kick
+
     - name: Cannon Strike
       input: (during upforward jump) qcb kick
       note: ["EX version can be done with any jump"]
@@ -40,16 +43,16 @@
     - name: I. Gyro Drive Smasher
       input: qcf qcf kkk
 
-    - name: II. Gekirinken
+    - name: II. CQC (Cammy Quick Combination)
       input: qcb qcb ppp
       note: ["Counter attack"]
 
   normal_throw:
     - name: Hooligan Suplex
-      input: Forward (or neutral position) + LP + LK
+      input: forward (or neutral position) + lp + lk
 
     - name: Frankensteiner
-      input: Back + LP + LK
+      input: back + lp + lk
 
     - name: Flying Neck Breaker
-      input: (in air) LP + LK
+      input: (in air) lp + lk
