@@ -16,9 +16,9 @@ layout: page
   {% for char in gamechar %}
     {% if char.status != 'todo' %}
       {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
-      <a class="roster-item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}</a>
+      <a class="roster-item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="roster-aka">{{ char.aka | join: ' &middot; ' }}</span></a>
     {% else %}
-      <span class="roster-item todo">{{ char.name }}<a href="{{ site.baseurl }}/about/">contribute</a></span>
+      <span class="roster-item todo">{{ char.name }}<span class="roster-aka todo">{{ char.aka | join: ' &middot; ' }}</span><a href="{{ site.baseurl }}/about/">contribute</a></span>
     {% endif %}
   {% endfor %}
 

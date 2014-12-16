@@ -1,7 +1,7 @@
 - { name: Abel, status: todo }
 - { name: Adon, status: todo }
-- { name: Akuma, status: todo }
-- { name: Balrog }
+- { name: Akuma, aka: ["Gouki"], status: todo }
+- { name: Balrog, aka: ["Boxer", "M. Bison"] }
 - { name: Blanka }
 - { name: Cammy, status: todo }
 - { name: Chun-Li }
@@ -27,7 +27,7 @@
 - { name: Juri, status: todo }
 - { name: Ken }
 - { name: Makoto }
-- { name: M. Bison, status: todo }
+- { name: M. Bison, aka: ["Dictator", "Vega"], status: todo }
 - { name: Oni, status: todo }
 - { name: Poison }
 - { name: Rolento, status: todo }
@@ -38,7 +38,7 @@
 - { name: Sakura, status: todo }
 - { name: Seth, status: todo }
 - { name: T. Hawk }
-- { name: Vega, status: todo }
+- { name: Vega, aka: ["Claw", "Balrog"], status: todo }
 - { name: Yang, status: todo }
 - { name: Yun, status: todo }
 - { name: Zangief, status: todo }

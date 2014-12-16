@@ -40,7 +40,7 @@
       input: During Hyakkishu > kick
 
     - name: Hyakkishu > Hyakki Gosai
-      input: During Hyakkishu > (near opponent) LP + LK
+      input: During Hyakkishu > (near opponent) lp + lk
       note: ["Command grab"]
 
     - name: Ashura Senku
@@ -48,12 +48,12 @@
 
   super_combo:
     - name: Raging Demon
-      input: LP LP forward LK HP
+      input: lp lp forward lk hp
       note: ["Command grab"]
 
   ultra_combo:
     - name: I. Wrath of the Raging Demon
-      input: LP LP back LK HP
+      input: lp lp back lk hp
       note: ["Command grab"]
 
     - name: II. Demon Armageddon
@@ -62,15 +62,15 @@
 
   normal_throw:
     - name: Goshosha
-      input: Forward (or neutral position) + LP + LK
+      input: forward (or neutral position) + lp + lk
 
     - name: Syuretto
-      input: Back + LP + LK
+      input: back + lp + lk
 
   unique_attack:
     - name: Zugaihasatsu
-      input: Forward + MP
+      input: forward + mp
       note: ["Overhead"]
 
     - name: Tenmakujinkyaku
-      input: (at top of upforward jump arc) Down + MK
+      input: (at top of upforward jump arc) down + mk

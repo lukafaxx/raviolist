@@ -361,7 +361,7 @@ a.sidebar-nav-item:focus {
 
 .roster-item.todo {
  cursor: default;
- color: #0a0e10;
+ color: #263238;
  outline: none;
 }
 
@@ -374,6 +374,22 @@ a.sidebar-nav-item:focus {
 .roster-item.todo:hover,
 .roster-item.todo:focus {
  background-color: inherit;
+}
+
+.roster-aka {
+ padding-left: .5rem;
+ color: #56717f;
+ font-size: .8rem;
+ text-transform: uppercase;
+}
+
+.roster-aka.todo {
+ color: #263238;
+}
+
+.roster-item:not(.todo):hover span,
+.roster-item:not(.todo):focus span {
+  color: #fff;
 }
 
 .from_game {

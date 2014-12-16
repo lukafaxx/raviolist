@@ -38,10 +38,10 @@
 
   normal_throw:
     - name: Deadly Throw
-      input: forward (or neutral position) + LP + LK
+      input: forward (or neutral position) + lp + lk
 
     - name: Death Tower
-      input: back + LP + LK
+      input: back + lp + lk
 
   unique_attack:
     - name: Hell Attack

@@ -1,5 +1,4 @@
 - character: Vega
-  aka: Claw, Balrog
 
   special_move:
     - name: Rolling Crystal Flash
@@ -46,21 +45,21 @@
 
   normal_throw:
     - name: Rainbow Suplex
-      input: Forward (or neutral position) + LP + LK
+      input: forward (or neutral position) + lp + lk
 
     - name: Crescent Line
-      input: Back + LP + LK
+      input: back + lp + lk
 
     - name: Stardust Drop
-      input: (in air) LP + LK
+      input: (in air) lp + lk
 
   unique_attack:
     - name: Piece of Mercury
-      input: downforward + MK
+      input: downforward + mk
       note: ["Overhead"]
 
     - name: Cosmic Heel
-      input: downforward + HK
+      input: downforward + hk
 
     - name: Back Slash
       input: kkk
@@ -69,4 +68,4 @@
       input: (during angled jump, near wall) upforward
 
     - name: Pick Up Mask
-      input: Down + pp
+      input: down + pp
