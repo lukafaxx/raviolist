@@ -1,0 +1,96 @@
+- character: Akuma
+
+  special_move:
+    - name: Gohadoken
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Shakunetsu Hadoken
+      input: hcb punch
+      note: ["EX"]
+
+    - name: Zanku Hadoken
+      input: (in air) qcf punch
+      note: ["EX"]
+
+    - name: Tenma Gozanku
+      input: (in air) qcf lp + hp
+      note: ["Consumes 1/4 S.C. Gauge"]
+
+    - name: Goshoryuken
+      input: dpf punch
+
+    - name: Kimonkai
+      input: dpf pp
+      note: ["Armor Break", "Consumes 1/2 S.C. Gauge"]
+
+    - name: Tatsumaki Zankukyaku
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Airborne Tatsumaki Zankukyaku
+      input: (in air) qcb kick
+      note: ["EX"]
+
+    - name: Hyakkishu
+      input: qcf kick
+      note: ["EX"]
+
+    - name: Hyakkishu > Hyakki Gouzan
+      input: During Hyakkishu > do nothing
+
+    - name: Hyakkishu > Hyakki Gosho
+      input: During Hyakkishu > punch
+      note: ["Armor Break"]
+
+    - name: Hyakkishu > Hyakki Goujin
+      input: During Hyakkishu > kick
+
+    - name: Hyakkishu > Hyakki Gosai
+      input: During Hyakkishu > (near opponent) lp + lk
+      note: ["Command grab"]
+
+    - name: Hyakkishu > Hyakki Goha
+      input: During EX Hyakkishu > punch
+
+    - name: Ashura Senku
+      input: dpf or dpb and ppp or kkk
+
+    - name: Shura Rengoku
+      input: dpf kkk > lp + lk
+      note: ["Command grab", "Consumes 1/2 S.C. Gauge"]
+
+  super_combo:
+    - name: Raging Demon
+      input: lp lp forward lk hp
+      note: ["Command grab"]
+
+  ultra_combo:
+    - name: I. Wrath of the Raging Demon
+      input: lp lp back lk hp
+      note: ["Command grab"]
+
+    - name: II. Demon Armageddon
+      input: up up kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Goshosha
+      input: forward (or neutral position) + lp + lk
+
+    - name: Syuretto
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Zugaihasatsu
+      input: forward + mp
+      note: ["Overhead"]
+
+    - name: Tenmakujinkyaku
+      input: (at top of upforward jump arc) down + mk
+
+    - name: Kikoku Renzan
+      input: Far hk > hk
+
+    - name: Kikoku Rentotsu
+      input: Far hp > hp

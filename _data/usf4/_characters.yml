@@ -1,7 +1,7 @@
 - { name: Abel }
 - { name: Adon }
-- { name: Akuma, aka: Gouki }
-- { name: Balrog, aka: ["Boxer", "M. Bison"] }
+- { name: Akuma, aka: ["Gouki"] }
+- { name: Balrog, aka: ["M. Bison", "Boxer"] }
 - { name: Blanka }
 - { name: Cammy }
 - { name: Chun-Li }
@@ -27,7 +27,7 @@
 - { name: Juri }
 - { name: Ken }
 - { name: Makoto }
-- { name: M. Bison, aka: ["Dictator", "Vega"] }
+- { name: M. Bison, aka: ["Vega", "Dictator"] }
 - { name: Oni }
 - { name: Poison }
 - { name: Rolento }
@@ -38,7 +38,7 @@
 - { name: Sakura }
 - { name: Seth }
 - { name: T. Hawk }
-- { name: Vega, aka: ["Claw", "Balrog"] }
+- { name: Vega, aka: ["Balrog", "Claw"] }
 - { name: Yang }
 - { name: Yun }
 - { name: Zangief }
