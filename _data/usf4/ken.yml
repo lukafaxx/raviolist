@@ -15,7 +15,7 @@
 
     - name: Airborne Tatsumaki Senpukyaku
       input: (in air) qcb kick
-      note: ["EX", "Armor Break"]
+      note: ["EX"]
 
   super_combo:
     - name: Shoryureppa
