@@ -1,5 +1,5 @@
 ---
 layout: game
-title: "Ultra Street Fighter IV: Omega Edition"
+title: "USF4 Omega Edition"
 permalink: /omega/
 ---
