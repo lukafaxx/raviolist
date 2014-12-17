@@ -26,11 +26,11 @@
       note: ["EX", "Armor Break", "EX version can be cancelled by holding KK"]
 
     - name: Diamond Body > Gigant Body
-      input: During Diamond Body > p
+      input: During Diamond Body > punch
       note: ["EX"]
 
     - name: Diamond Body > Reflect Body
-      input: During parried Diamond Body > p
+      input: During parried Diamond Body > punch
 
     - name: Dora Kick
       input: Charge and release hk
