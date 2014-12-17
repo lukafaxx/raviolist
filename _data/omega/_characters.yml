@@ -18,13 +18,13 @@
 - { name: Evil Ryu, status: todo }
 - { name: Fei Long, status: todo }
 - { name: Gen, status: todo }
-- { name: Gouken, status: todo }
+- { name: Gouken }
 - { name: Guile }
-- { name: Guy, status: todo }
-- { name: Hakan, status: todo }
-- { name: Hugo, status: todo }
+- { name: Guy }
+- { name: Hakan }
+- { name: Hugo }
 - { name: Ibuki }
-- { name: Juri, status: todo }
+- { name: Juri }
 - { name: Ken }
 - { name: Makoto }
 - { name: M. Bison, aka: ["Vega", "Dictator"] }

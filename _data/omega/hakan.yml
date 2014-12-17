@@ -1,0 +1,82 @@
+- character: Hakan
+
+  special_move:
+    - name: Oil Shower
+      input: qcb kick
+      note: ["EX", "Certain move properties will change, and defense will be increased"]
+
+    - name: Oil Slide
+      input: qcf punch
+      note: ["EX", "Armor Break"]
+
+    - name: Oil Slide > Body Press
+      input: During Oil Slide except LP version > (just before hit) punch
+
+    - name: Oil Slide > Oil Shower
+      input: During Oil Slide except LP version > (just before hit) kick
+
+    - name: Oil Rocket
+      input: hcb punch
+      note: ["EX", "Command grab"]
+
+    - name: Oil Dive
+      input: 360 kick
+      note: ["EX", "Command grab", "Hold to charge, cancel with down down"]
+
+    - name: Hakan Launcher
+      input: qcf kick
+      note: ["EX", "Armor Break added on EX version"]
+
+  super_combo:
+    - name: Flying Oil Spin
+      input: qcf qcf kick
+      note: ["Command grab", "Hold to charge, cancel with down down"]
+
+  ultra_combo:
+    - name: I. Oil Coaster
+      input: 360 360 ppp
+      note: ["Command grab"]
+
+    - name: II. Oil combination Hold
+      input: down down down kkk
+      note: ["Anti-air grab"]
+
+  normal_throw:
+    - name: Hakan Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: Hakan Reverse
+      input: back + lp + lk
+
+    - name: Hakan Stomp
+      input: (in air) lp + lk
+
+  unique_attack:
+    - name: Guard Position
+      input: down + ppp
+      note: ["Continuously perform directional input"]
+
+    - name: Hakan Smash
+      input: forward + lp
+
+    - name: Hakan Tackle
+      input: forward + mp
+
+    - name: Hakan Spear
+      input: forward + hp
+
+    - name: Step Low
+      input: forward + lk
+
+    - name: Front Kick
+      input: forward + mk
+
+    - name: Step Knee
+      input: forward + hk
+
+    - name: Hakan Splitter
+      input: Hold hp
+      note: ["Overhead"]
+
+    - name: Oil Head Combo
+      input: (when oiled) forward + mp > hp

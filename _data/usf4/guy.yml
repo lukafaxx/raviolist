@@ -53,7 +53,7 @@
 
   unique_attack:
     - name: Elbow Drop
-      input: (while jumping) down + mp
+      input: (in air) down + mp
 
     - name: Ninja Sickle
       input: downforward + hk

@@ -23,12 +23,27 @@
 
     - name: Monster Lariat
       input: qcf kick
-      note: ["EX", "Armor Break"]
+      note: ["EX", "Armor Break", "EX version can be cancelled by holding KK"]
+
+    - name: Diamond Body > Gigant Body
+      input: During Diamond Body > p
+      note: ["EX"]
+
+    - name: Diamond Body > Reflect Body
+      input: During parried Diamond Body > p
+
+    - name: Dora Kick
+      input: Charge and release hk
+      note: ["Armor Break"]
+
+    - name: Victory Column
+      input: dpf punch
+      note: ["EX"]
 
   super_combo:
     - name: Hammer Mountain
       input: qcf qcf punch
-      note: ["Hold punch for feint"]
+      note: ["Hold punch for feint", "Follow up on block with punch"]
 
   ultra_combo:
     - name: I. Gigas Breaker
@@ -41,18 +56,33 @@
 
   normal_throw:
     - name: Neck Hanging Tree
-      input: Forward (or neutral position) + LP + LK
+      input: forward (or neutral position) + lp + lk
 
     - name: Body Slam
-      input: Back + LP + LK
+      input: back + lp + lk
 
   unique_attack:
     - name: Body Press
-      input: (during up or upforward jump) Down + HP
+      input: (during up or upforward jump) down + hp
 
     - name: Hammer Hook
-      input: Forward + HP
+      input: forward + hp
 
     - name: Leap Attack
-      input: down down MK
+      input: down down mk
       note: ["Overhead"]
+
+    - name: Storm Slap
+      input: Hold mp
+
+    - name: Heavy Ankle Kick
+      input: Hold mk
+      note: ["Overhead"]
+
+    - name: Ultra Heavy Elbow
+      input: Hold hp
+      note: ["Overhead"]
+
+    - name: Diamond Body
+      input: forward + hp + hk
+      note: ["Parry"]

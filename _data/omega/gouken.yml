@@ -11,11 +11,11 @@
 
     - name: Tatsumaki Gorasen
       input: qcb kick
-      note: ["EX", "Armor Break added to EX version"]
+      note: ["EX"]
 
     - name: Airborne Tatsumaki Senpukyaku
-      input: (in air) qcb kick
-      note: ["EX"]
+      input: (during up or upforward jump) qcb kick
+      note: ["EX","EX version can be performed during any jump"]
 
     - name: Hyakkishu
       input: dpf kick
@@ -31,16 +31,20 @@
       input: During Hyakkishu > kick
 
     - name: Hyakkishu > Hyakki Gosai
-      input: During Hyakkishu > (near opponent) LP + LK
+      input: During Hyakkishu > (near opponent) lp + lk
       note: ["Command grab"]
 
     - name: Kongoshin
-      input: dpb punch
+      input: qcb punch
       note: ["EX", "Armor Break", "Counter attack"]
+
+    - name: Fudoshin
+      input: qcf kick
+      note: ["EX"]
 
   super_combo:
     - name: Forbidden Shoryuken
-      input: qcf qcf punch
+      input: qcf qcf kick
       note: ["Armor Break"]
 
   ultra_combo:
@@ -67,3 +71,9 @@
     - name: Tenmakujinkyaku
       input: (at top of upforward jump arc) down + mk
       note: ["Divekick"]
+
+    - name: Shinkai Geri
+      input: downforward + mk
+
+    - name: Joudan Sokuto Geri
+      input: forward + hk
