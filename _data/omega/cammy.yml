@@ -19,7 +19,7 @@
 
     - name: Hooligan Combination > Razor's Edge Slicer
       input: During Hooligan Combination > do nothing
-      note: ["Armor Break", "Command grab"]
+      note: ["Armor Break"]
 
     - name: Hooligan Combination > Assault Roll
       input: During Hooligan Combination > punch
