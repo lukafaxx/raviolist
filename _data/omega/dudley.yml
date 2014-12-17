@@ -23,10 +23,10 @@
       input: qcb and mk or hk
 
     - name: Short Swing Blow
-      input: During Sway Back > punch
+      input: During Sway B&zwnj;ack > punch
 
     - name: Step In
-      input: During Sway or Sway Back > kick
+      input: During Sway or Sway B&zwnj;ack > kick
 
     - name: EX Short Swing Blow
       input: qcb kk
