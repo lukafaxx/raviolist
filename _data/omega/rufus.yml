@@ -1,0 +1,86 @@
+- character: Rufus
+
+  special_move:
+    - name: Messiah Kick
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Messiah Kick > High Attack
+      input: qcb kick > lk
+      note: ["Armor Break"]
+
+    - name: Messiah Kick > Mid Attack
+      input: qcb kick > hk
+      note: ["Overhead"]
+
+    - name: Messiah Kick > Low Attack
+      input: qcb kick > mk
+
+    - name: Galactic Tornado
+      input: qcf punch
+      note: ["EX", "Armor Break", "With mp or hp, back or forward determines distance"]
+
+    - name: Snake Strike
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Airborne Snake Strike
+      input: (during up or upforward jump) dpf punch
+      note: ["EX"]
+
+    - name: Dynasty Dash
+      input: qcf kick
+      note: ["EX"]
+
+    - name: Dynasty Dash > Mach Back Knuckle
+      input: During Dynasty Dash > lp
+
+    - name: Dynasty Dash > Peerless Palm
+      input: During Dynasty Dash > mp
+      note: ["Armor Break"]
+
+    - name: Dynasty Dash > Premium Tackle
+      input: During Dynasty Dash > hp
+      note: ["Armor Break"]
+
+  super_combo:
+    - name: Spectacle Romance
+      input: qcf qcf punch
+      note: ["Armor Break added to 2nd or 3rd hit"]
+
+  ultra_combo:
+    - name: I. Space Opera Symphony
+      input: qcf qcf ppp
+      note: ["Armor Break added to upward roundhouse"]
+
+    - name: II. Big Bang Typhoon
+      input: qcb qcb ppp
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Head Bazooka
+      input: forward (or neutral position) + lp + lk
+
+    - name: Hand Machinegun
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Vulture Kick
+      input: forward + mk
+      note: ["Overhead"]
+
+    - name: Glory Kick
+      input: downforward + mk
+
+    - name: Fragrance Palm
+      input: forward + hp
+
+    - name: Falcon Kick
+      input: (in air) downforward + mk
+      note: ["Divekick"]
+
+    - name: Target Combo 1
+      input: lk > hk
+
+    - name: Target Combo 2
+      input: forward + hp > back forward + hp > down forward + hp

@@ -27,18 +27,18 @@
 - { name: Juri, status: todo }
 - { name: Ken }
 - { name: Makoto }
-- { name: M. Bison, aka: ["Vega", "Dictator"], status: todo }
-- { name: Oni, status: todo }
+- { name: M. Bison, aka: ["Vega", "Dictator"] }
+- { name: Oni }
 - { name: Poison }
-- { name: Rolento, status: todo }
-- { name: Rose, status: todo }
-- { name: Rufus, status: todo }
+- { name: Rolento }
+- { name: Rose }
+- { name: Rufus }
 - { name: Ryu }
 - { name: Sagat }
-- { name: Sakura, status: todo }
-- { name: Seth, status: todo }
+- { name: Sakura }
+- { name: Seth }
 - { name: T. Hawk }
-- { name: Vega, aka: ["Balrog", "Claw"], status: todo }
-- { name: Yang, status: todo }
-- { name: Yun, status: todo }
+- { name: Vega, aka: ["Balrog", "Claw"] }
+- { name: Yang }
+- { name: Yun }
 - { name: Zangief }

@@ -1,0 +1,68 @@
+- character: M. Bison
+
+  special_move:
+    - name: Psycho Crusher
+      input: chback forward + punch
+      note: ["Armor Break"]
+
+    - name: Psycho Crusher Omega
+      input: chback forward + pp
+      note: ["Armor Break", "Consumes 1/2 S.C. Gauge"]
+
+    - name: Double Knee Press
+      input: chback forward + kick
+      note: ["EX"]
+
+    - name: Head Press
+      input: chdown up + kick
+      note: ["EX"]
+
+    - name: Head Press > Somersault Skull Diver
+      input: chdown up + kick > punch
+      note: ["EX"]
+
+    - name: Death Flutter
+      input: chdown up + punch
+      note: ["EX"]
+
+    - name: Death Flutter > Devil Reverse
+      input: chdown up + punch > punch
+
+    - name: Death Flutter > Evil Stomp
+      input: chdown up + punch > kick
+
+    - name: Psycho Sever
+      input: qcb kick
+      note: ["EX", "Overhead added on HK and EX Psycho Sever"]
+
+    - name: Bison Warp
+      input: dpf or dpb + ppp or kkk
+
+  super_combo:
+    - name: Knee Press Nightmare
+      input: chback forward back forward + kick
+
+  ultra_combo:
+    - name: I. Nightmare Booster
+      input: chback forward back forward + kkk
+
+    - name: II. Psycho Punisher
+      input: chback forward back forward + ppp
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Deadly Throw
+      input: forward (or neutral position) + lp + lk
+
+    - name: Death Tower
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Hell Attack
+      input: (during angled jump) j.mp > mp
+
+    - name: Deadly Middle Kick
+      input: downforward + hk
+
+    - name: Psycho Break
+      input: downforward + hp

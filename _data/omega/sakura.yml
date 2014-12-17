@@ -1,0 +1,67 @@
+- character: Sakura
+
+  special_move:
+    - name: Hadoken
+      input: qcf punch
+      note: ["EX", "Hold punch to change effect"]
+
+    - name: Shouoken
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Shunpukyaku
+      input: qcb kick
+      note: ["EX", "Armor Break"]
+
+    - name: Shunpurenkyaku
+      input: During Shunpukyaku mk or hk versions > kick
+
+    - name: Airborne Shunpukyaku
+      input: (in air) qcb kick
+      note: ["EX"]
+
+    - name: Sakura Otoshi
+      input: qcf kick
+      note: ["EX", "Press punch up to three times after hit for followup"]
+
+    - name: Hadosho
+      input: qcb punch
+      note: ["EX"]
+
+    - name: Okakyaku
+      input: (during upforward jump) qcf kick
+      note: ["EX","Divekick"]
+
+    - name: Sakura Fubuki
+      input: ppp
+      note: ["Consumes from 1/2 to a full S.C. Gauge", "Follow up on block with punch or kick"]
+
+  super_combo:
+    - name: Haru Ichiban
+      input: qcb qcb kick
+
+  ultra_combo:
+    - name: I. Haru Ranman
+      input: qcb qcb kkk
+      note: ["Armor Break"]
+
+    - name: II. Shinku Hadoken
+      input: qcf qcf ppp
+
+    - name: II. Shinku Tengyo Hadoken
+      input: qcf qcf kkk
+
+  normal_throw:
+    - name: Sailot Shot
+      input: forward (or neutral position) + lp + lk
+
+    - name: Choba Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Flower Kick
+      input: forward + mk
+      note: ["Overhead"]
+
+    - name: Pendulum Upper
+      input: back + hp

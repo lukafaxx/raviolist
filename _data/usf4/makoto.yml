@@ -3,7 +3,7 @@
   special_move:
     - name: Fukiage
       input: dpf punch
-      note: ["EX version can hit opponent on the ground"]
+      note: ["EX Fukiage can hit opponent on the ground"]
 
     - name: Hayate
       input: qcf punch

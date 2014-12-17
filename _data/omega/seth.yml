@@ -1,0 +1,74 @@
+- character: Seth
+
+  special_move:
+    - name: Sonic Boom
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Shoryuken
+      input: dpf punch
+      note: ["EX", "Can be performed three times in sequence"]
+
+    - name: Hyakuretsukyaku
+      input: qcb kick
+      note: ["EX", "Armor Break"]
+
+    - name: Chariot Tackle
+      input: qcf kick
+      note: ["EX", "Armor Break added on EX version"]
+
+    - name: Tanden Engine
+      input: dpb punch
+      note: ["EX", "Armor Break added on EX version", "EX version consumes 1/2 S.C. Gauge"]
+
+    - name: Spinning Piledriver
+      input: 360 punch
+      note: ["EX", "Command grab"]
+
+    - name: Yoga Teleport
+      input: dpf or dpb + ppp or kkk
+
+  super_combo:
+    - name: Tanden Storm
+      input: qcb qcb punch
+
+  ultra_combo:
+    - name: I. Tanden Stream
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Tanden Typhoon
+      input: qcb qcb ppp
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Genocide Shot
+      input: forward (or neutral position) + lp + lk
+
+    - name: Death Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Yosokyaku
+      input: (while jumping) down + mk
+      note: ["Can be performed three times in sequence"]
+
+    - name: Tenmakujinkyaku
+      input: (at top of upforward jump arc) down + hk
+      note: ["Divekick"]
+
+    - name: Wall Jump
+      input: (during angled jump, near wall) upforward
+
+    - name: Scythe Kick
+      input: Close hk
+      note: ["Overhead added on hold HK"]
+
+    - name: Double Zoom Punch
+      input: forward + hp
+
+    - name: Jump Double Zoom Punch
+      input: (during up jump) downforward + hp
+
+    - name: Target Combo
+      input: Far lp > mp

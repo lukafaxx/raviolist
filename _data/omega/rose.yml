@@ -15,12 +15,21 @@
 
     - name: Soul Throw
       input: dpf punch
-      note: ["EX", "Anti-air grab"]
+      note: ["EX", "Anti-air grab","EX Soul Throw can hit opponent on the ground"]
+
+    - name: Soul Passing
+      input: qcb kick
+      note: ["EX", "Counter attack allowing followups"]
 
   super_combo:
     - name: Aura Soul Spark
-      input: qcf qcf punch
-      note: ["not possible during Soul Satellite"]
+      input: qcf qcf lp
+
+    - name: Aura Soul Spark Due
+      input: qcf qcf mp
+
+    - name: Aura Soul Spark Tre
+      input: qcf qcf hp
 
   ultra_combo:
     - name: I. Illusion Spark
@@ -28,7 +37,7 @@
       note: ["Armor Break"]
 
     - name: II. Soul Satellite
-      input: qcb qcb kkk
+      input: qcb qcb ppp
       note: ["Armor Break"]
 
   normal_throw:
@@ -41,6 +50,9 @@
   unique_attack:
     - name: Slide
       input: downforward + mk
+
+    - name: Soul Feel
+      input: forward + mp
 
     - name: Soul Piede
       input: forward + hk

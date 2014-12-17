@@ -11,7 +11,7 @@
 
     - name: Tiger Uppercut
       input: dpf punch
-      note: ["EX", "Armor Break added with Angry Charge"]
+      note: ["EX", "Armor Break added with previous Angry Charge"]
 
     - name: Tiger Knee Crush
       input: dpf kick
@@ -26,7 +26,7 @@
 
     - name: Angry Charge
       input: qcb qcb kick
-      note: ["Consumes 1/4 S.C. Gauge", "The properties of the first Tiger Uppercut after angry Charge will change"]
+      note: ["Consumes 1/4 S.C. Gauge", "The properties of the next Tiger Uppercut will change"]
 
   super_combo:
     - name: Tiger Genocide

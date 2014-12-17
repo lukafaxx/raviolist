@@ -1,0 +1,65 @@
+- character: Rolento
+
+  special_move:
+    - name: Stinger
+      input: dpf kick > punch or kick
+      note: ["EX"]
+
+    - name: Stinger True
+      input: dpf kick > pp or kk
+      note: ["EX"]
+
+    - name: Mekong Delta Attack
+      input: ppp > (when landing) punch
+      note: ["EX", "Armor Break"]
+
+    - name: Mekong Delta Air Raid
+      input: qcb punch > punch
+      note: ["EX", "Armor Break", "Overhead"]
+
+    - name: Mekong Delta Escape
+      input: qcb kick
+      note: ["EX"]
+
+    - name: Patriot Circle
+      input: qcf punch
+      note: ["EX", "MP version can be performed twice, HP version three times in sequence"]
+
+    - name: Scouter Jump
+      input: down up or kkk
+
+    - name: Snare Mine
+      input: qcf kick
+      note: ["EX"]
+
+    - name: Indomitable Revenger
+      input: dpb punch
+      note: ["EX", "Counter-attack"]
+
+  super_combo:
+    - name: Mine Sweeper
+      input: qcb qcb punch
+
+  ultra_combo:
+    - name: I. Patriot Sweeper
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: II. Take No Prisoners
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Colonel Carrier
+      input: forward (or neutral position) + lp + lk
+
+    - name: Deadly Package
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Trick Rod
+      input: forward + mk
+      note: ["Overhead"]
+
+    - name: Spike Rod
+      input: (in air) down + mk

@@ -3,15 +3,22 @@
   special_move:
     - name: Rolling Crystal Flash
       input: chback forward + punch
-      note: ["EX"]
+
+    - name: Crimson Crucify
+      input: chback forward + pp
+      note: ["Consumes 1/2 S.C. Gauge"]
 
     - name: Scarlet Terror
       input: chdownback forward + kick
       note: ["EX", "Armor Break"]
 
+    - name: EX Scarlet Terror Followup Attack
+      input: During EX Scarlet Terror > kick
+      note: ["Automatic on hit EX Scarlet Terror"]
+
     - name: Sky High Claw
       input: chdown up + punch
-      note: ["EX", "Armor Break during EX Sky High Claw"]
+      note: ["EX", "Armor Break added on EX version"]
 
     - name: Flying Barcelona Attack
       input: chdown up + kick
@@ -21,9 +28,15 @@
       input: During Flying Barcelona Attack > (near opponent) forward or back + punch
       note: ["Command grab"]
 
+    - name: Flying Barcelona Attack > Rose Thorn
+      input: During Flying Barcelona Attack > kick
+
     - name: Remove Claw
       input: dpf punch
-      note: ["EX version removes mask"]
+
+    - name: Insanity Gaze
+      input: dpf pp
+      note: ["Consumes 1/2 S.C. Gauge", "Removes mask"]
 
   super_combo:
     - name: Flying Barcelona Special
@@ -70,5 +83,5 @@
     - name: Wall Jump
       input: (during angled jump, near wall) upforward
 
-    - name: Pick Up Mask
-      input: down + pp
+    - name: Target Combo
+      input: Close lk > hk
