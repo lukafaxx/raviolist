@@ -27,7 +27,7 @@
     - name: Hooligan Combination > Cannon Strike
       input: During Hooligan Combination > kick
 
-    - name: Hooligan Combination > Fatal Leg Twister
+    - name: EX Hooligan Combination > Fatal Leg Twister
       input: During EX Hooligan Combination > (near opponent) LP + LK
       note: ["Command grab"]
 
