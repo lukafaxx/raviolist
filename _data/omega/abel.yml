@@ -56,7 +56,7 @@
       input: (in air) down + hp
 
     - name: Marseilles Roll
-      input: (during wake-up) forward + kick
+      input: (during knockdown recovery) forward + kick
 
     - name: Target Combo 1
       input: Close lp > lp
