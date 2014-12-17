@@ -1,0 +1,54 @@
+- character: Fei Long
+
+  special_move:
+    - name: Rekkaken
+      input: qcf punch
+      note: ["EX", "Can be performed three times in sequence"]
+
+    - name: Shienkyaku
+      input: dpb kick
+      note: ["EX"]
+
+    - name: Rekkukyaku
+      input: hcf kick
+      note: ["EX", "Armor Break added on EX version"]
+
+    - name: Tenshin
+      input: hcb kick
+      note: ["EX", "Command grab"]
+
+    - name: Ryuogeki
+      input: dpf punch
+      note: ["EX", "Armor Break"]
+
+    - name: Shoenryu
+      input: qcb punch
+      note: ["EX", "Armor Break"]
+
+  super_combo:
+    - name: Rekkashinken
+      input: qcf qcf punch
+      note: ["Follow up on block with qcf punch (Armor Break)"]
+
+  ultra_combo:
+    - name: I. Rekkashingeki
+      input: qcf qcf ppp
+
+    - name: II. Gekirinken
+      input: qcf qcf kkk
+      note: ["Counter attack"]
+
+  normal_throw:
+    - name: Shushugai
+      input: forward (or neutral position) + lp + lk
+
+    - name: Tenshou Tousaikyaku
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Chokkarakusho
+      input: forward + mk
+      note: ["Overhead"]
+
+    - name: Engekishu
+      input: forward + hk

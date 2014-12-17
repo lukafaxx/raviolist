@@ -1,0 +1,115 @@
+- character: Dudley
+
+  special_move:
+    - name: Jet Upper
+      input: dpf punch
+      note: ["EX"]
+
+    - name: Machinegun Blow
+      input: hcf punch
+      note: ["EX"]
+
+    - name: Cross Counter
+      input: hcb punch
+      note: ["EX", "Counter attack"]
+
+    - name: Sway
+      input: qcb lk
+
+    - name: Sway > Cutting Upper
+      input: During Sway > punch
+
+    - name: Sway Back
+      input: qcb and mk or hk
+
+    - name: Short Swing Blow
+      input: During Sway Back > punch
+
+    - name: Step In
+      input: During Sway or Sway Back > kick
+
+    - name: EX Short Swing Blow
+      input: qcb kk
+      note: ["Consumes 1/4 S.C. Gauge"]
+
+    - name: Duck
+      input: hcf kick
+      note: ["EX"]
+
+    - name: Duck > Ducking Straight
+      input: During Duck > punch
+      note: ["Armor Break"]
+
+    - name: Duck > Ducking Upper
+      input: During Duck > kick
+
+    - name: EX Duck > Corkscrew Shot
+      input: During EX Duck > punch
+      note: ["Armor Break"]
+
+  super_combo:
+    - name: Rocket Upper
+      input: qcf qcf punch
+
+  ultra_combo:
+    - name: I. Rolling Thunder
+      input: qcf qcf kkk
+
+    - name: II. Corkscrew Cross
+      input: qcf qcf ppp
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Kidney Crusher
+      input: forward (or neutral position) + lp + lk
+
+    - name: Dynamite Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Slipping Jab
+      input: forward + lp
+
+    - name: Stomach Blow
+      input: forward + mp
+
+    - name: Kidney Blow
+      input: forward + mk
+
+    - name: Step Straight
+      input: forward + hp
+
+    - name: Dart Shot
+      input: forward + hk
+      note: ["Overhead"]
+
+    - name: Clavicle Break
+      input: down down + mk
+      note: ["Overhead"]
+
+    - name: Target Combo 1
+      input: forward + lp > mp
+
+    - name: Target Combo 2
+      input: cr.lk > mk
+
+    - name: Target Combo 3
+      input: forward + hk > mk
+
+    - name: Target Combo 4
+      input: lp > mp > mk
+
+    - name: Target Combo 5
+      input: mp or forward + mk > mk > hp
+
+    - name: Target Combo 6
+      input: cr.lk > cr.mp > cr.hp
+
+    - name: Target Combo 7
+      input: mk > hk > hp
+
+    - name: Target Combo 8
+      input: lk > mk > mp > hp
+
+    - name: Victory Rose
+      input: down + hp + hk

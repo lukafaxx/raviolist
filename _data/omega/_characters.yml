@@ -6,18 +6,18 @@
 - { name: Cammy }
 - { name: Chun-Li }
 - { name: Cody }
-- { name: C. Viper, status: todo }
+- { name: C. Viper }
 - { name: Dan }
 - { name: Decapre }
 - { name: Dee Jay }
-- { name: Dhalsim, status: todo }
-- { name: Dudley, status: todo }
+- { name: Dhalsim }
+- { name: Dudley }
 - { name: E. Honda }
-- { name: Elena, status: todo }
-- { name: El Fuerte, status: todo }
-- { name: Evil Ryu, status: todo }
-- { name: Fei Long, status: todo }
-- { name: Gen, status: todo }
+- { name: Elena }
+- { name: El Fuerte }
+- { name: Evil Ryu }
+- { name: Fei Long }
+- { name: Gen }
 - { name: Gouken }
 - { name: Guile }
 - { name: Guy }

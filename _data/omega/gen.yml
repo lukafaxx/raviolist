@@ -1,0 +1,99 @@
+- character: Gen
+
+  special_move:
+    - name: Setsunasen
+      input: Cancel certain moves with ppp or kkk
+      note: ["Change stance", "Consumes 1/4 S.C. Gauge"]
+
+    - name: Hyakurenko
+      input: (Mantis) Press punch repeatedly
+      note: ["EX", "Armor Break"]
+
+    - name: Gekiro
+      input: (Mantis) dpf kick
+      note: ["EX", "Press kick after hit for followup"]
+
+    - name: Jyasen
+      input: (Crane) chback forward + punch
+
+    - name: Shishisho
+      input: (Crane) chback forward + pp
+      note: ["Consumes 1/2 S.C. Gauge"]
+
+    - name: Oga
+      input: (Crane) chdown up + kick
+      note: ["EX"]
+
+    - name: Oga > Sudden Stop
+      input: During Oga > back
+
+    - name: Oga > Close Kick
+      input: During Oga > down or neutral position
+      note: ["Armor Break"]
+
+    - name: Oga > Far Kick
+      input: During Oga > downforward or forward
+      note: ["Armor Break"]
+
+    - name: Oga > Ceiling Jump
+      input: During Oga > upback or up or upforward
+
+    - name: Oga > Falling Kick
+      input: During Oga > upback or up or upforward and down
+      note: ["Armor Break"]
+
+    - name: Oga > Close Range Kick Right
+      input: During Oga > upback or up or upforward and downforward or forward
+      note: ["Armor Break"]
+
+    - name: Oga > Close Range Kick Left
+      input: During Oga > upback or up or upforward and downback or back
+      note: ["Armor Break"]
+
+  super_combo:
+    - name: Zan'ei
+      input: (Mantis) qcf qcf punch
+      note: ["Armor Break"]
+
+    - name: Jyakoha
+      input: (Crane) qcf qcf kick
+
+  ultra_combo:
+    - name: I. Zetsuei
+      input: (Mantis) qcf qcf ppp
+      note: ["Armor Break"]
+
+    - name: I. Ryukoha
+      input: (Crane) qcf qcf kkk
+
+    - name: II. Shitenketsu
+      input: (Mantis) qcb qcb ppp
+      note: ["Armor Break"]
+
+    - name: II. Teiga
+      input: (Crane, in air) qcf qcf kkk
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Shuraku
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Hozen
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: "Change Style: Crane"
+      input: (Mantis) kkk
+
+    - name: Kokukan
+      input: (Mantis) lp > mp > hp or lk > mk > hk
+
+    - name: "Change Style: Mantis"
+      input: (Crane) ppp
+
+    - name: Shakudan
+      input: (Crane) j.HK > HK
+
+    - name: Kyotetsu
+      input: (Crane) downforward + mp
+      note: ["Overhead"]

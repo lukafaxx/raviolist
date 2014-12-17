@@ -1,0 +1,65 @@
+- character: Dhalsim
+
+  special_move:
+    - name: Yoga Fire
+      input: qcf punch
+      note: ["EX"]
+
+    - name: Yoga Flame
+      input: hcb punch
+      note: ["EX", "Armor Break"]
+
+    - name: Yoga Blast
+      input: hcb kick
+
+    - name: Yoga Legend
+      input: hcb kk
+      note: ["Consumes 1/2 S.C. Gauge"]
+
+    - name: Yoga Teleport
+      input: dpf or dpb + ppp or kkk
+      note: ["Can be performed in air"]
+
+    - name: EX Yoga Teleport
+      input: dpf or dpb + hp + hk
+      note: ["Consumes 1/4 S.C. Gauge"]
+
+    - name: Yoga Bringer
+      input: qcf kick
+      note: ["EX", "Armor Break on LK, MK and HK versions"]
+
+  super_combo:
+    - name: Yoga Inferno
+      input: qcf qcf punch
+
+  ultra_combo:
+    - name: I. Yoga Catastrophe
+      input: qcf qcf ppp
+
+    - name: II. Yoga Shangri-La
+      input: (in air) qcf qcf ppp
+      note: ["Armor Break"]
+
+  normal_throw:
+    - name: Yoga Smash
+      input: forward (or neutral position) + lp + lk
+
+    - name: Yoga Throw
+      input: back + lp + lk
+
+  unique_attack:
+    - name: Yoga Spear
+      input: (in air) down + kick
+
+    - name: Yoga Mummy
+      input: (in air) down + hp
+
+    - name: Yoga Chop
+      input: back + hold lp
+      note: ["Overhead"]
+
+    - name: Yoga Tower
+      input: down + ppp
+
+    - name: Yoga Sweep
+      input: down + kkk

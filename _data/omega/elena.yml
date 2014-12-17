@@ -1,0 +1,79 @@
+- character: Elena
+
+  special_move:
+    - name: Mallet Smash
+      input: hcb punch
+      note: ["EX", "Overhead"]
+
+    - name: Scratch Wheel
+      input: dpf kick
+      note: ["EX"]
+
+    - name: Lynx Tail
+      input: dpb kick
+      note: ["EX"]
+
+    - name: Spin Scythe
+      input: qcb kick
+      note: ["EX", "HK version can be performed twice"]
+
+    - name: Rhyno Horn
+      input: hcf kick
+      note: ["EX", "Armor Break"]
+
+    - name: Giraffe Neck
+      input: qcf punch
+      note: ["EX", "Overhead"]
+
+  super_combo:
+    - name: Spinning Beat
+      input: qcf qcf kick
+
+    - name: Sylph Amulet
+      input: qcf qcf punch
+
+  ultra_combo:
+    - name: I. Brave Dance
+      input: qcf qcf kkk
+      note: ["Armor Break"]
+
+    - name: II. Healing
+      input: qcf qcf ppp
+      note: ["Stop healing with punches"]
+
+  normal_throw:
+    - name: Leg Lift Throw
+      input: Forward (or neutral position) + LP + LK
+
+    - name: Leg Hook
+      input: Back + LP + LK
+
+  unique_attack:
+    - name: Handstand Kick
+      input: forward + mp
+      note: ["Overhead"]
+
+    - name: Handstand Whip
+      input: forward + mk
+      note: ["Overhead"]
+
+    - name: Round Arch
+      input: back + hk
+
+    - name: Sliding
+      input: downforward + hk
+
+    - name: Round Step
+      input: forward + hk
+
+    - name: Target Combo 1
+      input: (in air) LP > MK
+
+    - name: Target Combo 2
+      input: (in air) MP > HP
+
+    - name: Target Combo 3
+      input: HP > HK
+
+    - name: Target Combo 4
+      input: MK > cr.HP
