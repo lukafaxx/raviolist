@@ -34,7 +34,7 @@
 
     - name: Indomitable Revenger
       input: dpb punch
-      note: ["EX", "Counter-attack"]
+      note: ["EX", "Counter attack"]
 
   super_combo:
     - name: Mine Sweeper
