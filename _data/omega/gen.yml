@@ -3,7 +3,7 @@
   special_move:
     - name: Setsunasen
       input: Cancel certain moves with ppp or kkk
-      note: ["Change stance", "Consumes 1/4 S.C. Gauge"]
+      note: ["Switches stance", "Consumes 1/4 S.C. Gauge"]
 
     - name: Hyakurenko
       input: (Mantis) Press punch repeatedly
