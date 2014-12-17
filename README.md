@@ -24,7 +24,7 @@ For values under the **note** key, we make use of an inline formatted list.
 note: ["Command grab"]
 ```
 
-Empty keys can be removed entirely, and new keys are always welcome (if one wants to add damage output or frame data, name aliases, anime fighters inputs conventions, etc).
+Empty keys can be removed entirely, and new keys are always welcome (if one wants to add damage output or frame data, name aliases, etc).
 
 It is always best to refer to the official in-game move list when creating a new character for Raviolist, but even those have inconsistencies. We also refer to everything below this point for the proper terminology to use.
 
@@ -41,7 +41,7 @@ It is always best to refer to the official in-game move list when creating a new
 
 ```
 name: Kakukyakuraku
-input: downforward + HK
+input: downforward + hk
 note: ["Overhead"]
 ```
 
@@ -59,14 +59,14 @@ note: ["Overhead"]
 
 ```
 name: "Shiranui Ryuu: Kunoichi No Mai"
-input: qcf hcb LP + HP
+input: qcf hcb lp + hp
 note: ["Can be performed in air"]
 ```
 
 ### button (sets examples)
 
 * lp - mp - hp - lk - mk - hk - punch - kick - pp - kk - ppp - kkk
-* L - M - H - atk - any two atk - S
+* L - M - H - atk - 2atk - S
 * P - K - S - HS - D
 * W - S - WP - SP
 * FP - BP - FK - BK - block - tag - flip stance
