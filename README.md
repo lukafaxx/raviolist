@@ -124,8 +124,8 @@ In addition, some position conventions mostly used for 3D fighting games:
 
 ```
 name: Rock Crusher
-input: (near opponent) forward or back + MP
-note: ["Overhead"]
+input: (near opponent) forward or back + mp
+note: ["Overhead", "Hold MP to change timing"]
 ```
 
 ### various

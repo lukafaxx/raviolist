@@ -45,7 +45,7 @@
   unique_attack:
     - name: Rock Crusher
       input: (near opponent) forward or back + mp
-      note: ["Overhead"]
+      note: ["Overhead", "Hold MP to change timing"]
 
     - name: Amazon River Run
       input: downforward + hp
