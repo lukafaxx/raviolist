@@ -174,6 +174,10 @@ p {
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.1);
   font-weight: 600;
+  -webkit-transition: background-color .2s, color .2s;
+  -moz-transition: background-color .2s, color .2s;
+  -o-transition: background-color .2s, color .2s;
+  transition: background-color .2s, color .2s;
 }
 
 .sidebar-nav-item.special {
@@ -194,7 +198,6 @@ p {
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  color: #fff;
   text-decoration: none;
   background-color: #56717f;
   border-color: transparent;
@@ -216,11 +219,11 @@ a.sidebar-nav-item:focus {
 
 .sidebar-toggle {
   position: absolute;
-  top:  .8rem;
-  left: 1rem;
+  top: -.7rem;
+  left: -.5rem;
   display: block;
-  width: 2.2rem;
-  padding: .5rem .65rem;
+  width: 4.5rem;
+  padding: 2rem 1.6rem 1.35rem 2rem;
   color: #fff;
   cursor: pointer;
 }
@@ -232,11 +235,9 @@ a.sidebar-nav-item:focus {
   padding-bottom: .125rem;
   border-top: .375rem double;
   border-bottom: .125rem solid;
-
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-
 }
 
 .sidebar-toggle:active,
@@ -350,6 +351,11 @@ a.sidebar-nav-item:focus {
  text-transform: uppercase;
  padding: .5rem;
  border-bottom: 1px dotted #56717f;
+ outline: 0px solid #37474f;
+ -webkit-transition: background-color .2s, color .2s, outline .2s;
+ -moz-transition: background-color .2s, color .2s, outline .2s;
+ -o-transition: background-color .2s, color .2s, outline .2s;
+ transition: background-color .2s, color .2s, outline .2s;
 }
 
 .roster-item:hover,
@@ -381,6 +387,10 @@ a.sidebar-nav-item:focus {
  color: #56717f;
  font-size: .8rem;
  text-transform: uppercase;
+ -webkit-transition: color .2s;
+ -moz-transition: color .2s;
+ -o-transition: color .2s;
+ transition: color .2s;
 }
 
 .roster-aka.todo {
@@ -590,7 +600,7 @@ a.sidebar-nav-item:focus {
 }
 
 a.pagination-item:hover {
-  background-color: #f5f5f5;
+  background-color: inherit;
 }
 
 @media (min-width: 30em) {

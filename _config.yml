@@ -12,7 +12,7 @@ tagline:             "end the struggle"
 description:         "Where all the move lists are."
 url:                 http://lukafaxx.github.io/raviolist/
 baseurl:             /raviolist
-paginate:            5
+paginate:            3
 include:             [_game]
 exclude:             ["Gemfile", "Gemfile.lock", "LICENSE.md", "README.md"]
 
