@@ -4,8 +4,8 @@ layout: default
 
 <div class="page">
 
-  {% assign mainchicken = page.permalink | remove: '/ggxrd/' | remove: '/' %}
-  {% for chara in site.data.ggxrd[mainchicken] %}
+{% assign mainchicken = page.permalink | remove: '/ggxrd/' | remove: '/' %}
+{% for chara in site.data.ggxrd[mainchicken] %}
 
   <h1 class="page-title">{{ chara.character }}</h1>
   <span class="from_game">Guilty Gear Xrd -SIGN-</span>
@@ -28,8 +28,7 @@ layout: default
     <span class="move_note">{{ overdrive.note | join: ' &middot; ' }}</span>
   </p>
   {% endfor %}
-  <br />
 
-  {% endfor %}
+{% endfor %}
 
 </div>

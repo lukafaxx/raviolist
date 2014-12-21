@@ -4,8 +4,8 @@ layout: default
 
 <div class="page">
 
-  {% assign mainchicken = page.permalink | remove_first: '/omega/' | remove: '/' %}
-  {% for chara in site.data.omega[mainchicken] %}
+{% assign mainchicken = page.permalink | remove_first: '/omega/' | remove: '/' %}
+{% for chara in site.data.omega[mainchicken] %}
 
   <h1 class="page-title">{{ chara.character }}</h1>
   <span class="from_game">USF4 Omega Edition</span>
@@ -61,6 +61,6 @@ layout: default
   </p>
   {% endfor %}
 
-  {% endfor %}
+{% endfor %}
 
 </div>
