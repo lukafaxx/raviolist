@@ -1,0 +1,41 @@
+- character: May
+
+  special_moves:
+    - name: Mr. Dolphin, Horizontal
+      input: chback forward + slash or hs
+
+    - name: Mr. Dolphin, Vertical
+      input: chdown up + slash or hs
+
+    - name: Overhead Kiss
+      input: hcb forward kick
+      note: ["Can be performed in air"]
+
+    - name: Welcome with Applause
+      input: hcf punch or kick or slash or hs
+      note: ["Hold button to charge"]
+
+    - name: -- Dolphin Ride
+      input: ... (in air) Touch Mr. Dolphin
+
+    - name: Don't Miss It
+      input: qcb punch or kick
+
+    - name: -- Ball Jump
+      input: ... (in air, near ball) down
+
+    - name: Ensenga?
+      input: (in air) hcf hs
+
+  overdrive_attacks:
+    - name: Great Yamada Attack
+      input: qcf qcf slash
+
+    - name: Ultimate Whiner
+      input: hcb hs
+
+    - name: Super Screaming Ultimate Spinning Whirlwind
+      input: hcb slash
+
+    - name: -- Deluxe Goshogawara Bomber
+      input: ... punch
