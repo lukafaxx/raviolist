@@ -17,15 +17,15 @@
       input: chback forward + kick
       note: ["EX"]
 
-    - name: Scramble > Break
-      input: chback forward + kick > punch
+    - name: -- Break
+      input: ... punch
       note: ["Armor Break during HP Break from EX Scramble"]
 
-    - name: Scramble > Razor Edge Slicer
+    - name: -- Razor Edge Slicer
       input: chback forward + LK > kick
-      note: ["Armor Break during razor Edge Slicer from EX Scramble"]
+      note: ["Armor Break during Razor Edge Slicer from EX Scramble"]
 
-    - name: Scramble > Cannon Strike
+    - name: -- Cannon Strike
       input: chback forward + MK or HK > kick
 
   super_combo:

@@ -35,11 +35,11 @@
     - name: Kyoseijin
       input: dpf kick
 
-    - name: Kyoseijin > Sekisei Jiraiken
-      input: During Kyoseijin > punch
+    - name: -- Sekisei Jiraiken
+      input: ... punch
 
-    - name: Kyoseijin > Tenmarakuseikyaku
-      input: During Kyoseijin > kick
+    - name: -- Tenmarakuseikyaku
+      input: ... kick
       note: ["Divekick"]
 
     - name: Rakan Dantojin

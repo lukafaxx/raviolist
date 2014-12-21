@@ -25,9 +25,9 @@
       input: forward forward + punch
       note: ["EX"]
 
-    - name: Shukuchi Rimon Chochu > Renkan Shoko
+    - name: -- Renkan Shoko
       input: During hit EX Shukuchi Rimon Chochu > pp
-      note: ["Consumes another 1/4 S.C. Gauge"]
+      note: ["Consumes 1/4 S.C. Gauge"]
 
   super_combo:
     - name: Genei Jin

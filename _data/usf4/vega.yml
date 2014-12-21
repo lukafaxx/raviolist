@@ -17,8 +17,8 @@
       input: chdown up + kick
       note: ["EX", "Press punch after wall jump for followup"]
 
-    - name: Flying Barcelona Attack > Izuna Drop
-      input: During Flying Barcelona Attack > (near opponent) forward or back + punch
+    - name: -- Izuna Drop
+      input: ... (near opponent) forward or back + punch
       note: ["Command grab"]
 
     - name: Remove Claw
@@ -30,8 +30,8 @@
       input: chdownback downforward downback upforward + kick
       note: ["Press any punch after wall jump for followup"]
 
-    - name: Flying Barcelona Special > Rolling Izuna Drop
-      input: During Flying Barcelona Special > (near opponent) forward or back + punch
+    - name: -- Rolling Izuna Drop
+      input: ... (near opponent) forward or back + punch
       note: ["Command grab"]
 
   ultra_combo:

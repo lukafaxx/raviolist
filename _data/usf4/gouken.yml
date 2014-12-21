@@ -21,17 +21,17 @@
       input: dpf kick
       note: ["EX"]
 
-    - name: Hyakkishu > Hyakki Gozan
-      input: During Hyakkishu > do nothing
+    - name: -- Hyakki Gozan
+      input: ... (neutral position)
 
-    - name: Hyakkishu > Hyakki Goheki
-      input: During Hyakkishu > punch
+    - name: -- Hyakki Goheki
+      input: ... punch
 
-    - name: Hyakkishu > Hyakki Gojin
-      input: During Hyakkishu > kick
+    - name: -- Hyakki Gojin
+      input: ... kick
 
-    - name: Hyakkishu > Hyakki Gosai
-      input: During Hyakkishu > (near opponent) LP + LK
+    - name: -- Hyakki Gosai
+      input: ... (near opponent) LP + LK
       note: ["Command grab"]
 
     - name: Kongoshin

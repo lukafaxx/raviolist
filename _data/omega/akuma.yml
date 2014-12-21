@@ -28,29 +28,25 @@
       input: qcb kick
       note: ["EX"]
 
-    - name: Airborne Tatsumaki Zankukyaku
-      input: (in air) qcb kick
-      note: ["EX"]
-
     - name: Hyakkishu
       input: qcf kick
       note: ["EX"]
 
-    - name: Hyakkishu > Hyakki Gouzan
-      input: During Hyakkishu > do nothing
+    - name: -- Hyakki Gouzan
+      input: ... (neutral position)
 
-    - name: Hyakkishu > Hyakki Gosho
-      input: During Hyakkishu > punch
+    - name: -- Hyakki Gosho
+      input: ... punch
       note: ["Armor Break"]
 
-    - name: Hyakkishu > Hyakki Goujin
-      input: During Hyakkishu > kick
+    - name: -- Hyakki Goujin
+      input: ... kick
 
-    - name: Hyakkishu > Hyakki Gosai
-      input: During Hyakkishu > (near opponent) lp + lk
+    - name: -- Hyakki Gosai
+      input: ... (near opponent) lp + lk
       note: ["Command grab"]
 
-    - name: Hyakkishu > Hyakki Goha
+    - name: -- Hyakki Goha
       input: During EX Hyakkishu > punch
 
     - name: Ashura Senku

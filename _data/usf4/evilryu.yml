@@ -15,11 +15,7 @@
 
     - name: Tatsumaki Senpukyaku
       input: qcb kick
-      note: ["EX"]
-
-    - name: Airborne Tatsumaki Senpukyaku
-      input: (in air) qcb kick
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
     - name: Ashura Senku
       input: dpf or dpb + ppp or kkk

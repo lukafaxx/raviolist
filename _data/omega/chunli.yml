@@ -6,7 +6,7 @@
       note: ["EX"]
 
     - name: Kikoken
-      input: hcf + punch
+      input: hcf punch
       note: ["EX"]
 
     - name: Hazanshu

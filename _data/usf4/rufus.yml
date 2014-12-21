@@ -5,16 +5,16 @@
       input: qcf kick
       note: ["EX"]
 
-    - name: Messiah Kick > High Attack
-      input: qcf kick > lk
+    - name: -- High Attack
+      input: ... lk
       note: ["Armor Break"]
 
-    - name: Messiah Kick > Mid Attack
-      input: qcf kick > hk
+    - name: -- Mid Attack
+      input: ... hk
       note: ["Overhead"]
 
-    - name: Messiah Kick > Low Attack
-      input: qcf kick > mk
+    - name: -- Low Attack
+      input: ... mk
 
     - name: Galactic Tornado
       input: qcf punch

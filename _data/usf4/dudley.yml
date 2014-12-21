@@ -21,12 +21,12 @@
       input: hcf kick
       note: ["EX"]
 
-    - name: Duck > Ducking Straight
-      input: During Duck > punch
+    - name: -- Ducking Straight
+      input: ... punch
       note: ["Armor Break"]
 
-    - name: Duck > Ducking Upper
-      input: During Duck > kick
+    - name: -- Ducking Upper
+      input: ... kick
 
     - name: Thunderbolt
       input: chdown up + kick

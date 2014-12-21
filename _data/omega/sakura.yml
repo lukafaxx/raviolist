@@ -13,8 +13,8 @@
       input: qcb kick
       note: ["EX", "Armor Break"]
 
-    - name: Shunpurenkyaku
-      input: During Shunpukyaku mk or hk versions > kick
+    - name: -- Shunpurenkyaku
+      input: During MK or HK Shunpukyaku > kick
 
     - name: Airborne Shunpukyaku
       input: (in air) qcb kick

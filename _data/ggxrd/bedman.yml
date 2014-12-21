@@ -5,29 +5,29 @@
       input: qcf punch
       note: ["Can be performed in air"]
 
-    - name: Deja Vu (Task A)
-      input: qcb punch
+    - name: -- Deja Vu (Task A)
+      input: ... qcb punch
 
     - name: Task A'
       input: qcf kick
       note: ["Can be performed in air"]
 
-    - name: Deja Vu (Task A')
-      input: qcb kick
+    - name: -- Deja Vu (Task A')
+      input: ... qcb kick
 
     - name: Task B
       input: qcf slash
       note: ["Can be perfomed in air"]
 
-    - name: Deja Vu (Task B)
-      input: qcb slash
+    - name: -- Deja Vu (Task B)
+      input: ... qcb slash
 
     - name: Task C
       input: qcf hs
       note: ["Can be performed in air"]
 
-    - name: Deja Vu (Task C)
-      input: qcb hs
+    - name: -- Deja Vu (Task C)
+      input: ... qcb hs
 
     - name: Hover
       input: (while jumping) up

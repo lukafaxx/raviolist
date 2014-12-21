@@ -24,30 +24,30 @@
       input: (Crane) chdown up + kick
       note: ["EX"]
 
-    - name: Oga > Sudden Stop
-      input: During Oga > back
+    - name: -- Sudden Stop
+      input: ... back
 
-    - name: Oga > Close Kick
-      input: During Oga > down or neutral position
+    - name: -- Close Kick
+      input: ... down (or neutral position)
       note: ["Armor Break"]
 
-    - name: Oga > Far Kick
-      input: During Oga > downforward or forward
+    - name: -- Far Kick
+      input: ... downforward or forward
       note: ["Armor Break"]
 
-    - name: Oga > Ceiling Jump
-      input: During Oga > upback or up or upforward
+    - name: -- Ceiling Jump
+      input: ... upback or up or upforward
 
-    - name: Oga > Falling Kick
-      input: During Oga > upback or up or upforward and down
+    - name: -- Falling Kick
+      input: ... upback or up or upforward and down
       note: ["Armor Break"]
 
-    - name: Oga > Close Range Kick Right
-      input: During Oga > upback or up or upforward and downforward or forward
+    - name: -- Super Close Kick Right
+      input: ... upback or up or upforward and downforward or forward
       note: ["Armor Break"]
 
-    - name: Oga > Close Range Kick Left
-      input: During Oga > upback or up or upforward and downback or back
+    - name: -- Super Close Kick Left
+      input: ... upback or up or upforward and downback or back
       note: ["Armor Break"]
 
   super_combo:

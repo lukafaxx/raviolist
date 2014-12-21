@@ -71,8 +71,8 @@
       input: down + ppp
       note: ["Hold down to change timing"]
 
-    - name: Coward Crouch > Wild Lift
-      input: During Coward Crouch > punch
+    - name: -- Wild Lift
+      input: ... punch
 
-    - name: Coward Crouch > Raid Jump
-      input: During Coward Crouch > kick
+    - name: -- Raid Jump
+      input: ... kick

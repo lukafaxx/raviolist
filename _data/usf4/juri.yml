@@ -9,11 +9,11 @@
       input: (during up or upforward jump) qcb kick
       note: ["EX", "Armor Break", "EX version can be done with any jump"]
 
-    - name: Shikusen > 2nd Impact
-      input: During Shikusen > kick
+    - name: -- 2nd Impact
+      input: ... kick
 
-    - name: Shikusen > 3rd Strike
-      input: During Shikusen > 2nd Impact > kick
+    - name: -- -- 3rd Strike
+      input: ... ... kick
 
     - name: Senpusha
       input: qcb kick

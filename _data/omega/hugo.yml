@@ -25,11 +25,15 @@
       input: qcf kick
       note: ["EX", "Armor Break", "EX version can be cancelled by holding KK"]
 
-    - name: Diamond Body > Gigant Body
-      input: During Diamond Body > punch
+    - name: Diamond Body
+      input: forward + hp + hk
+      note: ["Parry"]
+
+    - name: -- Gigant Body
+      input: ... punch
       note: ["EX"]
 
-    - name: Diamond Body > Reflect Body
+    - name: -- Reflect Body
       input: During parried Diamond Body > punch
 
     - name: Dora Kick
@@ -82,7 +86,3 @@
     - name: Ultra Heavy Elbow
       input: Hold hp
       note: ["Overhead"]
-
-    - name: Diamond Body
-      input: forward + hp + hk
-      note: ["Parry"]

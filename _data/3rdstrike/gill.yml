@@ -25,5 +25,5 @@
 
   max_super_art:
     - name: III. Resurrection
-      input: Do nothing
+      input: (neutral position)
       note: ["Automatically activated when knocked out"]

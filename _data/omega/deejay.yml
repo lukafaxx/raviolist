@@ -5,7 +5,7 @@
       input: qcf punch
       note: ["EX"]
 
-    - name: EX Air Slasher 2nd
+    - name: -- 2nd
       input: During EX Air Slasher > pp
 
     - name: Double Rolling Sobat

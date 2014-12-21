@@ -5,43 +5,43 @@
       input: qcf punch
       note: ["EX gains armor (2 hits)"]
 
-    - name: Habanero Dash > Sudden Stop
-      input: qcf punch > lp
+    - name: -- Sudden Stop
+      input: ... lp
 
-    - name: Habanero Dash > Tostada Press
-      input: qcf punch > mp
+    - name: -- Tostada Press
+      input: ... mp
       note: ["Overhead", "Can control in air with forward or back"]
 
-    - name: Habanero Dash > Fajita Buster
-      input: qcf punch > hp
+    - name: -- Fajita Buster
+      input: ... hp
       note: ["Command grab on standing opponents", "Can control in air with forward or back"]
 
-    - name: Habanero Dash > Back Step
-      input: qcf punch > lk
+    - name: -- Back Step
+      input: ... lk
 
-    - name: Habanero Dash > Gordita Sobat
-      input: qcf punch > mk
+    - name: -- Gordita Sobat
+      input: ... mk
 
-    - name: Habanero Dash > Calamari Slide
-      input: qcf punch > hk
+    - name: -- Calamari Slide
+      input: ... hk
 
     - name: Habanero Back Dash
       input: qcb punch
       note: ["EX gains armor (2 hits)"]
 
-    - name: Habanero Back Dash > Sudden Stop
-      input: qcb punch > lp
+    - name: -- Sudden Stop
+      input: ... lp
 
-    - name: Habanero Back Dash > Tostada Press
-      input: qcb punch > mp
+    - name: -- Tostada Press
+      input: ... mp
       note: ["Overhead", "Can control in air with forward or back"]
 
-    - name: Habanero Back Dash > Propeller Tortilla
-      input: qcb punch > hp
+    - name: -- Propeller Tortilla
+      input: ... hp
       note: ["Command grab", "Can control in air with forward or back"]
 
-    - name: Habanero Back Dash > Picadillo Jump
-      input: qcb punch > kick
+    - name: -- Picadillo Jump
+      input: ... kick
       note: ["Can control in air with forward or back"]
 
     - name: Quesadilla Bomb
@@ -82,12 +82,12 @@
     - name: Wall Jump
       input: (during angled jump, near wall) upforward
 
-    - name: Wall Jump > Tostada Press
-      input: (just after Wall Jump) mp
+    - name: -- Tostada Press
+      input: ... mp
       note: ["Can control in air with forward or back"]
 
-    - name: Wall Jump > Fajita Buster
-      input: (just after Wall Jump) hp
+    - name: -- Fajita Buster
+      input: ... hp
       note: ["Command grab on standing opponents", "Can control in air with forward or back"]
 
     - name: Target Combo

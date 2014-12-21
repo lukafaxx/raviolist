@@ -16,17 +16,20 @@
     - name: Sway
       input: qcb lk
 
-    - name: Sway > Cutting Upper
-      input: During Sway > punch
+    - name: -- Cutting Upper
+      input: ... punch
+
+    - name: -- Step In
+      input: ... kick
 
     - name: Sway Back
       input: qcb and mk or hk
 
-    - name: Short Swing Blow
-      input: During Sway B&zwnj;ack > punch
+    - name: -- Short Swing Blow
+      input: ... punch
 
-    - name: Step In
-      input: During Sway or Sway B&zwnj;ack > kick
+    - name: -- Step In
+      input: ... kick
 
     - name: EX Short Swing Blow
       input: qcb kk
@@ -36,14 +39,14 @@
       input: hcf kick
       note: ["EX"]
 
-    - name: Duck > Ducking Straight
-      input: During Duck > punch
+    - name: -- Ducking Straight
+      input: ... punch
       note: ["Armor Break"]
 
-    - name: Duck > Ducking Upper
-      input: During Duck > kick
+    - name: -- Ducking Upper
+      input: ... kick
 
-    - name: EX Duck > Corkscrew Shot
+    - name: -- Corkscrew Shot
       input: During EX Duck > punch
       note: ["Armor Break"]
 

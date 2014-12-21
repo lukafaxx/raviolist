@@ -5,7 +5,7 @@
       input: chback forward + punch
       note: ["EX"]
 
-    - name: Sonic Boom > Sonic Break
+    - name: -- Sonic Break
       input: During EX Sonic Boom > pp
       note: ["Can be performed twice", "Consumes 1/2 S.C. Gauge"]
 

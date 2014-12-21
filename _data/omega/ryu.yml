@@ -21,11 +21,11 @@
       input: forward + hp + hk
       note: ["Parry"]
 
-    - name: Hanagashi > Tesshin
-      input: During Hanagashi > ppp
+    - name: -- Tesshin
+      input: ... ppp
       note: ["Consumes 1/2 S.C. Gauge"]
 
-    - name: Hanagashi > Isshin
+    - name: -- Isshin
       input: During parried Hanagashi > ppp
       note: ["Consumes 1/2 S.C. Gauge"]
 

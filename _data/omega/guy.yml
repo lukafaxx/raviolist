@@ -13,15 +13,15 @@
       input: qcf punch
       note: ["EX"]
 
-    - name: Yamagoe > Ikazuchi
-      input: During Yamagoe > punch
+    - name: -- Ikazuchi
+      input: ... punch
       note: ["Armor Break added on EX Yamagoe"]
 
-    - name: Yamagoe > Kabutowari
-      input: During Yamagoe > kick
+    - name: -- Kabutowari
+      input: ... kick
 
-    - name: Yamagoe > Bushin Izuna Otoshi
-      input: During Yamagoe > back or forward + punch
+    - name: -- Bushin Izuna Otoshi
+      input: ... back or forward + punch
       note: ["Command grab"]
 
     - name: Kaiten Izuna Otoshi
@@ -36,25 +36,25 @@
       input: qcf kick
       note: ["EX"]
 
-    - name: Run > Sudden Stop
-      input: qcf kick > lk
+    - name: -- Sudden Stop
+      input: ... lk
 
-    - name: Run > Shadow Kick
-      input: qcf kick > mk
+    - name: -- Shadow Kick
+      input: ... mk
 
-    - name: Run > Neck Flip
-      input: qcf kick > hk
+    - name: -- Neck Flip
+      input: ... hk
       note: ["Overhead"]
 
-    - name: EX Run > Hozanto
-      input: qcf kk > lp
+    - name: -- Hozanto
+      input: During EX Run > lp
       note: ["Armor Break"]
 
-    - name: EX Run > Hagakure Ten
-      input: qcf kk > mp
+    - name: -- Hagakure Ten
+      input: During EX Run > mp
 
-    - name: EX Run > Hagakure Chi
-      input: qcf kk > hp
+    - name: -- Hagakure Chi
+      input: During EX Run > hp
       note: ["Armor Break"]
 
   super_combo:
@@ -74,8 +74,8 @@
     - name: Grab Throw
       input: forward (or neutral position) + lp + lk
 
-    - name: Bushinryu Shoulder Throw
-      input: During Grab Throw > back + lp + lk
+    - name: -- Bushinryu Shoulder Throw
+      input: ... back + lp + lk
       note: ["Consumes 1/4 S.C. Gauge"]
 
     - name: Shoulder Throw

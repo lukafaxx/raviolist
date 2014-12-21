@@ -11,11 +11,7 @@
 
     - name: Tatsumaki Senpukyaku
       input: qcb kick
-      note: ["EX"]
-
-    - name: Tatsumaki Senpukyaku (air)
-      input: (in air) qcb kick
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
     - name: Joudan Sokutou Geri
       input: hcf kick

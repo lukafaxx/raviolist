@@ -17,19 +17,19 @@
       input: chdown up + kick
       note: ["EX"]
 
-    - name: Head Press > Somersault Skull Diver
-      input: chdown up + kick > punch
+    - name: -- Somersault Skull Diver
+      input: ... punch
       note: ["EX"]
 
     - name: Death Flutter
       input: chdown up + punch
       note: ["EX"]
 
-    - name: Death Flutter > Devil Reverse
-      input: chdown up + punch > punch
+    - name: -- Devil Reverse
+      input: ... punch
 
-    - name: Death Flutter > Evil Stomp
-      input: chdown up + punch > kick
+    - name: -- Evil Stomp
+      input: ... kick
 
     - name: Psycho Sever
       input: qcb kick

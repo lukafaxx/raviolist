@@ -25,17 +25,17 @@
     - name: Hyakkishu
       input: dpf kick
 
-    - name: Hyakki Gouzan
-      input: During Hyakkishu > do nothing
+    - name: -- Hyakki Gouzan
+      input: ... (neutral position)
 
-    - name: Hyakki Gousho
-      input: During Hyakkishu > punch
+    - name: -- Hyakki Gousho
+      input: ... punch
 
-    - name: Hyakki Goujin
-      input: During Hyakkishu > kick
+    - name: -- Hyakki Goujin
+      input: ... kick
 
-    - name: Hyakki Gousai
-      input: During Hyakkishu > (near opponent) LP + LK
+    - name: -- Hyakki Gousai
+      input: ... (near opponent) LP + LK
       note: ["Command grab"]
 
   super_art:

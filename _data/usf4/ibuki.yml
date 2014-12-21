@@ -28,8 +28,8 @@
       input: qcb kick
       note: ["EX"]
 
-    - name: Tsumuji > Followup Attack
-      input: During Tsumuji > kick or down + kick
+    - name: -- Followup Attack
+      input: ... kick or down + kick
       note: ["Kick for high attack, down + kick for low"]
 
     - name: Hien

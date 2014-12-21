@@ -17,17 +17,17 @@
       input: hcf punch
       note: ["EX"]
 
-    - name: Hooligan Combination > Razor's Edge Slicer
-      input: During Hooligan Combination > do nothing
+    - name: -- Razor's Edge Slicer
+      input: ... (neutral position)
       note: ["Armor Break"]
 
-    - name: Hooligan Combination > Assault Roll
-      input: During Hooligan Combination > punch
+    - name: -- Assault Roll
+      input: ... punch
 
-    - name: Hooligan Combination > Cannon Strike
-      input: During Hooligan Combination > kick
+    - name: -- Cannon Strike
+      input: ... kick
 
-    - name: EX Hooligan Combination > Fatal Leg Twister
+    - name: -- Fatal Leg Twister
       input: During EX Hooligan Combination > (near opponent) LP + LK
       note: ["Command grab"]
 

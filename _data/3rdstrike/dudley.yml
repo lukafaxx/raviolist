@@ -8,11 +8,11 @@
     - name: Ducking
       input: hcf kick
 
-    - name: Ducking Straight
-      input: During Ducking > punch
+    - name: -- Ducking Straight
+      input: ... punch
 
-    - name: Ducking Upper
-      input: During Ducking > kick
+    - name: -- Ducking Upper
+      input: ... kick
 
     - name: Cross Counter
       input: hcb punch

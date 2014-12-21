@@ -5,16 +5,16 @@
       input: qcb kick
       note: ["EX"]
 
-    - name: Messiah Kick > High Attack
-      input: qcb kick > lk
+    - name: -- High Attack
+      input: ... lk
       note: ["Armor Break"]
 
-    - name: Messiah Kick > Mid Attack
-      input: qcb kick > hk
+    - name: -- Mid Attack
+      input: ... hk
       note: ["Overhead"]
 
-    - name: Messiah Kick > Low Attack
-      input: qcb kick > mk
+    - name: -- Low Attack
+      input: ... mk
 
     - name: Galactic Tornado
       input: qcf punch
@@ -32,15 +32,15 @@
       input: qcf kick
       note: ["EX"]
 
-    - name: Dynasty Dash > Mach Back Knuckle
-      input: During Dynasty Dash > lp
+    - name: -- Mach Back Knuckle
+      input: ... lp
 
-    - name: Dynasty Dash > Peerless Palm
-      input: During Dynasty Dash > mp
+    - name: -- Peerless Palm
+      input: ... mp
       note: ["Armor Break"]
 
-    - name: Dynasty Dash > Premium Tackle
-      input: During Dynasty Dash > hp
+    - name: -- Premium Tackle
+      input: ... hp
       note: ["Armor Break"]
 
   super_combo:

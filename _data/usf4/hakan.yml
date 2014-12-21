@@ -9,11 +9,11 @@
       input: qcf punch
       note: ["EX", "Armor Break"]
 
-    - name: Oil Slide > Body Press
-      input: qcf punch > (just before hit) punch
+    - name: -- Body Press
+      input: ... (just before hit) punch
 
-    - name: Oil Slide > Oil Shower
-      input: qcf punch > (just before hit) kick
+    - name: -- Oil Shower
+      input: ... (just before hit) kick
 
     - name: Oil Rocket
       input: 360 punch

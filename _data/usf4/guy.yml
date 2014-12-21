@@ -17,14 +17,14 @@
       input: qcf kick
       note: ["EX"]
 
-    - name: Run > Sudden Stop
-      input: qcf kick > lk
+    - name: -- Sudden Stop
+      input: ... lk
 
-    - name: Run > Shadow Kick
-      input: qcf kick > mk
+    - name: -- Shadow Kick
+      input: ... mk
 
-    - name: Run > Neck Flip
-      input: qcf kick > hk
+    - name: -- Neck Flip
+      input: ... hk
       note: ["Overhead"]
 
     - name: Kaiten Izuna Otoshi

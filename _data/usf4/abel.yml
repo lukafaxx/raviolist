@@ -5,19 +5,19 @@
       input: qcf punch
       note: ["EX"]
 
-    - name: Change of Direction > Second Mid
-      input: qcf punch > forward + punch
+    - name: -- Second Mid
+      input: ... forward + punch
       note: ["Overhead"]
 
-    - name: Change of Direction > Second Low
-      input: qcf punch > forward + kick
+    - name: -- Second Low
+      input: ... forward + kick
 
-    - name: Change of Direction > Second Mid OR Second Low > Finish Mid
-      input: qcf punch > forward + punch or forward + kick > forward + punch
+    - name: -- -- Finish Mid
+      input: ... ... forward + punch
       note: ["Armor Break", "Overhead"]
 
-    - name: Change of Direction > Second Mid OR Second Low > Finish Low
-      input: qcf punch > forward + punch or forward + kick > forward + kick
+    - name: -- -- Finish Low
+      input: ... ... forward + kick
       note: ["Armor Break"]
 
     - name: Wheel Kick

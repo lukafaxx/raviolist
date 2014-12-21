@@ -41,14 +41,14 @@
       input: Down + HP + HK
 
     - name: Pick up Knife
-      input: (while standing over knife) Down + ppp
+      input: (while standing over knife) down + ppp
 
-    - name: Knife Throw
-      input: (while holding knife) qcf punch
+    - name: -- Knife Throw
+      input: ... qcf punch
       note: ["Armor Break"]
 
-    - name: Knife Attack
-      input: (while holding knife) Punch
+    - name: -- Knife Attack
+      input: ... punch
       note: ["Does chip damage"]
 
     - name: Bad Spray

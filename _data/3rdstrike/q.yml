@@ -31,9 +31,9 @@
     - name: III. Total Destruction
       input: qcf qcf punch
 
-    - name: "III. Total Destruction: Activate"
-      input: During Total Destruction > qcf punch
+    - name: -- Activate
+      input: ... qcf punch
 
-    - name: "III. Total Destruction: Danger"
-      input: During Total Destruction > qcf kick
+    - name: -- Danger
+      input: ... qcf kick
       note: ["Command grab"]

@@ -17,19 +17,19 @@
       input: cwing punch
       note: ["EX"]
 
-    - name: Hooligan Combination > Razor's Edge Slicer
-      input: During Hooligan Combination > do nothing
+    - name: -- Razor's Edge Slicer
+      input: ... (neutral position)
 
-    - name: Hooligan Combination > Fatal Leg Twister
-      input: During Hooligan Combination > (near opponent) LP + LK
+    - name: -- Fatal Leg Twister
+      input: ... (near opponent) LP + LK
       note: ["Command grab"]
 
-    - name: Hooligan Combination > Crossed Scissors
-      input: During Hooligan Combination > (near opponent, in air) LP + LK
+    - name: -- Crossed Scissors
+      input: ... (near opponent, in air) LP + LK
       note: ["Command grab"]
 
-    - name: Hooligan Combination > Cannon Strike
-      input: During Hooligan Combination > qcb kick
+    - name: -- Cannon Strike
+      input: ... qcb kick
 
     - name: Cannon Strike
       input: (during upforward jump) qcb kick

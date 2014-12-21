@@ -5,13 +5,13 @@
       input: qcf kick
       note: ["Hold kick to charge"]
 
-    - name: Fuhajin
+    - name: -- Fuhajin
       input: Release charged Jafuten
 
-    - name: Fusatsusen
+    - name: -- Fusatsusen
       input: forward + release charged Jafuten
 
-    - name: Shotenha
+    - name: -- Shotenha
       input: back + release charged Jafuten
 
     - name: EX Fuhajin
@@ -22,8 +22,8 @@
       input: (during up or upforward jump) qcb kick
       note: ["EX", "Armor Break", "EX version can be done with any jump"]
 
-    - name: Shikusen > Shirensen
-      input: During Shikusen > kick
+    - name: -- Shirensen
+      input: ... kick
       note: ["Automatic with EX Shikusen"]
 
     - name: Senpusha
@@ -34,7 +34,7 @@
       input: qcb punch
       note: ["EX", "Only against certain attacks"]
 
-    - name: EX Kasatushi Followup Move
+    - name: -- Followup Move
       input: During EX Kasatushi > up or upforward or forward
       note: ["Can absorb 1 hit"]
 
