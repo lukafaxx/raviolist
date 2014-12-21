@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="page">
+
+  {% assign mainchicken = page.permalink | remove: '/ggxrd/' | remove: '/' %}
+  {% for chara in site.data.ggxrd[mainchicken] %}
+
+  <h1 class="page-title">{{ chara.character }}</h1>
+  <span class="from_game">Guilty Gear Xrd -SIGN-</span>
+
+  <h2 class="move_cat"><span>Special Moves</span></h2>
+  {% for special in chara.special_moves %}
+  <p class="move">
+    <span class="move_name">{{ special.name }}</span><br />
+    <span class="move_input">{{ special.input }}</span><br />
+    <span class="move_note">{{ special.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Overdrive Attacks</span></h2>
+  {% for overdrive in chara.overdrive_attacks %}
+  <p class="move">
+    <span class="move_name">{{ overdrive.name }}</span><br />
+    <span class="move_input">{{ overdrive.input }}</span><br />
+    <span class="move_note">{{ overdrive.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+  <br />
+
+  {% endfor %}
+
+</div>

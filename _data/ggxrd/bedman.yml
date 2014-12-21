@@ -1,0 +1,41 @@
+- character: Bedman
+
+  special_moves:
+    - name: Task A
+      input: qcf punch
+      note: ["Can be performed in air"]
+
+    - name: Deja Vu (Task A)
+      input: qcb punch
+
+    - name: Task A'
+      input: qcf kick
+      note: ["Can be performed in air"]
+
+    - name: Deja Vu (Task A')
+      input: qcb kick
+
+    - name: Task B
+      input: qcf slash
+      note: ["Can be perfomed in air"]
+
+    - name: Deja Vu (Task B)
+      input: qcb slash
+
+    - name: Task C
+      input: qcf hs
+      note: ["Can be performed in air"]
+
+    - name: Deja Vu (Task C)
+      input: qcb hs
+
+    - name: Hover
+      input: (while jumping) up
+      note: ["After hovering, move with directional input"]
+
+  overdrive_attacks:
+    - name: Sinosoidal Helios
+      input: hcb forward hs
+
+    - name: Hemijack
+      input: hcb forward slash
