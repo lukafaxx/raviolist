@@ -53,7 +53,7 @@
 
   xray_attacks:
     - name: Fan-Tastic
-      input: Flip stance + block
+      input: stance + block
       note: ["Can be performed in air"]
 
   finishing_moves:

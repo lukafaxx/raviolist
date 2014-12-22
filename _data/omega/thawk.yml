@@ -51,10 +51,10 @@
 
   unique_attack:
     - name: Heavy Body Press
-      input: (during jump) down + hp
+      input: (in air) down + hp
 
     - name: Heavy Shoulder
-      input: (during jump) down + mp
+      input: (in air) down + mp
 
     - name: Thrust Peak
       input: downforward + lp

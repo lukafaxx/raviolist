@@ -30,7 +30,7 @@
       input: ... qcb hs
 
     - name: Hover
-      input: (while jumping) up
+      input: (in air) up
       note: ["After hovering, move with directional input"]
 
   overdrive_attacks:

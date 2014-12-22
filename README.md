@@ -65,12 +65,12 @@ note: ["Can be performed in air"]
 
 ### button (sets examples)
 
+To minimize unwanted parsing for terminology shortcuts, buttons are always written within the data files with at least two characters.
+
 * lp - mp - hp - lk - mk - hk - punch - kick - pp - kk - ppp - kkk
-* L - M - H - atk - 2atk - S
-* P - K - S - HS - D
-* W - S - WP - SP
-* FP - BP - FK - BK - block - tag - flip stance
-* A - B - G - K
+* light - medium - heavy - atk - 2atk - sp
+* punch - kick - slash - hs
+* fp - bp - fk - bk - block - tag - stance
 
 ```
 name: Houten Geki
@@ -80,18 +80,21 @@ note: ["Command grab"]
 
 ### join
 
-We use '+' for simultaneous inputs (e.g. command normals or charge moves) and '>' for moves such as followups or target combos, where the first part can be performed independently of the following ones. ',' can be used for links.
+To avoid repetition of primary special moves names and inputs, we prepend '--' to the value under the **name** key, and '...' to the one under the **input** key (see EX Kyo from KOF13 for an extreme example of multiple secondary and tertiary special moves). We use '+' for simultaneous inputs (e.g. command normals and charge moves) and '>' for moves such as target combos followups, where the first part can be performed independently of the following ones. ',' can be used for links.
 
+* --
+* ...
+* During {version} {name} >
 * +
-* >
 * and
 * or
+* >
 * ,
 
 ```
-name: Rampage
-input: qcf and W or S
-note: ["SB", "Can be performed in air"]
+name: -- Hyakki Gosho
+input: ... punch
+note: ["Armor Break"]
 ```
 
 ### charge
@@ -107,13 +110,13 @@ input: chback forward back forward + ppp
 
 ### situational (examples)
 
-We write those to show how to make the move come out, not particularly how to make it connect. For this reason, we don't use '(near opponent)' for most throws or command grabs. Though a good use of '(near opponent)' would be, for example, for the alternate version of Akuma's demon flip, for it is not obvious when to input its buttons otherwise.
+We write those to show how to make the move come out, not particularly how to make it connect. For this reason, we don't use '(near opponent)' for most throws (which already are in their own category of moves) or command grabs (normally noted as such).
 
-* (in air)
 * (near opponent)
+* (jump distance)
+* (in air)
 * (during angled jump)
 * (during up or upforward jump)
-* (jump distance)
 
 In addition, some position conventions mostly used for 3D fighting games:
 
@@ -135,7 +138,6 @@ We generally write 'close', 'cr.' or 'j.' for target combos. Otherwise, we prefe
 * hold {button}
 * charge and release {button}
 * press {button} repeatedly
-* during {name} >
 * close {button}
 * far {button}
 * cr.{button}

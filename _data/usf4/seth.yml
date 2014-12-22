@@ -46,7 +46,7 @@
 
   unique_attack:
     - name: Yosokyaku
-      input: (while jumping) down + mk
+      input: (in air) down + mk
       note: ["Can be performed three times in sequence"]
 
     - name: Tenmakujinkyaku
