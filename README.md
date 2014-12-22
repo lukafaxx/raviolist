@@ -59,7 +59,7 @@ note: ["Overhead"]
 
 ```
 name: "Shiranui Ryuu: Kunoichi No Mai"
-input: qcf hcb lp + hp
+input: qcf hcb pp
 note: ["Can be performed in air"]
 ```
 
