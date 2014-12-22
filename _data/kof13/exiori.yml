@@ -5,48 +5,47 @@
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: "Ge-shiki: Yumebiki"
+    - name: "Geshiki: Yumebiki"
       input: Forward + LP LP
 
-    - name: "Ge-shiki: Yuriori"
-      input: (in air) Back + LK
-
-    - name: "Ge-shiki: Gofu In Shinigami"
+    - name: "Geshiki: Goufu In Shinigami"
       input: Forward + LK
 
+    - name: "Geshiki: Yuriori"
+      input: (in air) Back + LK
 
   special_move:
-    - name: "Hyaku Shiki: Oniyaki"
+    - name: "100 Shiki: Oniyaki"
       input: dpf punch
       note: ["EX"]
 
-    - name: "Ni-Hyaku-Ju-Ni Shiki: Kototsuki In"
-      input: hcb kick
+    - name: "108 Shiki: Yamibarai"
+      input: qcf punch
       note: ["EX"]
 
-    - name: "Hyaku-Ni-Ju-Nana Shiki: Aoibana"
+    - name: "127 Shiki: Aoibana"
       input: qcb punch
       note: ["EX", "Can be performed three times in sequence"]
+
+    - name: "212 Shiki: Kototsuki In"
+      input: hcb kick
+      note: ["EX"]
 
     - name: Kuzukaze
       input: hcb forward + punch
       note: ["EX"]
 
-    - name: "Hyaku-Hachi Shiki: Yamibarai"
-      input: qcf punch
-      note: ["EX"]
-
   desperation_move:
-    - name: "Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome"
+    - name: "Kin 1211 Shiki: Yaotome"
       input: qcf hcb punch
       note: ["EX"]
 
-    - name: "Ura San-Byaku-Ju-Roku Shiki: Saika"
-      input: qcf hcb punch > qcf qcf qcf qcf pp
+    - name: "-- Reverse 316 Shiki: Saika"
+      input: ... qcf qcf qcf qcf pp
 
-    - name: "Ura Sen-Ni-Hyaku-Nana Shiki: Yamisogi"
+    - name: "Reverse 1207 Shiki: Yamisogi"
       input: qcf qcf punch
 
   neo_max_desperation_move:
-    - name: "Ura Sen-Ni-Ju-ku Shiki: Homurahotogi"
+    - name: "Reverse 1209 Shiki: Homurabotogi"
       input: qcb hcf pp

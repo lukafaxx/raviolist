@@ -1,11 +1,11 @@
 - character: Joe
 
   normal_throw:
-    - name: Kubizumou Hiza-Jigoku
+    - name: Kubizumou ~ Hizajigoku
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: Step-in Middle Kick
+    - name: Step In Middle Kick
       input: Forward + LK
 
     - name: Sliding
@@ -28,8 +28,8 @@
       input: Press punch repeatedly
       note: ["EX"]
 
-    - name: Bakuretsu Finish
-      input: During Bakuretsuken > qcb punch
+    - name: -- Bakuretsu Finish
+      input: ... qcb punch
 
     - name: Ougon no Kakato
       input: qcb kick

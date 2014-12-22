@@ -2,28 +2,16 @@
 
   normal_throw:
     - name: Kubizumou ~ Hiza Jigoku
-      input: Forward or back + HP or HK
+      input: forward or back + hp or hk
 
   command_normal:
     - name: Sliding
-      input: downforward + LK
+      input: downforward + lk
 
   special_move:
     - name: Dragon Kick
       input: dpf kick
-      note: ["EX"]
-
-    - name: EX Dragon Kick (Follow Up)
-      input: dpf kk > upback or back or downback or upforward or forward or downforward kick
-      note: ["Can be performed two times in sequence"]
-
-    - name: Air Dragon Kick
-      input: (in air) dpf kick
-      note: ["EX"]
-
-    - name: EX Air Dragon Kick (Follow Up)
-      input: dpf kk > upback or back or downback or upforward or forward or downforward kick
-      note: ["Can be performed two times in sequence"]
+      note: ["EX", "Can be performed in air"]
 
     - name: Dragon Tail
       input: qcb kick
@@ -33,19 +21,19 @@
       input: qcf punch
       note: ["EX"]
 
-    - name: Bakuretsu Finish
-      input: During Bakuretsuken > qcf punch
+    - name: -- Bakuretsu Finish
+      input: ... qcf punch
 
   desperation_move:
+    - name: Drink Nomi
+      input: qcb qcb punch
+
     - name: Dragon Dance
       input: qcf qcf kick
       note: ["EX"]
 
     - name: Dragon Back Breaker
       input: qcf hcb punch
-
-    - name: Drinking
-      input: qcb qcb punch
 
   neo_max_desperation_move:
     - name: Final Dragon Kick

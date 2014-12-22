@@ -1,7 +1,7 @@
 - character: K'
 
   normal_throw:
-    - name: Spotpile
+    - name: Spot Pile
       input: Forward or back + HP or HK
 
   command_normal:
@@ -13,40 +13,36 @@
       input: qcf punch
       note: ["EX"]
 
-    - name: Second Shoot
-      input: During Ein Trigger > forward + LK
+    - name: -- Second Shoot
+      input: ... forward + LK
 
-    - name: Second Shell
-      input: During Ein Trigger > forward + HK
+    - name: -- Second Shell
+      input: ... forward + HK
 
-    - name: (Derivation) Blackout
-      input: During Ein Trigger > back + kick
+    - name: -- Black Out
+      input: ... back + kick
 
-    - name: Blackout
-      input: qcf kick
-      note: ["EX"]
-
-    - name: Crow Bite
+    - name: Crow Bites
       input: dpf punch
       note: ["EX"]
 
-    - name: Crow Bite (Follow Up)
-      input: During Crow Bite (HP) > forward + kick
+    - name: -- Followup Attack
+      input: During HP Crow Bites > forward + kick
 
-    - name: Minute Spike
+    - name: Minutes Spike
       input: qcb kick
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
-    - name: Narrow Spike
-      input: During Minute Spike > qcb kick
+    - name: -- Narrow Spike
+      input: ... qcb kick
 
-    - name: Air Minute Spike
-      input: (in air) qcb kick
-      note: ["EX"]
+    - name: Black Out
+      input: qcf kick
 
   desperation_move:
     - name: Heat Drive
       input: qcf qcf punch
+      note: ["Hold punch to charge"]
 
     - name: Chain Drive
       input: qcf hcb punch

@@ -5,24 +5,24 @@
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: Dai Kaiten-Geri
+    - name: Daikaitengeri
       input: Forward + LP
 
-    - name: Sao Uchi
+    - name: Saouchi
       input: Back + LP
 
-    - name: Boutakatobi-Geri
+    - name: Boutakatobigeri
       input: Forward + LK
 
   special_move:
-    - name: Sansetsu Kon Chuudan Uchi
+    - name: Sansetsukon Chuudan Uchi
       input: hcf punch
       note: ["EX"]
 
-    - name: Kaen Sansetsu Kon Chuudan Uchi
-      input: During Sansetsu Kon Chuudan Uchi (HP or EX) > qcf punch
+    - name: -- Kaen Sansetsukon Chuudan Uchi
+      input: During HP or EX Sansetsukon Chuudan Uchi > qcf punch
 
-    - name: Senpuu Kon
+    - name: Senpuukon
       input: Press punch repeatedly
       note: ["EX"]
 
@@ -30,15 +30,15 @@
       input: qcb punch
       note: ["EX"]
 
-    - name: Kyoushuu Hishou Kon
+    - name: Kyoushuu Hishoukon
       input: dpf kick
       note: ["EX"]
 
   desperation_move:
-    - name: Chou Kaen Senpuu Kon
+    - name: Chou Kaen Senpuukon
       input: qcf hcb punch
       note: ["EX"]
 
   neo_max_desperation_move:
-    - name: Dai Guren Rasen Kon
+    - name: Dai Guren Rasenkon
       input: qcf qcf pp

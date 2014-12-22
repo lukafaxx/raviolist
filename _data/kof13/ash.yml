@@ -1,46 +1,46 @@
 - character: Ash
 
   normal_throw:
-    - name: Récompenses
+    - name: Recompense
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: Floréal
+    - name: Floreal
       input: Back + LK
 
-    - name: Floréal (back)
+    - name: Floreal (behind)
       input: Back + HK
 
   special_move:
-    - name: Ventôse
+    - name: Ventose
       input: chback forward + punch
-      note: ["EX"]
-
-    - name: Nivôse
-      input: chdown up + kick
-      note: ["EX"]
-
-    - name: Génie
-      input: qcb punch or kick
       note: ["EX"]
 
     - name: Germinal Caprice
       input: chback forward + kick
       note: ["EX"]
 
+    - name: Nivose
+      input: chdown up + kick
+      note: ["EX"]
+
+    - name: Genie
+      input: qcb punch or kick
+      note: ["EX"]
+
   desperation_move:
     - name: Thermidor
       input: qcf qcf punch
 
-    - name: Pluviôse
+    - name: Pluviose
       input: qcf qcf kick
       note: ["EX"]
 
     - name: Sans-Culotte
-      input: LP, LK, HP, HK
+      input: lp lk hp hk
 
-    - name: Germinal
-      input: During Sans-Culotte > qcb hcf pp
+    - name: -- Germinal
+      input: ... qcb hcf pp
 
   neo_max_desperation_move:
     - name: Fructidor

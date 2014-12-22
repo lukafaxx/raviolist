@@ -1,35 +1,27 @@
 - character: Duo Lon
 
   normal_throw:
-    - name: "Suishu: Shoukoh"
+    - name: "Suishu: Shoukou"
       input: Forward or back + HP or HK
 
   special_move:
     - name: Genmuken
       input: Forward + LP
-      note: ["EX"]
-
-    - name: Air Genmuken
-      input: (in air) Forward + LP
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
     - name: Genmukyaku
       input: Forward + LK
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
-    - name: Air Genmukyaku
-      input: (in air) Forward + LK
-      note: ["EX"]
-
-    - name: "Himoukyaku: Zen"
+    - name: "Himoukyaku, Front"
       input: qcf kick
       note: ["EX"]
 
-    - name: "Himoukyaku: Go"
+    - name: "Himoukyaku, Behind"
       input: qcb kick
       note: ["EX"]
 
-    - name: Shaki Juuryuu
+    - name: Shakijuuryuu
       input: qcf punch
       note: ["EX", "Can be performed three times in sequence"]
 
@@ -38,7 +30,7 @@
       note: ["EX"]
 
   desperation_move:
-    - name: "Hiden: Genmu Bakkou Shikon"
+    - name: "Hiden: Genmu Bakuto Shikon"
       input: qcb hcf punch
       note: ["EX"]
 

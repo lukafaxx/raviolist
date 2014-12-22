@@ -1,7 +1,7 @@
 - character: Elizabeth
 
   normal_throw:
-    - name: Maniêre
+    - name: Maniere
       input: Forward or back + HP or HK
 
   command_normal:
@@ -9,19 +9,23 @@
       input: Forward + LK
 
   special_move:
-    - name: Étincelles
+    - name: Etincelle
       input: qcf punch
       note: ["EX"]
 
-    - name: Rêverie-Souhaiter
+    - name: Coup De Vent
+      input: dpf punch
+      note: ["EX"]
+
+    - name: "Reverie: Souhaiter"
       input: qcf kick
       note: ["EX"]
 
-    - name: Rêverie-Prier
+    - name: "Reverie: Prier"
       input: qcb kick
       note: ["EX"]
 
-    - name: Rêverie-Geler
+    - name: "Reverie: Geler"
       input: qcb punch
       note: ["EX"]
 
@@ -29,12 +33,8 @@
       input: hcb forward + punch
       note: ["EX"]
 
-    - name: Coup De Vent
-      input: dpf punch
-      note: ["EX"]
-
   desperation_move:
-    - name: Noble-Blanche
+    - name: Noble Blanc
       input: qcf qcf punch
       note: ["EX"]
 
@@ -42,5 +42,5 @@
       input: qcf hcb punch
 
   neo_max_desperation_move:
-    - name: Étoile Filante
+    - name: Etoile Filante
       input: qcb hcf kk

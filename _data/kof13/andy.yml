@@ -1,42 +1,42 @@
 - character: Andy
 
   normal_throw:
-    - name: Kakaekomi Nago
-      input: Forward or back + HP or HK
+    - name: Kakaekominage
+      input: forward or back + hp or hk
 
   command_normal:
-    - name: Hirate Uchi
-      input: Forward + LP
+    - name: Hirateuchi
+      input: forward + lp
 
   special_move:
-    - name: Zan-ei Ken
+    - name: Zan'eiken
       input: downback forward + punch
       note: ["EX"]
 
-    - name: Kuuha Dan
+    - name: Kuuhadan
       input: hcf kick
       note: ["EX"]
 
-    - name: Kuuha Dan (Brake)
-      input: During Kuuha Dan > kk
+    - name: -- Braking
+      input: ... kk
 
-    - name: Hishou Ken
+    - name: Hishouken
       input: qcb punch
       note: ["EX"]
 
-    - name: Shouryuu Dan
+    - name: Shouryuudan
       input: dpf punch
       note: ["EX"]
 
   desperation_move:
-    - name: Chou Reppa Dan
+    - name: Chou Reppadan
       input: qcb hcf kick
       note: ["EX"]
 
-    - name: "Zetsu: Hishou Ken"
+    - name: Zetsu Hishouken
       input: qcf hcb punch
 
   neo_max_desperation_move:
-    - name: Chou Shin Soku Zan-ei Ken
+    - name: Chou Shin Soku Zan'eiken
       input: qcb hcf pp
       note: ["Can be performed in air"]

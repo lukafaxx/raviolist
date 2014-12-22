@@ -15,12 +15,12 @@
       input: (in air) Down + HK
 
   special_move:
-    - name: Iai-Geri
+    - name: Iaigeri
       input: qcf kick
       note: ["EX"]
 
-    - name: Handou Sandan-Geri
-      input: During Iai-Geri > down up kick
+    - name: -- Handou Sandangeri
+      input: ... down up kick
 
     - name: Super Inazuma Kick
       input: dpf kick
@@ -32,18 +32,14 @@
 
     - name: Raijinken
       input: qcf punch
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
-    - name: Air Raijinken
-      input: (in air) qcf punch
-      note: ["EX"]
-
-    - name: Benimaru Colider
+    - name: Benimaru Collider
       input: hcb forward + punch
       note: ["EX"]
 
   desperation_move:
-    - name: Rai-Kou Ken
+    - name: Raikouken
       input: qcf qcf punch
       note: ["EX"]
 
@@ -51,5 +47,5 @@
       input: qcb qcb punch
 
   neo_max_desperation_move:
-    - name: Rai-Kouken
+    - name: Raiouken
       input: qcf qcf kk

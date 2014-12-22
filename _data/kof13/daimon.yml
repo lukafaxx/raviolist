@@ -1,42 +1,39 @@
 - character: Daimon
 
   normal_throw:
-    - name: Okuri Ashibarai
+    - name: Okuriashiharai
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: Zujou-Barai
+    - name: Zujoubarai
       input: downforward + HP
 
   special_move:
-    - name: Tenchi-Gaeshi
+    - name: Tenchigaeshi
       input: hcb forward + punch
       note: ["EX"]
 
-    - name: Kumo-Tsukami Nage
-      input: hcf LP
+    - name: Kumotsukaminage
+      input: hcf lp
       note: ["EX"]
 
-    - name: Kirikabu-Gaeshi
-      input: hcf HP
+    - name: Kirikabugaeshi
+      input: hcf hp
 
     - name: Jiraishin
-      input: dpf LP
-      note: ["EX"]
-
-    - name: Jiraishin (Feint)
-      input: dpf HP
+      input: dpf lp
+      note: ["EX", "Use HP for feint"]
 
     - name: Chou Ukemi
       input: qcb kick
       note: ["EX"]
 
-    - name: Chou Oosoto-Gari
+    - name: Chou Oosotogari
       input: dpf kick
       note: ["EX"]
 
   desperation_move:
-    - name: Jigoku Gokuraku-Otoshi
+    - name: Jigoku Gokurakuotoshi
       input: hcb hcb punch
       note: ["EX"]
 

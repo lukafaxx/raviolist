@@ -12,15 +12,15 @@
       input: downforward + LP
 
     - name: Step
-      input: Forward + kk
+      input: forward + kk
 
   special_move:
     - name: Super Argentine Backbreaker
       input: hcf kick
       note: ["EX"]
 
-    - name: Flashing Elbow
-      input: During Super Argentine Backbreaker > qcf punch
+    - name: -- Flashing Elbow
+      input: ... qcf punch
 
     - name: Vulcan Punch
       input: Press punch repeatedly
@@ -30,8 +30,8 @@
       input: chback forward + punch
       note: ["EX"]
 
-    - name: (Derivation) Death Lake Driver
-      input: During Gatling Attack (HP or EX) > dpf punch
+    - name: -- Death Lake Driver
+      input: During HP or EX Gatling Attack > dpf punch
 
   desperation_move:
     - name: Ultra Argentine Backbreaker

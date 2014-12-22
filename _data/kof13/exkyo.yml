@@ -2,20 +2,20 @@
 
   normal_throw:
     - name: Issetsu Seoinage
-      input: Forward or back + HP or HK
+      input: forward or back + hp or hk
 
   command_normal:
-    - name: "Ge-shiki: Gofu Yo"
-      input: Forward + LK
+    - name: "Geshiki: Gofu You"
+      input: forward + LK
 
-    - name: Hachi-Ju-Hachi Shiki
+    - name: 88 Shiki
       input: downforward + HK
 
-    - name: "Ge-shiki: Naraku Otoshi"
-      input: (in air) Down + HP
+    - name: "Geshiki: Naraku Otoshi"
+      input: (in air) down + hp
 
   special_move:
-    - name: "Hyaku Shiki: Oniyaki"
+    - name: "100 Shiki: Oniyaki"
       input: dpf punch
       note: ["EX"]
 
@@ -23,59 +23,57 @@
       input: dpb kick
       note: ["EX"]
 
-    - name: "Ni-Hyaku-Ju-Ni Shiki: Kototsuki Yo"
+    - name: "212 Shiki: Kototsuki You"
       input: hcb kick
       note: ["EX"]
 
-    - name: "Nana-Ju-Go Shiki: Kai"
+    - name: "75 Shiki: Kai"
       input: qcf kick kick
       note: ["EX"]
 
-    - name: "Hyaku-Ju-Yon Shiki: Aragami"
-      input: qcf LP
-
-    - name: "Hyaku-Ni-Ju-Hachi Shiki: Konokizu"
-      input: qcf LP > qcf LP
-
-    - name: "Hyaku-Ni-Ju-Nana Shiki: Yanosabi"
-      input: qcf LP > qcf LP > punch
-
-    - name: "Hyaku-Ni-Ju-Go Shiki: Nanase"
-      input: qcf LP > qcf LP > kick
-
-    - name: "Hyaku-Ni-Ju-Nana Shiki: Yanosabi"
-      input: qcf LP > hcb punch
-
-    - name: "Ge-shiki: Migari Ugachi"
-      input: qcf LP > hcb punch > punch
-
-    - name: "Hyaku-Ni-Ju-Go Shiki: Nanase"
-      input: qcf LP > hcb punch > kick
-
-    - name: "Hyaku-Ju-Go Shiki: Dokugami"
-      input: qcf HP
+    - name: "114 Shiki: Aragami"
+      input: qcf lp
       note: ["EX"]
 
-    - name: "Hyaku-Ju-Yon Shiki: Aragami"
-      input: qcf HP > qcf punch
+    - name: "-- 128 Shiki: Konokizu"
+      input: ... qcf lp
 
-    - name: "Yon-Hyaku-Ichi Shiki: Tumiyomi"
-      input: qcf HP > hcb punch
+    - name: "-- -- 125 Shiki: Nanase"
+      input: ... ... kick
 
-    - name: "Yon-Hyaku-Ni Shiki: Batuyomi"
-      input: qcf HP > hcb punch > forward + punch
+    - name: "-- -- 127 Shiki: Yanosabi"
+      input: ... ... qcf punch
 
-    - name: "Hyaku Shiki: Oniyaki"
-      input: qcf HP > hcb punch > forward + punch > dpf punch
+    - name: "-- 127 Shiki: Yanosabi"
+      input: ... hcb punch
+
+    - name: "-- -- Geshiki: Migari Ugachi"
+      input: ... ... down + punch
+
+    - name: "-- -- 125 Shiki: Nanase"
+      input: ... ... kick
+
+    - name: "115 Shiki: Dokugami"
+      input: qcf hp
+      note: ["EX"]
+
+    - name: "-- 401 Shiki: Tsumiyomi"
+      input: ... hcb punch
+
+    - name: "-- -- 402 Shiki: Batsuyomi"
+      input: ... ... forward + punch
+
+    - name: "-- -- -- 100 Shiki: Oniyaki"
+      input: ... ... ... dpf punch
 
   desperation_move:
-    - name: "Ura Hyaku-Hachi Shiki: Orochinagi"
+    - name: "Reverse 108 Shiki: Orochinagi"
       input: qcb hcf punch
       note: ["EX"]
 
-    - name: "Saishuu Kessen Ougi Mu-shiki"
+    - name: "Saishuu Kessen Ougi: Mu Shiki"
       input: qcf qcf punch
 
   neo_max_desperation_move:
-    - name: "Saishuu Kessen Hiougi Totsuka"
+    - name: "Saishuu Kessen Hiougi: Totsuka"
       input: qcf qcf kk

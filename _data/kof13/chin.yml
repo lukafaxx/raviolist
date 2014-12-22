@@ -10,18 +10,14 @@
 
     - name: Choukarou
       input: down down kick
+      note: ["Cancel with kicks"]
 
-    - name: Choukarou (Cancel)
-      input: During Choukarou > kk
-
-    - name: Distant HK ~ Choukarou
-      input: Far HK, hold HK
+    - name: Far HK > Choukarou
+      input: Far hk > hold hk
 
     - name: Uron Kouchuu
-      input: downforward + HK
-
-    - name: Uron Kouchuu (Feint)
-      input: During Uron Kouchuu > hold HK
+      input: downforward + hk
+      note: ["Hold HK for feint"]
 
   special_move:
     - name: Suiho
@@ -33,32 +29,30 @@
       note: ["EX"]
 
     - name: Nikikyaku
-      input: downforward + LK LK
+      input: downforward + lk lk
       note: ["EX"]
 
     - name: Getsuga Soushu
       input: During Zabantetsu > punch
       note: ["EX"]
 
-    - name: Hougeki
-      input: During Zabantetsu or Choukarou > forward or back + HP
-
-    - name: Drinking
+    - name: Inshu
       input: dpb punch
+      note: ["Can be performed up to five times"]
 
-    - name: Kaitenteki Kuutotsu Ken
+    - name: Kaitenteki Kuutotsuken
       input: hcf kick
       note: ["EX"]
 
   desperation_move:
-    - name: Toukuu Hiten Hou
+    - name: Toukuuhitenhou
       input: qcf qcf punch
       note: ["EX"]
 
     - name: Tetsuzankou
-      input: During Drinking > qcb hcf punch
+      input: During Inshu > qcb hcf punch
 
   neo_max_desperation_move:
-    - name: "Suisou: Gouran Ennhou"
+    - name: "Suisou: Gouran Enpou"
       input: qcf qcf kk
       note: ["Can be performed in air"]

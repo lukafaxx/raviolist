@@ -5,37 +5,37 @@
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: "Ge-shiki: Yumebiki"
+    - name: "Geshiki: Yumebiki"
       input: Forward + LP, LP
 
-    - name: "Ge-shiki: Kui"
+    - name: "Geshiki: Kui"
       input: downforward + HP
 
-    - name: "Ge-shiki: Yuri-Ori"
+    - name: "Geshiki: Yuriori"
       input: (in air) Back + LK
 
   special_move:
-    - name: "Hyaku-Yon Shiki: Nue-Uchi"
+    - name: "104 Shiki: Nueuchi"
       input: dpf punch
       note: ["EX"]
 
-    - name: "Yon-Hyaku-Ichi Shiki: Shougetsu"
+    - name: "401 Shiki: Shougetsu"
       input: qcb punch
       note: ["EX"]
 
-    - name: "Hyaku-Ju-Kyu Shiki: Akegarasu"
+    - name: "129 Shiki: Akegarasu"
       input: qcb kick
       note: ["EX"]
 
-    - name: "Ni-Hyaku-San Shiki: Tsuchi Tsubaki"
+    - name: "203 Shiki: Tsuchitsubaki"
       input: hcf punch
       note: ["EX"]
 
   desperation_move:
-    - name: "Kin Sen-Ni-Hyaku-Ju-Ichi Shiki: Yaotome"
+    - name: "Kin 1211 Shiki: Yaotome"
       input: qcf hcb punch
       note: ["EX"]
 
   neo_max_desperation_move:
-    - name: "Kin Sen-Ni-Hyaku-Ju-Hachi Shiki: Yatagarasu"
+    - name: "Kin 1218 Shiki: Yatagarasu"
       input: qcf qcf kk

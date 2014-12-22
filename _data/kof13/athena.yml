@@ -2,17 +2,15 @@
 
   normal_throw:
     - name: Psychic Attack
-      input: (near opponent) Forward or back + HP or HK
+      input: Forward or back + HP or HK
 
   command_normal:
     - name: Phoenix Bomb
       input: Forward + LK
-
-    - name: Phoenix Bomb (air)
-      input: (in air) Forward + LK
+      note: ["Can be performed in air"]
 
   special_move:
-    - name: Psycho Ball Attack
+    - name: Psycho Ball
       input: qcb punch
       note: ["EX"]
 
@@ -24,25 +22,22 @@
       input: qcb kick
       note: ["EX"]
 
-    - name: Phoenix Arrow
-      input: (in air) qcb kick
-      note: ["EX"]
-
     - name: Psychic Teleport
       input: qcf kick
       note: ["EX"]
 
-    - name: Super Psychic Throw
+    - name: Phoenix Arrow
+      input: (in air) qcb kick
+      note: ["EX"]
+
+    - name: Super Psychic Through
       input: hcf punch
       note: ["EX"]
 
   desperation_move:
     - name: Shining Crystal Bit
       input: hcb hcb punch
-      note: ["EX"]
-
-    - name: Shining Crystal Bit (air)
-      input: (in air) hcb hcb punch
+      note: ["EX", "Can be performed in air"]
 
   neo_max_desperation_move:
     - name: Psycho Medley 13
