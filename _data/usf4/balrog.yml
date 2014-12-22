@@ -26,7 +26,7 @@
       note: ["EX"]
 
     - name: Turn Punch
-      input: Charge and release ppp or kkk
+      input: Charge ppp or kkk and release
       note: ["Armor Break"]
 
   super_combo:

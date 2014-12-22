@@ -37,7 +37,7 @@
       input: During parried Diamond Body > punch
 
     - name: Dora Kick
-      input: Charge and release hk
+      input: Charge hk and release
       note: ["Armor Break"]
 
     - name: Victory Column

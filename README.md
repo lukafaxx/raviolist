@@ -136,7 +136,7 @@ note: ["Overhead", "Hold MP to change timing"]
 We generally write 'close', 'cr.' or 'j.' for target combos. Otherwise, we prefer the use of '(near opponent)', 'down +' or '(in air)'.
 
 * hold {button}
-* charge and release {button}
+* charge {button} and release
 * press {button} repeatedly
 * close {button}
 * far {button}
@@ -146,7 +146,7 @@ We generally write 'close', 'cr.' or 'j.' for target combos. Otherwise, we prefe
 
 ```
 name: Zonk Knuckle
-input: Charge and release punch
+input: Charge punch and release
 note: ["EX", "Armor Break"]
 ```
 

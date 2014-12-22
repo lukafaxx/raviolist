@@ -54,7 +54,7 @@
       note: ["Can control in air with forward or back"]
 
     - name: Quesadilla Bomb
-      input: Charge and release kick
+      input: Charge kick and release
       note: ["EX", "Armor Break"]
 
     - name: Guacamole Leg Throw

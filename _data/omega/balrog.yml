@@ -30,7 +30,7 @@
       note: ["EX"]
 
     - name: Turn Punch
-      input: Charge and release hp or hk
+      input: Charge hp or hk and release
       note: ["Armor Break"]
 
     - name: EX Turn Punch
