@@ -14,7 +14,8 @@ layout: default
   {% for throw in chara.normal_throw %}
   <p class="move">
     <span class="move_name">{{ throw.name }}</span><br />
-    <span class="move_input">{{ throw.input }}</span>
+    <span class="move_input">{{ throw.input }}</span><br />
+    <span class="move_note">{{ throw.note | join: ' &middot; ' }}</span>
   </p>
   {% endfor %}
   <br />
