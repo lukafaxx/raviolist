@@ -12,7 +12,17 @@
       input: downforward + LK
 
   special_move:
-    - name: Crow Bite
+    - name: Lay Spin
+      input: qcb kick
+      note: ["EX"]
+
+    - name: -- Stand
+      input: ... forward + LK
+
+    - name: -- Sit
+      input: ... forward + HK
+
+    - name: Crow Bites
       input: dpf punch
       note: ["EX"]
 
@@ -24,16 +34,6 @@
       input: qcb punch
       note: ["EX"]
 
-    - name: Lay Spin
-      input: qcb kick
-      note: ["EX"]
-
-    - name: Lay Spin (Stand)
-      input: During Lay Spin > forward + LK
-
-    - name: Lay Spin (Sit)
-      input: During Lay Spin > forward + HK
-
   desperation_move:
     - name: Diamond Edge
       input: qcf qcf punch
@@ -43,5 +43,5 @@
       input: hcb hcb punch
 
   neo_max_desperation_move:
-    - name: "Neo: Freeze Execution"
+    - name: Neo Freeze Execution
       input: hcb hcb kk

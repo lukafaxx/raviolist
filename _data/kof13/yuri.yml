@@ -8,8 +8,8 @@
       input: (in air) Forward or back + HP
 
   command_normal:
-    - name: Yuri Raijin Kyaku
-      input: (in air)  + LK
+    - name: Yuri Raijinkyaku
+      input: (in air) downforward + lk
 
     - name: Enyoku
       input: Forward + LP
@@ -19,51 +19,44 @@
       input: qcb punch
       note: ["EX"]
 
-    - name: Ko-Ou Ken
+    - name: Ko'ouken
       input: qcf punch
+      note: ["EX"]
+
+    - name: Kuuga, Yuri Chou Upper
+      input: dpf punch
       note: ["EX"]
 
     - name: Hyakuretsu Binta
       input: hcb kick
       note: ["EX"]
 
-    - name: Kuuga (Yuri Chou Upper)
-      input: dpf punch
-      note: ["EX"]
-
     - name: Raiou Ken
       input: qcf kick
-      note: ["EX"]
-
-    - name: Air Raiou Ken
-      input: (in air) qcf kick
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
     - name: Houyoku
       input: dpf kick
       note: ["EX"]
 
-    - name: Hien Souha
-      input: During Houyoku > punch
+    - name: -- Hien Souha
+      input: ... punch
 
-    - name: Yuri Raijin Kyaku
-      input: During Houyoku > kick
+    - name: -- Yuri Raijinkyaku
+      input: ... kick
 
-    - name: Tsubame Otoshi
-      input: During Houyoku > pp
-
-    - name: Air Raiou Ken
-      input: During Houyoku > qcf kick
+    - name: -- Throw
+      input: ... pp
 
   desperation_move:
-    - name: Haoh Shoukou Ken
+    - name: Haou Shoukouken
       input: forward hcf punch
 
-    - name: Hien Houou Kyaku
+    - name: Hien Hououkyaku
       input: qcf hcb kick
       note: ["EX"]
 
   neo_max_desperation_move:
-    - name: Haoh Raiou Ken
+    - name: Haou Raiouken
       input: qcb qcb pp
       note: ["Can be performed in air"]

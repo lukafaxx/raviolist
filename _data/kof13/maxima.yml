@@ -5,19 +5,15 @@
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: M-9 Maxima Missile (Prototype)
+    - name: M9 Maxima Missile, Prototype
       input: downforward + HP
 
   special_move:
-    - name: M-4 Vapor Cannon
+    - name: M4 Vapor Cannon
       input: qcb punch
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
-    - name: M-4 Vapor Cannon (Air)
-      input: (in air) qcb punch
-      note: ["EX"]
-
-    - name: M-19 Blitz Cannon
+    - name: M19 Blitz Cannon
       input: dpf kick
       note: ["EX"]
 
@@ -25,8 +21,8 @@
       input: hcb kick
       note: ["EX"]
 
-    - name: Maxima Press (Follow Up)
-      input: During Maxima Press > qcb punch
+    - name: -- Followup Attack
+      input: ... qcb punch
 
   desperation_move:
     - name: Double Vapor Cannon

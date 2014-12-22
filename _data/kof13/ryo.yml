@@ -15,24 +15,24 @@
       input: downforward + LK
 
   special_move:
+    - name: Ko'ouken
+      input: qcf punch
+      note: ["EX"]
+
     - name: Kohou
       input: dpf punch
       note: ["EX"]
 
-    - name: Ko-Ou Ken
-      input: qcf punch
-      note: ["EX"]
-
-    - name: Hien Shippuu Kyaku
+    - name: Hien Shippuukyaku
       input: hcb kick
       note: ["EX"]
 
     - name: Zanretsuken
-      input: forward back forward punch
+      input: forward back forward + punch
       note: ["EX"]
 
   desperation_move:
-    - name: Haoh Shoukou Ken
+    - name: Haou Shoukouken
       input: forward hcf punch
 
     - name: Ryuuko Ranbu
@@ -40,5 +40,5 @@
       note: ["EX"]
 
   neo_max_desperation_move:
-    - name: "Shin: Tenchi Haoh Ken"
+    - name: Shin Tenchi Haouken
       input: qcf qcf pp

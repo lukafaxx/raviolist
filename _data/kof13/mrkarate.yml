@@ -8,42 +8,42 @@
     - name: Seiken Sandan Tsuki
       input: Forward + LP
 
-    - name: Sokutou-Geri
+    - name: Sokutougeri
       input: Forward + LK
 
   special_move:
-    - name: Kohoh
+    - name: Kohou
       input: dpf punch
       note: ["EX"]
 
-    - name: Kohou (Brake)
-      input: During Kohoh (HP) > LP + LK
+    - name: -- Braking
+      input: ... lp + lk
 
-    - name: Shouran Kyaku
+    - name: Shourankyaku
       input: hcb kick
       note: ["EX"]
 
     - name: Hakyokujin
-      input: qcb punch
+      input: hcb punch
       note: ["EX"]
 
     - name: Zanretuken
-      input: forward back forward punch
+      input: forward back forward + punch
       note: ["EX"]
 
-    - name: Hien Shippuu Kyaku
+    - name: Hien Shippuukyaku
       input: (in air) hcf kick
       note: ["EX"]
 
-    - name: Ko-Ou Ken
+    - name: Ko'ouken
       input: qcf punch
       note: ["EX"]
 
-    - name: Kokyaku
-      input: During Ko-Ou Ken (HP) > forward forward
+    - name: -- Kokyaku
+      input: During HP Ko'ouken > forward forward
 
   desperation_move:
-    - name: Haoh Shikou Ken
+    - name: Haou Shikouken
       input: forward hcf punch
 
     - name: Ryuuko Ranbu
@@ -54,5 +54,5 @@
       input: qcf qcf kick
 
   neo_max_desperation_move:
-    - name: Kishin Sanga Geki
+    - name: Kishin Sangageki
       input: qcb hcf pp

@@ -4,15 +4,12 @@
     - name: Fuusha Kuzushi
       input: Forward or back + HP or HK
 
-    - name: Yume-Zakura
+    - name: Yumezakura
       input: (in air) Forward or back + HP
 
   command_normal:
     - name: Ukihane
       input: (in air) Down + LK
-
-    - name: Sankakutobi
-      input: (in air, near wall) upforward
 
   special_move:
     - name: Ryuuenbu
@@ -23,26 +20,24 @@
       input: qcf punch
       note: ["EX"]
 
-    - name: Hissatsu Shinobi-Bachi
+    - name: Hissatsu Shinobibachi
       input: hcf kick
       note: ["EX"]
 
     - name: Musasabi no Mai
       input: chdown up + hold punch
+      note: ["Tap punch for feint"]
 
-    - name: Musasabi no Mai (Feint)
-      input: chdown up + punch
-
-    - name: Musasabi no Mai (Air)
+    - name: Musasabi no Mai, Air
       input: (in air) qcb punch
       note: ["EX"]
 
   desperation_move:
-    - name: Chou Hissatsu Shinobi-Bachi
+    - name: Chou Hissatsu Shinobibachi
       input: qcb hcf kick
       note: ["EX", "Can be performed in air"]
 
   neo_max_desperation_move:
-    - name: "Shiranui-Ryuu: Kunoichi-No-Mai"
+    - name: "Shiranui Ryuu: Kunoichi No Mai"
       input: qcf hcb pp
       note: ["Can be performed in air"]

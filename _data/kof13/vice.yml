@@ -25,8 +25,8 @@
       input: qcb punch
       note: ["EX"]
 
-    - name: (Derivation) Splash
-      input: During Mayhem > qcf punch
+    - name: -- Splash
+      input: ... qcf punch
 
   desperation_move:
     - name: Negative Gain
@@ -34,7 +34,7 @@
       note: ["EX"]
 
     - name: Overkill
-      input: (in air) downback qcf upforward up down + punch
+      input: (in air) cwing up down + punch
 
   neo_max_desperation_move:
     - name: Awaking Blood

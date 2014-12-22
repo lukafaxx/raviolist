@@ -5,41 +5,41 @@
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: "Ge-shiki: Gofu Yo"
+    - name: "Geshiki: Gofu You"
       input: Forward + LK
 
-    - name: Hachi-Ju-Hachi Shiki
+    - name: 88 Shiki
       input: downforward + HK
 
-    - name: "Ge-shiki: Naraku Otoshi"
+    - name: "Geshiki: Naraku Otoshi"
       input: (in air) Down + HP
 
   special_move:
-    - name: "Hyaku Shiki: Oniyaki"
+    - name: "100 Shiki: Oniyaki"
       input: dpf punch
       note: ["EX"]
 
-    - name: "Hyaku-Hachi Shiki: Yamibarai"
+    - name: "108 Shiki: Yamibarai"
       input: qcf punch
       note: ["EX"]
 
-    - name: "Hyaku-Ichi Shiki: Oboroguruma"
+    - name: "101 Shiki: Oboroguruma"
       input: dpb kick
       note: ["EX"]
 
-    - name: "Ni-Hyaku-Ju-Ni Shiki: Kototsuki Yo"
+    - name: "212 Shiki: Kototsuki You"
       input: hcb kick
       note: ["EX"]
 
-    - name: "Nana-Ju-Go Shiki: Kai"
+    - name: "75 Shiki: Kai"
       input: qcf kick
       note: ["EX"]
 
   desperation_move:
-    - name: "Ura Hyaku-Hachi Shiki: Orochinagi"
+    - name: "Reverse 108 Shiki: Orochinagi"
       input: qcb hcf punch
       note: ["EX, Can be performed in air"]
 
   neo_max_desperation_move:
-    - name: "Ura Hyaku-Ni-Ju-Ichi Shiki: Ama-no-Murakumo"
+    - name: "Reverse 121 Shiki: Ama Murakumo"
       input: qcf qcf pp

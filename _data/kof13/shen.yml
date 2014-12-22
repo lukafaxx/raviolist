@@ -13,33 +13,30 @@
       input: qcf punch
       note: ["EX"]
 
-    - name: Gekiken (Charge)
+    - name: Gekiken, Charge
       input: qcf hold HP
-      note: ["Hold HP for four seconds"]
-
-    - name: Gekiken (Feint)
-      input: During Gekiken (HP) > kick
+      note: ["Press kick for feint"]
 
     - name: Fukkogeki
       input: qcb LP
       note: ["EX"]
 
-    - name: Kouryuugeki
-      input: During Fukkogeki > qcf LP
+    - name: -- Kouryuugeki
+      input: ... qcf LP
+
+    - name: Danken
+      input: hcb forward + punch
+      note: ["EX"]
+
+    - name: Danken, Repel
+      input: qcb hp
 
     - name: Tenrenken
       input: qcf kick
       note: ["EX"]
 
-    - name: Danken
-      input: hcb forward punch
-      note: ["EX"]
-
-    - name: Danken (Repel)
-      input: qcb HP
-
   desperation_move:
-    - name: "Zetsu: Gekiken"
+    - name: Zetsu Gekiken
       input: qcf qcf punch
       note: ["EX"]
 

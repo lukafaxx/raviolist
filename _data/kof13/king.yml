@@ -11,11 +11,7 @@
   special_move:
     - name: Venom Strike
       input: qcf kick
-      note: ["EX"]
-
-    - name: Air Venom Strike
-      input: (in air) qcf kick
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
     - name: Trap Shot
       input: dpf kick

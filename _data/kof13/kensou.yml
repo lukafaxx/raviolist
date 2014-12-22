@@ -1,7 +1,7 @@
 - character: Kensou
 
   normal_throw:
-    - name: Ryuu Hosui
+    - name: Ryuuhosui
       input: Forward or back + HP or HK
 
   command_normal:
@@ -9,34 +9,34 @@
       input: kk
 
   special_move:
-    - name: Ryuu Touda
+    - name: Ryuutouda
       input: qcf punch
-      note: ["EX", "EX can be performed four times in sequence"]
-
-    - name: Rintesshou
-      input: During Ryuu Touda > qcf punch
-
-    - name: (Derivation) Shikkuu Zanryuu Kyaku
-      input: During Rintesshou > qcf kick
-
-    - name: Shikkuu Zanryuu Kyaku
-      input: qcf kick
       note: ["EX"]
 
-    - name: Ryuu Bokko
-      input: dpf press punch repeatedly
-      note: ["EX"]
+    - name: -- Rintesshou
+      input: ... qcf punch
 
-    - name: Ryuugaku-Sai
-      input: dpb kick
-      note: ["EX"]
-
-    - name: Ryuusou-Geki
-      input: (in air) qcb punch
-      note: ["EX"]
+    - name: -- -- Shikkuu Zanryuukyaku
+      input: ... ... qcf kick
 
     - name: Choukyuudan
       input: qcb punch
+      note: ["EX"]
+
+    - name: Ryuugakusai
+      input: dpb kick
+      note: ["EX"]
+
+    - name: Shikkuu Zanryuukyaku
+      input: qcf kick
+      note: ["EX"]
+
+    - name: Ryuubokko
+      input: dpf punch
+      note: ["EX", "Press punch repeatedly"]
+
+    - name: Ryuusougeki
+      input: (in air) qcb punch
       note: ["EX"]
 
   desperation_move:

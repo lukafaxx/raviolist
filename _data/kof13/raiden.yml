@@ -5,13 +5,6 @@
       input: Forward or back + HP or HK
 
   special_move:
-    - name: Giant Bomb
-      input: chdownback forward + punch
-      note: ["EX"]
-
-    - name: Giant Bomb (Feint)
-      input: During Giant Bomb > LP + LK
-
     - name: Dokugiri
       input: qcb punch
       note: ["EX"]
@@ -20,13 +13,19 @@
       input: dpf punch
       note: ["EX"]
 
+    - name: Giant Bomb
+      input: chdownback forward + punch
+      note: ["EX"]
+
+    - name: -- Feint
+      input: ... lp + lk
+
     - name: Head Crush
       input: hcf kick
       note: ["EX"]
 
     - name: Super Dropkick
-      input: Charge and release kick
-      note: ["Charge for at least four seconds"]
+      input: Charge kick 4 seconds and release
 
   desperation_move:
     - name: Super Raiden Drop

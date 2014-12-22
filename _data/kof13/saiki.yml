@@ -12,26 +12,26 @@
       input: (in air) Back + LK
 
   special_move:
-    - name: Kiyoku-no-Tsuki
+    - name: Kiyoku no Tsuki
       input: qcf punch
       note: ["EX"]
 
-    - name: Hanetsurube-no-Nata
+    - name: Hanetsurube no Nata
       input: dpf kick
       note: ["EX"]
 
-    - name: Kasahazushi-no-Tsuchi
-      input: During Hanetsurube-no-Nata (HK or EX) > hold punch or kick
+    - name: -- Kasahazushi no Tsuchi
+      input: During HK or EX Hanetsurube no Nata > hold punch or kick
 
-    - name: Hiori-no-Kusabi
+    - name: Hiori no Kusabi
       input: qcb kick
       note: ["EX"]
 
-    - name: Ura Shichiri
-      input: During Hiori-no-Kusabi (HK or EX) > hold punch or kick
+    - name: -- Ura Shichiri
+      input: During HK or EX Hiori no Kusabi > hold punch or kick
 
-    - name: Shichiri-Gake
-      input: down down punch or kick
+    - name: Shichirigake
+      input: down down + punch or kick
 
   desperation_move:
     - name: Washiba Otoshi
@@ -40,10 +40,10 @@
     - name: Yami Otoshi
       input: (in air) qcf qcf kick
 
-    - name: Toyokami-no-Fune
+    - name: Tokoyami no Fune
       input: qcf qcf punch
 
-    - name: Kyoryuu-no-Ori
+    - name: Kyoryuu no Ori
       input: hcb hcb punch
       note: ["EX"]
 

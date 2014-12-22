@@ -9,8 +9,8 @@
       input: dpf punch
       note: ["EX"]
 
-    - name: Despair (Attack)
-      input: During Despair > punch
+    - name: -- Followup Attack
+      input: ... punch
 
     - name: Deathrow
       input: qcb punch

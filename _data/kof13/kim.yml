@@ -5,20 +5,16 @@
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: Naeryo Chagi
+    - name: Neri Chagi
       input: Forward + LK
 
-    - name: Twio Yop Chagi
+    - name: Tora Yop Chagi
       input: forward forward + LP
 
   special_move:
     - name: Hangetsuzan
       input: qcb kick
-      note: ["EX"]
-
-    - name: Air Hangetsuzan
-      input: (in air) qcb kick
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
     - name: Hishou Kyaku
       input: (in air) qcf kick
@@ -28,21 +24,17 @@
       input: chdown up + kick
       note: ["EX"]
 
-    - name: Hienzan (Follow Up)
-      input: During Hienzan (HK) > down + HK
+    - name: -- Followup Attack
+      input: During HK Hienzan > down + hk
 
   desperation_move:
     - name: Houou Kyaku
       input: qcb downback forward + kick
-      note: ["EX"]
-
-    - name: Air Houou Kyaku
-      input: (in air) qcb downback forward + kick
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
     - name: Houou Hiten Kyaku
       input: qcf qcf kick
 
   neo_max_desperation_move:
-    - name: Zero-Shiki Houou Kyaku
+    - name: 0 Shiki Houou Kyaku
       input: qcb downback forward + pp

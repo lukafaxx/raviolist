@@ -5,45 +5,42 @@
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: Upper
-      input: Forward + LP
-
     - name: Low Kick
       input: Forward + LK
+
+    - name: Upper
+      input: Forward + LP
 
     - name: Ushiro Geri
       input: (in air) kk
 
-    - name: Sankaku-tobi
-      input: (in air, near wall) Back + kk
-
   special_move:
+    - name: Ryuugekiken
+      input: qcf punch
+      note: ["EX"]
+
     - name: Ryuuga
       input: dpf punch
       note: ["EX"]
 
-    - name: Ryuu-Geki Ken
-      input: qcf punch
-      note: ["EX"]
-
-    - name: Hien Shippuu Kyaku
+    - name: Hien Shippuukyaku
       input: chdownback forward + kick
       note: ["EX"]
 
-    - name: Hien Ryuujin Kyaku
+    - name: Hien Ryuujinkyaku
       input: (in air) qcb kick
       note: ["EX"]
 
-    - name: Gen-ei Kyaku
-      input: forward back forward kick
+    - name: Gen'ei Kyaku
+      input: forward back forward + kick
       note: ["EX"]
 
-    - name: "Ryuuren: Gen-ei Kyaku"
+    - name: "Ryuuren: Gen'eikyaku"
       input: hcf kick
       note: ["EX"]
 
   desperation_move:
-    - name: Haoh Shoukou Ken
+    - name: Haou Shoukouken
       input: forward hcf punch
 
     - name: Ryuuko Ranbu
@@ -51,6 +48,6 @@
       note: ["EX"]
 
   neo_max_desperation_move:
-    - name: Hien Shippuu Ryuujin Kyaku
+    - name: Hien Shippuu Ryuujinkyaku
       input: qcf hcb kk
       note: ["Can be performed in air"]

@@ -13,7 +13,7 @@
       input: qcf punch
       note: ["EX"]
 
-    - name: Dynamite Ralf Punch
+    - name: Bomb Ralf Punch
       input: qcb punch
       note: ["EX"]
 
@@ -21,12 +21,12 @@
       input: Press punch repeatedly
       note: ["EX"]
 
-    - name: Dive Bomber Punch
-      input: (in air) qcf punch
-      note: ["EX"]
-
     - name: Gatling Attack
       input: chback forward + punch
+      note: ["EX"]
+
+    - name: Dive Bomber Punch
+      input: (in air) qcf punch
       note: ["EX"]
 
   desperation_move:
@@ -38,5 +38,5 @@
       input: qcb hcf kick
 
   neo_max_desperation_move:
-    - name: "Jet: Vulcan Punch"
+    - name: Jet Vulcan Punch
       input: hcb hcb pp

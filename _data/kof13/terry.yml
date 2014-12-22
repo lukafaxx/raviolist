@@ -5,18 +5,18 @@
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: Rising Upper
-      input: downforward + HP
-
     - name: Back Knuckle
       input: Forward + LP
+
+    - name: Rising Upper
+      input: downforward + HP
 
   special_move:
     - name: Power Wave
       input: qcf punch
       note: ["EX"]
 
-    - name: Burning Knuckle
+    - name: Burn Knuckle
       input: qcb punch
       note: ["EX"]
 
@@ -30,7 +30,7 @@
 
   desperation_move:
     - name: Power Geyser
-      input: qcb downback forward punch
+      input: qcb downback forward + punch
       note: ["EX"]
 
     - name: Buster Wolf

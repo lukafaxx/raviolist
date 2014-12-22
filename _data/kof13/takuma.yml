@@ -5,32 +5,32 @@
       input: Forward or back + HP or HK
 
   command_normal:
-    - name: Sokutou-Geri
+    - name: Sokutougeri
       input: Forward + LK
 
   special_move:
-    - name: Ko-Ou Ken
+    - name: Ko'ouken
       input: qcf punch
       note: ["EX"]
 
-    - name: Hien Shippuu Kyaku
+    - name: Kyokugen Ko'ou
+      input: qcf kick
+      note: ["EX"]
+
+    - name: Hien Shippuukyaku
       input: chdownback forward + kick
       note: ["EX"]
 
     - name: Zanretsuken
-      input: forward back forward punch
+      input: forward back forward + punch
       note: ["EX"]
 
     - name: Kyokugen Hougeki
       input: hcb kick
       note: ["EX"]
 
-    - name: Kyokugen Ko-Ou
-      input: qcf kick
-      note: ["EX"]
-
   desperation_move:
-    - name: Haoh Shikou Ken
+    - name: Haou Shikouken
       input: forward hcf punch
       note: ["EX"]
 
@@ -38,5 +38,5 @@
       input: qcf hcb punch
 
   neo_max_desperation_move:
-    - name: Biruto Appar
+    - name: Biruto Upper
       input: qcf qcf pp
