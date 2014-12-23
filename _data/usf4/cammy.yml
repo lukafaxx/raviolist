@@ -21,7 +21,7 @@
       input: ... (neutral position)
 
     - name: -- Fatal Leg Twister
-      input: ... (near opponent) LP + LK
+      input: ... lp + lk
       note: ["Command grab"]
 
     - name: -- Crossed Scissors

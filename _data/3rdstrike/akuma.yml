@@ -33,7 +33,7 @@
       input: ... kick
 
     - name: -- Hyakki Gousai
-      input: ... (near opponent) LP + LK
+      input: ... lp + lk
       note: ["Command grab"]
 
   super_art:

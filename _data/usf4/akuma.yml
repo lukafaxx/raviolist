@@ -36,7 +36,7 @@
       input: ... kick
 
     - name: -- Hyakki Gosai
-      input: ... (near opponent) lp + lk
+      input: ... lp + lk
       note: ["Command grab"]
 
     - name: Ashura Senku
