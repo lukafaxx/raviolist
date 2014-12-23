@@ -55,7 +55,6 @@
 
     - name: Shades of Glory
       input: down + hp + hk
-      note: ["Does nothing. Does everything."]
 
     - name: Target Combo
       input: cr.mk > forward + mp

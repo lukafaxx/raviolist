@@ -15,9 +15,7 @@
 
     - name: Tatsumaki Zankuukyaku
       input: qcb kick
-
-    - name: Tatsumaki Zankuukyaku (air)
-      input: (in air) qcb kick
+      note: ["Can be performed in air"]
 
     - name: Ashura Senku
       input: dpf or dpb and pp or kk

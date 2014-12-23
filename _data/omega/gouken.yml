@@ -54,7 +54,7 @@
 
     - name: II. Denjin Hadoken
       input: qcf qcf kkk
-      note: ["Hold kicks to change effect"]
+      note: ["Hold kicks to change timing"]
 
   normal_throw:
     - name: Raikotokyaku

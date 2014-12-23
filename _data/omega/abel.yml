@@ -33,7 +33,7 @@
 
     - name: II. Breathless
       input: qcf qcf kkk
-      note: ["Command Grab", "Hold kicks to change timing of dash, cancel with punch or down down"]
+      note: ["Command Grab", "Hold kicks to change timing, cancel with punch or down, down"]
 
   normal_throw:
     - name: Drop Throw

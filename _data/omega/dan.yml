@@ -31,7 +31,6 @@
 
     - name: Legendary Taunt
       input: qcf qcf hp + hk
-      note: ["Cancel into Ultra I, drop the stick and walk away"]
 
   ultra_combo:
     - name: I. Shisso Buraiken

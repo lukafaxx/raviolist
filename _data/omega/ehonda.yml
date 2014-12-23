@@ -15,7 +15,6 @@
 
     - name: Salt Toss
       input: qcf kick
-      note: ["E. Honda now playable"]
 
     - name: Zuri Fugaku
       input: chback forward + kick

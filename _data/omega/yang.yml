@@ -64,7 +64,7 @@
 
     - name: Target Combo 2
       input: mp > hp > back + hp
-      note: ["Armor Break added to 3rd hit"]
+      note: ["Armor Break added on third hit"]
 
     - name: Target Combo 3
       input: lk > mk > hk

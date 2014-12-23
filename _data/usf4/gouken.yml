@@ -11,7 +11,7 @@
 
     - name: Tatsumaki Gorasen
       input: qcb kick
-      note: ["EX", "Armor Break added to EX Tatsumaki Gorasen"]
+      note: ["EX", "Armor Break added on EX Tatsumaki Gorasen"]
 
     - name: Airborne Tatsumaki Senpukyaku
       input: (in air) qcb kick

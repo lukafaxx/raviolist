@@ -7,7 +7,7 @@
 
     - name: Shikusen
       input: (during up or upforward jump) qcb kick
-      note: ["EX", "Armor Break", "EX Shikusen can be done with any jump"]
+      note: ["EX", "Armor Break", "EX Shikusen can be done during any jump"]
 
     - name: -- 2nd Impact
       input: ... kick

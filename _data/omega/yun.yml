@@ -73,7 +73,7 @@
 
     - name: Target Combo 4
       input: mp > hp > back + hp
-      note: ["Armor Break added to 3rd hit", "Not possible during Genei Jin"]
+      note: ["Armor Break added on third hit", "Not possible during Genei Jin"]
 
     - name: Target Combo 5
       input: lp > lk > mp

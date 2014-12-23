@@ -11,7 +11,7 @@
 
     - name: Rekkukyaku
       input: cwing kick
-      note: ["EX", "Armor Break added to first hit"]
+      note: ["EX", "Armor Break added on first hit"]
 
     - name: Tenshin
       input: hcb kick

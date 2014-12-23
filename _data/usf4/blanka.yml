@@ -20,12 +20,12 @@
   super_combo:
     - name: Ground Shave Roll
       input: chback forward back forward + punch
-      note: ["Hold punch to change the timing of dash"]
+      note: ["Hold punch to change timing"]
 
   ultra_combo:
     - name: I. Lightning Cannonball
       input: chback forward back forward + ppp
-      note: ["Hold punches to change the timing of dash"]
+      note: ["Hold punches to change timing"]
 
     - name: II. Shout of Earth (anti-air)
       input: chdownback downforward downback upforward + ppp
