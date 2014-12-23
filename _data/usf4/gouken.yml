@@ -3,7 +3,7 @@
   special_move:
     - name: Gohadoken
       input: qcf punch
-      note: ["EX", "Hold punch to change level"]
+      note: ["EX", "Hold punch to charge"]
 
     - name: Senkugoshoha
       input: dpf punch
@@ -11,7 +11,7 @@
 
     - name: Tatsumaki Gorasen
       input: qcb kick
-      note: ["EX", "Armor Break added to EX version"]
+      note: ["EX", "Armor Break added to EX Tatsumaki Gorasen"]
 
     - name: Airborne Tatsumaki Senpukyaku
       input: (in air) qcb kick

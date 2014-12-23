@@ -22,7 +22,7 @@
 
     - name: Ryusokyaku
       input: hcf kick
-      note: ["EX", "Armor Break", "Overhead added on EX version"]
+      note: ["EX", "Armor Break", "Overhead added on EX Ryusokyaku"]
 
   super_combo:
     - name: Raging Demon

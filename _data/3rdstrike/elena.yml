@@ -15,7 +15,7 @@
 
     - name: Scratch Wheel
       input: dpf kick
-      note: ["EX", "Can be performed again on hit for followup"]
+      note: ["EX", "Can be performed again on hit for follow-up"]
 
     - name: Lynx Tail
       input: dpb kick

@@ -21,7 +21,7 @@
       input: hcb kick
       note: ["EX"]
 
-    - name: -- Followup Attack
+    - name: -- Follow-up Attack
       input: ... qcb punch
 
   desperation_move:

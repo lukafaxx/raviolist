@@ -5,7 +5,7 @@
       input: chback forward + punch
       note: ["EX"]
 
-    - name: Gigaton Blow
+    - name: -- Gigaton Blow
       input: During hit EX Dash Straight > ppp
       note: ["Armor Break", "Consumes 3/4 S.C. Gauge"]
 

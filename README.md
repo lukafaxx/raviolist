@@ -80,7 +80,7 @@ note: ["Command grab"]
 
 ### join
 
-To avoid repetition of primary special moves names and inputs, we prepend '--' to the value under the **name** key, and '...' to the one under the **input** key (see EX Kyo from KOF13 for an extreme example of multiple secondary and tertiary special moves). We use '+' for simultaneous inputs (e.g. command normals and charge moves) and '>' for moves such as target combos followups, where the first part can be performed independently of the following ones. ',' can be used for links.
+To avoid repetition of primary special moves names and inputs, we prepend '--' to the value under the **name** key, and '...' to the one under the **input** key (see EX Kyo from KOF13 for an extreme example of multiple secondary and tertiary special moves). We use '+' for simultaneous inputs (e.g. command normals and charge moves) and '>' for moves such as target combos follow-ups, where the first part can be performed independently of the following ones. ',' can be used for links.
 
 * --
 * ...

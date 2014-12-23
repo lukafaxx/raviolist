@@ -9,7 +9,7 @@
       input: dpf punch
       note: ["EX"]
 
-    - name: -- Followup Attack
+    - name: -- Follow-up Attack
       input: ... punch
 
     - name: Deathrow

@@ -11,7 +11,7 @@
 
     - name: Gekiro
       input: (Mantis) dpf kick
-      note: ["EX", "Press kick after hit for followup"]
+      note: ["EX", "Press kick after hit for follow-up"]
 
     - name: Jyasen
       input: (Crane) chback forward + punch

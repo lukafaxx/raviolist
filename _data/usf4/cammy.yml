@@ -33,7 +33,7 @@
 
     - name: Cannon Strike
       input: (during upforward jump) qcb kick
-      note: ["EX version can be done with any jump"]
+      note: ["EX", "EX Cannon Strike can be done with any jump"]
 
   super_combo:
     - name: Spin Drive Smasher

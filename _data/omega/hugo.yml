@@ -23,7 +23,7 @@
 
     - name: Monster Lariat
       input: qcf kick
-      note: ["EX", "Armor Break", "EX version can be cancelled by holding KK"]
+      note: ["EX", "Armor Break", "EX Monster Lariat can be cancelled by holding any two kicks"]
 
     - name: Diamond Body
       input: forward + hp + hk
@@ -47,7 +47,7 @@
   super_combo:
     - name: Hammer Mountain
       input: qcf qcf punch
-      note: ["Hold punch for feint", "Follow up on block with punch"]
+      note: ["Hold punch for feint", "Follow-up on block with punch"]
 
   ultra_combo:
     - name: I. Gigas Breaker

@@ -19,7 +19,7 @@
 
     - name: Sakura Otoshi
       input: dpf kick
-      note: ["EX", "Press punch up to three times after hit for followup"]
+      note: ["EX", "Press punch up to three times after hit for follow-up"]
 
   super_combo:
     - name: Haru Ichiban

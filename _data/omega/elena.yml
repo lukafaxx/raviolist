@@ -15,7 +15,7 @@
 
     - name: Spin Scythe
       input: qcb kick
-      note: ["EX", "HK version can be performed twice"]
+      note: ["EX", "HK Spin Scythe can be performed twice"]
 
     - name: Rhyno Horn
       input: hcf kick

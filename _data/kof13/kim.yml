@@ -24,7 +24,7 @@
       input: chdown up + kick
       note: ["EX"]
 
-    - name: -- Followup Attack
+    - name: -- Follow-up Attack
       input: During HK Hienzan > down + hk
 
   desperation_move:

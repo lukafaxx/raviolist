@@ -20,7 +20,7 @@
 
     - name: Shikusen
       input: (during up or upforward jump) qcb kick
-      note: ["EX", "Armor Break", "EX version can be done with any jump"]
+      note: ["EX", "Armor Break", "EX Shikusen can be done with any jump"]
 
     - name: -- Shirensen
       input: ... kick
@@ -34,7 +34,7 @@
       input: qcb punch
       note: ["EX", "Only against certain attacks"]
 
-    - name: -- Followup Move
+    - name: -- Follow-up Move
       input: During EX Kasatushi > up or upforward or forward
       note: ["Can absorb 1 hit"]
 

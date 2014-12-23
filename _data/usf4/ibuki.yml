@@ -3,11 +3,11 @@
   special_move:
     - name: Kunai
       input: (in air) qcf punch
-      note: ["EX", "Follow up with Kasumi Suzaku during descent"]
+      note: ["EX", "Follow-up with Kasumi Suzaku during descent"]
 
     - name: Tsuijigoe
       input: dpf punch
-      note: ["Follow up with Kunai or Kasumi Suzaku during descent"]
+      note: ["Follow-up with Kunai or Kasumi Suzaku during descent"]
 
     - name: Neck Breaker
       input: hcf punch
@@ -22,19 +22,19 @@
 
     - name: Kazegiri
       input: dpf kick
-      note: ["EX version can be followed up with Kunai"]
+      note: ["EX", "EX Kazegiri can be followed up with Kunai"]
 
     - name: Tsumuji
       input: qcb kick
       note: ["EX"]
 
-    - name: -- Followup Attack
+    - name: -- Follow-up Attack
       input: ... kick or down + kick
       note: ["Kick for high attack, down + kick for low"]
 
     - name: Hien
       input: dpb kick
-      note: ["EX", "Follow up with Kunai or Kasumi Suzaku during downward arc after attack"]
+      note: ["EX", "Follow-up with Kunai or Kasumi Suzaku during downward arc after attack"]
 
   super_combo:
     - name: Kasumi Suzaku

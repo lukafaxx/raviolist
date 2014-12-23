@@ -26,7 +26,7 @@
 
     - name: Tatsumaki Zankukyaku
       input: qcb kick
-      note: ["EX"]
+      note: ["EX", "Can be performed in air"]
 
     - name: Hyakkishu
       input: qcf kick

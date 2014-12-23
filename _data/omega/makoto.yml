@@ -7,7 +7,7 @@
 
     - name: Hayate
       input: qcf punch
-      note: ["EX", "Armor Break added on EX version", "Hold punch for more power, press kick to cancel"]
+      note: ["EX", "Armor Break added on EX Hayate", "Hold punch to charge, press kick to cancel"]
 
     - name: Oroshi
       input: qcb punch
@@ -23,7 +23,7 @@
 
     - name: Shikiri
       input: qcf kick
-      note: ["Cancel moves", "EX version consumes 1/2 S.C. Gauge"]
+      note: ["Cancel moves", "EX Shikiri consumes 1/2 S.C. Gauge"]
 
     - name: Isana
       input: dpb punch

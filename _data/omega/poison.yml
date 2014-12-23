@@ -15,7 +15,7 @@
 
     - name: Aeolus Edge
       input: qcf punch
-      note: ["EX", "Except for EX version, hold punch to change timing"]
+      note: ["EX", "On LP, MP or HP Aeolus Edge, hold punch to change timing"]
 
     - name: Ascension
       input: dpb kick
@@ -23,7 +23,7 @@
 
     - name: Honey Trap
       input: qcf kick
-      note: ["EX", "EX version Consumes 1/2 S.C. Gauge"]
+      note: ["EX", "EX Honey Trap Consumes 1/2 S.C. Gauge"]
 
   super_combo:
     - name: Thunder Whip

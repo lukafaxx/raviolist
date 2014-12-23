@@ -10,10 +10,10 @@
       note: ["EX", "Armor Break"]
 
     - name: -- Body Press
-      input: During Oil Slide except LP version > (just before hit) punch
+      input: During MP, HP or EX Oil Slide > (just before hit) punch
 
     - name: -- Oil Shower
-      input: During Oil Slide except LP version > (just before hit) kick
+      input: During MP, HP or EX Oil Slide > (just before hit) kick
 
     - name: Oil Rocket
       input: hcb punch
@@ -21,16 +21,16 @@
 
     - name: Oil Dive
       input: 360 kick
-      note: ["EX", "Command grab", "Hold to charge, cancel with down down"]
+      note: ["EX", "Command grab", "Hold kick to charge, cancel with down, down"]
 
     - name: Hakan Launcher
       input: qcf kick
-      note: ["EX", "Armor Break added on EX version"]
+      note: ["EX", "Armor Break added on EX Hakan Launcher"]
 
   super_combo:
     - name: Flying Oil Spin
       input: qcf qcf kick
-      note: ["Command grab", "Hold to charge, cancel with down down"]
+      note: ["Command grab", "Hold kick to charge, cancel with down, down"]
 
   ultra_combo:
     - name: I. Oil Coaster

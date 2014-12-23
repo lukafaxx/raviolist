@@ -15,11 +15,11 @@
 
     - name: Chariot Tackle
       input: qcf kick
-      note: ["EX", "Armor Break added on EX version"]
+      note: ["EX", "Armor Break added on EX Chariot Tackle"]
 
     - name: Tanden Engine
       input: dpb punch
-      note: ["EX", "Armor Break added on EX version", "EX version consumes 1/2 S.C. Gauge"]
+      note: ["EX", "Armor Break added on EX Tanden Engine", "EX Tanden Engine consumes 1/2 S.C. Gauge"]
 
     - name: Spinning Piledriver
       input: 360 punch

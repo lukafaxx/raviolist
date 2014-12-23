@@ -25,8 +25,8 @@
       input: hcb punch
       note: ["EX", "Armor Break", "Command grab"]
 
-    - name: Hundred Jaguars
-      input: During hit Jaguar Bite (except EX version) > punch
+    - name: -- Hundred Jaguars
+      input: During hit LP, MP or HP Jaguar Bite > punch
 
   super_combo:
     - name: Jaguar Varied Assault

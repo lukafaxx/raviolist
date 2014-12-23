@@ -19,7 +19,7 @@
 
     - name: Soul Passing
       input: qcb kick
-      note: ["EX", "Counter attack allowing followups"]
+      note: ["EX", "Counter attack allowing follow-ups"]
 
   super_combo:
     - name: Aura Soul Spark

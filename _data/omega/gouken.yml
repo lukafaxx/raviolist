@@ -3,7 +3,7 @@
   special_move:
     - name: Gohadoken
       input: qcf punch
-      note: ["EX", "Hold punch to change level"]
+      note: ["EX", "Hold punch to charge"]
 
     - name: Senkugoshoha
       input: dpf punch
@@ -15,7 +15,7 @@
 
     - name: Airborne Tatsumaki Senpukyaku
       input: (during up or upforward jump) qcb kick
-      note: ["EX","EX version can be performed during any jump"]
+      note: ["EX", "EX Airborne Tatsumaki Senpukyaku can be performed during any jump"]
 
     - name: Hyakkishu
       input: dpf kick

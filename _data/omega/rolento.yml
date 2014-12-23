@@ -23,7 +23,7 @@
 
     - name: Patriot Circle
       input: qcf punch
-      note: ["EX", "MP version can be performed twice, HP version three times in sequence"]
+      note: ["EX", "MP Patriot Circle can be performed twice", "HP Patriot Circle can be performed three times in sequence"]
 
     - name: Scouter Jump
       input: down up or kkk

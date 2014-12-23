@@ -11,7 +11,7 @@
 
     - name: Flash Kick
       input: chdown up + kick
-      note: ["EX", "Armor Break on EX version"]
+      note: ["EX", "Armor Break added on EX Flash Kick"]
 
     - name: Blitz Combination
       input: qcf kick

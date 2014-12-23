@@ -15,7 +15,7 @@
 
     - name: Tanden Engine
       input: qcb punch
-      note: ["EX", "Armor Break during EX Tanden Engine", "EX version consumes 1/2 S.C. Gauge"]
+      note: ["EX", "Armor Break during EX Tanden Engine", "EX Tanden Engine consumes 1/2 S.C. Gauge"]
 
     - name: Spinning Piledriver
       input: 360 punch

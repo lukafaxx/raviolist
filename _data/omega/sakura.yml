@@ -22,7 +22,7 @@
 
     - name: Sakura Otoshi
       input: qcf kick
-      note: ["EX", "Press punch up to three times after hit for followup"]
+      note: ["EX", "Press punch up to three times after hit for follow-up"]
 
     - name: Hadosho
       input: qcb punch
@@ -34,7 +34,7 @@
 
     - name: Sakura Fubuki
       input: ppp
-      note: ["Consumes from 1/2 to a full S.C. Gauge", "Follow up on block with punch or kick"]
+      note: ["Consumes from 1/2 to a full S.C. Gauge", "Follow-up on block with punch or kick"]
 
   super_combo:
     - name: Haru Ichiban

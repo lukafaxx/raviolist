@@ -30,7 +30,7 @@
 
     - name: Utsusemi
       input: dpf kick
-      note: ["EX", "Parry", "EX version has invincibility and teleports automatically"]
+      note: ["EX", "Parry", "EX Utsusemi has invincibility and teleports automatically"]
 
     - name: Run
       input: qcf kick

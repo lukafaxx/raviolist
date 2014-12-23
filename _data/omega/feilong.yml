@@ -11,7 +11,7 @@
 
     - name: Rekkukyaku
       input: hcf kick
-      note: ["EX", "Armor Break added on EX version"]
+      note: ["EX", "Armor Break added on EX Rekkukyaku"]
 
     - name: Tenshin
       input: hcb kick
@@ -28,7 +28,7 @@
   super_combo:
     - name: Rekkashinken
       input: qcf qcf punch
-      note: ["Follow up on block with qcf punch (Armor Break)"]
+      note: ["Follow-up on block with qcf punch (Armor Break)"]
 
   ultra_combo:
     - name: I. Rekkashingeki

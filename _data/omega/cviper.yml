@@ -3,7 +3,7 @@
   special_move:
     - name: Thunder Knuckle
       input: qcb punch
-      note: ["EX", "Armor Break", "Cancel with PP"]
+      note: ["EX", "Armor Break", "Cancel with any two punches"]
 
     - name: Burning Kick
       input: qcb kick
@@ -11,15 +11,15 @@
 
     - name: Seismic Hammer
       input: dpf punch
-      note: ["EX", "Cancel with PP"]
+      note: ["EX", "Cancel with any two punches"]
 
     - name: Thunder Fist
       input: qcf punch
-      note: ["EX", "Cancel with PP"]
+      note: ["EX", "Cancel with any two punches"]
 
     - name: Burst Heel
       input: qcf kick
-      note: ["EX", "Cancel EX version with KK on hit"]
+      note: ["EX", "Cancel EX Burst Heel with any two kicks on hit"]
 
   super_combo:
     - name: Emergency Combination

@@ -3,7 +3,7 @@
   special_move:
     - name: Habanero Dash
       input: qcf punch
-      note: ["EX gains armor (2 hits)"]
+      note: ["EX", "EX gains armor (2 hits)"]
 
     - name: -- Sudden Stop
       input: ... lp
@@ -27,7 +27,7 @@
 
     - name: Habanero Back Dash
       input: qcb punch
-      note: ["EX gains armor (2 hits)"]
+      note: ["EX", "EX gains armor (2 hits)"]
 
     - name: -- Sudden Stop
       input: ... lp

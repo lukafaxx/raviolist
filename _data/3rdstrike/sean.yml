@@ -6,7 +6,7 @@
 
     - name: Sean Tackle
       input: hcf punch
-      note: ["EX", "Hold punch for follow up"]
+      note: ["EX", "Hold punch for follow-up"]
 
     - name: Dragon Smash
       input: dpf punch

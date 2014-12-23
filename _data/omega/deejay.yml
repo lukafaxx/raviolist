@@ -22,7 +22,7 @@
 
     - name: Machinegun Upper
       input: qcb punch
-      note: ["EX", "Armor Break", "Except for EX version, press punch repeatedly for more hits"]
+      note: ["EX", "Armor Break", "On LP, MP or HP Machinegun Upper, press punch repeatedly for more hits"]
 
     - name: Waning Moon
       input: hcb kick

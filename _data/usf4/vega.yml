@@ -15,7 +15,7 @@
 
     - name: Flying Barcelona Attack
       input: chdown up + kick
-      note: ["EX", "Press punch after wall jump for followup"]
+      note: ["EX", "Press punch after wall jump for follow-up"]
 
     - name: -- Izuna Drop
       input: ... (near opponent) forward or back + punch
@@ -23,12 +23,12 @@
 
     - name: Remove Claw
       input: dpf punch
-      note: ["EX version removes mask"]
+      note: ["EX", "EX Remove Claw removes mask"]
 
   super_combo:
     - name: Flying Barcelona Special
       input: chdownback downforward downback upforward + kick
-      note: ["Press any punch after wall jump for followup"]
+      note: ["Press any punch after wall jump for follow-up"]
 
     - name: -- Rolling Izuna Drop
       input: ... (near opponent) forward or back + punch

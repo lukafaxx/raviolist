@@ -19,7 +19,7 @@
 
     - name: Shoulder Tackle
       input: qcf kick
-      note: ["EX", "Armor Break added on EX and fully charged versions", "Hold kick to charge, cancel with punch"]
+      note: ["EX", "Armor Break added on EX and fully charged Shoulder Tackle", "Hold kick to charge, cancel with punch"]
 
   super_combo:
     - name: Heartless

@@ -3,11 +3,11 @@
   special_move:
     - name: Fukiage
       input: dpf punch
-      note: ["EX Fukiage can hit opponent on the ground"]
+      note: ["EX", "EX Fukiage can hit opponent on the ground"]
 
     - name: Hayate
       input: qcf punch
-      note: ["EX", "Armor Break added on EX version", "Hold punch for more power, press kick to cancel"]
+      note: ["EX", "Armor Break added on EX Hayate", "Hold punch to charge, press kick to cancel"]
 
     - name: Oroshi
       input: qcb punch

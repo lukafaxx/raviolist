@@ -7,7 +7,7 @@
 
     - name: Shoryuken
       input: dpf punch
-      note: ["EX", "Armor Break added on EX version"]
+      note: ["EX", "Armor Break added on EX Shoryuken"]
 
     - name: Tatsumaki Senpukyaku
       input: qcb kick

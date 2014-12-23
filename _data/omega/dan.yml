@@ -15,7 +15,7 @@
 
     - name: Airborne Dankukyaku
       input: (in air) qcb kick
-      note: ["EX", "Armor Break on MK version only"]
+      note: ["EX", "Armor Break added on MK Airborne Dankukyaku"]
 
     - name: Danretsuken
       input: qcb punch
