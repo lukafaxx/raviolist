@@ -1,6 +1,6 @@
 - character: May
 
-  special_moves:
+  special_attack:
     - name: Mr. Dolphin, Horizontal
       input: chback forward + slash or hs
 
@@ -27,7 +27,7 @@
     - name: Ensenga?
       input: (in air) hcf hs
 
-  overdrive_attacks:
+  overdrive_attack:
     - name: Great Yamada Attack
       input: qcf qcf slash
 

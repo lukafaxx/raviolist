@@ -10,8 +10,20 @@ layout: default
   <h1 class="page-title">{{ chara.character }}</h1>
   <span class="from_game">Guilty Gear Xrd -SIGN-</span>
 
-  <h2 class="move_cat"><span>Special Moves</span></h2>
-  {% for special in chara.special_moves %}
+  {% if chara.unique_attack != null %}
+  <h2 class="move_cat"><span>Unique Attack</span></h2>
+  {% for unique in chara.unique_attack %}
+  <p class="move">
+    <span class="move_name">{{ unique.name }}</span><br />
+    <span class="move_input">{{ unique.input }}</span><br />
+    <span class="move_note">{{ unique.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
+  <br />
+  {% endif %}
+
+  <h2 class="move_cat"><span>Special Attack</span></h2>
+  {% for special in chara.special_attack %}
   <p class="move">
     <span class="move_name">{{ special.name }}</span><br />
     <span class="move_input">{{ special.input }}</span><br />
@@ -20,8 +32,8 @@ layout: default
   {% endfor %}
   <br />
 
-  <h2 class="move_cat"><span>Overdrive Attacks</span></h2>
-  {% for overdrive in chara.overdrive_attacks %}
+  <h2 class="move_cat"><span>Overdrive Attack</span></h2>
+  {% for overdrive in chara.overdrive_attack %}
   <p class="move">
     <span class="move_name">{{ overdrive.name }}</span><br />
     <span class="move_input">{{ overdrive.input }}</span><br />

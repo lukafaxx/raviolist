@@ -1,6 +1,6 @@
 - character: Bedman
 
-  special_moves:
+  special_attack:
     - name: Task A
       input: qcf punch
       note: ["Can be performed in air"]
@@ -33,7 +33,7 @@
       input: (in air) up
       note: ["After hovering, move with directional input"]
 
-  overdrive_attacks:
+  overdrive_attack:
     - name: Sinosoidal Helios
       input: hcb forward hs
 
