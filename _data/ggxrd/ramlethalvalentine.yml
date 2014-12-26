@@ -1,0 +1,38 @@
+- character: Ramlethal Valentine
+
+  unique_attack:
+    - name: Giant Sword, Deploy
+      input: forward + slash or hs
+      note: ["Can be performed in air"]
+
+    - name: Giant Sword, Retrieve
+      input: back + slash or hs
+      note: ["Can be performed in air"]
+
+    - name: Combination attacks
+      input: punch or kick
+      note: ["Can be performed three times in sequence with different buttons and directions"]
+
+  special_attack:
+    - name: Dauro
+      input: dpf punch
+
+    - name: Furamakaago
+      input: qcf kick
+
+    - name: Sildo Detruo
+      input: qcb kick
+      note: ["Can be performed in air"]
+
+    - name: Cassius
+      input: qcb punch
+
+  overdrive_attack:
+    - name: Calvados
+      input: During Giant Sword, Retrieve > hcb forward + hs
+
+    - name: Toranshi
+      input: During Giant Sword, Deploy > hcb forward + hs
+
+    - name: Explode
+      input: qcf hcb kick
