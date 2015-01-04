@@ -195,13 +195,13 @@ p {
 }
 
 .sidebar-nav-item.nothing {
-  color: #000;
+  color: #222;
   font-weight: 400;
 }
 
 .sidebar-nav-item.incomplete {
-  color: #aaa;
-  font-weight: 400;
+  color: #000;
+  font-weight: 600;
 }
 
 .sidebar-nav-item.active {
