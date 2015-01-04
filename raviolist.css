@@ -182,6 +182,13 @@ p {
   transition: background-color .2s, color .2s;
 }
 
+.sidebar-nav-item:hover {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
 .sidebar-nav-item.special {
   text-align: center;
   font-style: italic;
@@ -197,7 +204,12 @@ p {
   font-weight: 400;
 }
 
-.sidebar-nav-item.active,
+.sidebar-nav-item.active {
+  text-decoration: none;
+  background-color: #819ba9;
+  border-color: transparent;
+}
+
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
@@ -365,6 +377,10 @@ a.sidebar-nav-item:focus {
  color: #fff;
  background-color: #56717f;
  outline: 1px solid #56717f;
+ -webkit-transition: none;
+ -moz-transition: none;
+ -o-transition: none;
+ transition: none;
 }
 
 .roster-item.todo {
@@ -395,13 +411,20 @@ a.sidebar-nav-item:focus {
  transition: color .2s;
 }
 
+.roster-aka {
+ -webkit-transition: none;
+ -moz-transition: none;
+ -o-transition: none;
+ transition: none;
+}
+
 .roster-aka.todo {
  color: #263238;
 }
 
 .roster-item:not(.todo):hover span,
 .roster-item:not(.todo):focus span {
-  color: #fff;
+ color: #fff;
 }
 
 .from_game {
@@ -601,8 +624,15 @@ a.sidebar-nav-item:focus {
   margin-bottom: -1px;
 }
 
-a.pagination-item:hover {
-  background-color: inherit;
+a.pagination-item,
+a.pagination-item:visited {
+  color: #89d2dc;
+}
+
+a.pagination-item:hover,
+a.pagination-item:focus {
+  color: #fff;
+  background-color: #2d3b42;
 }
 
 @media (min-width: 30em) {
