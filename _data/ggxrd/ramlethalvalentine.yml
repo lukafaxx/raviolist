@@ -31,8 +31,12 @@
     - name: Calvados
       input: During Giant Sword, Retrieve > hcb forward + hs
 
-    - name: Toranshi
+    - name: Trance
       input: During Giant Sword, Deploy > hcb forward + hs
 
     - name: Explode
       input: qcf hcb kick
+
+  instant_kill:
+    - name: Animo Estingi
+      input: punch + kick + slash + hs > qcf qcf hs

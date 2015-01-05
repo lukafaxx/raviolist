@@ -39,3 +39,7 @@
 
     - name: -- Deluxe Goshogawara Bomber
       input: ... punch
+
+  instant_kill:
+    - name: Farewell
+      input: punch + kick + slash + hs > qcf qcf hs

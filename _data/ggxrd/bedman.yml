@@ -34,8 +34,12 @@
       note: ["After hovering, move with directional input"]
 
   overdrive_attack:
-    - name: Sinosoidal Helios
+    - name: Sinusoidal Helios
       input: hcb forward hs
 
-    - name: Hemijack
+    - name: Hemi Jack
       input: hcb forward slash
+
+  instant_kill:
+    - name: Theatre of Pain
+      input: punch + kick + slash + hs > qcf qcf hs
