@@ -40,6 +40,16 @@ layout: default
     <span class="move_note">{{ overdrive.note | join: ' &middot; ' }}</span>
   </p>
   {% endfor %}
+  <br />
+
+  <h2 class="move_cat"><span>Instant Kill</span></h2>
+  {% for instant in chara.instant_kill %}
+  <p class="move">
+    <span class="move_name">{{ instant.name }}</span><br />
+    <span class="move_input">{{ instant.input }}</span><br />
+    <span class="move_note">{{ instant.note | join: ' &middot; ' }}</span>
+  </p>
+  {% endfor %}
 
 {% endfor %}
 
