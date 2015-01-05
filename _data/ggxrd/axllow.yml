@@ -1,0 +1,55 @@
+- character: Axl Low
+
+  special_attack:
+    - name: Sickle Flash
+      input: chback forward + slash
+
+    - name: -- Melody Chain
+      input: ... up or upforward
+
+    - name: -- Spinning Chain
+      input: ... down or downforward
+
+    - name: Benten Reaper
+      input: dpf slash
+
+    - name: Thunder Shadow Chain
+      input: hcb slash
+
+    - name: Rashousen
+      input: chback forward + hs
+
+    - name: Tenhouseki, High
+      input: qcb punch
+
+    - name: Tenhouseki, Low
+      input: qcb kick
+
+    - name: Axl Bomber
+      input: (in air) dpf hs
+
+    - name: Sparrowhawk Stance
+      input: hcb hs
+
+    - name: -- High
+      input: ... punch
+
+    - name: -- Mid
+      input: ... kick
+
+    - name: -- Low
+      input: ... slash
+
+    - name: -- Cancel
+      input: ... hs
+
+  overdrive_attack:
+    - name: Hyakuerenshou
+      input: qcf hcb hs
+
+    - name: Kairagiyakou
+      input: qcb qcb slash
+
+  instant_kill:
+    - name: Kanamari Rekka
+      input: punch + kick + slash + hs > qcf qcf hs
