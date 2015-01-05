@@ -3,18 +3,13 @@
   short: bbcp
   status: nothing
 
-- title: "Dead or Alive 5"
-  year: 2012
-  short: doa5
-  status: nothing
-
 - title: "Guilty Gear X2"
   year: 2003
   short: ggx2
   status: nothing
 
 - title: "Guilty Gear Xrd -SIGN-"
-  year: 2014
+  year: 2014.02
   short: ggxrd
   status: incomplete
 
@@ -62,11 +57,6 @@
   short: sf5
   status: nothing
 
-- title: "Tekken Tag Tournament 2"
-  year: 2011
-  short: ttt2
-  status: nothing
-
 - title: "The King of Fighters XIII"
   year: 2010
   short: kof13
@@ -77,7 +67,7 @@
   status: nothing
 
 - title: "Ultra Street Fighter IV"
-  year: 2014.06
+  year: 2014.04
   short: usf4
 
 - title: "USF4 Omega Edition"
