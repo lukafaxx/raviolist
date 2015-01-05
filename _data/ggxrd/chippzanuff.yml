@@ -1,0 +1,78 @@
+- character: Chipp Zanuff
+
+  special_attack:
+    - name: Alpha Blade
+      input: qcf punch
+      note: ["Can be performed in air"]
+
+    - name: -- Alpha Plus
+      input: ... hs
+
+    - name: Beta Blade
+      input: ... dpf slash
+      note: ["Can be performed in air"]
+
+    - name: Gamma Blade
+      input: hcf hs
+
+    - name: Genrouzan
+      input: hcb slash
+
+    - name: Tsuyoshishiki Meisai
+      input: qcb kick
+
+    - name: Tsuyoshishiki Ten'i
+      input: down down and punch or kick or slash or hs
+
+    - name: Resshou
+      input: qcf slash
+
+    - name: -- Rokusai
+      input: ... qcf slash
+
+    - name: -- or -- -- Senshuu
+      input: ... or ... ... qcf kick
+
+    - name: Shuriken
+      input: (in air) qcb punch
+
+    - name: Mirage
+      input: dpf hs
+
+    - name: Wall Cling
+      input: (near wall) forward back
+
+    - name: -- Up and Down
+      input: ... up or down
+
+    - name: -- Horizontal
+      input: ... downforward or forward or upforward
+
+    - name: -- Jump Off
+      input: ... back
+
+    - name: -- Alpha Blade
+      input: ... punch
+
+    - name: -- Kunai
+      input: ... kick
+
+    - name: -- Genrouzan
+      input: ... slash
+
+    - name: -- Gen'ouzan
+      input: ... hs
+
+  overdrive_attack:
+    - name: Zanseirouga
+      input: hcb forward hs
+
+    - name: Ryuuyanagi
+      input: (in air) qcb qcb kick
+
+    - name: Bankimessai
+      input: qcf qcf kick
+
+  instant_kill:
+    - name: Raisetsudan
+      input: punch + kick + slash + hs > qcf qcf hs
