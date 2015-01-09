@@ -1,0 +1,89 @@
+- character: Faust
+
+  special_attack:
+    - name: Rerere's Thrust
+      input: hcf kick
+
+    - name: -- Pull Back
+      input: ... back
+
+    - name: -- -- Oi!
+      input: ... ... qcf punch
+
+    - name: -- -- -- Can't hear you!
+      input: ... ... ... qcf punch
+
+    - name: -- -- -- -- Oi again!
+      input: ... ... ... ... qcf punch
+
+    - name: Hack n' Slash
+      input: (near opponent) qcb hs
+
+    - name: Going My Way
+      input: (in air) qcf hs
+
+    - name: What's Next?
+      input: qcf punch
+      note: ["Can hold Punch"]
+
+    - name: From the Front
+      input: qcb punch
+
+    - name: From Behind
+      input: qcb kick
+
+    - name: From Above
+      input: qcb slash
+
+    - name: Souten'enshinranbu
+      input: qcf slash
+
+    - name: -- Taste it!
+      input: ... punch
+
+    - name: -- Growing Flower
+      input: ... kick
+      note: ["Can hold Kick"]
+
+    - name: -- A Flower? I'M a Flower?
+      input: ... slash
+      note: ["Can hold Slash"]
+
+    - name: -- Going My Way
+      input: ... hs
+
+    - name: -- Forward
+      input: ... forward forward
+
+    - name: -- Backward
+      input: ... back back
+
+    - name: -- Small Jump
+      input: ... upforward
+
+    - name: -- Dr. Copter
+      input: ... up
+
+    - name: -- Cancel
+      input: ... down
+
+    - name: Love
+      input: (in air) qcf punch
+
+  overdrive_attack:
+    - name: Shigekiteki Zetsumeiken
+      input: qcf qcf slash
+
+    - name: -- Shuffle Time
+      input: During hit Shigekiteki Zetsumeiken > punch or kick or slash or hs
+      note: ["Can be performed multiple times in sequence"]
+
+    - name: Wh-wh-wh-what's Next?
+      input: qcf qcf punch
+
+    - name: Wh-wh-wh-what's Next? (100%)
+      input: qcf qcf qcf punch
+
+  instant_kill:
+    - name: This is... Me?
+      input: punch + kick + slash + hs > qcf qcf hs
