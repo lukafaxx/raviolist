@@ -1,0 +1,64 @@
+- character: Elphelt Valentine
+
+  special_attack:
+    - name: Pine Berry
+      input: qcf punch
+      note: ["Can be performed in air"]
+
+    - name: -- High
+      input: ... back + punch
+      note: ["Can be performed in air"]
+
+    - name: -- Low
+      input: ... down + punch
+
+    - name: Bridal Express
+      input: qcb kick
+      note: ["Can be performed in air"]
+
+    - name: Miss Confire
+      input: qcf slash
+
+    - name: -- Fire
+      input: ... qcb kick
+
+    - name: -- -- Reload
+      input: ... ... back forward + slash
+
+    - name: -- Cancel
+      input: ... dust
+
+    - name: Miss Travailler
+      input: qcf hs
+
+    - name: -- Poke
+      input: ... punch
+
+    - name: -- Roll
+      input: ... kick
+
+    - name: -- Toss
+      input: ... slash
+
+    - name: -- Fire
+      input: ... hs
+
+    - name: -- -- Reload
+      input: ... ... back forward + hs
+
+    - name: -- Destroy
+      input: ... dust
+
+    - name: -- Cancel
+      input: ... qcf hs
+
+  overdrive_attack:
+    - name: Judge Better Half
+      input: qcf qcf dust
+
+    - name: Genoise
+      input: hcb forward + hs
+
+  instant_kill:
+    - name: Magnum Wedding
+      input: punch + kick + slash + hs > qcf qcf hs
