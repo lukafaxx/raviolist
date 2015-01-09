@@ -53,6 +53,7 @@ var viewInput = {
   "hk"            : "<span class='button'>HK</span>",
   "slash"         : "<span class='button'>S</span>",
   "hs"            : "<span class='button'>HS</span>",
+  "dust"          : "<span class='button'>D</span>",
   "fp"            : "<span class='button'>FP</span>",
   "bp"            : "<span class='button'>BP</span>",
   "fk"            : "<span class='button'>FK</span>",
