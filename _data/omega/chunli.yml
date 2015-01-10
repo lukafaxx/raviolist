@@ -21,7 +21,7 @@
       input: qcf kick
 
     - name: Hoyokusen
-      input: qcf pp
+      input: qcf kk
       note: ["Consumes 1/2 S.C. Gauge"]
 
   super_combo:
