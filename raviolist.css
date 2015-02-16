@@ -476,13 +476,14 @@ a.sidebar-nav-item:focus {
 }
 
 .move_name {
+ color: #fff;
  text-transform: uppercase;
  font-weight: 400;
  letter-spacing: .1rem;
 }
 
 .move_input {
- color: #000;
+ color: #fff;
  word-spacing: .2rem;
 }
 
