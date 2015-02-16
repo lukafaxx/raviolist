@@ -59,31 +59,31 @@ var viewInput = {
   "fk"            : "<span class='button'>FK</span>",
   "bk"            : "<span class='button'>BK</span>",
 
-  "up"            : "<img src='/raviolist/img/8.png' />",
-  "upforward"     : "<img src='/raviolist/img/9.png' />",
-  "forward"       : "<img src='/raviolist/img/6.png' />",
-  "downforward"   : "<img src='/raviolist/img/3.png' />",
-  "down"          : "<img src='/raviolist/img/2.png' />",
-  "downback"      : "<img src='/raviolist/img/1.png' />",
-  "back"          : "<img src='/raviolist/img/4.png' />",
-  "upback"        : "<img src='/raviolist/img/7.png' />",
+  "up"            : "<img class='rotate8' src='/raviolist/img/arrow_a.png' />",
+  "upforward"     : "<img class='rotate9' src='/raviolist/img/arrow_a.png' />",
+  "forward"       : "<img class='rotate6' src='/raviolist/img/arrow_a.png' />",
+  "downforward"   : "<img class='rotate3' src='/raviolist/img/arrow_a.png' />",
+  "down"          : "<img class='rotate2' src='/raviolist/img/arrow_a.png' />",
+  "downback"      : "<img class='rotate1' src='/raviolist/img/arrow_a.png' />",
+  "back"          : "<img class='rotate4' src='/raviolist/img/arrow_a.png' />",
+  "upback"        : "<img class='rotate7' src='/raviolist/img/arrow_a.png' />",
 
-  "chdown"        : "<img src='/raviolist/img/ch2.png' />",
-  "chdownback"    : "<img src='/raviolist/img/ch1.png' />",
-  "chback"        : "<img src='/raviolist/img/ch4.png' />",
+  "chdown"        : "<img class='rotate2' src='/raviolist/img/arrow_b.png' />",
+  "chdownback"    : "<img class='rotate1' src='/raviolist/img/arrow_b.png' />",
+  "chback"        : "<img class='rotate4' src='/raviolist/img/arrow_b.png' />",
 
-  "dpf"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/6.png' /> <img src='/raviolist/img/2.png' /> <img src='/raviolist/img/3.png' /></span>",
-  "dpb"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/4.png' /> <img src='/raviolist/img/2.png' /> <img src='/raviolist/img/1.png' /></span>",
+  "dpf"           : "<span style='white-space:nowrap;'><img class='rotate6' src='/raviolist/img/arrow_a.png' /> <img class='rotate2' src='/raviolist/img/arrow_a.png' /> <img class='rotate3' src='/raviolist/img/arrow_a.png' /></span>",
+  "dpb"           : "<span style='white-space:nowrap;'><img class='rotate4' src='/raviolist/img/arrow_a.png' /> <img class='rotate2' src='/raviolist/img/arrow_a.png' /> <img class='rotate1' src='/raviolist/img/arrow_a.png' /></span>",
 
-  "qcf"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/6.png' /></span>",
-  "qcb"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/4.png' /></span>",
+  "qcf"           : "<span style='white-space:nowrap;'><img class='rotate2' src='/raviolist/img/arrow_a.png' /><img class='flow rotate3' src='/raviolist/img/arrow_a.png' /><img class='flow rotate6' src='/raviolist/img/arrow_a.png' /></span>",
+  "qcb"           : "<span style='white-space:nowrap;'><img class='rotate2' src='/raviolist/img/arrow_a.png' /><img class='flow rotate1' src='/raviolist/img/arrow_a.png' /><img class='flow rotate4' src='/raviolist/img/arrow_a.png' /></span>",
 
-  "hcf"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/4.png' /><img class='flow' src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/6.png' /></span>",
-  "hcb"           : "<span style='white-space:nowrap;'><img src='/raviolist/img/6.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/4.png' /></span>",
+  "hcf"           : "<span style='white-space:nowrap;'><img class='rotate4' src='/raviolist/img/arrow_a.png' /><img class='flow rotate1' src='/raviolist/img/arrow_a.png' /><img class='flow rotate2' src='/raviolist/img/arrow_a.png' /><img class='flow rotate3' src='/raviolist/img/arrow_a.png' /><img class='flow rotate6' src='/raviolist/img/arrow_a.png' /></span>",
+  "hcb"           : "<span style='white-space:nowrap;'><img class='rotate6' src='/raviolist/img/arrow_a.png' /><img class='flow rotate3' src='/raviolist/img/arrow_a.png' /><img class='flow rotate2' src='/raviolist/img/arrow_a.png' /><img class='flow rotate1' src='/raviolist/img/arrow_a.png' /><img class='flow rotate4' src='/raviolist/img/arrow_a.png' /></span>",
 
   "360"           : "<span class='button'>360</span>",
 
-  "cwing"         : "<span style='white-space:nowrap;'><img src='/raviolist/img/1.png' /><img class='flow' src='/raviolist/img/2.png' /><img class='flow' src='/raviolist/img/3.png' /><img class='flow' src='/raviolist/img/6.png' /><img class='flow' src='/raviolist/img/9.png' /></span>",
+  "cwing"         : "<span style='white-space:nowrap;'><img class='rotate1' src='/raviolist/img/arrow_a.png' /><img class='flow rotate2' src='/raviolist/img/arrow_a.png' /><img class='flow rotate3' src='/raviolist/img/arrow_a.png' /><img class='flow rotate6' src='/raviolist/img/arrow_a.png' /><img class='flow rotate9' src='/raviolist/img/arrow_a.png' /></span>",
 
 };
 
