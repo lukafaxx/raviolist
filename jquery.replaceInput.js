@@ -72,8 +72,8 @@ var viewInput = {
   "chdownback"    : "<img class='rotate1' src='/raviolist/img/arrow_b.png' />",
   "chback"        : "<img class='rotate4' src='/raviolist/img/arrow_b.png' />",
 
-  "dpf"           : "<span style='white-space:nowrap;'><img class='rotate6' src='/raviolist/img/arrow_a.png' /> <img class='rotate2' src='/raviolist/img/arrow_a.png' /> <img class='rotate3' src='/raviolist/img/arrow_a.png' /></span>",
-  "dpb"           : "<span style='white-space:nowrap;'><img class='rotate4' src='/raviolist/img/arrow_a.png' /> <img class='rotate2' src='/raviolist/img/arrow_a.png' /> <img class='rotate1' src='/raviolist/img/arrow_a.png' /></span>",
+  "dpf"           : "<span style='white-space:nowrap;'><img class='rotate6' src='/raviolist/img/arrow_a.png' /><img class='flow rotate2' src='/raviolist/img/arrow_a.png' /><img class='flow rotate3' src='/raviolist/img/arrow_a.png' /></span>",
+  "dpb"           : "<span style='white-space:nowrap;'><img class='rotate4' src='/raviolist/img/arrow_a.png' /><img class='flow rotate2' src='/raviolist/img/arrow_a.png' /><img class='flow rotate1' src='/raviolist/img/arrow_a.png' /></span>",
 
   "qcf"           : "<img class='rotate1' src='/raviolist/img/qcf.png' />",
   "qcb"           : "<img class='rotate3' src='/raviolist/img/qcb.png' />",
