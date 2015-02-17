@@ -513,10 +513,6 @@ a.sidebar-nav-item:focus {
   margin-left: -5px;
 }
 
-.rotate8 {
-
-}
-
 .rotate9 {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
