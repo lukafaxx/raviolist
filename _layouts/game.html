@@ -7,7 +7,7 @@ layout: page
 
 {% if gamechar == null %}
 
-  This game page has not been completed yet, but you can <a href="{{ site.baseurl }}/about/">contribute</a> to its development!
+  This game page has not been completed yet, but you can <a href="{{ site.baseurl }}/contribute/">contribute</a> to its development!
 
 {% else %}
 
@@ -18,7 +18,7 @@ layout: page
       {% assign charurl = char.name | downcase | remove:"'" | remove:"-" | remove:"." | remove:" " %}
       <a class="roster-item" href="{{ site.baseurl }}/{{ game }}/{{ charurl }}/">{{ char.name }}<span class="roster-aka">{{ char.aka | join: ' &middot; ' }}</span></a>
     {% else %}
-      <span class="roster-item todo">{{ char.name }}<span class="roster-aka todo">{{ char.aka | join: ' &middot; ' }}</span><a href="{{ site.baseurl }}/about/">contribute</a></span>
+      <span class="roster-item todo">{{ char.name }}<span class="roster-aka todo">{{ char.aka | join: ' &middot; ' }}</span><a href="{{ site.baseurl }}/contribute/">contribute</a></span>
     {% endif %}
   {% endfor %}
 

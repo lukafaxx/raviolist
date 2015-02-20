@@ -1,15 +1,7 @@
 ---
 layout: page
-title: About
+title: I want to contribute!
 ---
-
-Raviolist is a collaborative project about presenting the move lists of all the characters from as many fighting games as possible. It's a tool created for the FGC.
-
-Raviolist is a web app, you can add it to your mobile device home screen and it will act like a native application would. It requires no permission and will always stay up-to-date. Great!
-
-Say hello on Twitter [@lukafaxx](https://twitter.com/lukafaxx).
-
-## Contribute
 
 Raviolist is a collaborative project and everyone is welcome to take part in its development.
 

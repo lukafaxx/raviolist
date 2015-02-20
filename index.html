@@ -3,49 +3,14 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<div class="welcome">
 
-    <span class="post-date">
-      {% assign d = post.date | date: "%-d"  %}
-      {{ post.date | date: "%B" }}
-      {% case d %}
-        {% when '1' or '21' or '31' %}{{ d }}st
-        {% when '2' or '22' %}{{ d }}nd
-        {% when '3' or '23' %}{{ d }}rd
-        {% else %}{{ d }}th
-      {% endcase %},
-      {{ post.date | date: "%Y" }}
-    </span>
+Oi! Start navigating through Raviolist with the left sidebar!<br /><br />
 
-    {{ post.content }}
+Raviolist is a <a href="{{ site.baseurl }}/contribute/">collaborative project</a> about presenting the move lists of all the characters from as many fighting games as possible. It's a tool created for the Fighting Game Community.<br /><br />
 
-  </div>
-  {% endfor %}
-</div>
+Raviolist is a web app, you can add it to your mobile device home screen and it will act like a native application would. It requires no permission and will always stay up-to-date. Great!<br /><br />
 
-<div class="pagination">
-
-  {% if paginator.previous_page %}
-  {% if paginator.page == 2 %}
-  <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-  {% else %}
-  <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}/">Newer</a>
-  {% endif %}
-  {% else %}
-  <span class="pagination-item newer">Newer</span>
-  {% endif %}
-
-  {% if paginator.next_page %}
-  <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}/">Older</a>
-  {% else %}
-  <span class="pagination-item older">Older</span>
-  {% endif %}
+Say hello on Twitter <a href="https://twitter.com/lukafaxx">@lukafaxx</a>.
 
 </div>

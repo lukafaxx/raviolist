@@ -4,11 +4,9 @@
 
     <nav class="sidebar-nav">
 
-      <a class="sidebar-nav-item{% if page.url == "/" }} %} active{% endif %} special" href="{{ site.baseurl }}/">Blog</a>
       {% assign gamelist = site.data.games | sort:"year" | reverse %}{% for gameitem in gamelist %}{% assign gameurl = gameitem.short | prepend: '/' | append: '/' %}
       <a class="sidebar-nav-item{% if page.url contains gameurl %} active{% endif %}{% if gameitem.status == "nothing" %} nothing{% endif %}{% if gameitem.status == "incomplete" %} incomplete{% endif %}" href="{{ site.baseurl }}{{ gameurl }}">{{ gameitem.title }}</a>
       {% endfor %}
-      <a class="sidebar-nav-item{% if page.url == "/about/" %} active{% endif %} special" href="{{ site.baseurl }}/about/">About Raviolist</a>
 
     </nav>
 

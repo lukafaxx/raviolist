@@ -577,6 +577,10 @@ a.sidebar-nav-item:focus {
 
 /* ---------- */
 
+.welcome {
+  font-size: 1.2rem;
+}
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
