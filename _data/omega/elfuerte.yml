@@ -72,6 +72,7 @@
   super_combo:
     - name: El Fuerte Dynamite
       input: qcf qcf kick
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. El Fuerte Flying Giga Buster

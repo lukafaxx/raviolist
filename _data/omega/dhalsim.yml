@@ -26,11 +26,12 @@
 
     - name: Yoga Bringer
       input: qcf kick
-      note: ["EX", "Armor Break added on LK, MK and HK Yoga Bringer"]
+      note: ["EX", "Armor Break"]
 
   super_combo:
     - name: Yoga Inferno
       input: qcf qcf punch
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Yoga Catastrophe

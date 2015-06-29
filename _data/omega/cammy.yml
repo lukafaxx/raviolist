@@ -37,6 +37,7 @@
 
     - name: Target Strike
       input: (during upforward jump attack, except for HK) qcb kick
+      note: ["EX"]
 
     - name: Killer Bee sting
       input: qcb kick

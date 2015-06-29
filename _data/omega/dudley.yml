@@ -53,6 +53,7 @@
   super_combo:
     - name: Rocket Upper
       input: qcf qcf punch
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Rolling Thunder

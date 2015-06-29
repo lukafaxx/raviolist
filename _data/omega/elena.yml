@@ -28,9 +28,11 @@
   super_combo:
     - name: Spinning Beat
       input: qcf qcf kick
+      note: ["Armor Break"]
 
     - name: Sylph Amulet
       input: qcf qcf punch
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Brave Dance

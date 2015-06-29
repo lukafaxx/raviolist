@@ -31,6 +31,7 @@
   super_combo:
     - name: Tanden Storm
       input: qcb qcb punch
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Tanden Stream

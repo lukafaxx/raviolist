@@ -38,9 +38,14 @@
     - name: Bison Warp
       input: dpf or dpb + ppp or kkk
 
+    - name: Psycho Drain
+      input: hcb punch
+      note: ["EX", "Command grab"]
+
   super_combo:
     - name: Knee Press Nightmare
       input: chback forward back forward + kick
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Nightmare Booster

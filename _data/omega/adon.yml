@@ -31,6 +31,7 @@
   super_combo:
     - name: Jaguar Varied Assault
       input: qcf qcf punch
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Jaguar Revolver

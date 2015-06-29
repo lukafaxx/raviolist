@@ -65,3 +65,7 @@
   unique_attack:
     - name: Charge Up
       input: Far hold hp or hk
+
+    - name: Target Combo
+      input: mk > mk > hk
+      note: ["Hold HK to charge"]

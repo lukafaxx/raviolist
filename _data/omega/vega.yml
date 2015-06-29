@@ -18,7 +18,7 @@
 
     - name: Sky High Claw
       input: chdown up + punch
-      note: ["EX", "Armor Break added on EX Sky High Claw"]
+      note: ["EX", "Armor Break", "Press punch for follow-up during LP, MP and HP Sky High Claw"]
 
     - name: Flying Barcelona Attack
       input: chdown up + kick

@@ -47,7 +47,7 @@
   super_combo:
     - name: Hammer Mountain
       input: qcf qcf punch
-      note: ["Hold punch for feint", "Follow-up on block with punch"]
+      note: ["Armor Break", "Hold punch for feint", "Follow-up on block with punch"]
 
   ultra_combo:
     - name: I. Gigas Breaker

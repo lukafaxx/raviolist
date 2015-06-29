@@ -28,7 +28,7 @@
   super_combo:
     - name: Flying Barcelona Special
       input: chdownback downforward downback upforward + kick
-      note: ["Press any punch after wall jump for follow-up"]
+      note: ["Press punch after wall jump for follow-up"]
 
     - name: -- Rolling Izuna Drop
       input: ... (near opponent) forward or back + punch

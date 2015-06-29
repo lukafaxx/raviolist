@@ -25,9 +25,14 @@
       input: 360 kick
       note: ["Command grab"]
 
+    - name: "Saikyoryu Hidden Tech: Funjinken"
+      input: dpf punch
+      note: ["Downforward and punch must be input on the same frame"]
+
   super_combo:
     - name: Hissho Buraiken
       input: qcb qcb punch
+      note: ["Armor Break"]
 
     - name: Legendary Taunt
       input: qcf qcf hp + hk

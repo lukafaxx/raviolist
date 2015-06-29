@@ -21,15 +21,22 @@
       input: qcb kick
       note: ["EX", "Counter attack allowing follow-ups"]
 
+    - name: Soul Bubble
+      input: dpb punch
+      note: ["EX", "EX Soul Bubble consumes 1/2 S.C. Gauge"]
+
   super_combo:
     - name: Aura Soul Spark
       input: qcf qcf lp
+      note: ["Armor Break"]
 
     - name: Aura Soul Spark Due
       input: qcf qcf mp
+      note: ["Armor Break"]
 
     - name: Aura Soul Spark Tre
       input: qcf qcf hp
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Illusion Spark

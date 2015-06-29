@@ -23,7 +23,11 @@
 
     - name: Patriot Circle
       input: qcf punch
-      note: ["EX", "MP Patriot Circle can be performed twice", "HP Patriot Circle can be performed three times in sequence"]
+      note: ["MP Patriot Circle can be performed twice", "HP Patriot Circle can be performed three times in sequence"]
+
+    - name: Patriot Fury
+      input: qcf pp
+      note: ["Consumes 1/2 S.C. Gauge"]
 
     - name: Scouter Jump
       input: down up or kkk
@@ -39,6 +43,7 @@
   super_combo:
     - name: Mine Sweeper
       input: qcb qcb punch
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Patriot Sweeper

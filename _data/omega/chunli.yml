@@ -27,6 +27,7 @@
   super_combo:
     - name: Senretsukyaku
       input: chback forward back forward + kick
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Hosenka
@@ -77,3 +78,6 @@
 
     - name: Target Combo
       input: (during angled jump) j.hp > hp
+
+    - name: Target Combo 2
+      input: Close mp > mp

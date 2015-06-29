@@ -31,7 +31,7 @@
   super_combo:
     - name: Ground Shave Roll
       input: chback forward back forward + punch or kick
-      note: ["Hold punch to change the timing of dash"]
+      note: ["Armor Break", "Hold punch to change the timing of dash"]
 
   ultra_combo:
     - name: I. Lightning Cannonball

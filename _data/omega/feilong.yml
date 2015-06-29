@@ -28,7 +28,7 @@
   super_combo:
     - name: Rekkashinken
       input: qcf qcf punch
-      note: ["Follow-up on block with qcf punch (Armor Break)"]
+      note: ["Armor Break", "Follow-up on block with qcf punch"]
 
   ultra_combo:
     - name: I. Rekkashingeki

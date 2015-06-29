@@ -32,6 +32,10 @@
       input: dpb punch
       note: ["EX"]
 
+    - name: Rasetsuko
+      input: dpf kick
+      note: ["EX", "Command grab"]
+
   super_combo:
     - name: Raging Demon
       input: LP LP forward LK HP

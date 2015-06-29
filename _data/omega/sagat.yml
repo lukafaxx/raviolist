@@ -31,6 +31,7 @@
   super_combo:
     - name: Tiger Genocide
       input: qcf qcf kick
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Tiger Destruction

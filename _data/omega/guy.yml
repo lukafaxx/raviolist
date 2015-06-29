@@ -60,6 +60,7 @@
   super_combo:
     - name: Bushin Hasoken
       input: qcf qcf punch
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Bushin Goraisenpujin

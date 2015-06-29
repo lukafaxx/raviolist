@@ -11,11 +11,11 @@
 
     - name: Gorai Hadoken
       input: hcb punch
-      note: ["EX"]
+      note: ["EX", "EX Gorai Hadoken consumes 1/2 S.C. Gauge", "Hold PP to change properties"]
 
     - name: Zanku Hadosho
-      input: (during up or upforward jump) qcb punch
-      note: ["EX"]
+      input: (in air) qcb punch
+      note: ["EX", "EX Zanku Hadosho during upback jump only"]
 
     - name: Goshoryuken
       input: dpf punch
@@ -34,6 +34,7 @@
 
     - name: Kyoseijin
       input: dpf kick
+      note: ["EX"]
 
     - name: -- Sekisei Jiraiken
       input: ... punch
@@ -85,3 +86,6 @@
 
     - name: Target Combo 2
       input: back + mp > hp
+
+    - name: Target Combo 3
+      input: forward + hp > hp

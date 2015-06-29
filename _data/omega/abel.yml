@@ -3,7 +3,11 @@
   special_move:
     - name: Grappling
       input: qcf punch
-      note: ["EX", "Command grab"]
+      note: ["Command grab"]
+
+    - name: Sky High Tornedo
+      input: qcf pp
+      note: ["Command grab", "Consumes 1/2 S.C. Gauge"]
 
     - name: Wheel Kick
       input: qcb kick

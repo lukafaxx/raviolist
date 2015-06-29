@@ -39,6 +39,7 @@
   super_combo:
     - name: Haru Ichiban
       input: qcb qcb kick
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Haru Ranman

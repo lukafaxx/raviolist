@@ -28,6 +28,7 @@
   super_combo:
     - name: Thunder Whip
       input: qcf qcf punch
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Love Storm

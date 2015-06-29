@@ -24,6 +24,7 @@
   super_combo:
     - name: Double Flash
       input: chdownback downforward downback upforward + kick
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Flash Explosion

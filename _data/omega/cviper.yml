@@ -24,6 +24,7 @@
   super_combo:
     - name: Emergency Combination
       input: qcf qcf kick
+      note: ["Armor Break"]
 
   ultra_combo:
     - name: I. Burst Time
